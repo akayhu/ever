@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0"
+    />
+    <meta property="og:site_name" content="104公司評論" />
+    <meta property="og:locale" content="zh_TW" />
+    <meta
+      property="og:image"
+      content="https://static.104.com.tw/reviews/facebookImageReviews.png"
+    />
+    <meta
+      property="og:image:alt"
+      content="104公司評論－匿名員工評論，翻轉職場生態－104人力銀行"
+    />
+    <meta property="og:image:width" content="1080" />
+    <meta property="og:image:height" content="562" />
+    <meta name="fragment" content="!" />
+    <script src="https:<%= process.env.VUE_APP_STATIC_URL %>104main/libs/mit/jquery/3.3.1/jquery.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https:<%= process.env.VUE_APP_STATIC_URL %>104main/libs/mit/jquery-migrate/3.0.1/jquery-migrate.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https:<%= process.env.VUE_APP_STATIC_URL %>104main/libs/mit/jquery-migrate/1.4.1/jquery-migrate.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https:<%= process.env.VUE_APP_STATIC_URL %>bubble/js/mainjs.js?by=jbbar"
+    ></script>
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="<%= BASE_URL %>favicon.ico"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="<%= BASE_URL %>css/reset.css"
+    />
+    <link rel="stylesheet" type="text/css" href="<%= BASE_URL %>css/font.css" />
+    <title>104公司評論－匿名員工評論，翻轉職場生態－104人力銀行</title>
+    <!-- Anti-flicker snippet (recommended) -->
+    <style>
+      .async-hide {
+        opacity: 0 !important;
+      }
+      #globalbar {
+        display: none;
+      }
+      @media screen and (min-width: 1024px) {
+        #globalbar {
+          display: block;
+        }
+      }
+    </style>
+    <script>
+      (function(a, s, y, n, c, h, i, d, e) {
+        s.className += " " + y;
+        h.start = 1 * new Date();
+        h.end = i = function() {
+          s.className = s.className.replace(RegExp(" ?" + y), "");
+        };
+        (a[n] = a[n] || []).hide = h;
+        setTimeout(function() {
+          i();
+          h.end = null;
+        }, c);
+        h.timeout = c;
+      })(window, document.documentElement, "async-hide", "dataLayer", 500, {
+        "GTM-KTWPZN5": true
+      });
+    </script>
+    <!-- Start Google Tag Manager -->
+    <script>
+      (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+          "gtm.start": new Date().getTime(),
+          event: "gtm.js"
+        });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = false;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-WPNKH5N");
+    </script>
+    <!-- End Google Tag Manager -->
+    <!-- Start Alexa Certify Javascript -->
+    <script type="text/javascript">
+      _atrk_opts = {
+        atrk_acct: "lRlHh1awVK00wf",
+        domain: "104.com.tw",
+        dynamic: true
+      };
+      (function() {
+        var as = document.createElement("script");
+        as.type = "text/javascript";
+        as.async = true;
+        as.src = "https://certify-js.alexametrics.com/atrk.js";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(as, s);
+      })();
+    </script>
+    <!-- End Alexa Certify Javascript -->
+  </head>
+
+  <body>
+    <div id="globalbar">
+      <div id="bar_m104">
+        <div id="global_bk"></div>
+      </div>
+    </div>
+    <div id="app"></div>
+    <div id="app-footer" class="app-footer-scoper"></div>
+    <!-- Start Footer -->
+    <link
+      rel="stylesheet"
+      href="https:<%= process.env.VUE_APP_CDN_URL %>common/assets/css/common-footer.css"
+    />
+    <script src="https:<%= process.env.VUE_APP_CDN_URL %>common/assets/js/chunk-vendors.js"></script>
+    <script src="https:<%= process.env.VUE_APP_CDN_URL %>common/assets/js/common-footer.js"></script>
+    <!-- End Footer -->
+    <!-- Start Alexa Certify Javascript -->
+    <noscript>
+      <img
+        src="https://certify.alexametrics.com/atrk.gif?account=lRlHh1awVK00wf"
+        style="display:none"
+        height="1"
+        width="1"
+        alt=""
+      />
+    </noscript>
+    <!-- End Alexa Certify Javascript -->
+    <!-- Start Google Tag Manager (noscript) -->
+    <noscript>
+      <iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-WPNKH5N"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden;"
+      >
+      </iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <!-- 封站檔案 -->
+    <script src="https:<%= process.env.VUE_APP_STATIC_URL %>reviews/reviewsAnnouncement.js"></script>
+    <script src="https://static.104.com.tw/104main/common/browser.3.0.min.js"></script>
+    <script>
+      commonBrowser104.init({
+        date: "即日",
+        browserVersion: "IE10",
+        lowest: [10],
+        support: ["ie"],
+        fixedHeight: "29px"
+      });
+    </script>
+  </body>
+</html>

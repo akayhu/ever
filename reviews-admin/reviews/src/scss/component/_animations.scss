@@ -1,0 +1,61 @@
+.drop-enter,
+.drop-leave-to {
+  transform: translateY(-100%);
+}
+
+.drop-enter-to,
+.drop-leave {
+  transform: translateY(0);
+}
+
+.drop-enter-active {
+  transition: transform 0.3s ease-out;
+}
+
+.drop-leave-active {
+  transition: transform 0.15s ease-in;
+}
+
+.slide-fade-enter-active,
+.slide-fade-leave-active {
+  transition: opacity 0.3s ease-out, transform 0.3s ease-out;
+}
+
+.slide-fade-enter,
+.slide-fade-leave-to {
+  transform: translateY(10px);
+  opacity: 0;
+}
+
+// content loading effect
+.placeholder-block {
+  position: relative;
+  display: block;
+  background-color: get-color(bg-gray);
+  overflow: hidden;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(#fff, 0.2) 30%, rgba(#fff, 0.2) 70%, rgba(255, 255, 255, 0));
+    animation: content-loading 1s linear infinite 0.2s;
+  }
+}
+
+@keyframes content-loading {
+  0% {
+    transform: skewX(-30deg) translateX(-100%);
+  }
+
+  40% {
+    transform: skewX(-30deg) translateX(100%);
+  }
+
+  100% {
+    transform: skewX(-30deg) translateX(100%);
+  }
+}

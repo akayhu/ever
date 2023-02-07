@@ -1,0 +1,158 @@
+$container-width: 675px;
+
+.FormReview,
+.FormVote {
+  font-size: 16px;
+  line-height: 1.75;
+  color: get-color(text);
+
+  form {
+    padding: 0 16px;
+  }
+
+  .cancel-btn,
+  .agree-btn {
+    width: 160px;
+    height: 44px;
+  }
+
+  .cancel-btn {
+    border-width: 2px;
+
+    @include device-up(md) {
+      border-width: 1px;
+    }
+  }
+
+  .agree-btn {
+    border: none;
+    outline: none;
+    background-color: get-color(gray-normal);
+
+    &.btn-secondary {
+      background-color: get-color(primary-fill);
+
+      &:hover {
+        background-color: get-color(primary-fill-hover);
+      }
+    }
+  }
+
+  .change-company-btn {
+    margin-top: 8px;
+    width: 116px;
+    height: 32px;
+    font-size: 14px;
+    font-weight: 700;
+    color: get-color(text-info);
+    border: solid 1px get-color(text-info);
+
+    &:hover {
+      border: solid 1px get-color(primary-fill);
+      box-shadow: 0 0 4px 0 get-color(primary-fill);
+      color: get-color(primary-fill);
+    }
+  }
+
+  .plant-list {
+    // max-width: calc(100% + 16px);
+    // margin-right: -16px;
+    color: get-color(text-info);
+    cursor: pointer;
+
+    .plant-icon {
+      width: 40px;
+      height: 40px;
+
+      img {
+        width: 100%;
+      }
+
+      &.selected {
+        padding: 2px;
+        background-color: get-color(primary);
+
+        img {
+          width: 36px;
+        }
+      }
+    }
+  }
+}
+
+.form-field {
+  margin: 0 auto;
+  max-width: $container-width;
+
+  .field-title {
+    margin-bottom: 16px;
+    font-weight: 700;
+    color: get-color(text-info);
+  }
+
+  .form-group {
+    display: block;
+
+    .form-group-title {
+      position: relative;
+      margin-right: 28px;
+      margin-bottom: 4px;
+      width: 64px;
+      font-weight: 700;
+      flex-shrink: 0;
+
+      &.required {
+        &::after {
+          content: "*";
+          position: absolute;
+          top: 0;
+          left: 100%;
+          color: get-color(danger);
+        }
+      }
+    }
+
+    @include device-up(md) {
+      display: flex;
+      align-items: flex-start;
+
+      .form-group-title {
+        margin-bottom: 0;
+      }
+    }
+
+    .info-text {
+      font-size: 14px;
+      color: get-color(text-info);
+      line-height: 1.43;
+      margin-bottom: 4px;
+
+      @include device-up(md) {
+        line-height: 28px;
+      }
+
+      &.dark {
+        color: get-color(text);
+      }
+
+      .jb_icon_info {
+        font-size: 16px;
+      }
+    }
+
+    .valid-text {
+      color: get-color(calm);
+    }
+
+    .invalid-text {
+      padding: 0 12px;
+      line-height: 1.5;
+      color: get-color(danger) !important;
+      font-size: 12px;
+
+      a {
+        color: get-color(link);
+      }
+    }
+  }
+}

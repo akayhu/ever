@@ -1,0 +1,137 @@
+aws s3 與 Travis 建立步驟
+--------------------------
+流程大綱：
+S3 Bucket
+IAM: 104fp-reviews-fe.travis-ci-user
+Travis: S3_BUCKET_NAME / ACCESS_KEY
+CloudFront (origin指到S3)
+--------------------------
+Lab:
+aws 帳號: 104awsdev21
+個人帳號： akay.hu
+密碼： !Abcde29534506
+--------------------------
+Staging:
+aws 帳號: 104awsstg21
+個人帳號： akay.hu
+密碼： !Abcde29534506
+--------------------------
+Production:
+aws 帳號: 104awssys21
+個人帳號： akay.hu
+密碼： !Abcde29534506
+--------------------------
+
+S3
+建立儲存貯體 -> 下一步到底
+Travis S3 Bucket name: reviews.104-staging.com.tw
+許可 > 儲存貯體政策
+```(CloudFront 可自行建立，要自加ListBucket)
+{
+    "Version": "2008-10-17",
+    "Id": "PolicyForCloudFrontPrivateContent",
+    "Statement": [
+        {
+            "Sid": "1",
+            "Effect": "Allow",
+            "Principal": {
+                "AWS": "arn:aws:iam::cloudfront:user/CloudFront Origin Access Identity E1R39ZONDU6IOO"
+            },
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::reviews.104-staging.com.tw/*"
+        },
+        {
+            "Sid": "only cloudfront can get objects",
+            "Effect": "Allow",
+            "Principal": {
+                "AWS": "arn:aws:iam::cloudfront:user/CloudFront Origin Access Identity E1R39ZONDU6IOO"
+            },
+            "Action": "s3:ListBucket",
+            "Resource": "arn:aws:s3:::reviews.104-staging.com.tw"
+        }
+    ]
+}
+```
+PS: E1R39ZONDU6IOO 這個碼在 CloudFront 分佈 -> 選取 ID -> 源和源群組頁籤 -> 源存取身份最後面的斜線
+
+--------------------------
+
+IAM (開user)
+建立使用者 -> 程式設計方式存取打勾 -> 下一步
+從現有使用者複製點選後 -> 下一步 -> 不用打 下一步 -> 建立
+存取金鑰 ID = travis 設定的 AWS_ACCESS_KEY_ID
+私密存取金鑰 = travis 設定的 AWS_SECRET_ACCESS_KEY
+新增內簽政策 內容 JSON 如下:
+```adminS3Bucket
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": "s3:*",
+            "Resource": [
+                "arn:aws:s3:::ads.104-dev.com.tw/*",
+                "arn:aws:s3:::ads.104-dev.com.tw",
+                "arn:aws:s3:::admin.ads.104-dev.com.tw/*",
+                "arn:aws:s3:::admin.ads.104-dev.com.tw",
+                "arn:aws:s3:::adsmart.104-dev.com.tw/*",
+                "arn:aws:s3:::adsmart.104-dev.com.tw",
+                "arn:aws:s3:::admin.adsmart.104-dev.com.tw/*",
+                "arn:aws:s3:::admin.adsmart.104-dev.com.tw"
+            ]
+        }
+    ]
+}
+```
+名稱：s3-bucket-for-ads.104-dev.com.tw
+
+--------------------------
+
+CloudFront 分佈
+建立分佈 -> web 入門
+參考 lab 設定後 -> 建立
+第一次建立新身份，使用新身份
+
+後台需在 維吉尼雅 建憑證
+
+在 建立的來源 ID 點下進入編輯 > 錯誤頁面 建立自訂的錯誤回應
+HTTP 錯誤代碼 404
+錯誤快取最短 TTL 300
+回應頁面路徑 /index.html
+HTTP 回應代碼 200
+
+--------------------------
+
+route53
+托管區域 建立紀錄集 選擇你的 domain
+點選修改(右側) 別名目標選擇你設定的 -> 儲存
+
+--------------------------
+
+
+
+
+
+sam package \
+    --s3-bucket joanna-stack-cfn-s3-bucket \
+    --output-template-file packaged.yaml \
+    --region ap-northeast-1
+
+# https://github.com/aws/aws-sam-cli/issues/2332
+sam deploy \
+    --stack-name akay-lambad \
+    --s3-bucket joanna-stack-cfn-s3-bucket \
+    --parameter-overrides "param1=p1 param1=p2" \
+    --capabilities CAPABILITY_NAMED_IAM \
+    --region ap-northeast-1
+
+
+
+s3_client = boto3.client('s3')
+    
+    upload_file = 'requirements.txt'
+    bucket = ${s3_bucket_name}
+    object_name = 'upload_file'
+
+    response = s3_client.upload_file(upload_file, bucket, object_name)

@@ -1,0 +1,140 @@
+@mixin reviews-button-variant(
+  $background,
+  $border,
+  $color: color-yiq($background),
+  $hover-background: darken($background, 7.5%),
+  $hover-border: darken($border, 10%),
+  $active-background: darken($background, 10%),
+  $active-border: darken($border, 12.5%),
+  $disabled-background: $gray-600,
+  $disabled-border: transparent,
+  $disabled-color: $white
+  ) {
+  color: $color;
+  @include gradient-bg($background);
+  border-color: $border;
+  @include box-shadow($btn-box-shadow);
+
+  @include hover {
+    color: color-yiq($hover-background);
+    @include gradient-bg($hover-background);
+    border-color: $hover-border;
+  }
+
+  &:focus,
+  &.focus {
+    // Avoid using mixin so we can pass custom focus shadow properly
+    @if $enable-shadows {
+      box-shadow: none;
+    } @else {
+      box-shadow: none;
+    }
+  }
+
+  // Disabled comes first so active can properly restyle
+  &.disabled,
+  &:disabled {
+    color: $disabled-color;
+    background-color: $disabled-background;
+    border-color: $disabled-border;
+    // Remove CSS gradients if they're enabled
+    @if $enable-gradients {
+      background-image: none;
+    }
+  }
+
+  &:not(:disabled):not(.disabled):active,
+  &:not(:disabled):not(.disabled).active,
+  .show > &.dropdown-toggle {
+    color: $color;
+    background-color: $active-background;
+    @if $enable-gradients {
+      background-image: none; // Remove the gradient for the pressed/active state
+    }
+    border-color: $active-border;
+
+    &:focus {
+      // Avoid using mixin so we can pass custom focus shadow properly
+      @if $enable-shadows {
+        box-shadow: $btn-active-box-shadow, 0 0 0 $btn-focus-width rgba(mix(color-yiq($background), $border, 15%), .5);
+      } @else {
+        box-shadow: 0 0 0 $btn-focus-width rgba(mix(color-yiq($background), $border, 15%), .5);
+      }
+    }
+  }
+}
+
+@mixin reviews-button-outline-variant(
+  $color,
+  $border: $color,
+  $hover-background: $color,
+  $hover-color: color-yiq($color),
+  $hover-border: $color,
+  $hover-shadow: $color,
+  $active-background: $color,
+  $active-color: color-yiq($active-background),
+  $active-border: $color,
+  $disabled-background: $white,
+  $disabled-color: $gray-600,
+  $disabled-border: $gray-600
+  ) {
+  color: $color;
+  border-color: $border;
+
+  @include hover {
+    color: $hover-color;
+    background-color: $hover-background;
+    border-color: $hover-border;
+    box-shadow: 0 0 4px 0 $hover-shadow;
+  }
+
+  &:focus,
+  &.focus {
+    // box-shadow: 0 0 0 $btn-focus-width rgba($color, .5);
+    box-shadow: 0 0 4px 0 $active-background;
+  }
+
+  &.border-0{
+    box-shadow: none;
+  }
+
+  &.disabled,
+  &:disabled {
+    color: $disabled-color;
+    background-color: $disabled-background;
+    border-color: $disabled-border;
+    box-shadow: none;
+  }
+
+  &:not(:disabled):not(.disabled):active,
+  &:not(:disabled):not(.disabled).active,
+  .show > &.dropdown-toggle {
+    color: $active-color;
+    background-color: $active-background;
+    border-color: $active-border;
+
+    &:focus {
+      // Avoid using mixin so we can pass custom focus shadow properly
+      @if $enable-shadows and $btn-active-box-shadow != none {
+        box-shadow: none;
+      } @else {
+        box-shadow: none;
+      }
+    }
+  }
+}
+
+@mixin reviews-button-size($padding-y, $padding-x, $font-size, $min-width, $btn-line-heigh) {
+  padding: $padding-y $padding-x;
+  font-size: $font-size;
+  min-width: $min-width;
+
+  [class*='jb_icon']{
+    font-size: $font-size-base;
+  }
+
+  > * {
+    vertical-align: middle;
+  }
+  // Manually declare to provide an override to the browser default
+}

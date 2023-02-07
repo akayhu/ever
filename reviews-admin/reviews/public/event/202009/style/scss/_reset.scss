@@ -1,0 +1,57 @@
+figure {
+  display: block;
+  margin: 0;
+}
+
+button {
+  padding: 0;
+  -webkit-appearance: none;
+  appearance: none;
+  border: none;
+  outline: none;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+img {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  user-select: none;
+  // -webkit-user-drag: none;
+  // -khtml-user-drag: none;
+  // -moz-user-drag: none;
+  // -o-user-drag: none;
+  // user-drag: none;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+  user-select: none;
+  // -webkit-user-drag: none;
+  // -khtml-user-drag: none;
+  // -moz-user-drag: none;
+  // -o-user-drag: none;
+  // user-drag: none;
+}
+
+
+@for $i from 1 through 6 {
+  h#{$i} {
+    margin: 0;
+  }
+}
+
+p {
+  margin: 8px 0;
+}

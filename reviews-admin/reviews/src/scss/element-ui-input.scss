@@ -1,0 +1,199 @@
+.el-input {
+  display: block;
+  background: #f3f3f3;
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 1.75;
+  overflow: hidden;
+
+  .el-input__inner {
+    height: 44px;
+    padding: 8px 12px;
+    line-height: 1.75;
+    border: 1px solid $gray-400 !important;
+    color: $gray-900;
+    background: #f3f3f3;
+    transition: 0s;
+    // @include truncate-text();
+
+    &::placeholder {
+      font-weight: bold;
+      color: $gray-600;
+      opacity: 1;
+    }
+
+    &:focus {
+      border: 1px solid $primary !important;
+      box-shadow: inset 0 0 0 1px $primary;
+    }
+  }
+
+  &.is-disabled {
+    background: rgba(243, 243, 243, 0.5);
+
+    .el-input__inner {
+      background: rgba(243, 243, 243, 0.5);
+      ;
+      color: #a9a9a9;
+      font-weight: bold;
+
+      &[name="wageType"] {
+        color: #292929;
+        font-weight: normal;
+      }
+    }
+  }
+}
+
+.invalid-field {
+  .el-input__inner {
+    border: solid 1px #ea475b !important;
+    box-shadow: inset 0 0 0 1px #ea475b !important;
+  }
+}
+
+
+.el-popper {
+  border: 2px solid $primary;
+  overflow: hidden;
+
+  .el-scrollbar__wrap {
+    max-height: calc(44px * 6);
+    margin-bottom: 0 !important;
+    padding: 0;
+    overflow-x: hidden;
+
+    .el-scrollbar__view {
+      width: 100%;
+      padding: 0;
+
+      li {
+        font-size: 16px;
+        padding: 0 12px;
+        height: 44px;
+        line-height: 44px;
+        color: $gray-900;
+        @include truncate-text();
+
+        &.hover,
+        &:hover {
+          background-color: #ffeedf;
+        }
+
+        &.selected {
+          color: $primary;
+        }
+
+        option {
+          font-size: 14px;
+          line-height: 20px;
+          min-height: unset;
+          padding: 0;
+        }
+
+        a.goTo-my104 {
+          color: #1654b9;
+
+          &:hover {
+            color: #1654b9;
+          }
+
+          span {
+            color: #7e7e7e;
+          }
+        }
+      }
+    }
+  }
+
+  &[x-placement^="top"] {
+    margin-bottom: -2px !important;
+  }
+
+  &[x-placement^="bottom"] {
+    margin-top: -2px !important;
+  }
+}
+
+.el-icon-arrow-up {
+  color: $gray-700 !important;
+  font-weight: $font-weight-bold;
+}
+
+.el-radio {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  font-weight: 400;
+
+  &:focus {
+    .el-radio__inner {
+      box-shadow: none !important;
+    }
+  }
+
+  .el-radio__input {
+    margin-right: 8px;
+
+    .el-radio__inner {
+      display: block;
+      width: 20px;
+      height: 20px;
+      border: 1px solid $gray-700;
+
+      &::after {
+        width: 6px;
+        height: 6px;
+        background-color: $white;
+      }
+    }
+
+    &.is-checked {
+      .el-radio__inner {
+        border-color: $primary;
+        background: $primary;
+      }
+
+      &.is-disabled {
+        .el-radio__inner {
+          background: $gray-600;
+          border: 1px solid $gray-600;
+
+          &::after {
+            background-color: $white;
+          }
+        }
+      }
+
+      +.el-radio__label {
+        color: $gray-900;
+      }
+    }
+
+    &.is-disabled {
+      +span.el-radio__label {
+        color: $gray-900;
+      }
+
+      .el-radio__inner {
+        background-color: transparent;
+      }
+    }
+  }
+
+  .el-radio__label {
+    display: block;
+    width: 100%;
+    padding-left: 0;
+    font-size: 16px;
+    line-height: 1.75;
+    color: $gray-900;
+    @include truncate-text();
+  }
+}
+
+.el-radio-group {
+  &:not(:last-child) {
+    margin-bottom: 16px;
+  }
+}

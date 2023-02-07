@@ -1,0 +1,22 @@
+$custom-colors: ('text': #292929,
+  'text-info': #7e7e7e,
+  'primary': #ff7800,
+  'primary-hover': #ff9100,
+  'primary-fill': #ff9100,
+  'primary-fill-hover': #ff7800,
+  'disable': #a9a9a9,
+  'placeholder': #a9a9a9,
+  'link': #1654b9,
+  'link-hover': #4e91ff,
+  'border': #eee,
+  'calm': #39c8d0,
+  'danger': #ea475b,
+  'bg-primary': #ffeedf,
+  'bg-gray': #f3f3f3,
+  'gray-normal': #a9a9a9,
+  'gray-light': #ddd);
+
+$device-breakpoints: (sm: 0,
+  md: 1024,
+  lg: 1366,
+  xl: 1680);

@@ -1,0 +1,66 @@
+// before custom bootstrap.
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+
+// custom bootstrap variables
+@import "./bootstrap/variables";
+
+// custom include bootstrap
+@import "./bootstrap/bootstrap";
+@import "./bootstrap/buttons";
+@import "./bootstrap/type";
+
+@import "./component/animations";
+@import "./form-customize.scss";
+
+// input reset
+// input 全體設定
+textarea {
+  width: 100%;
+  border: none;
+  font-size: 16px;
+  line-height: 1.75;
+  background: transparent;
+
+  &::placeholder {
+    font-weight: bold;
+    color: get-color(placeholder);
+    line-height: 1.75;
+    opacity: 1;
+  }
+
+  &:disabled {
+    cursor: no-drop;
+  }
+}
+
+input {
+  font-size: 16px;
+  line-height: 1.75;
+  padding: 8px 12px;
+  background-color: transparent;
+
+  &:disabled {
+    cursor: no-drop;
+  }
+
+  &::placeholder {
+    font-weight: bold;
+    color: get-color(placeholder);
+    opacity: 1;
+    line-height: 1.75;
+  }
+
+  &::-webkit-outer-spin-button,
+  &::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0;
+    /* <-- Apparently some margin are still there even though it's hidden */
+  }
+
+  &[type="number"] {
+    -moz-appearance: textfield;
+    /* Firefox */
+  }
+}

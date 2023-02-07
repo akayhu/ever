@@ -1,0 +1,287 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0; 
+    font-size: 16px; 
+    font-family: Microsoft JhengHei;
+    color: #292929; 
+    background: #f3f3f3;
+}
+
+td ,tr{
+    font-family: Microsoft JhengHei;
+}
+
+/* table 統一設定 */
+
+table {
+    border-collapse: collapse;
+}
+
+/* ------------ 共用 class  ------------ */
+
+.big-title {
+    font-family: Microsoft JhengHei;
+    font-size: 18px; 
+    font-weight: bold; 
+    line-height: 24px
+}
+
+.paragraph {
+    font-size: 16px; 
+    font-family: Microsoft JhengHei;
+    font-weight: 400; 
+    margin-top: 16px;
+    color: #292929;
+    padding-left: 32px;
+    padding-right: 32px;
+    line-height: 28px;
+}
+
+
+/* ------------   end 共用 class ------------- */
+
+.logo {
+    padding-bottom: 22px;
+}
+
+.canned-message .paragraph{
+    display: inline-block;
+}
+
+
+#table-content-container {
+    margin: 24px auto 0px auto; 
+    width: 692px;
+    background: #ffffff
+}
+
+#header-table {
+    margin: 22px 62px 32px 62px;
+    padding-bottom: 22px;
+    border-bottom: 1px solid #dddddd;
+    text-align: center;
+    width: 564px;
+}
+
+#content-table {
+    margin: 0 62px 0 62px; 
+    width: 564px;
+}
+
+/* 按鈕以下 */
+
+.content-start-title {
+    display: inline-block;
+    margin-top: 40px;
+}
+
+.company-name .big-title{
+    display: inline-block;
+    padding-left: 32px; 
+    padding-right: 32px;
+    margin-top: 16px;
+}
+
+.content-subtitle.working-info td {
+    display: inline-block;
+    font-family: Microsoft JhengHei;
+    margin-top: 24px; 
+    padding-left: 32px;
+    padding-right: 32px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.working-info .paragraph {
+    padding-top: 8px;
+}
+
+.working-info.last td{
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 24px;
+}
+
+.advantage , .disadvantage {
+    font-family: Microsoft JhengHei;
+    display: inline-block;
+    padding-left: 32px; 
+    padding-right: 32px; 
+    margin-top: 24px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.advantage-content .paragraph, 
+.disadvantage-content .paragraph {
+    display: inline-block;
+}
+
+/* -------------------- */
+
+
+.score-overall-row {
+    width: 100%;
+    padding-top: 24px;
+}
+
+.score-overall-row td:last-child {
+    display: inline-block;
+}
+
+.score-ovrall-title {
+    display: inline-block;
+    padding: 0 0 0 32px;
+    font-weight: bold;
+}
+
+.score-overall {
+    font-family: Microsoft JhengHei;
+    white-space:nowrap;
+    display: inline-block;
+    margin-left: 60px;
+    font-weight: 400;
+}
+
+.score-overall span {
+    font-size: 36px;
+}
+
+/* -------------------- */
+
+.category-score-container table {
+    margin: 0 auto; 
+    width: 564px;
+    border-top: 1px solid #dddddd;
+    margin-top: 24px;
+    padding-top: 24px;
+}
+
+.category-score-title {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 0 0 32px;
+    font-weight: bold;
+}
+
+.category-score-container tr {
+    display: inline-block;
+    padding-top: 8px;
+}
+
+.category-score {
+    display: inline-block;
+    margin-left: 60px;
+    font-weight: 400;
+}
+
+.overall-score-row,
+.wage-score-row, 
+.env-score-row, 
+.mood-score-row, 
+.vision-score-row, 
+.stable-score-row {
+    width: 100%;
+}
+
+.overall-score-row td:last-child,
+.wage-score-row td:last-child, 
+.env-score-row td:last-child, 
+.mood-score-row td:last-child, 
+.vision-score-row td:last-child, 
+.stable-score-row td:last-child {
+    display: inline-block;
+}
+
+.wage-score, .env-score, .mood-scroe, .vision-scroe, .stable-scroe {
+    font-family: Microsoft JhengHei;
+    white-space:nowrap;
+    display: inline-block;
+}
+
+.score +img, .wage +img, .env +img, .mood +img, .vision +img, .stable +img {
+    width:96px; 
+    margin-left: 8px;
+}
+
+.score, .wage, .env, .mood, .vision, .stable {
+    padding: 0;
+    margin-top: 8px;
+    margin-bottom: 32px;
+}
+
+.foward-certificate-reviews {
+    text-align: center;
+}
+
+.foward-certificate-reviews td {
+    display: inline-block;
+    padding-top: 24px;
+    padding-bottom: 32px;
+}
+
+/*  ----------- footer ----------- */
+
+#footer-table {
+    margin: 0 62px 0 62px;
+    width: 564px;
+    text-align: center;
+    font-size: 12px;
+    text-align: center;
+    color: #7e7e7e;
+    background: #f3f3f3;
+}
+
+.footer-content {
+    line-height: 0;
+}
+
+
+.no-reply td{
+    padding-top: 32px;
+    padding-bottom: 5px;
+}
+
+.footer-content td {
+    display: inline-block;
+    line-height: 1;
+}
+
+.footer-content.copy-right {
+    display: inline-block;
+    margin-bottom: 16px; 
+    line-height: 0;
+}
+
+.footer-link {
+    width: 564px;
+    display: inline-block;
+}
+
+.footer-link td {
+    display: inline-block;
+    margin-bottom: 24px;
+}
+
+.footer-link td:first-child {
+    text-align: right;
+    padding-right: 16px;
+}
+
+.footer-link td:last-child {
+    text-align: left;
+    padding-left: 16px;
+}
+
+.footer-link  a {
+    color: #7e7e7e;
+    text-decoration:none;
+    font-weight: bold;
+}
+
+.footer-link span{
+    font-family: Microsoft JhengHei;
+}

@@ -1,0 +1,57 @@
+//Switch Button 設定
+
+.el-switch {
+  flex-shrink: 0;
+  height: 24px;
+  line-height: 24px;
+
+  +div {
+    color: $gray-900;
+    margin-left: 12px;
+    font-weight: $font-weight-normal;
+  }
+
+  .el-switch__core {
+    width: 48px !important;
+    height: 24px;
+    border: none;
+    border-radius: 12px;
+    background-color: $gray-600 !important;
+
+    &::after {
+      top: 3px;
+      left: 3px;
+      width: 18px;
+      height: 18px;
+      background-color: $white;
+    }
+  }
+}
+
+.el-switch.is-checked {
+  .el-switch__core {
+    border: none;
+    background-color: $secondary !important;
+
+    &::after {
+      top: 3px;
+      left: 3px;
+      margin-left: 24px;
+    }
+  }
+}
+
+.el-switch.is-disabled {
+  opacity: 1;
+
+  .el-switch__core {
+    border: solid 1px $gray-500 !important;
+    background-color: $gray-400 !important;
+
+    &::after {
+      top: 2px;
+      left: 2px;
+      background: $gray-500;
+    }
+  }
+}

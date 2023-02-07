@@ -1,0 +1,37 @@
+version: 0.2
+
+env:
+  variables:
+    REGION: "ap-northeast-1"
+phases:
+  install:
+    runtime-versions:
+      nodejs: 12
+    commands:
+      - npm install -g yarn
+  pre_build:
+    commands:
+      - yarn install
+  build:
+    commands:
+      - |
+          if [ ${env} = "lab" ]; then
+            export envType=lab
+            export S3_BUCKET_NAME=admin.reviews.104-dev.com.tw
+            yarn build:lab
+            echo $envType
+          elif [ ${env} = "staging" ]; then
+            export envType=staging
+            export S3_BUCKET_NAME=admin.reviews.104-staging.com.tw
+            yarn build:staging
+          elif [ ${env} = "production" ]; then
+            export envType=production
+            export S3_BUCKET_NAME=admin.reviews.104.com.tw
+            yarn build:prod
+          else
+            echo "Not deploying artifacts for ${env}"
+          fi
+  post_build:
+    commands:
+      - aws s3 rm --recursive s3://${S3_BUCKET_NAME}
+      - aws s3 sync dist s3://${S3_BUCKET_NAME} --region=${REGION}

@@ -1,0 +1,57 @@
+$devices: (desktopHD: 1200px,
+desktop: 960px,
+tablet: 768px,
+mobile: 480px);
+
+$desktopHD: map-get($devices, desktopHD);
+$desktop: map-get($devices, desktop);
+$tablet: map-get($devices, tablet);
+$mobile: map-get($devices, mobile);
+
+$black: #292929;
+$gray: #7e7e7e;
+$colors: (
+  'primary': #ff9000,
+  'primary-hover': #ff7800,
+  'bg': #ffeedf,
+  'text': $black
+);
+
+$typo-level: (
+  'title': 24px,
+  'medium': 18px,
+  'normal': 16px,
+  'small': 12px
+);
+
+
+// Typography
+$main-font: 'Microsoft JhengHei';
+$base-font-size: map-get($typo-level, normal);
+$base-line-height: 1.38;
+
+$max-width: 1200px;
+$base-margin: 80px;
+
+
+@mixin device($device) {
+  $bp: map-get($devices, $device);
+  @media (max-width: #{$bp}) {
+    @content;
+  }
+}
+
+@function color($level) {
+  @return map-get($colors, $level);
+}
+
+@function fz($level) {
+  @return map-get($typo-level, $level);
+}
+
+@mixin support-ie () {
+  @media all and (-ms-high-contrast: none),
+    (-ms-high-contrast: active) {
+    @content;
+  }
+}

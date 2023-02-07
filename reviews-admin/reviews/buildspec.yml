@@ -1,0 +1,55 @@
+version: 0.2
+
+env:
+  variables:
+    REGION: "ap-northeast-1"
+    SERVER_NAME: "reviews-f2e"
+phases:
+  install:
+    runtime-versions:
+      nodejs: 12
+    commands:
+      - npm install -g yarn
+  pre_build:
+    commands:
+      - yarn install
+      - echo Logging in to Amazon ECR...
+      - aws --version
+      - ACCOUNT_ID=$(aws sts get-caller-identity --output text --query 'Account')
+      - aws ecr get-login-password --region ${REGION} | docker login --username AWS --password-stdin ${ACCOUNT_ID}.dkr.ecr.${REGION}.amazonaws.com
+      - IMAGE_TAG=$(date "+%Y%m%d-%H%M%S")
+      - |
+          if [ ${env} = "lab" ]; then
+            export envType=lab
+            yarn build:lab
+            echo $envType
+          elif [ ${env} = "staging" ]; then
+            export envType=staging
+            yarn build:staging
+          elif [ ${env} = "production" ]; then
+            export envType=production
+            yarn build:prod
+          else
+            echo "Not deploying artifacts for ${env}"
+          fi
+      - echo $envType
+      - echo $IMAGE_TAG
+      - echo ${ACCOUNT_ID}
+      - IMAGE_URI=${ACCOUNT_ID}.dkr.ecr.${REGION}.amazonaws.com/${SERVER_NAME}:${IMAGE_TAG}
+      - IMAGE_LATEST_URI=${ACCOUNT_ID}.dkr.ecr.${REGION}.amazonaws.com/${SERVER_NAME}:latest
+      - echo $IMAGE_URI
+      - docker build --cache-from ${ACCOUNT_ID}.dkr.ecr.${REGION}.amazonaws.com/${SERVER_NAME}:20201224-104310 -t ${SERVER_NAME}:latest --build-arg envType=${env} .
+  build:
+    commands:
+      - docker images -a ${SERVER_NAME}
+      - docker tag ${SERVER_NAME}:latest ${IMAGE_URI}
+      - docker tag ${SERVER_NAME}:latest ${IMAGE_LATEST_URI}
+      - docker push ${IMAGE_URI}
+      - docker push ${IMAGE_LATEST_URI}
+  post_build:
+    commands:
+      - echo Writing image definitions file....
+      - printf '[{"name":"reviews-f2e","imageUri":"%s"}]' ${IMAGE_URI} > imagedefinitions.json
+      - cat imagedefinitions.json
+artifacts:
+    files: imagedefinitions.json

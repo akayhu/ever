@@ -1,0 +1,31 @@
+.single-star {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  font-size: 24px;
+  line-height: 24px;
+  cursor: pointer;
+
+  &:not(:last-child) {
+    margin-right: 6px;
+  }
+
+  .jb_icon_focus {
+    color: $secondary !important;
+  }
+
+  .jb_icon_unfocus {
+    color: $gray-500 !important;
+  }
+
+  &[disabled="disabled"] {
+    cursor: not-allowed;
+
+    .jb_icon_focus,
+    .jb_icon_unfocus {
+      color: $gray-400 !important;
+    }
+  }
+}

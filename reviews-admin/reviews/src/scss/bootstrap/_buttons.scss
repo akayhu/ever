@@ -1,0 +1,174 @@
+// stylelint-disable selector-no-qualifying-type
+
+//
+// Base styles
+@import 'mixins/button';
+
+.btn {
+  font-weight: $font-weight-bold;
+  min-width: 90px;
+  line-height: 3px;
+
+  [class*='jb_icon']{
+    font-size: $font-size-base * 0.875;
+  }
+
+  &:focus,
+  &.focus {
+    outline: 0;
+    box-shadow: none;
+  }
+
+  // // Disabled comes first so active can properly restyle
+  &.disabled,
+  &:disabled {
+    cursor: not-allowed;
+  }
+
+  &:not(:disabled):not(.disabled):active,
+  &:not(:disabled):not(.disabled).active {
+    box-shadow: none;
+
+    &:focus {
+      box-shadow: none;
+    }
+  }
+}
+
+//
+// Alternate buttons
+//
+
+@each $color, $value in $theme-colors {
+  .btn-#{$color} {
+    @if $color == 'secondary' {
+      @include reviews-button-variant(
+        theme-color("secondary"),
+        transparent,
+        $white,
+        theme-color("primary"),
+        transparent,
+        theme-color("primary"),
+        transparent,
+        $gray-600,
+        transparent
+        );
+    }
+    @else {
+      @include reviews-button-variant($value, $value);
+    }
+  }
+}
+
+@each $color, $value in $theme-colors {
+  .btn-outline-#{$color} {
+    // @include button-outline-variant($value);
+    @if $color == 'primary' {
+      @include reviews-button-outline-variant(
+        theme-color('primary'), // color
+        theme-color('primary'), // border
+        transparent, // hover-background
+        theme-color('secondary'), // hover-color
+        theme-color('secondary'), // hover-border
+        theme-color('secondary'), // hover-shadow
+        $orange, // active-background
+        theme-color('primary') // active-color
+        );
+    }
+    @else if $color == 'secondary' {
+      @include reviews-button-outline-variant(
+        theme-color('secondary'), // color
+        theme-color('secondary'), // border
+        transparent, // hover-background
+        theme-color('secondary'), // hover-color
+        theme-color('secondary'), // hover-border
+        theme-color('secondary'), // hover-shadow
+        $orange, // active-background
+        theme-color('secondary') // active-color
+        );
+    }
+    @else if $color == 'light' {
+      @include reviews-button-outline-variant(
+        $gray-700, // color
+        $gray-700, // border
+        transparent, // hover-background
+        theme-color('secondary'), // hover-color
+        theme-color('secondary'), // hover-border
+        theme-color('secondary'), // hover-shadow
+        transparent, // active-background
+        theme-color('secondary'), // active-color
+        theme-color('secondary') // active-border
+        );
+    }
+    @else {
+      @include reviews-button-outline-variant($value, $value);
+    }
+  }
+}
+
+.btn-text{
+  @include reviews-button-outline-variant(
+    $gray-700, // color
+    transparent, // border
+    transparent, // hover-background
+    theme-color('secondary'), // hover-color
+    transparent, // hover-border
+    transparent, // hover-shadow
+    transparent, // active-background
+    theme-color('secondary'), // active-color
+    transparent, // active-border
+    $white,  // disabled-background
+    $gray-600, // disabled-color
+    transparent // disabled-border
+    );
+}
+
+//
+// Link buttons
+//
+
+// Make a button look and behave like a link
+.btn-link {
+  font-weight: $font-weight-normal;
+  color: $blue;
+  @include hover {
+    color: $blue-light;
+    text-decoration: $link-hover-decoration;
+  }
+
+  &:focus,
+  &.focus {
+    text-decoration: $link-hover-decoration;
+    box-shadow: none;
+  }
+
+  &:disabled,
+  &.disabled {
+    color: $btn-link-disabled-color;
+    pointer-events: none;
+  }
+
+  // No need for an active state here
+}
+
+
+//
+// Button Sizes
+//
+.btn-xl {
+  @include reviews-button-size($btn-padding-y, $btn-padding-x, $btn-font-size, 154px, $btn-line-height);
+}
+.btn-lg {
+  @include reviews-button-size($btn-padding-y, $btn-padding-x, $btn-font-size, 120px, $btn-line-height);
+}
+.btn-sm {
+  @include reviews-button-size($btn-padding-y, $btn-padding-x, $btn-font-size-sm, 90px, $btn-line-height);
+}
+.btn-auto{
+  @include reviews-button-size($btn-padding-y, $btn-padding-x, $btn-font-size-sm, auto, $btn-line-height);
+}
+.btn-has-icon{
+  min-width: 120px;
+}
+
+

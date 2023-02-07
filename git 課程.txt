@@ -1,0 +1,48 @@
+git 集中式 分散式
+
+集中式：改好檔案丟上 git server，其他人在 git server 下載
+分散式：改好檔案直接丟給其他人，不經過 git server
+
+git 不等於 gitHub
+
+工作目錄 暫存區域 儲存庫
+
+
+工作目錄 -> git add -> 暫存區域 -> git commit -> 儲存庫(本地) -> git push -> 儲存庫(遠端)
+                                              儲存庫(本地) <- git pull <- 儲存庫(遠端)
+
+
+初始化： git init
+提交： git commit -m index.html
+檔案刪除還原(cat為例)： git checkout -- cat (回到最近commit狀態)
+切換分支到 cat： git checkout cat
+
+git switch /
+
+檢視編修過的檔案： git blame 檔案名稱
+HEAD：上帝的視角，目前的分支上面
+開新分支： git branch 分支名
+
+rebase 變換根基
+
+git rebase cat： 我要踩在 cat 的頭上去
+回到之前的點，我想回到 xxxx 的狀態：git reset xxxx
+                                              原本有commit的點操作後面加：
+                                              --mixed(預設參數，丟到工作目錄)
+                                              --soft(丟到暫存區)
+                                              --hard(都不要)
+git reset xxxxx --hard
+git reset xxxx^ 倒退一步
+git reset xxxx~5 倒退五步
+
+當下取消合併： git reset HEAD^ --hard
+HEAD 的記錄資訊(移動軌跡)：git reflog
+
+(was 34567846576898)過去遺留的 commit id
+git branch branchName 34567846576898
+若找不到用 git reflog 去找過去 commit id
+
+
+
+
+

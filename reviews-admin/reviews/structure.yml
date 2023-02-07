@@ -1,0 +1,195 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: 'An reverse proxy service for reviews site'
+Parameters:
+  StackName:
+    Type: String
+    Default: 'ecs-base'
+    Description: 'Base infrastructure of ecs'
+  # Docker image on ECR 
+  Image:
+    Type: String
+  # Preffix of all resource
+  ServiceName:
+    Type: String
+  # The mapping between Container and Image
+  ContainerPort:
+    Type: Number
+    Default: 80
+  # For HealthyCheck
+  HealthCheckPath:
+    Type: String
+    Default: '/'
+  #Enviroment variable on Container
+  EnvType:
+    Type: String
+  #HostName on Route53
+  WebHostedZoneName:
+    Type: String
+  #Subdomain of HostedName
+  # WebSubdomain:
+  #   Type: String
+  Priority:
+    Type: Number
+    Default: 1
+  ParentType:
+    Type: String
+  TaskCount:
+    Type: Number
+    Default: 1
+  CpuNum:
+    Type: Number
+    Default: 256
+  MemSize:
+    Type: Number
+    Default: 512
+  ssmContainerSecurityGroup:
+    Type: 'AWS::SSM::Parameter::Value<String>'
+    Default: '/ECS/SecurityGroup/Container/api-web-mixed'
+  ssmProxyHost:
+    Type: 'AWS::SSM::Parameter::Value<String>'
+    Default: 'PROXY_HOST'
+  ssmProxyPort:
+    Type: 'AWS::SSM::Parameter::Value<String>'
+    Default: 'PROXY_PORT'
+Resources:
+  TaskDefinition:
+    Type: AWS::ECS::TaskDefinition
+    DependsOn: LogGroup
+    Properties:
+      Family: !Join ['-', [!Ref ServiceName, 'task-definition']]
+      NetworkMode: awsvpc
+      RequiresCompatibilities:
+        - FARGATE
+      Cpu: !Ref CpuNum 
+      Memory: !Ref MemSize
+      ExecutionRoleArn:
+        Fn::ImportValue: !Join ['-', [!Ref 'StackName', 'ExecutionRole-Arn']]
+      TaskRoleArn:
+        Fn::ImportValue: !Join ['-', [!Ref 'StackName', 'TaskRole-Arn']]
+      ContainerDefinitions:
+        - Name: !Ref ServiceName
+          Image: !Ref Image
+          PortMappings:
+            - ContainerPort: !Ref ContainerPort
+          Environment:
+            - Name: envType
+              Value: !Ref EnvType
+            - Name: PROXY_HOST
+              Value: !Ref ssmProxyHost
+            - Name: PROXY_PORT
+              Value: !Ref ssmProxyPort
+          LogConfiguration:
+            LogDriver: awslogs
+            Options:
+              awslogs-region: !Ref AWS::Region
+              awslogs-group: !Ref LogGroup
+              awslogs-stream-prefix: ecs
+  LogGroup:
+    Type: AWS::Logs::LogGroup
+    Properties:
+      LogGroupName: !Join ['', [/ecs/, !Ref ServiceName]]
+  WebTargetGroup:
+    Type: AWS::ElasticLoadBalancingV2::TargetGroup
+    Properties:
+      HealthCheckIntervalSeconds: 20
+      HealthCheckPath: !Ref HealthCheckPath
+      HealthCheckTimeoutSeconds: 5
+      UnhealthyThresholdCount: 5
+      HealthyThresholdCount: 2
+      Name: !Join ['-', [!Ref ServiceName, targetgroup]]
+      Port: !Ref ContainerPort
+      Protocol: HTTP
+      TargetGroupAttributes:
+        - Key: deregistration_delay.timeout_seconds
+          Value: 10
+        - Key: slow_start.duration_seconds
+          Value: 30
+      TargetType: ip
+      VpcId: 
+        Fn::ImportValue: !Join ['-', ['VPC-hub-shared', !Ref ParentType]]
+   
+  #Alarm(Just need one of two target-group because the task is the same one)
+  WebUnhealthyHostAlarm:
+    Type: 'AWS::CloudWatch::Alarm'
+    DependsOn: WebTargetGroup
+    Properties:
+      AlarmDescription: Unhealthy host
+      MetricName: UnHealthyHostCount
+      Namespace: AWS/ApplicationELB
+      Statistic: Minimum
+      Period: 300
+      EvaluationPeriods: 2
+      Threshold: 1
+      AlarmActions:
+        - !Sub 'arn:aws:sns:${AWS::Region}:${AWS::AccountId}:review-api-exception'
+      ComparisonOperator: GreaterThanOrEqualToThreshold
+      Dimensions:
+        - Name: TargetGroup
+          Value: !GetAtt WebTargetGroup.TargetGroupFullName
+        - Name: LoadBalancer
+          Value: 
+            Fn::ImportValue: !Join ['-', [!Ref 'StackName', 'LoadBalancer-Web-FullName']]
+        
+  WebHttpListenerRule:
+    Type: AWS::ElasticLoadBalancingV2::ListenerRule
+    Properties:
+      Actions:
+        - Type: 'redirect'
+          RedirectConfig:
+            Protocol: HTTPS
+            Port: '443'
+            Host: '#{host}'
+            Query: '#{query}'
+            Path: /#{path}
+            StatusCode: HTTP_301
+      Conditions:
+        - Field: host-header
+          Values: 
+            - !Ref WebHostedZoneName
+      ListenerArn:
+        Fn::ImportValue: !Join ['-', [!Ref StackName, 'HttpListener-Web-Arn']]
+      Priority: !Ref Priority
+  WebHttpsListenerRule:
+    Type: AWS::ElasticLoadBalancingV2::ListenerRule
+    Properties:
+      Actions:
+        - TargetGroupArn: !Ref WebTargetGroup
+          Type: 'forward'
+      Conditions:
+        - Field: host-header
+          Values: 
+            - !Ref WebHostedZoneName
+      ListenerArn:
+        Fn::ImportValue: !Join ['-', [!Ref StackName, 'HttpsListener-Web-Arn']]
+      Priority: !Ref Priority
+  
+  Service:
+    Type: AWS::ECS::Service
+    Properties: 
+      ServiceName: !Ref ServiceName
+      Cluster:
+        Fn::ImportValue:
+          !Join ['-', [!Ref StackName, 'Cluster-Arn']]
+      TaskDefinition: !Ref TaskDefinition
+      DeploymentConfiguration:
+        MinimumHealthyPercent: 100
+        MaximumPercent: 200
+      DesiredCount: !Ref TaskCount
+      HealthCheckGracePeriodSeconds: 90
+      LaunchType: FARGATE
+      NetworkConfiguration: 
+        AwsvpcConfiguration:
+          AssignPublicIp: DISABLED
+          Subnets:
+            - Fn::ImportValue: !Join ['-', ['SN-private-1a-1', !Ref ParentType]]
+            - Fn::ImportValue: !Join ['-', ['SN-private-1c-1', !Ref ParentType]]  
+          SecurityGroups:
+            - !Ref ssmContainerSecurityGroup
+      LoadBalancers:
+        - ContainerName: !Ref ServiceName
+          ContainerPort: !Ref ContainerPort
+          TargetGroupArn: !Ref WebTargetGroup 
+Outputs:
+  Endpoint:
+    Description: Endpoint
+    Value: !Join ['', ['https://', !Ref WebHostedZoneName]]

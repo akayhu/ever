@@ -1,0 +1,50 @@
+@mixin support-ie () {
+
+  // for IE10+
+  @media all and (-ms-high-contrast: none),
+  (-ms-high-contrast: active) {
+    @content;
+  }
+
+  // for Edge 16+
+  @supports (-ms-accelerator: true) or (-ms-ime-align: auto) {
+    @content;
+  }
+}
+
+@mixin truncate-text($line: 1) {
+  @if $line==1 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  @else {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: $line;
+    -webkit-box-orient: vertical;
+    word-wrap: break-word;
+    word-break: break-all;
+  }
+}
+
+@function get-color($level) {
+  @return map-get($custom-colors, $level);
+}
+
+@mixin device-up($device) {
+  $bp: map-get($device-breakpoints, $device);
+
+  @media (min-width: #{$bp}px) {
+    @content;
+  }
+}
+
+@mixin device-down($device) {
+  $bp: map-get($device-breakpoints, $device);
+
+  @media (max-width: #{$bp - 0.02}px) {
+    @content;
+  }
+}
