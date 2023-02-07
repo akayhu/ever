@@ -1,0 +1,64 @@
+@import "scss/cProfile.scss";
+
+.talentRating-description {
+  position: absolute;
+	left: 165px;
+  font-size: 14px;
+  font-weight: bolder;
+	color: $text-color-00bddd;
+	top: 10px;
+	cursor: pointer;
+}
+
+.talentRating-description {
+
+  &--main {
+    background-color: $background-color-ffffff;
+  }
+
+  &--title {
+    font-family: PingFangTC;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: $text-color-00bddd;
+    margin-bottom: 25px;
+  }
+  
+  &--content {
+    font-size: 15px;
+    color: $text-color-484848;
+    clear: both;
+    margin-top: 5px;
+    overflow: hidden;
+
+    &:last-child {
+      .talent-rating-description-item {
+        border-bottom: 0;
+        padding-bottom: 0;
+      }
+    }
+  }
+
+  &--item {
+    float: right;
+    width: 480px;
+    border-bottom: 1px solid $border-color-f1f1f1;
+    padding-bottom: 10px;
+    margin: 4px 0 0 35px;
+
+    @include rwd-to(667) {
+      float: inherit;
+      width: 100%;
+      margin-left: 0;
+    }
+  }
+}
+
+.ant-popover-inner {
+	-webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.65);
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.65);
+}

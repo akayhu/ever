@@ -1,0 +1,572 @@
+.wrapper {}
+.personal_main {
+	position: relative;
+	top: 0;
+	display: inline-block;
+	padding: 0;
+	width: 100%;
+}
+.personal_content {
+	display: flex;
+	margin: 0 auto;
+	padding-top: 40px;
+	width: 960px;
+
+}
+.personal_social_content {
+	margin-bottom: 15px;
+}
+.social_main {
+	width: 320px;
+	padding-right: 20px;
+}
+.personal_info_main {
+	width: 640px;
+}
+.index_component {
+	margin-bottom: 15px;
+}
+
+
+/****************名片************************/
+.business_card {
+	background-color: #fff;
+	border: 1px solid #e8e8e8;
+	height: 350px;
+	color: #fff;
+	position: relative;
+	overflow: hidden;
+}
+.business_card .name_card_img {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 350px;
+}
+.business_card .name_card_img .name_card_black_cloth {
+	background-color: #081b20;
+	opacity: .3;
+	position: absolute;
+	width: 100%;
+	height: 350px;
+	top: 0;
+	z-index: 2;
+}
+.business_card .name_card_Information {
+	position: absolute;
+	z-index: 2;
+	width: 100%;
+	height: 350px;
+	top: 0;
+	padding: 20px;
+}
+.business_card .name_card_Information img {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	margin: 0 auto;
+	margin-top: 20px;
+	display: block;
+}
+.business_card .name_card_Information .name {
+	text-align: center;
+	color: #fff;
+	margin-top: 10px;
+	width: 258px;
+	height: 30px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.business_card .name_card_Information .job_name {
+	text-align: center;
+	color: #fff;
+	margin-top: 5px;
+	letter-spacing: 1px;
+	min-height: 40px;
+}
+.business_card .name_card_Information .job_name div {
+	width: 258px;
+	height: 20px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.business_card .name_card_Information .business_main_title {
+	overflow: hidden;
+	margin-top: 30px;
+}
+.business_card .name_card_Information .business_main_title .business_main_title_left {
+	float: left;
+	color: #fff;
+	margin-top: 26px;
+}
+.business_card .name_card_Information .business_main_title .business_main_title_right {
+	float: right;
+	color: #e5e5e5;
+	font-size: 48px;
+	line-height: 1;
+}
+.business_card .name_card_Information .business_percentage_block {
+	min-height: 65px;
+}
+.business_card .name_card_Information .business_percentage {
+	overflow: hidden;
+	margin-top: 3px;
+}
+.business_card .name_card_Information .business_percentage .business_percentage_main {
+	width: 100%;
+	float: left;
+	background-color: #efefef;
+	height: 13px;
+	opacity: 0.6;
+}
+.business_card .name_card_Information .business_percentage .business_percentage_bar{
+	width: 0;
+	height: 13px;
+	background-color: #34a8c4;
+}
+.business_card .name_card_Information .business_set_up {
+	overflow: hidden;
+	margin-top: 20px;
+}
+.business_card .name_card_Information .business_set_up a{
+	color: #fff;
+} 
+.business_card .name_card_Information .business_set_up i:hover {
+	color: #fff;
+}
+.business_card .name_card_Information .business_set_up .left {
+	display: block;
+	width: 46%;
+	float: left;
+	font-size: 16px;
+	border: 1px solid #fff;
+	padding: 3px 5px;
+	text-align: center;
+	border-radius: 14px;
+	cursor: pointer;
+}
+.business_card .name_card_Information .business_set_up .right {
+	display: block;
+	width: 46%;
+	float: right;
+	font-size: 16px;
+	border: 1px solid #fff;
+	padding: 3px 5px;
+	text-align: center;
+	border-radius: 14px;
+	cursor: pointer;
+}
+
+
+/********************公告************************/
+.announcement {
+	background-color: #fafafa;
+	padding: 10px 0;
+	border-bottom: 1px solid #e8e8e8;
+	line-height: 1.7;
+}
+.announcement_main {
+	width: 800px;
+	margin: 0 auto;
+	color: #fe7046;
+	font-size: 16px;
+}
+
+
+/****************我的社團、關注的動態*************/
+.group_follow {
+	background-color: #fff;
+	border: 1px solid #e8e8e8;
+}
+.group_follow_title {
+	margin-bottom: 10px;
+}
+.group_follow img {
+	width: 30px;
+	height: 30px;
+	vertical-align: middle;
+	display: initial;
+	margin-right: 10px;
+	margin-left: 1px;
+	border-radius: 50%;
+}
+.group_follow dl {
+	margin: 0;
+}
+.group_follow dd {
+	display: block;
+	padding: 15px;
+	margin: 0;
+}
+.group_follow dd {
+	border-bottom: 1px solid #e8e8e8;
+}
+.group_follow dd:last-child {
+	border-bottom: none;
+	padding-bottom: 5px;
+}
+.group_follow ul {
+	margin: 0;
+	padding: 0;
+}
+.group_follow ul li {
+	overflow: hidden;
+	height: 50px;
+}
+.group_follow ul li:last-child {
+	height: inherit;
+}
+.group_follow ul li span.left {
+	float: left;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	word-break: break-all;
+	width: 200px;
+}
+.group_follow ul li span.right {
+	float: right;
+	padding-top: 16px;
+	color: #8a8a8a;
+}
+.group_follow ul li span.all {
+	float: right;
+	color: #8a8a8a;
+	cursor: pointer;
+}
+
+
+
+/*******************banner************************/
+.banner img {
+	width: 300px;
+}
+
+
+/***********你可能認識的人 值得關注的人***********/
+.mayknow_note {
+	background-color: #fff;
+	border: 1px solid #e8e8e8;
+}
+.mayknow_note_title {
+	margin-bottom: 15px;
+}
+.mayknow_note dl {
+	margin: 0;
+}
+.mayknow_note dd {
+	display: block;
+	padding: 15px;
+	margin: 0;
+}
+.mayknow_note dd:first-child {
+	border-bottom: 1px solid #e8e8e8;
+}
+.mayknow_note ul {
+	margin: 0;
+	padding: 0;
+}
+.mayknow_note ul li {
+}
+.mayknow_note ul li:last-child {
+}
+.mayknow_note ul li span.left {
+	float: left;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	word-break: break-all;
+	width: 160px;
+}
+.mayknow_note ul li span.left img {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin-right: 10px;
+	float: left;
+}
+.mayknow_note ul li span.right {
+	float: right;
+	color: #8a8a8a;
+	padding-top: 3px;
+}
+.mayknow_note ul li span.all {
+	float: right;
+	color: #8a8a8a;
+	cursor: pointer;
+}
+
+.mayknow_note .people {
+	height: 60px;
+	overflow: visible;
+}
+.mayknow_note .more {
+	height: 30px;
+} 
+
+
+/*******************app banner********************/
+.app_banner {
+	overflow: hidden;
+}
+.app_banner img.left {
+	float: left;
+}
+.app_banner img.right {
+	float: right;
+}
+.app_text {
+	font-size: 12px;
+	line-height: 1.7;
+	margin-top: 10px;
+	color: #8a8a8a;
+}
+
+
+
+
+
+/**************** Publication***********************/
+.publication {
+	border: 1px solid #f8c59c;
+	background-color: #fff;
+	overflow: hidden;
+	padding: 10px;
+	padding-left: 15px;
+	cursor: pointer;
+	line-height: 1;
+}
+.publication span.left {
+	float: left;
+	color: #a5a5a5;
+	font-weight: 100;
+	line-height: 2.2;
+}
+.publication span.left img {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin-right: 10px;
+	float: left;
+	vertical-align: middle;
+}
+.publication i {
+	float: right;
+	background-color: #fe7e17;
+	color: #fff;
+	border-radius: 50%;
+	font-size: 35px;
+	margin-top: 3px;
+}
+.publication i:hover {
+	color: #fff;
+}
+
+
+
+
+/*******************個人簡介*******************/
+.task {
+	background-color: #d6eef3;
+	padding: 20px 10px;
+}
+
+.task_title {
+	margin-left: 20px;	
+}
+.task_desc {
+	margin-left: 20px;
+}
+.task i {
+	float: right;
+	color: #6ac0d4;
+	font-size: 30px;
+	margin-right: 20px;
+	cursor: pointer;
+}
+.personal {
+	
+	padding: 20px 15px;
+}
+
+.personal i {
+	float: right;
+	color: #6ac0d4;
+	font-size: 30px;
+}
+.personal .writing {
+	font-size: 16px;
+	margin-top: 25px;
+	margin-bottom: 15px;
+	padding: 0 10px;
+}
+
+
+
+/*******************滿意度調查****************/
+.satisfaction {
+	background-color: #d6eef3;
+	padding: 20px 27px;
+}
+.satisfaction i {
+	float: right;
+	color: #6ac0d4;
+	font-size: 30px;
+	cursor: pointer;
+}
+.satisfaction .writing {
+	margin-top: 25px;
+	margin-bottom: 15px;
+	padding: 0;
+}
+.satisfaction_action {
+	float: right;
+}
+.commercial {
+	width: 640px;
+	height: 100px;
+}
+.commercial i {
+	height: 0;
+	float: right;
+	color: #6ac0d4;
+	font-size: 30px;
+	cursor: pointer;
+}
+
+
+/*******************最新動態****************/
+.latest_news {
+	text-align: right;
+	color: #8a8a8a;
+	font-size: 12px;
+	cursor: pointer;
+	margin: 15px 0;
+	padding-right: 10px;
+}
+
+
+
+
+/*******************target****************/
+
+.header {
+	height: 60px;
+	background: #fff;
+	width: 100%;
+	text-align: center;
+}
+.target, .user_name {
+	width: 620px;
+	margin: 10px auto;
+	min-height: 600px;
+}
+.question {
+	background-color: #fff;
+	border: solid 1px #eee;
+	border-radius: 3px;
+	padding: 10px 0;
+}
+.target_title, .user_name_title {
+	margin-bottom: 25px;
+	padding-left: 20px; 
+}
+.target_desc, .user_name_desc {
+	margin-bottom: 25px;
+	padding-left: 20px;
+}
+.question li {
+	cursor: pointer;
+	padding: 10px 20px;
+}
+.question li:hover{
+	background: #f4f4f4;
+}
+.question i {
+	color: #919191;
+	float: right;
+	font-size: 1.4em;
+	position: relative;
+	top: -5px;
+}
+.user_name {
+	
+}
+.user_name_input {
+	background-color: #fff;
+	border: solid 1px #eee;
+	border-radius: 3px;
+	padding: 20px ;
+	min-height: 200px;
+}
+.user_name_input button {
+	float: right;
+}
+.user_name_inner_title {
+	margin-bottom: 15px;
+}
+.user_name_button {
+	position: relative;
+	top: 39px;
+	left: 34px;
+}
+.members_block {
+	width: 740px;
+	margin: 0 auto 40px;
+}
+.members_block .title {
+	text-align: center;
+	margin: 10px;
+} 
+.members_list{
+
+}
+.verticle_namecard {
+	display: inline-block;
+	width: 140px;
+	height: 310px;
+	background: #fff;
+	border: solid 1px #eee;
+	border-radius: 3px;
+	margin: 5px 3px;
+	float: left;
+	position: relative;
+}
+.verticle_namecard img {
+	border-radius: 50%; 
+	margin: 10px;
+	width: 120px;
+	height: 120px;
+}
+.verticle_name {
+	font-weight: bold;
+	padding: 10px;
+	max-height: 64px;
+	overflow: hidden;
+	
+}
+.verticle_desc {
+	color: #939393;
+	padding: 0 10px;
+	height: 70px;
+	overflow: hidden;
+} 
+.member_subscribe {
+	position: absolute;
+	bottom: 5px;
+	width: 100%;
+	text-align: center;
+}
+.member_subscribe button {
+	
+}
+.actions {
+	margin-bottom: 30px;
+}
+.actions button{
+	margin: 0 30px;
+	float: right;
+}

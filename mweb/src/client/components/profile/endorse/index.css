@@ -1,0 +1,46 @@
+.title {
+  font-size: 15px;
+  font-weight: bold;
+}
+.container {
+	position: relative;
+	margin: 12px 0;
+  font-size: 13px;
+}
+.item {
+  display: flex;
+  align-items: center;
+}
+.item:not(:first-child) {
+  margin-top: 20px;
+}
+.item_title {
+  font-weight: bold;
+  font-size: 13px;
+  width: 68%;
+  white-space: nowrap; 
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.right_section {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+.show_more {
+  overflow: hidden;
+  max-height: 280px;
+}
+.desc {
+  margin-top: 12px;
+}
+.endorse_single {
+  background-color: #f4f4f4;
+  padding: 12px;
+}
+.item i {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  margin-left: 6px;
+}

@@ -1,0 +1,16 @@
+.wrap {
+  position: relative;
+}
+.bubbles {
+	align-items: center;
+	position: absolute;
+  top: 15px;;
+  right: 0;
+	height: 22px;
+	line-height: 22px;
+	background: #ff530d;
+	color: white;
+	font-size: 10px;
+	padding: 0 4px;
+	opacity: 0.9;
+}

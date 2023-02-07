@@ -1,0 +1,9 @@
+.topic-list {
+  margin: 0 auto;
+  width: 960px;
+}
+.no_result {
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+}

@@ -1,0 +1,351 @@
+/* ------------- 共通 ------------- */
+.btn {
+	border-radius: 4px;
+	border: 0;
+	cursor: pointer;
+	text-align: center;
+	color: #fff;
+	text-shadow: none;
+}
+.text-wrap {
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	word-wrap: break-word;
+	word-break: break-all;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.text-wrap-one {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+/* ------------- A版頁面 ------------- */
+header {
+	height: 500px;
+	background-size: cover; 
+	margin: 0;
+	position: relative;
+}
+.login-field {
+	width: 405px;
+	position: absolute;
+	top: 335px;
+	left: calc(50% + 37px);
+	color: #fff;
+}
+.login-field h2 {
+	font-size: 32px;
+	font-weight: bold;
+	margin: 20px auto 6px auto;
+	color: #fff;
+}
+/* facebook login */
+.login-field .fb-login {
+	width: 320px;
+	height: 52px;
+	background: #4b76cf;
+	margin: 30px auto 8px auto;
+}
+.login-field .fb-login:hover {
+	background: #4066B2;
+}
+/* 104 login */
+.login-field .direct-login {
+	color: #fff;
+	margin-left: 1em;
+	border-bottom: 1px solid #fff;
+}
+main {
+	color: #4a4a4a;
+}
+.feature-block {
+	width: 780px;
+	display: flex;
+	justify-content: space-between;
+	margin: 30px auto 40px auto;
+	text-align: center;
+}
+.feature-block .col {
+	width: 220px;
+}
+.feature-block .col h2 {
+	font-size: 28px;
+	font-weight: bold;
+}
+.feature-block .col p {
+	font-size: 16px;
+	line-height: 1.75;
+	text-align: left;
+	margin: 0 auto;
+}
+.img-block-group, .img-block-article, .img-block-person {
+	width: 155px;
+	height: 155px;
+	margin: 9px auto;
+}
+.img-block-group {
+	background: url(/images/prelogin/feature/group.png) no-repeat center;
+}
+.img-block-article {
+	background: url(/images/prelogin/feature/activity.png) no-repeat center;
+}
+.img-block-person {
+	background: url(/images/prelogin/feature/connection.png) no-repeat center;
+	margin: 9px 43px 9px 22px;
+}
+/* ------------- B版頁面 ------------- */
+/* bg-color */
+.bg-style-1 {
+	background: #f4f4f4;
+}
+.bg-style-2 {
+	background: #ffecda;
+	height: 700px;
+}
+/* 橘色長按鈕 */
+.btn-call {
+	background: #ff7800;
+	width: 300px;
+	height: 56px;
+}
+/* 區塊大標 */
+main h2 {
+	text-align: center;
+	margin: 0;
+	font-size: 28px;
+	color: #4a4a4a;
+}
+/* ------- for group -------- */
+/* 區塊內容 */
+.group-block {
+	margin: 0 auto;
+	max-width: 960px;
+	padding: 40px 0;
+}
+/* 社團卡片清單 */
+.group-block ul {
+	overflow: hidden;
+	margin: 30px 0 40px 0;
+}
+/* 社團卡片 */
+.group-block ul li {
+	width: 176px;
+	height: 242px;
+	float: left;
+	margin: 0 20px 20px 0;
+	position: relative;
+}
+.group-block ul li:nth-child(5n) {
+	margin: 0 0 20px 0;
+}
+/* 社團卡片 - 上方圖 */
+.group-block ul li img {
+	width: 100%;
+	height: 100px;
+	position: absolute;
+}
+/* 社團卡片 - 下方卡片 */
+.group-content-main {
+	position: absolute;
+	z-index: 10;
+	background-color: #fff;
+	width: 156px;
+	height: 160px;
+	top: 82px;
+	left: calc(50% - 78px);
+	padding: 16px;
+}
+.group-content-main a, .group-content-main a:hover {
+	color: #4a4a4a;
+}
+/* 社團卡片 - 標題 */
+.group-title {
+	font-size: 15px;
+	margin-bottom: 8px;
+	font-weight: bold;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	word-break: break-all;
+}
+/* 社團卡片 - 內容 */
+.group-content {
+	font-size: 13px;
+	height: 40px;
+	margin-bottom: 16px;
+	word-wrap: break-word;
+	word-break: break-all;
+	color: #8a8a8a;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	line-height: 1.57;
+}
+/* 社團卡片 - 加入社團 */
+.group-subscribe {
+	width: 100%;
+	text-align: center;
+}
+.block-button {
+	margin: 20px 0;
+	text-align: center;
+}
+/* 加入社團 */
+.btn-join {	
+	height: 36px;
+	font-size: 14px;
+	background: #34a8c4;
+	padding: 8px 16px;
+}
+/* ------- for article -------- */
+.article-block {
+	max-width: 960px;
+	position: absolute;
+	top: 0;
+	left: calc(50% - 470px);
+	z-index: 20;
+}
+.article-block h2 {
+	margin: 40px 0 30px 0;
+}
+.article-block ul {
+	overflow: hidden;
+}
+/* 文章卡片 */
+.article-block ul li {
+	position: relative;
+	width: 300px;
+	height: 315px;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+.article-block ul li img {
+	width: 300px;
+	height: 168px;
+}
+.article-content-main {
+	width: 268px;
+	background: #fff;
+	position: absolute;
+	top: 148px;
+	left: calc(50% - 134px);
+	z-index: 5;
+	padding: 20px;
+}
+.article-title {
+	color: #4a4a4a;
+	height: 52px;
+	font-size: 17px;
+	font-weight: bold;
+	line-height: 1.57;
+	margin: 0 0 10px 0;
+}
+.article-content {
+	color: #8a8a8a;
+	font-size: 14px;
+}
+/* hot文章 */
+.article-block ul li.hot-article {
+	width: 620px;
+}
+.article-block .hot-article img {
+	width: 372px;
+	height: 315px;
+}
+.hot-decoration {
+	width: 78px;
+	height: 53px;
+	z-index: 10;
+	background: url(/images/prelogin/article/hot.png) no-repeat center;
+	position: absolute;
+	top: 20px;
+	left: -20px;
+}
+.hot-article .article-content-main {
+	width: 268px;
+	height: 283px;
+	top: 16px;
+	left: 352px;
+	padding: 80px 20px 29px 20px;
+}
+.hot-article .article-content {
+	-webkit-line-clamp: 5;
+}
+/* ------- for person -------- */
+.person-block {
+	margin: 0 auto;
+	padding: 148px 0 40px 0;
+}
+.person-block h2 {
+	margin: 40px 0 30px 0;
+}
+.person-block ul {
+	overflow: auto;
+	width: 960px;
+	margin: 0 auto;
+	z-index: -1;
+}
+.person-block ul li {
+	width: 176px;
+	height: 273px;
+	float: left;
+	margin: 0 20px 20px 0;
+	text-align: center;
+	position: relative;
+	z-index: 0;
+}
+.person-block ul li:nth-child(5n) {
+	margin: 0 0 20px 0;
+}
+/* 頭像圖片 */
+.person-block img {
+	border-radius: 50%;
+	width: 120px;
+	height: 120px;
+}
+/* 人脈卡片 */
+.person-content-main {
+	width: 100%;
+	height: 213px;
+	position: absolute;
+	background: #fff;
+	color: #8a8a8a;
+	top: 60px;
+	z-index: -1;
+	padding: 60px 16px 15px 16px;
+}
+.person-content-main a {
+	color: #4a4a4a;
+}
+.person-name {
+	color: #4a4a4a;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 10px auto;
+}
+.person-title {
+	margin: 0 4px;
+}
+.person-company {
+	padding: 0;
+}
+.person-company .icon {
+	display: inline-block;
+	vertical-align: middle;
+	width: 20px; /* 包含 6px margin */
+	height: 14px;
+	background: url(/images/prelogin/person/icon-job.png) no-repeat left top;
+}
+/* 關注 */
+.btn-subscribe {
+	border: 1px  #d0d0d0 solid;
+	font-size: 14px;
+	color: #081b20;
+	background: #fff;
+	padding: 8px 16px;
+	margin: 16px auto 0 auto;
+}

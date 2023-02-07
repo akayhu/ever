@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="14px" viewBox="0 0 25 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_customize2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="自定義-copy" transform="translate(-6.000000, -17.000000)">
+            <g id="icon_customize2" transform="translate(0.000000, 5.000000)">
+                <g id="Icon-24px">
+                    <rect id="Rectangle-path" x="0" y="0" width="37.8515625" height="38"></rect>
+                    <polygon id="Shape" points="5 5 33 5 33 33 5 33"></polygon>
+                    <path d="M30.9259259,20.1407407 L21.3851852,20.1407407 L21.3851852,17.8592593 L30.9259259,17.8592593 L30.9259259,20.1407407 L30.9259259,20.1407407 Z M30.9259259,13.2962963 L21.3851852,13.2962963 L21.3851852,15.5777778 L30.9259259,15.5777778 L30.9259259,13.2962963 L30.9259259,13.2962963 Z M21.3851852,24.7037037 L30.9259259,24.7037037 L30.9259259,22.4222222 L21.3851852,22.4222222 L21.3851852,24.7037037 L21.3851852,24.7037037 Z" id="Shape" fill="#5E5E5E"></path>
+                    <rect id="Combined-Shape" stroke="#5E5E5E" x="7.07407407" y="13.2962963" width="11.9259259" height="11.4074074" rx="1"></rect>
+                    <polygon id="Path" fill="#5E5E5E" points="17.2111111 22.4222222 14.5277778 19 12.4407407 21.5780741 10.95 19.8555556 8.86296296 22.4222222"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

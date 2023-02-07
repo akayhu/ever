@@ -1,0 +1,54 @@
+.comment {
+  background-color: #fff;
+}
+.see_more {
+  font-size: 13px;
+  color: #2c98b7;
+  padding: 12px 12px 0 12px;
+}
+.comment_item {
+  border-bottom: solid 1px #f4f4f4;
+}
+.main {
+  padding: 0 12px 12px 12px;
+}
+.content {
+  font-size: 13px;
+  color: #081b20;
+}
+.likeCount {
+  padding-left: 3px;
+}
+.people_item {
+  display: flex;
+}
+.time {
+  display: flex;
+  align-items: center;
+  padding-right: 12px;
+}
+.attachment_block{
+  position: relative;
+  margin: 12px auto 20px;
+  text-align: center;
+}
+.attachment_block .crossItem{
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+}
+.attachment_block .preview_image {
+  max-width: 418px;
+  margin-left: auto;
+  margin-right: auto;
+  /*max-height: 235px;*/
+}
+.attachment_block .uploading_icon {
+  display: block;
+  margin-bottom: 15px;
+  height: 1px;
+}
+.attachment_block .uploading_hint {
+  font-size: 18px;
+  color: #081b20;
+}

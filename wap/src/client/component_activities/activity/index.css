@@ -1,0 +1,254 @@
+.activity_header {
+	border-bottom: 1px solid #e8e8e8;
+	padding: 15px 20px;
+}
+.activity_header .header_img {
+	float: left;
+}
+.activity_header .header_text {
+	float: right;
+	width: calc(100% - 50px);
+}
+.activity_header .header_text .user_info .arrow {
+	color: #8a8a8a;
+	margin: 4px 10px 0;
+}
+.activity_header .header_text .user_info .group_name {
+	color: #0192b5;
+}
+img.head_portrait {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+.user_info .left {
+	width: 85%;
+	display: inline-flex;
+}
+.user_info .left > * {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	min-width: 0;
+	max-width: 70%;
+	vertical-align: middle;
+	display: inline-block;
+	width: auto;
+}
+.user_info .left [class*="hover_box"] > a {
+	text-overflow: ellipsis;
+	width: 100%;
+  display: block;
+  overflow: hidden;
+}
+.job_info {
+	line-height: 1;
+}
+.job_info .left {
+	width: 85%;
+	float: left;
+}
+.job_info .left span:first-child:after {
+	content: "　";
+}
+.user_info .right,
+.job_info .right {
+	width: 15%;
+	text-align: right;
+	vertical-align: top;
+	margin-left: auto;
+	float: right;
+}
+.chanel_info {
+ 	/*display: flex;
+ 	align-items: center;	*/
+}
+.job_name .right {
+	margin-left: auto;
+}
+.user_info .right ul li {
+	/*margin-left: 10px;*/
+	/*margin-right: 10px;*/
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.user_info .right ul.stream_ul li {
+	width: 150px;
+}
+.user_info .right .line {
+	margin: 15px 10px;
+	height: 1px;
+	background: #ddd;
+}
+.user_info a {
+	font-weight: 400;
+}
+.user_info i {
+	margin-right: 0;
+	cursor: pointer;
+}
+.activity_title {
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	word-wrap: break-word;
+	word-break: normal;
+}
+.activity_title i {
+	margin-left: 5px;
+	color: #d4d4d4;
+}
+.river_activity_title {
+	display: block;
+	color: #000 !important;
+}
+.browse {
+	font-weight: 100;
+	color: #a5a5a5;
+	margin-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	letter-spacing: 1px;
+}
+.browse .left {
+	width: 25%;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+.browse .right {
+	width: 75%;
+	display: inline-block;
+	text-align: right;
+}
+.browse .right span:after {
+	content: "　";
+}
+.browse .right span:last-child:after {
+	content: "";
+}
+/*.browse .right span:not(:nth-child(2)) {*/
+.browse .right span {
+	cursor: pointer;
+}
+.behavior {
+	overflow: hidden;
+	padding: 15px 20px;
+	border-top: 1px solid #e8e8e8;
+	border-bottom: 1px solid #e8e8e8;
+	font-weight: 200;
+}
+.behavior .item_line {
+	margin-left: 6px;
+	margin-right: 6px;
+	height: 12px;
+	width: 1px;
+	background-color: gray;
+	display: inline-block;
+	vertical-align: middle;
+}
+.activity_ignore {
+	padding: 20px;
+	border: 1px solid #dedede;
+	background: #eee;
+	margin-bottom: 20px;
+}
+.activity_ignore span {
+	color: #0192b5;
+	margin-left: 15px;
+	cursor: pointer;
+}
+.activity_ignore i {
+	float: right;
+	cursor: pointer;
+}
+.tag_row {
+	text-align: right;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.tag_row .tag {
+	margin-left: 8px;
+	color: gray;
+}
+.endorse_btn {
+	margin-top: 13px;
+	color: #0192B5;
+	border: 1px solid #0192B5;
+	border-radius: 4px;
+	display: inline-block;
+	padding: 5px 10px;
+	cursor: pointer;
+}
+.endorse_block {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 25px;
+}
+.endorse_title {
+	font-size: 14px;
+	font-weight: initial;
+}
+.endorse_row {
+	text-align: left;
+}
+.endorse {
+	margin: 8px 0;
+	background: #e3e3e3;
+	display: inline-block;
+	margin-right: 8px;
+	cursor: pointer;
+	border-radius: 4px;
+}
+.endorse .count {
+	padding: 0 10px;
+	min-width: 25px;
+	text-align: center;
+	display: inline-block;
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+.endorse .itemname {
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	padding: 2px 12px;
+	text-align: center;
+	background: #d0d0d0;
+	display: inline-block;
+}
+.endorse .itemname:first-child {
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+.endorseIt {
+	background: #34a8c4;
+	color: #fff;
+}
+.endorseIt .itemname {
+	background: #0192b5;
+	color: #fff;
+}
+/* Editor EndorseItem*/
+.lbContainer {
+	min-height: 300px;
+	max-height: 550px;
+	overflow-y: auto;
+	text-align: left;
+}
+.endorse_textfield{
+	text-align: left;
+}
+.endorse_textfield input:focus {
+	border: 1px solid #ccc;
+}
+.noCursor {
+	cursor: auto;
+	/*box-shadow: 2px 2px 2px rgba(40%,40%,40%,0.5);*/
+}
+.relative_block {
+	padding: 3px 20px;
+}
+.relative_block .title {
+	line-height: 28px;
+	font-weight: bold;
+}

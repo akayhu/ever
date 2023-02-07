@@ -1,0 +1,45 @@
+.header {
+	padding: 0 10px;
+	border-bottom: solid 1px #d4d4d4;
+	background: #fff;
+	display: flex;
+	justify-content: space-between;
+}
+.header .logoImg {
+	margin-top: 18%;
+}
+.header i {
+	margin: 0;
+	font-size: 25px;
+	color: #686868;
+}
+.header i:before {
+	line-height: 1;
+}
+.header a:hover {
+	text-decoration: none;
+}
+.header button {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background: none;
+}
+.left > *,
+.right > * {
+	display: inline-block;
+	height: 76px;
+	line-height: 70px;
+}
+.right > * {
+	margin-left: 10px;
+}
+.right i {
+	/* margin-top: 25px; */
+}
+.right img {
+	width: 40px;
+	height: 40px;
+	/* margin-top: 18px; */
+	border-radius: 50%;
+}

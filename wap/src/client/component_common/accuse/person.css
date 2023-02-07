@@ -1,0 +1,43 @@
+.report_main{
+	color:#333;
+}
+.report_main .report_checkBox {
+	margin-bottom: 30px;
+}
+.report_main .report_checkBox div{
+	width: 205px;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.report_main .button{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.report_main .text_main{
+	width: 240px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.report_main .text_main p{
+	text-align: left;
+}
+.report_main .text_main .report_text{
+	width: 100%;
+	margin-bottom: 10em;
+}
+.report_main .text_main .report_text textarea{
+	max-height: 150px;
+	height: 150px !important;
+	overflow-y: scroll;
+}
+.error_message {
+	font-size: 14px;
+	line-height: 20px;
+	color: #e12f1c;
+}
+.btn_row{
+	text-align: center;
+}

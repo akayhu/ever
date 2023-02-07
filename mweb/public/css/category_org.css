@@ -1,0 +1,384 @@
+@charset "utf-8";
+/*...reset css...*/
+#divorg div, #divorg span, #divorg applet, #divorg object, #divorg iframe,
+#divorg h1, #divorg h2, #divorg h3, #divorg h4, #divorg h5, #divorg h6, #divorg p, #divorg blockquote, #divorg pre,
+#divorg a, #divorg abbr, #divorg acronym, #divorg address, #divorg big, #divorg cite, #divorg code,
+#divorg del, #divorg dfn, #divorg em, #divorg font, #divorg img, #divorg ins, #divorg kbd, #divorg q, #divorg s, #divorg samp,
+#divorg small, #divorg strike, #divorg strong, #divorg sub, #divorg sup, #divorg tt, #divorg var,
+#divorg b, #divorg u, #divorg i, #divorg center,
+#divorg dl, #divorg dt, #divorg dd, #divorg ol, #divorg ul, #divorg li,
+#divorg fieldset, #divorg form, #divorg label, #divorg legend,
+#divorg table, #divorg caption, #divorg tbody, #divorg tfoot, #divorg thead, #divorg tr, #divorg th, #divorg td {
+	margin:0 auto;
+	padding:0 auto;
+	border:0;
+	outline:0;
+	font-size:100%;
+	vertical-align: baseline;
+	text-align:left;
+	line-height:normal;
+}
+#divorg {
+	font-size: 13px;
+	font-weight: normal;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin:1px 0 0 0;
+	padding:0;
+	color:#333333;
+	letter-spacing: 1px;
+}
+#divorg form {margin:0px;padding:0;}
+#divorg input,#divorg textarea {
+	font-size:13px;
+	vertical-align: middle;
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	letter-spacing: 1px;
+	margin:0px;
+	padding:0;
+}
+#divorg ul,#divorg li{list-style:none;margin:0px;padding:0px;vertical-align:top;}
+#divorg dd img{vertical-align:middle;margin-left:5px;}
+
+#divorg img {border:none;}
+#divorg a ,#divorg h1 a,#divorg a:hover,#divorg h1 a:hover {color:#059; text-decoration:none;outline: none;}
+#divorg a:hover,#divorg h1 a:hover {color:#000;}
+
+/*副選單標題*/
+#divorg h1 .e104menu2011_popup_title a {color:#000;}
+#divorg h1 .e104menu2011_popup_title a:hover {color:#059;}
+
+#divorg span {margin:0;padding:0;}
+
+#divorg hr{border:0;border-bottom:1px #c8c8c8 solid;margin-top:5px;margin-bottom:10px;margin-bottom:15px\9;padding:auto;text-align:center;}
+* html #divorg hr{height:1px;margin-top:0px;margin-bottom:10px;}
+*:first-child+html #divorg hr{height:1px;margin-top:0px;margin-bottom:10px;}
+
+/* label 出現pointer */
+#divorg label {cursor: pointer; white-space: normal;}
+
+#divorg .e104menu2011_t_r{text-align:right;}
+#divorg .e104menu2011_float_l{float:left;}
+#divorg .e104menu2011_float_r{float:right;}
+#divorg .e104menu2011_clear_no{clear:none;}
+#divorg .e104menu2011_mt_5{margin-top:5px;}
+
+/*類別*/
+#divorg .e104menu2011_box{width:550px;}
+#divorg .e104menu2011_box p{padding-left:18px;padding-right:18px;}
+
+/*類別標題*/
+#divorg .e104menu2011_box h1{
+	background-color:#666;
+	color:#fff;
+	width:550px;
+	height:29px;
+	font-size:15px;
+	font-weight: normal;
+	line-height: 29px;
+	text-indent: 18px;
+}
+
+
+/*關閉視窗*/
+#divorg .e104menu2011_close{margin-right:8px;margin-top:6px;}
+#divorg .e104menu2011_closeimg{margin-left:5px;vertical-align: middle;}
+#divorg .e104menu2011_closeimg a{width:16px;height:16px;display:inline-block;background:url(../img_org/icon_close.gif) no-repeat 0px 0px;}
+#divorg .e104menu2011_closeimg a:hover{background:url(../img_org/icon_close.gif) no-repeat 0px 0px;}
+
+/*選擇條件背景*/
+#divorg .e104menu2011_conditions{
+	background-color:#eee;
+	border-left:2px solid #555;
+	border-right:2px solid #555;
+	padding:6px 18px 8px 18px;
+	min-height:90px; height: auto !important; height:90px;
+}
+* html #divorg .e104menu2011_conditions{padding-right:14px;}
+
+#divorg .e104menu2011_conditions dl {list-style:none;}
+#divorg .e104menu2011_conditions dt{font-weight:bold;line-height:26px;}
+#divorg .e104menu2011_conditions dt.explain{font-size:12px;font-weight:normal;line-height:26px;}
+#divorg .e104menu2011_conditions dd{line-height:17px;}
+
+#divorg .e104menu2011_icon_delete{margin-left:5px;vertical-align:middle;}
+*:first-child+html #divorg .e104menu2011_icon_delete{margin-left:5px;}
+
+#divorg .e104menu2011_icon_delete a{width:12px;height:12px;display:inline-block;background:url(../img_org/icon_delete.gif) no-repeat;}
+
+/*搜尋背景*/
+#divorg .e104menu2011_bg_search{
+	background-color:#fff;
+	border-left:2px solid #555;
+	border-right:2px solid #555;
+	height:60px;
+	padding-top:10px;
+}
+
+/*輸入框*/
+#divorg .e104menu2011_search{
+	width:498px;
+	height:22px;
+	line-height:19px;
+	line-height:20px\9;
+	border:1px solid #999;
+	background-color:#FFFFFF;
+	padding-left:5px;
+}
+#divorg .e104menu2011_search_havenot_fontcolor {color:#999;} /*...搜尋匡未輸入文字時的顏色...*/
+#divorg .e104menu2011_search_have_fontcolor {color:#000;} /*...搜尋匡輸入文字時的顏色...*/
+
+/*搜尋icon*/
+#divorg .e104menu2011_icon_search{
+	background:url(//www.e104.com.tw/public/function01/menu/img_org/icon_search.gif) no-repeat;
+	width:64px;
+	display:block;
+	height:20px;
+	margin:-21px 0 0 433px;
+	*margin-top:-24px;
+	border-left:1px solid #ccc;
+	position:relative;
+	z-index:3;
+	cursor:pointer;
+}
+#divorg .e104menu2011_icon_search_del {
+	display:block;
+	width:20px;
+	height:22px;
+	margin:-22px 0 0 413px;
+	position:relative;
+	z-index:3;
+	cursor: pointer;
+}
+#divorg .e104menu2011_icon_search_del_img {background:url(../img_org/icon_search_del.gif) no-repeat;}
+
+/*按鈕*/
+#divorg .e104menu2011_but{width:60px;height:26px;padding-top:0px;padding-top:2px\9;padding-bottom:3px;padding-bottom:0px\9;cursor:pointer;font-weight:normal;}
+
+/*列表背景*/
+#divorg .e104menu2011_list{
+	border-left:2px solid #555;
+	border-right:2px solid #555;
+	border-bottom:2px solid #555;
+	height:auto;
+	background-color:#fff;
+	padding:12px 17px 17px 17px;
+}
+
+/*列表checkbox設定*/
+#divorg .e104menu2011_list input{margin-top:2px;margin-top:-1px\9;}
+* html #divorg .e104menu2011_list input{margin-top:-5px;}
+*:first-child+html #divorg .e104menu2011_list input{margin-top:-5px;}
+
+/*列表li基礎設定*/
+#divorg .e104menu2011_list li{display:inline-block;margin-bottom:1px; font-size:12px;}
+* html #divorg .e104menu2011_list li{display:inline;}
+*:first-child+html #divorg .e104menu2011_list li{display:inline;}
+
+#divorg .e104menu2011_list li a {display:block;padding-top:0px;padding-bottom:2px;padding-top:2px\9;padding-bottom:0px\9; /*background:url(../img_org/ill_arrow.gif) no-repeat right 3px;*/ padding-right:5px;}
+* html #divorg .e104menu2011_list li a {padding-top:3px;padding-bottom:0px;}
+*:first-child+html #divorg .e104menu2011_list li a {padding-top:3px;padding-bottom:0px;}
+
+#divorg .e104menu2011_list li a:hover{text-decoration: none; color:#000; background-color:#ffefc0 /*background:#ffefc0 url(../img_org/ill_arrow_hover.gif) no-repeat right 3px;*/}
+
+/*主選單箭頭*/
+#divorg .e104menu2011_ls_arrow a {background:url(../img_org/ill_arrow.gif) no-repeat right 3px;}
+#divorg .e104menu2011_ls_arrow a:hover{background:#ffefc0 url(../img_org/ill_arrow_hover.gif) no-repeat right 3px;}
+
+/*主選單時*/
+#divorg .e104menu2011_list li.e104menu2011_txt{cursor:pointer;margin-left:18px;margin-right:3px;}
+* html #divorg .e104menu2011_list li.e104menu2011_txt{cursor:pointer;margin-left:0px;}
+
+/*已選擇列表*/
+#divorg .e104menu2011_list_choice {width:514px;height:auto;margin:0;padding:0;}
+#divorg .e104menu2011_list_choice li {display:inline-block;margin-bottom:1px;padding:1px 23px 1px 0;*float:left;}
+/** html #divorg .e104menu2011_list_choice li{display:inline;}*/
+/**:first-child+html #divorg .e104menu2011_list_choice li{display:inline-block;}*/
+
+/*全部清除*/
+#divorg .e104menu2011_ml_20{margin-left:20px;}
+
+#divorg .e104menu2011_txt_normal{font-weight:normal;}
+#divorg .e104menu2011_txt_alert{font-weight:normal;color:#f00;}
+
+#divorg .e104menu2011_arrow{background:url(../img_org/ill_arrow.gif) no-repeat left 4px;display:inline;}
+
+#divorg .e104menu2011_f_checkbox{float:left;display:block;margin-right: 3px;top:0;height:auto;margin-left:-18px;}
+* html #divorg .e104menu2011_f_checkbox{float:left;padding-bottom:0px;margin:0px 3px 0 -0px;}
+/**:first-child+html #divorg .e104menu2011_f_checkbox{padding-top:4px;}*/
+
+#divorg h3 .e104menu2011_f_checkbox{_padding-top:2px;}
+
+#divorg .e104menu2011_on_check{ background-color:#ffde96;}
+
+/*============================================ 主選單 ==========================================================*/
+
+/*------------A:大+中小--------------*/
+/*A單欄*/
+#divorg .e104menu2011_m1 li.e104menu2011_txt{width:488px;}
+
+/*A雙欄*/
+#divorg .e104menu2011_m2 li.e104menu2011_txt{width:228px;}
+* html #divorg .e104menu2011_m2 li.e104menu2011_txt{width:250px;}
+
+/*A三欄*/
+#divorg .e104menu2011_m3 li.e104menu2011_txt{width:143px;}
+* html #divorg .e104menu2011_m3 li.e104menu2011_txt{width:165px;}
+
+/*----已選擇區塊塊----*/
+/*A單欄*/
+#divorg .e104menu2011_choice_m1 li.e104menu2011_txt{width:488px;}
+
+/*A雙欄*/
+#divorg .e104menu2011_choice_m2 li.e104menu2011_txt{width:228px;}
+
+/*A三欄*/
+#divorg .e104menu2011_choice_m3 li.e104menu2011_txt{width:143px;}
+
+/*-----------B:大中+小-------------*/
+/*樹狀-大類*/
+#divorg .e104menu2011_list h2{color:#000;height:20px;margin-left: 18px;}
+* html #divorg .e104menu2011_list h2{margin-left:0px;}
+
+/*左右-大類*/
+#divorg .e104menu2011_list h3{color:#000;height:20px;width:148px;margin-left: 18px;float:left;clear:right;}
+* html #divorg .e104menu2011_list h3{margin-left:0px;width:160px;}
+
+/*B1中類*/
+#divorg .e104menu2011_list ul.e104menu2011_b1{margin-left:166px;margin-bottom:5px;}
+* html #divorg .e104menu2011_list ul.e104menu2011_b1{margin-left:166px;display: inline-block;}
+
+/*B2中類*/
+#divorg .e104menu2011_list ul.e104menu2011_b2{margin-bottom:5px;margin-left: 18px;}
+
+/*B1雙欄*/
+#divorg .e104menu2011_b1 li.e104menu2011_txt{width:150px;margin-right:5px;margin-left: 12px;}
+* html #divorg .e104menu2011_b1 li.e104menu2011_txt{width:166px;}
+
+/*B2三欄*/
+#divorg .e104menu2011_b2 li.e104menu2011_txt{width:140px;margin-right:5px;margin-left: 18px;}
+* html #divorg .e104menu2011_b2 li.e104menu2011_txt{width:150px;}
+
+/*-----------------------搜尋結果---------------------------*/
+
+/*搜尋筆數*/
+#divorg .e104menu2011_list h4{font-weight: normal;height:22px;}
+
+/*包list的div*/
+#divorg .e104menu2011_result_box{
+	width:97%;
+	height:450px;
+	padding:5px;
+	overflow:auto;
+	border:1px #ccc solid;
+	background-color:#FFFFFF;
+}
+#divorg .e104menu2011_result_box dl{padding:8px;width:auto; margin-left:18px;}
+#divorg .e104menu2011_result_box dt{font-weight: bold;margin-bottom:6px;}
+* html #divorg .e104menu2011_result_box dt{margin-left:18px;}
+
+#divorg .e104menu2011_result_box dd{line-height:18px;margin-bottom:12px;}
+
+#divorg .e104menu2011_result_box input[type="checkbox"] {margin-top:1px\9;}
+* html #divorg .e104menu2011_result_box input { margin-top:-1px; margin-bottom:5px;}
+*:first-child+html #divorg .e104menu2011_result_box input[type="checkbox"] {margin:-2px 0 5px -5px;}
+
+/*修正checkbox位置*/
+#divorg .e104menu2011_result_box .e104menu2011_f_checkbox{margin-left:-18px;}
+
+/*職務說明*/
+#divorg .e104menu2011_note{color:#666;font-weight: normal;}
+#divorg .e104menu2011_key{color:#CC3300;font-weight: bold;}
+#divorg .e104menu2011_note_des{ color:#059;font-weight: normal;}
+
+/*============================================ popup 副選單 ==========================================================*/
+#divorg .e104menu2011_popup_box{
+	background-color:#ffffff;
+	border:3px solid #939393;
+	width:330px;
+	padding:8px;
+	/*-moz-box-shadow: 4px 4px 4px #ddd;*/
+	/*-webkit-box-shadow: 4px 4px 4px #ddd;*/
+	/*Crab 增加 20110603*/
+	position:absolute;
+	z-index:2;
+	font-weight:normal;
+}
+#divorg .e104menu2011_sec_classification {
+	padding:5px;
+}
+/*列表標題*/
+#divorg .e104menu2011_popup_box h1{height:22px;font-weight:bold;}
+
+#divorg .e104menu2011_popup_box ul{border-bottom:1px solid #ccc;display:block;padding-bottom:5px;margin:0 0 10px 16px;}
+/*...將副選單最底下的類別底線去除...*/
+#divorg .e104menu2011_popup_box ul.e104menu2011_border_none {border:0;margin-bottom:0px;padding-bottom:0px;}
+
+/*#divorg .e104menu2011_popup_box li{padding-left:15px;text-indent:-15px;}*/
+
+/*標題長度*/
+#divorg .e104menu2011_popup_box span.e104menu2011_popup_title {width:282px;margin:0 0 0 18px;_margin:0 0 0 0; font-weight:bold;}
+
+/*列表checkbox設定*/
+#divorg .e104menu2011_popup_box input{margin-top:1px;margin-top:0px\9;}
+* html #divorg .e104menu2011_popup_box input{margin-top:-5px;}
+*:first-child+html #divorg .e104menu2011_popup_box input{margin-top:-5px;}
+
+/*副選單標題checkbox微調*/
+#divorg .e104menu2011_popup_box h1 input{margin-top:3px;margin-top:0px\9;}
+
+/*中類*/
+#divorg .e104menu2011_popup_box li.e104menu2011_sut{
+	font-weight:bold !important;
+	cursor:pointer;
+	display:block;
+	margin-bottom:5px;
+	margin-left: 18px;
+	width:262px;
+}
+* html #divorg .e104menu2011_popup_box li.e104menu2011_sut{
+	font-weight:bold !important;
+	cursor:pointer;
+	margin-bottom:5px;
+	margin-left:18px;
+	_margin-left:0;
+	width:262px;
+}
+
+/*小類*/
+#divorg .e104menu2011_popup_box li.e104menu2011_txt{cursor:pointer;margin-left: 18px}
+* html #divorg .e104menu2011_popup_box li.e104menu2011_txt{cursor:pointer;margin-left:18px;_margin-left:0;}
+
+/*針對副選單 li項目 設定*/
+#divorg .e104menu2011_popup_box li{display:inline-block;margin-bottom:1px; font-size:12px;}
+* html #divorg .e104menu2011_popup_box li{display:inline;}
+*:first-child+html #divorg .e104menu2011_popup_box li{display:inline;}
+
+#divorg .e104menu2011_popup_box li a ,
+#divorg .e104menu2011_popup_box .e104menu2011_popup_title a {
+	display:block;padding-top:0px;padding-bottom:2px;padding-top:2px\9; padding-bottom:0px\9;}
+#divorg .e104menu2011_popup_box li a:hover,
+#divorg .e104menu2011_popup_box .e104menu2011_popup_title a:hover{text-decoration:none;background-color:#ffefc0;}
+
+/*單欄*/
+#divorg .e104menu2011_p_m1 li.e104menu2011_txt{width:262px;}
+* html #divorg .e104menu2011_p_m1 li.e104menu2011_txt{width:270px;}
+*:first-child+html #divorg .e104menu2011_p_m1 li.e104menu2011_txt{width:262px;}
+
+/*雙欄*/
+#divorg .e104menu2011_p_m2 li.e104menu2011_txt{width:119px;}
+* html #divorg .e104menu2011_p_m2 li.e104menu2011_txt{width:120px;}
+*:first-child+html #divorg .e104menu2011_p_m2 li.e104menu2011_txt{width:120px;}
+
+/*三欄*/
+#divorg .e104menu2011_p_m3 li.e104menu2011_txt{width:70px;}
+* html #divorg .e104menu2011_p_m3 li.e104menu2011_txt{width:95px;}
+*:first-child+html #divorg .e104menu2011_p_m3 li.e104menu2011_txt{width:77px;}
+
+/*無checkibox時套用li*/
+#divorg .e104menu2011_mf0{margin-left:0 !important;}
+
+/*Crab新增 20110603 LightBox*/
+#divorg .e104menu2011_lightbox{position: absolute;top: 0;left: 0;background-color: black;z-index:1001;-moz-opacity: 0.8;opacity:.80;filter: alpha(opacity=80);}
+
+/*Crab新增 20110610 Loading*/
+#divorg .e104menu2011_loadingImg{background:url(../img_org/mozilla_blu.gif) no-repeat 0px 0px;}

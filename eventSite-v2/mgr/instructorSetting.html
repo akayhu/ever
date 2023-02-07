@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="cache-control" content="no-store, no-cache" />
+		<meta http-equiv="pragma" content="no-cache" />
+		<meta http-equiv="expires" content="0" />
+		<meta name="description" content="104職涯社群APP，免費課程一鍵報名，打造自己的學習軌跡" />
+		<meta name="language" content="en" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta property="og:title" content="104職涯社群APP，免費課程一鍵報名，打造自己的學習軌跡" />
+		<meta property="og:url" content="" />
+		<meta property="og:type" content="website" />
+		<meta property="og:description" content="104職涯社群APP，免費課程一鍵報名，打造自己的學習軌跡" />
+		<meta property="og:image" content="" />
+		<meta property="og:site_name" content="104職涯社群APP" />
+		<title>104職涯社群APP，免費課程一鍵報名，打造自己的學習軌跡</title>
+		<link rel="shortcut icon" href="../favicon.ico" />
+		<link href="../css/reset.css" rel="stylesheet" type="text/css" />
+		<link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+		<link href="../css/common.css" rel="stylesheet" type="text/css" />
+		<link href="../css/instructorSetting.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+
+		<!-- Header -->
+		<header>
+			<div class="header_main">
+				<div>
+					<a href="/" title="104職涯社群">
+						<img src="https://static.104.com.tw/logo/104logo_plus_119x24_edm.png" class="logo" alt="104職涯社群" />
+					</a>
+				</div>
+				<div class="event-nav">
+					<a href="./event.html" title="活動後台">活動後台</a>
+					<a href="./administrator.html" title="管理員設定">管理員設定</a>
+					<a class="event-nav-focus" href="./instructorSetting.html" title="講師設定">講師設定</a>
+				</div>
+				<div class="event-user">
+					<img src="http://5b0988e595225.cdn.sohucs.com/images/20170721/e88a6cf59432427a9924ebc75f8ad7c4.png" class="rounded-circle" />
+					<span class="user-dropdown">
+						<span class="event-user-name" id="userDropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="-20,3">
+							大中天 <img src="../image/inverted_triangle.png" alt="" class="inverted-triangle" /> ｜
+						</span>
+						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdownMenu">
+							<a class="dropdown-item" target="_blank" href="https://accounts.104.com.tw/hello">會員中心</a>
+							<a class="dropdown-item" href="https://plus.104.com.tw/privacy">隱私設定</a>
+							<a class="dropdown-item" href="https://plus.104.com.tw/newsletter">管理電子報</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" target="_blank" href="https://static.104.com.tw/bigc/c_wap/html/statute/">服務條款</a>
+							<a class="dropdown-item" target="_blank" href="https://www.104.com.tw/jobs/search/showLogin?return_url=https%3A%2F%2Fwww.104.com.tw%2Fquestion_admin%2Freaction.cfm%3Ffaq_from%3Dplus">意見反映</a>
+							<a class="dropdown-item" target="_blank" href="https://static.104.com.tw/bigc/c_wap/html/commonProblem/">常見問題</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="https://plus.104.com.tw/sso/saml-logout?r=/">登出</a>
+						</div>
+					</span>
+					<span class="user-dropdown">
+						<span id="organizerDropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<span class="event-user-name">財團法人資訊工業策進會</span>
+							<img src="../image/inverted_triangle.png" class="adm-down-arrow" alt="" class="inverted-triangle" />
+						</span>
+						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="organizerDropdownMenu">
+							<h4 class="dropdown-header">切換身份</h4>
+							<a class="dropdown-item focus" href="./event.html">敘思花藝</a>
+							<a class="dropdown-item" href="./event.html">★韓台青年壯遊交流團한-대만청년서포터즈 駐台北韓國代表部★</a>
+							<a class="dropdown-item" href="./event.html">職涯社群</a>
+						</div>
+					</span>
+				</div>
+			</div>
+		</header>
+
+		<!-- 內容 -->
+		<main>
+
+			<!-- 列表狀態 -->
+			<div class="top-option">
+				<div class="top-title">講師</div>
+				<div class="creat-instructor">
+					<a class="linkSubmitButton" href="./createInstructor.html" title="建立新的講師">建立新的講師</a>
+				</div>
+			</div>
+
+			<dl>
+
+				<!-- 沒講師時 -->
+				<dd class="no-event">
+					<span>目前沒有講師</span> <a href="./createInstructor.html" class="linkSubmitButton" title="現在建立講師">現在建立講師</a>
+				</dd>
+
+				<!-- 講師列表 -->
+				<dd>
+					<img src="../image/2.jpg" class="rounded-circle" width="80" height="80" alt="李德俊 D.J.Lee" />
+					<div class="instructor-name">
+						<span>李德俊 D.J.Lee</span>
+						<span>IxDA Taiwan 台灣互動設計協會理事長</span>
+					</div>
+					<div class="instructor-button">
+						<a href="#" class="linkWhiteButton">前往個人品牌頁</a>
+						<button class="whiteButton" data-toggle="modal" data-target="#speakerIntroductionModalCenter">查看講者介紹</button>
+						<button class="whiteButton" data-toggle="modal" data-target="#editModalCenter">編輯</button>
+						<span class="instructor-remove">
+							<span id="instructorRemoveDropdownMenu-1" data-toggle="dropdown">...</span>
+							<div class="dropdown-menu dropdown-menu-right" aria-labelledby="instructorRemoveDropdownMenu-1">
+								<a class="dropdown-item" href="#" data-toggle="modal" data-target="#removModalCenter">移除</a>
+							</div>
+						</span>
+					</div>
+				</dd>
+				<dd>
+					<img src="../image/2.jpg" class="rounded-circle" width="80" height="80" alt="東尼王" />
+					<div class="instructor-name">
+						<span>東尼王</span>
+						<span>富比世拍賣行首席拍賣官</span>
+					</div>
+					<div class="instructor-button">
+						<a href="#" class="linkWhiteButton">前往個人品牌頁</a>
+						<button class="whiteButton" data-toggle="modal" data-target="#speakerIntroductionModalCenter">查看講者介紹</button>
+						<button class="whiteButton" data-toggle="modal" data-target="#editModalCenter">編輯</button>
+						<span class="instructor-remove">
+							<span id="instructorRemoveDropdownMenu-2" data-toggle="dropdown">...</span>
+							<div class="dropdown-menu dropdown-menu-right" aria-labelledby="instructorRemoveDropdownMenu-1">
+								<a class="dropdown-item" href="#" data-toggle="modal" data-target="#removModalCenter">移除</a>
+							</div>
+						</span>
+					</div>
+				</dd>
+				<dd>
+					<img src="../image/2.jpg" class="rounded-circle" width="80" height="80" alt="東尼王" />
+					<div class="instructor-name">
+						<span>東尼王</span>
+						<span>富比世拍賣行首席拍賣官</span>
+					</div>
+					<div class="instructor-button">
+						<a href="#" class="linkWhiteButton">前往個人品牌頁</a>
+						<button class="whiteButton" data-toggle="modal" data-target="#speakerIntroductionModalCenter">查看講者介紹</button>
+						<button class="whiteButton" data-toggle="modal" data-target="#editModalCenter">編輯</button>
+						<span class="instructor-remove">
+							<span id="instructorRemoveDropdownMenu-3" data-toggle="dropdown">...</span>
+							<div class="dropdown-menu dropdown-menu-right" aria-labelledby="instructorRemoveDropdownMenu-1">
+								<a class="dropdown-item" href="#" data-toggle="modal" data-target="#removModalCenter">移除</a>
+							</div>
+						</span>
+					</div>
+				</dd>
+				<dd>
+					<img src="../image/2.jpg" class="rounded-circle" width="80" height="80" alt="東尼王" />
+					<div class="instructor-name">
+						<span>東尼王</span>
+						<span>富比世拍賣行首席拍賣官</span>
+					</div>
+					<div class="instructor-button">
+						<a href="#" class="linkDisabledButton">前往個人品牌頁</a> <!-- 沒有plus帳號 -->
+						<button class="whiteButton" disabled>查看講者介紹</button>
+						<button class="whiteButton" data-toggle="modal" data-target="#editModalCenter">編輯</button>
+						<span class="instructor-remove">
+							<span id="instructorRemoveDropdownMenu-4" data-toggle="dropdown">...</span>
+							<div class="dropdown-menu dropdown-menu-right" aria-labelledby="instructorRemoveDropdownMenu-1">
+								<a class="dropdown-item" href="#" data-toggle="modal" data-target="#removModalCenter">移除</a>
+							</div>
+						</span>
+					</div>
+				</dd>
+
+			</dl>
+
+			<!-- 頁數 -->
+			<div class="number-pages">
+				<ul>
+					<li><a href="#">上一頁</a></li>
+					<li><a href="#" class="focus">1</a></li>
+					<li><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+					<li><a href="#">4</a></li>
+					<li><a href="#">5</a></li>
+					<li><a href="#">6</a></li>
+					<li><a href="#">7</a></li>
+					<li><a href="#">8</a></li>
+					<li><a href="#">9</a></li>
+					<li><a href="#">10</a></li>
+					<li><a href="#">下一頁</a></li>
+				</ul>
+			</div>
+
+		</main>
+
+
+		<!-- Lightbox Modal 移除 -->
+		<div class="modal fade" id="removModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered lightbox-modal" role="document">
+				<div class="modal-content">
+					<div class="modal-body">
+						<div class="title">移除講師</div>
+						<p>確定移除講師嗎？講師將從列表中移除，且不可恢復操作。</p>
+						<div class="lightbox-obtained-button">
+							<button class="whiteButton" data-dismiss="modal">取消</button>
+							<button class="submitButton">移除</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Lightbox Modal 講者介紹 -->
+		<div class="modal fade" id="speakerIntroductionModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered speaker-introduction-lightbox-modal" role="document">
+				<div class="modal-content">
+					<div class="modal-body">
+						<div class="speaker-introduction-name">
+							<img src="../image/3.jpg" class="rounded-circle" alt="李德俊 D.J.Lee" width="88" height="88" />
+							<div>東尼王</div>
+							<div>富比世拍賣行首席拍賣官</div>
+						</div>
+						<div class="speaker-introduction-content">
+							乾燥花 將故事鎖在時間裡， 而每個故事的情感，都可透過花的贈與，傳遞出去。 我們致力將乾燥花結合生活，文化，歷史，復甦所有可能性 一起探索，美好的可能性
+						</div>
+						<div class="speaker-introduction-close"><button class="whiteButton" data-dismiss="modal">關閉</button></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Lightbox Modal 講者編輯 -->
+		<div class="modal fade" id="editModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered edit-lightbox-modal" role="document">
+				<div class="modal-content">
+					<div class="modal-body">
+						<div class="title">編輯講師資料</div>
+						<div class="edit-introduction-name">
+							<img src="../image/3.jpg" class="rounded-circle" alt="李德俊 D.J.Lee" width="88" height="88" />
+							<div class="edit-introduction-data">
+								<div class="user-name">東尼王(8767889)</div>
+								<div>
+									<span class="remarks">備註：</span><br />
+									<input name="remarks" placeholder="備註內容不會出現在前台，僅供主辦單位管理用" type="text" value="" />
+								</div>
+								<span class="error-text-color" style="display: none;">頭銜不可為空</span>
+							</div>
+						</div>
+						<div class="edit-introduction-content">
+							<div class="lecturer-information">講師資訊</div>
+							<textarea name="introduction" placeholder="簡介">乾燥花 將故事鎖在時間裡， 而每個故事的情感，都可透過花的贈與，傳遞出去。 我們致力將乾燥花結合生活，文化，歷史，復甦所有可能性 一起探索，美好的可能性</textarea>
+							<div class="textarea-text"><span id="chars"></span> / 1000</div>
+						</div>
+						<div class="edit-instructor-button">
+							<button class="whiteButton" data-dismiss="modal">取消</button>
+							<button class="submitButton">儲存</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="../js/jquery-3.3.1.min.js"></script>
+		<script src="../js/popper.min.js"></script>
+		<script src="../js/bootstrap.min.js"></script>
+		<script>
+			$(document).ready(function() {
+				$('#chars').html($('textarea').val().length || 0);
+				$('textarea').keyup(function() {
+					var length = $(this).val().length;
+					$('#chars').text(length);
+				});
+			})
+		</script>
+	</body>
+</html>

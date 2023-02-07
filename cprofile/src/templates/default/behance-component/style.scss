@@ -1,0 +1,117 @@
+@import "scss/cProfile.scss";
+
+/* behance第一個模板 */
+.default_behance_outer_layer {
+	flex-wrap: wrap;
+	display: flex;
+	align-content: flex-start;
+  margin: 20px 0;
+
+  @include rwd-to(414) {
+    margin: 10px 15px 0;
+  }
+  
+  .default_behance-block-main-three {
+    border: solid 1px #d6d6d6;
+    border-radius: 10px;
+    position: relative;
+    margin: 15px 25px 0 0;
+    min-height: 248px;
+    overflow: hidden;
+    text-align: left;
+    flex-basis: 31.5%;
+
+    @include rwd-to(960) {
+      flex-basis: 31.4%;
+    }
+
+    @include rwd-to(950) {
+      flex-basis: 31%;
+    }
+    @include rwd-to(800) {
+      flex-basis: 48%;
+    }
+    @include rwd-to(700) {
+      flex-basis: 47%;
+    }
+    @include rwd-to(568) {
+      flex-basis: 100%;
+  		margin: 0 0 15px;
+    }
+
+    &:nth-child(1),
+    &:nth-child(2),
+    &:nth-child(3) {
+      margin-top: 0;
+    }
+
+    &:nth-child(3) {
+      @include rwd-to(800) {
+        margin-top: 15px;
+      }
+      @include rwd-to(568) {
+        margin-top: 0;
+      }
+    }
+
+    &:nth-child(2n) {
+      @include rwd-to(768) {
+        margin-right: 0;
+      }
+    }
+
+    &:nth-child(3n) {
+      margin-right: 0;
+
+      @include rwd-to(800) {
+        margin-right: 25px;
+      }
+      @include rwd-to(568) {
+        margin-right: 0;
+      }
+    }
+
+    &:nth-child(even) {
+      @include rwd-to(800) {
+        margin-right: 0 !important;
+      }
+    }
+
+    &.behance-preview {
+      flex-basis: 31%;
+
+      @include rwd-to(768) {
+        flex-basis: 47%;
+      }
+
+      @include rwd-to(568) {
+        flex-basis: 100%;
+    		margin: 0 0 15px;
+      }
+    }
+
+    .default_behance-block-img {
+      width: 100%;
+    }
+
+    .default_behance-block-hide-footer {
+      height: 42px;
+    }
+
+    .default_behance-block-footer {
+      border-top: solid 1px #d6d6d6;
+      padding: 10px 0;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      font-size: 14px;
+      color: #6a6a6a;
+
+      span {
+        width: 33%;
+        display: inline-block;
+        text-align: center;
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.summary {
+  max-height: 105px;
+  overflow: hidden;
+}
+.title {
+  font-size: 15px;
+  font-weight: bold;
+}
+.container {
+	position: relative;
+	margin: 12px 0;
+	overflow: hidden;
+}
+.summary.container p {
+  word-wrap: break-word;
+  word-break: break-all;
+}

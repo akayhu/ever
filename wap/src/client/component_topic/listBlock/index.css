@@ -1,0 +1,42 @@
+.listItem {
+	cursor: pointer;
+	border: 1px solid #e1e1e1;
+	background-color: #fff;
+	width: 300px;
+}
+.item_img{
+	width: 100%;
+	height: 110px;
+	margin-bottom: 15px;
+	overflow: hidden;
+}
+.item_img img {
+	width: 100%;
+}
+.listContent{
+	padding: 0 15px;
+}
+.listContent h3{
+	overflow : hidden;
+  	text-overflow : ellipsis;
+  	white-space : nowrap;
+  	width : 100%;
+  	margin-bottom: 0;
+}
+.listContent span{
+	display: block;
+	color:#8A8A8A;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.listContent p{
+	margin: 0;
+	line-height: 1.5;
+	height: 60px;
+	overflow: hidden;
+}
+.listBtn{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}

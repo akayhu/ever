@@ -1,0 +1,219 @@
+.behanceLightbox .ant-modal-header {
+	border-bottom: 1px solid #e8e8e8;
+}
+.behance_certified_main {
+	text-align: center;
+	padding-top: 5px;
+	line-height: 2;
+}
+.behance_input {
+	width: 87%;
+	height: 48px;
+	border-radius: 8px;
+	border: solid 1px #d8d8d8;
+	font-size: 16;
+	padding-left: 10px;
+}
+.behance_input.no-work {
+	width: 100%;
+	margin: 25px 0 5px;
+}
+.behance_input_no_work_button {
+	border-top: 1px solid #eaeaea;
+	margin-top: 25px;
+	padding-top: 20px;
+	text-align: center;
+	width: 100%;
+}
+.behance_input_no_work_button button:first-child {
+	margin-right: 30px;
+}
+.behance_certified_main .ant-alert-error {
+	text-align: left;
+	margin-top: 10px;
+}
+.behance-authorize {
+	color: #333;
+	font-size: 26px;
+	text-align: center;
+	margin: 25px 0 5px;
+}
+.behance-button {
+	margin: 30px 0 10px;
+	text-align: center;
+}
+.behance_outer_layer {
+	flex-wrap: wrap;
+	display: flex;
+	align-content: flex-start;
+	margin-top: 20px;
+	padding-bottom: 50px;
+	overflow-y: scroll;
+	max-height: 370px;
+	width: 100%;
+}
+.behance_outer_layer_no_work {
+	width: 100%;
+	margin-top: 20px;
+}
+.white_gradient {
+	z-index: 2;
+	position: relative;
+	height: 50px;
+	margin-top: -50px;
+	overflow: hidden;
+	background: -moz-linear-gradient(
+		bottom,
+		rgb(255, 255, 255) 45%,
+		rgba(255, 255, 255, 0) 100%
+	);
+	background: -webkit-gradient(
+		linear,
+		bottom,
+		top,
+		color-stop(45%, rgb(255, 255, 255)),
+		color-stop(100%, rgba(255, 255, 255, 0))
+	);
+	background: -webkit-linear-gradient(
+		bottom,
+		rgb(255, 255, 255) 45%,
+		rgba(255, 255, 255, 0) 100%
+	);
+	background: -o-linear-gradient(
+		bottom,
+		rgb(255, 255, 255) 45%,
+		rgba(255, 255, 255, 0) 100%
+	);
+	background: -ms-linear-gradient(
+		bottom,
+		rgb(255, 255, 255) 45%,
+		rgba(255, 255, 255, 0) 100%
+	);
+}
+.behance_error_ac {
+	color: #d20000;
+	font-size: 12px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+/* repo */
+.behance-block-main-four {
+	flex-basis: 22.6%;
+	border: solid 1px #d6d6d6;
+	border-radius: 10px;
+	position: relative;
+	margin-right: 25px;
+	margin-top: 15px;
+	min-height: 248px;
+	overflow: hidden;
+}
+.behance-block-main-four:nth-child(1),
+.behance-block-main-four:nth-child(2),
+.behance-block-main-four:nth-child(3),
+.behance-block-main-four:nth-child(4) {
+	margin-top: 0;
+}
+.behance-block-main-four:nth-child(4n) {
+	margin-right: 0;
+}
+.behance-block-main-four.isCheck {
+	border: solid 1px #fa0;
+}
+.behance-block-img {
+	width: 100%;
+}
+.behance-block-hide-footer {
+	height: 42px;
+}
+.behance-block-footer {
+	border-top: solid 1px #d6d6d6;
+	padding: 10px 0;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	font-size: 14px;
+	color: #6a6a6a;
+}
+.behance-block-footer span {
+	width: 33%;
+	display: inline-block;
+	text-align: center;
+}
+@media only screen and (max-width: 1000px) {
+	.behanceLightbox {
+		width: 96% !important;
+	}
+}
+@media only screen and (max-width: 900px) {
+	.behance-block-main-four {
+		flex-basis: 31%;
+	}
+	.behance-block-main-four:nth-child(4) {
+		margin-top: 15px;
+	}
+	.behance-block-main-four:nth-child(3n) {
+		margin-right: 0 !important;
+	}
+	.behance-block-main-four:nth-child(4n) {
+		margin-right: 25px;
+	}
+}
+@media only screen and (max-width: 800px) {
+	.behance-block-main-four {
+		flex-basis: 30%;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.behance_outer_layer {
+		margin-left: 0;
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 700px) {
+	.behance-block-main-four {
+		flex-basis: 47%;
+	}
+	.behance-block-main-four:nth-child(even) {
+		margin-right: 0 !important;
+	}
+	.behance-block-main-four:nth-child(2n) {
+		margin-right: 0;
+	}
+	.behance-block-main-four:nth-child(odd) {
+		margin-right: 25px !important;
+	}
+	.behance-block-main-four:nth-child(3) {
+		margin-top: 15px;
+	}
+}
+@media only screen and (max-width: 533px) {
+	.behance-block-main-four {
+		flex-basis: 100%;
+		margin: 0 0 15px;
+	}
+	.behance-block-main-four:nth-child(odd) {
+		margin-right: 0 !important;
+	}
+	.behance-block-main-four:nth-child(3) {
+		margin-top: 0;
+	}
+	.behance-block-main-four:nth-child(4) {
+		margin-top: 0;
+	}
+}
+@media only screen and (max-width: 530px) {
+	.behance_certified_main img {
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 480px) {
+	.behanceLightbox {
+		width: 95% !important;
+	}
+}
+@media only screen and (max-width: 375px) {
+	.behanceLightbox {
+		width: 94% !important;
+	}
+}

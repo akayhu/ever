@@ -1,0 +1,427 @@
+@import "scss/cProfile.scss";
+
+.plus_activity-def {
+	.plus_activity-container {
+		flex-wrap: wrap;
+		display: flex;
+		align-content: flex-start;
+
+		.plus_activity-displayFlex {
+			@include rwd-to(900) {
+				flex-basis: 50%;
+			}
+			@include rwd-to(667) {
+				flex-basis: 100%;
+			}
+		}
+	}
+}
+
+/* 第一個模板 */
+.plus_activity-def-main {
+	position: relative;
+  margin: 20px 15px;
+	overflow: hidden;
+	text-align: left;
+	flex-basis: 33%;
+	cursor: pointer;
+
+	&.plus_activity-preview {
+		flex-basis: 30%;
+
+		@include rwd-to(960) {
+			flex-basis: 29%;
+		}
+		@include rwd-to(900) {
+			flex-basis: 46%;
+		}
+		@include rwd-to(823) {
+			flex-basis: 45%;
+		}
+		@include rwd-to(667) {
+			flex-basis: 100%;
+		}
+	}
+
+	.plus_activity-def-img {
+		margin-bottom: 15px;
+		border-radius: 8px;
+		overflow: hidden;
+
+		img {
+			width: 100%;
+			height: 154.98px;
+
+			@include rwd-to(960) {
+				height: 150.89px;
+			}
+			@include rwd-to(950) {
+				height: 149.405px;
+			}
+			@include rwd-to(900) {
+				height: 222.75px;
+			}
+			@include rwd-to(854) {
+				height: 211.5px;
+			}
+			@include rwd-to(823) {
+				height: 202.781px;
+			}
+			@include rwd-to(812) {
+				height: 199.687px;
+			}
+			@include rwd-to(800) {
+        height: 196.312px;
+      }
+      @include rwd-to(768) {
+        height: 182.25px;
+      }
+      @include rwd-to(667) {
+        height: 158.906px;
+      }
+      @include rwd-to(640) {
+        height: 151.312px;
+      }
+      @include rwd-to(600) {
+        height: 140.062px;
+      }
+      @include rwd-to(568) {
+        height: 282.375px;
+      }
+      @include rwd-to(533) {
+        height: 262.687px;
+      }
+      @include rwd-to(480) {
+        height: 232.875px;
+      }
+      @include rwd-to(414) {
+        height: 212.625px;
+      }
+      @include rwd-to(412) {
+        height: 211.5px;
+      }
+      @include rwd-to(411) {
+        height: 210.937px;
+      }
+      @include rwd-to(384) {
+        height: 195.75px;
+      }
+      @include rwd-to(375) {
+        height: 190.687px;
+      }
+      @include rwd-to(360) {
+        height: 182.25px;
+      }
+      @include rwd-to(320) {
+        height: 159.75px;
+      }
+		}
+	}
+
+	.plus_activity-def-title {
+		font-size: 20px;
+		color: #2b2b2b;
+		margin-bottom: 5px;
+		word-break: break-all;
+		line-height: 1.5;
+		font-weight: 500;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		display: -webkit-box;
+		-webkit-line-clamp: 2;
+		max-height: 60px;
+	}
+
+	.plus_activity-def-description {
+		padding-bottom: 10px;
+		word-break: break-all;
+		line-height: 1.64;
+		font-size: 14px;
+		color: #2b2b2b;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		display: -webkit-box;
+		max-height: 90px;
+	}
+}
+
+/* 第二個模板 */
+.plus_activity-dark-main {
+	width: 100%;
+	overflow: hidden;
+	padding: 20px 15px 10px;
+	cursor: pointer;
+	display: flex;
+	justify-content: space-between;
+
+	@include rwd-to(667) {
+		display: inline-block;
+	}
+
+	.plus_activity-dark-img {
+		max-width: 38.8%;
+		min-width: 38.8%;
+		margin-right: 30px;
+		border-radius: 8px;
+		overflow: hidden;
+
+		@include rwd-to(667) {
+			max-width: 100%;
+			margin-right: 0;
+		}
+
+		img {
+			width: 100%;
+			height: 198.168px;
+
+			@include rwd-to(960) {
+				height: 193.370px;
+			}
+			@include rwd-to(950) {
+				height: 191.621px;
+			}
+			@include rwd-to(900) {
+				height: 180.703px;
+			}
+			@include rwd-to(854) {
+				height: 171.973px;
+			}
+			@include rwd-to(823) {
+				height: 165.206px;
+			}
+			@include rwd-to(812) {
+				height: 162.81px;
+			}
+			@include rwd-to(800) {
+				height: 160.188px;
+			}
+			@include rwd-to(768) {
+				height: 149.281px;
+			}
+			@include rwd-to(736) {
+				height: 146.221px;
+			}
+			@include rwd-to(732) {
+				height: 145.355px;
+			}
+			@include rwd-to(731) {
+				height: 145.136px;
+			}
+			@include rwd-to(667) {
+				height: 338.062px;
+			}
+			@include rwd-to(640) {
+				height: 322.875px;
+			}
+			@include rwd-to(600) {
+				height: 300.375px;
+			}
+			@include rwd-to(568) {
+				height: 282.375px;
+			}
+			@include rwd-to(533) {
+				height: 262.687px;
+			}
+			@include rwd-to(480) {
+				height: 232.875px;
+			}
+			@include rwd-to(414) {
+				height: 212.625px;
+			}
+			@include rwd-to(412) {
+				height: 211.5px;
+			}
+			@include rwd-to(411) {
+				height: 210.937px;
+			}
+			@include rwd-to(384) {
+				height: 195.75px;
+			}
+			@include rwd-to(375) {
+				height: 190.687px;
+			}
+			@include rwd-to(360) {
+				height: 182.25px;
+			}
+			@include rwd-to(320) {
+				height: 159.75px;
+			}
+		}
+	}
+
+	.plus_activity-dark-content {
+		max-width: 58%;
+		min-width: 58%;
+		position: relative;
+		overflow: hidden;
+
+		@include rwd-to(667) {
+			max-width: 100%;
+			padding-top: 10px;
+		}
+
+		.plus_activity-dark-title {
+			font-size: 20px;
+			color: #2b2b2b;
+			margin-bottom: 10px;
+			text-align: left;
+			word-break: break-all;
+			line-height: 1.5;
+			font-weight: 500;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			display: -webkit-box;
+			-webkit-line-clamp: 2;
+			max-height: 60px;
+		}
+
+		.plus_activity-dark-bottom {
+			color: #2b2b2b;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			display: -webkit-box;
+			max-height: 85px;
+		}
+	}
+}
+
+/* 第三個模板 */
+.plus_activity-new-main {
+	width: 100%;
+	overflow: hidden;
+	padding: 10px 15px;
+	cursor: pointer;
+	display: flex;
+	justify-content: space-between;
+
+	@include rwd-to(667) {
+		display: inline-block;
+	}
+
+	.plus_activity-new-content {
+		max-width: 58%;
+		min-width: 58%;
+		position: relative;
+		overflow: hidden;
+
+		@include rwd-to(667) {
+			max-width: 100%;
+			margin-bottom: 10px;
+		}
+
+		.plus_activity-new-title {
+			font-size: 20px;
+			color: #2b2b2b;
+			margin-bottom: 10px;
+			text-align: left;
+			word-break: break-all;
+			line-height: 1.5;
+			font-weight: 500;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			display: -webkit-box;
+			-webkit-line-clamp: 2;
+			max-height: 60px;
+		}
+
+		.plus_activity-new-bottom {
+			color: #2b2b2b;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			max-height: 85px;
+			line-height: 1.64;
+		}
+	}
+
+	.plus_activity-new-img {
+		max-width: 38.8%;
+		min-width: 38.8%;
+		margin-left: 30px;
+		border-radius: 8px;
+		overflow: hidden;
+		border-radius: 8px;
+
+		@include rwd-to(667) {
+			max-width: 100%;
+			margin-left: 0;
+		}
+
+		img {
+			width: 100%;
+			height: 198.168px;
+
+			@include rwd-to(960) {
+				height: 193.370px;
+			}
+			@include rwd-to(950) {
+				height: 191.621px;
+			}
+			@include rwd-to(900) {
+				height: 180.703px;
+			}
+			@include rwd-to(854) {
+				height: 171.973px;
+			}
+			@include rwd-to(823) {
+				height: 165.206px;
+			}
+			@include rwd-to(812) {
+				height: 162.81px;
+			}
+			@include rwd-to(800) {
+				height: 160.188px;
+			}
+			@include rwd-to(768) {
+				height: 149.281px;
+			}
+			@include rwd-to(736) {
+				height: 146.221px;
+			}
+			@include rwd-to(732) {
+				height: 145.355px;
+			}
+			@include rwd-to(731) {
+				height: 145.136px;
+			}
+			@include rwd-to(667) {
+				height: 338.062px;
+			}
+			@include rwd-to(640) {
+				height: 322.875px;
+			}
+			@include rwd-to(600) {
+				height: 300.375px;
+			}
+			@include rwd-to(568) {
+				height: 282.375px;
+			}
+			@include rwd-to(533) {
+				height: 262.687px;
+			}
+			@include rwd-to(480) {
+				height: 232.875px;
+			}
+			@include rwd-to(414) {
+				height: 212.625px;
+			}
+			@include rwd-to(412) {
+				height: 211.5px;
+			}
+			@include rwd-to(411) {
+				height: 210.937px;
+			}
+			@include rwd-to(384) {
+				height: 195.75px;
+			}
+			@include rwd-to(375) {
+				height: 190.687px;
+			}
+			@include rwd-to(360) {
+				height: 182.25px;
+			}
+			@include rwd-to(320) {
+				height: 159.75px;
+			}
+		}
+	}
+}

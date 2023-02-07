@@ -1,0 +1,96 @@
+ul.dropdown {
+	padding: 0;
+	margin: 0;
+	color: #000;
+}
+.dropdown li {
+  padding: 5px 0;
+  text-align: left;
+}
+.dropdown.noIcon li {
+	padding-left: 15px;
+}
+.dropdown i {
+	margin-right: 5px;
+	margin-left: 10px;
+	color: #8a8a8a;
+	font-size: 1.6em;
+	vertical-align: middle;
+	line-height: .9;
+}
+.dropdown li {
+	cursor: pointer;
+	width: 122px;
+	font-size: 14px;
+}
+.dropdown li:hover {
+  background: #d8f3fd;
+	color: #000;
+}
+.dropdown li:hover i,
+.icon:hover {
+	color: #8a8a8a;
+}
+.dropdownList {
+	margin-left: 1px;
+}
+.dropdown.icon {
+	margin-right: 5px;
+	color: #8a8a8a;
+	font-size: 16px;
+}
+.dropdown_text {
+	padding-right: 10px;
+	width: 66px;
+}
+.dropdown_target {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	background: #fff;
+	font-weight: 400;
+	border: 1px solid rgba(34,36,38,.15);
+	box-shadow: 0 1px 2px 0 rgba(34,36,38,.15);
+	border-radius: .28571429rem;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 6px;
+	padding-left: 10px;
+	font-size: 14px;
+}
+
+.dropdown_target .dropdown.icon,
+.dropdown_target .world.icon,
+.dropdown_target .users.icon,
+.dropdown_target .lock.icon {
+	margin-right: 8px;
+	color: #8a8a8a;
+	font-size: 1.4em;
+	line-height: 1em;
+	padding-top: 0;
+}
+
+.dropListSpan .dropList {
+	line-height: 20px;
+	padding-left: 12px;
+}
+.dropListSpan .dropList span {
+	right: 10px;
+}
+.dropListSpan ul {
+	padding: 0;
+}
+.dropListSpan li {
+	padding: 9px 0 !important;
+	padding-left: 12px !important;
+	line-height: .9 !important;
+}
+.dropListSpan i {
+	font-size: 20px;
+	vertical-align: middle;
+	margin-right: 4px;
+}
+.dropListSpan > div > div i {
+	margin-right: 6px;
+}

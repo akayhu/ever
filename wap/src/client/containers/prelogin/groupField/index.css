@@ -1,0 +1,77 @@
+/* ------- for group -------- */
+/* 區塊內容 */
+.block {
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 40px 0;
+}
+/* 社團卡片清單 */
+.block ul {
+    overflow: hidden;
+    margin: 30px 0 40px 0;
+}
+/* 社團卡片 */
+.block ul li {
+	width: 176px;
+	height: 242px;
+	float: left;
+	margin: 0 20px 20px 0;
+	position: relative;
+}
+.block ul li:nth-child(5n){
+    margin: 0 0 20px 0;
+}
+/* 社團卡片 - 上方圖 */
+.block ul li img {
+    width: 100%;
+    height: 100px;
+	position: absolute;
+}
+/* 社團卡片 - 下方卡片 */
+.content-main {
+	position: absolute;
+	z-index: 10;
+	background-color: #fff;
+	width: 156px;
+	height: 160px;
+    top: 82px;
+    left: calc(50% - 78px);
+    padding: 16px;
+}
+.content-main a, .content-main a:hover{
+    color: #4a4a4a;
+}
+/* 社團卡片 - 標題 */
+.title {
+    font-size: 15px;
+    margin-bottom: 8px;
+	font-weight: bold;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	word-break:break-all;
+}
+/* 社團卡片 - 內容 */
+.content {
+    font-size: 13px;
+    height: 40px;
+    margin-bottom: 16px;
+	word-wrap: break-word;
+	word-break: break-all;
+	color: #8a8a8a;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    line-height: 1.57;
+}
+/* 社團卡片 - 加入社團 */
+.subscribe {
+	width: 100%;
+	text-align: center;
+}
+.block-button {
+	margin: 20px 0;
+	text-align: center;
+}

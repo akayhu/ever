@@ -1,0 +1,13 @@
+.back_to_my104 {
+	position: relative;
+	background-color: #e5e5e5;
+	color: red;
+  padding: 15px 20px;
+	border-top: 1px solid #e8e8e8;
+	min-height: 200px;
+}
+.back_to_my104 button {
+	position: absolute;
+	bottom: 55px;
+	left: 20px;
+}

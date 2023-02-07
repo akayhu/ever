@@ -1,0 +1,44 @@
+.endorse {
+  padding: 12px;
+  background-color: #fff;
+}
+
+.title {
+  font-size: 13px;
+  color: #8a8a8a;
+}
+
+.main{
+  margin-top: 10px;
+}
+
+.item {
+  display: inline-flex;
+  margin: 0 10px 10px 0;
+}
+
+.count {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  background-color: #eee;
+  border-radius: 4px 0 0 4px;
+}
+
+.text {
+  padding: 5px;
+  background-color: #d0d0d0;
+  border-radius: 0 4px 4px 0;
+}
+
+.active {
+  color: #fff;
+}
+
+.active .text{
+  background-color: #0192b5;
+}
+
+.active .count {
+  background-color: #34a8c4;
+}

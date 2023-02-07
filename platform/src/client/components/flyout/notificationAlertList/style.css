@@ -1,0 +1,27 @@
+.alertItem {
+	display: flex;
+	padding: 10px;
+	border-bottom: 1px solid #e8e8e8;
+}
+.alertItem a {
+	color: #000;
+}
+.left {
+	display: flex;
+	align-items: flex-start;
+	margin-right: 16px;
+}
+.left img {
+	width: 40px;
+	height: 40px;
+  border-radius: 50%;
+}
+.content {
+	max-height: 41px;
+	overflow: hidden;
+}
+.time {
+	font-size: 14px;
+	color: #8a8a8a;
+	margin-top: 5px;
+}

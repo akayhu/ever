@@ -1,0 +1,37 @@
+.item{
+  text-align: left;
+	margin: 0;
+  padding: 13px;
+}
+.item:hover{
+	background-color: #f9f9f9;
+}
+.itemimg {
+	margin-right: 12px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+.title_desc{
+  display: inline-block;
+  vertical-align: middle;
+}
+.pro_link{
+  width: 119px;
+	height: 43px;
+	background-color: #fff;
+  border: 0;
+  margin-right: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.pro_img{
+  width: inherit;
+  border-radius: inherit;
+  margin: 0 auto;
+}
+.pro_content{
+  padding-top: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}

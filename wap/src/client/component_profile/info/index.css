@@ -1,0 +1,54 @@
+.info_wrap {
+	position: relative;
+
+}
+.info_bar {
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+	width: 100%;
+	margin: 0 auto;
+	height: 0;
+	text-align: center;
+	transition: height .3s ease;
+	
+}
+.show {
+	/* height: 50px; */
+}
+
+.info_wrap a {
+	text-decoration: underline;
+}
+
+.viewas_info {
+	height: 100%;
+	width: 960px;
+	margin: 0 auto;
+	background: #fafafa;
+	border-bottom: solid 1px #eee;
+}
+
+.content {
+	display: block;
+	height: 100%;
+	padding: 15px 0;
+}
+.content span {
+	color: #ed7a1e;
+	margin-right: 1em;
+}
+.content a{
+	margin-right: 1em;
+}
+.content a:last-child{
+	margin: 0;
+}
+.remove_block {
+	float: right;
+	padding: 10px;
+	font-size: 1.4em;
+}
+.remove {
+	cursor: pointer;
+}

@@ -1,0 +1,59 @@
+main {
+  margin: 80px auto 0;
+  width: 1014px;
+}
+main .top-title {
+  display: flex;
+  justify-content: space-between;
+}
+main .top-title .title {
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+}
+main .top-title .event-title {
+  color: #55f;
+  font-size: 16px;
+}
+main .top-title .event-name {
+  color: #333;
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 5px;
+}
+main .top-title .event-name span {
+  color: #55f;
+}
+main .top-title .send {
+  margin-top: 15px;
+}
+main .no-content {
+  padding: 40px 20px;
+  color: #333;
+  font-size: 24px;
+  font-weight: 300;
+}
+main .content table {
+  width: 100%;
+  margin-top: 10px;
+}
+main .content table tr td {
+  padding: 15px 10px;
+  text-align: center;
+  font-size: 16px;
+  width: 20%;
+  word-break: break-all;
+}
+main .content table tr:nth-child(1) td {
+  background-color: #666;
+  color: #fff;
+  border: 1px solid #fff;
+}
+main .content table tr:nth-child(even) td {
+  background-color: #eee;
+  border: 1px solid #fff;
+}
+main .content table tr td a {
+  color: #212529;
+  text-decoration: none;
+}

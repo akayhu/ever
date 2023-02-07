@@ -1,0 +1,57 @@
+.group_main {
+	border-left: 4px solid #f4f4f4;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 24px;
+}
+.group_main a {
+	text-decoration: none;
+}
+.group_main dl {
+	margin-bottom: 0;
+}
+.group_main dt {
+	color: #8a8a8a;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+.group_main dd {
+	height: 50px;
+  overflow: visible;
+}
+.left_name {
+	display: inline-block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-break: break-all;
+  width: 180px;
+  overflow: hidden;
+  float: right;
+}
+.left_detail {
+	display: inline-block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-break: break-all;
+  width: 180px;
+  overflow: hidden;
+  float: right;
+  margin-top: -20px;
+}
+.moreNumber{
+	color: #0192b5;
+	cursor: pointer;
+}
+.lightboxListFrame{
+	text-align: left;
+}
+.lightboxListItem{
+	margin-bottom: 20px;
+}
+.lightboxListName{
+	line-height: 40px;
+	padding-left: 10px;
+}
+.lightbox_detail{
+
+}

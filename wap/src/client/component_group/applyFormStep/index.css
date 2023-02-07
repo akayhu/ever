@@ -1,0 +1,219 @@
+/*******************  step1  *********************/
+.bg_img {
+	text-align: center;
+	background-color: #fafafa;
+	border-top: 1px solid #e1e1e1;
+	border-bottom: 1px solid #e1e1e1;
+	padding: 30px 0;
+}
+.step_main {
+	padding: 15px;
+	position: relative;
+}
+.step_main table {
+	width: 80%;
+	margin: 0 auto;
+}
+.step_main table td {
+	font-size: 16px;
+	padding: 20px 10px;
+	text-align: left;
+	width: 75%;
+	vertical-align: top;
+}
+.step_main table td:first-child {
+	padding-top: 20px;
+	text-align: right;
+	width: 25%;
+}
+.step_main table td[colSpan="2"] {
+	padding-left: 26%;
+	text-align: left;
+	width: 100%;
+}
+.shelter-parent table td:first-child {
+	padding-top: 30px;
+}
+.shelter-parent table tr:nth-child(5) ~ tr td:first-child {
+	padding-top: 20px;
+}
+.shelter-parent table tr:nth-child(5) [class*="container"] {
+	padding: 0;
+}
+.shelter-parent table tr:nth-child(5) [class*="container"] input {
+	border: 1px solid #eee;
+}
+.shelter-parent table tr:nth-child(5) [class*="tag_item"] {
+	padding: 9px 10px;
+	margin: 0 10px 0 0;
+}
+.shelter-parent table tr:nth-child(5) [class*="tag_item"] i {
+	line-height: 1;
+	vertical-align: middle;
+}
+.step_main table td ul {
+	max-height: 145px;
+	overflow: hidden;
+	overflow-y: auto;
+}
+.step_main table td textarea {
+	height: 100px;
+}
+.step_main table td i,
+.step_main table td i:hover {
+	color: #0192b5;
+	line-height: 2;
+	margin-left: 5px;
+	position: relative;
+	cursor: pointer;
+}
+.step_main table td i .category_commentary {
+	display: none;
+}
+.step_main table td i:hover .category_commentary {
+	display: block;
+	border: 1px solid #e1e1e1;
+	background-color: #fff;
+	width: 330px;
+	position: absolute;
+	z-index: 1;
+	font-size: 14px;
+	letter-spacing: 1px;
+	line-height: 1.8;
+	text-align: left;
+	color: #333;
+	padding: 10px;
+	border-radius: 3px;
+	top: -176px;
+	left: -20px;
+}
+.step_main table td i .category_commentary:before {
+	content: ' ';
+	position: absolute;
+	left: 19px;
+	bottom: -17px;
+	border-width: 8px;
+	border-color: #e1e1e1 transparent transparent transparent;
+	border-style: dashed dashed solid dashed;
+}
+.step_main table td i .category_commentary:after {
+	content: ' ';
+	position: absolute;
+	left: 19px;
+	bottom: -16px;
+	border-width: 8px;
+	border-color: #fff transparent transparent transparent;
+	border-style: dashed dashed solid dashed;
+}
+.step_main table td i .category_commentary span {
+	display: block;
+}
+.step_main table td i .category_commentary span.nth {
+	float: left;
+}
+.step_main table td i .category_commentary span.nth2 {
+	display: flex;
+	padding-left: 5px;
+}
+.step_main table td a {
+	margin: 0 5px;
+}
+/*
+.step_main table tr:nth-child(3) td {
+	text-align: left;
+	padding-left: 200px;
+	border-bottom: 1px solid #e1e1e1;
+	padding-bottom: 15px;
+}
+.step_main table tr:nth-child(4) td {
+	padding: 15px 10px;
+}
+.step_main table tr:nth-child(7) td ul {
+	max-height: 145px;
+	overflow: hidden;
+	overflow-y: auto;
+}
+.step_main table tr:nth-child(8) td textarea {
+	height: 100px;
+}
+.step_main table td:nth-child(odd) {
+	width: 35%;
+	text-align: right;
+	vertical-align: top;
+}
+.step_main table td:nth-child(even) {
+	text-align: left;
+}
+*/
+.step_main .need {
+	color: red;
+}
+.step_main .explanation {
+	color: #8a8a8a;
+	width: 82%;
+	margin-left: 22%;
+}
+.step_main .radioGroup_style {
+	float: left;
+	margin-right: 10px;
+}
+.shelter {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	z-index: 10;
+	top: 0;
+	left: 0;
+	opacity: 0.6;
+}
+.shelter-parent {
+	position: relative;
+}
+.step_main .step3_shelter {
+	top: 232px;
+}
+.step_main .step_button {
+	text-align: center;
+	padding: 40px 0;
+}
+.step_main .management_audit {
+	color: #fe8c36;
+	text-align: center;
+	padding: 20px 0;
+	font-size: 16px;
+}
+.select_style {
+	line-height: 1.5;
+	float: left;
+}
+.select_style_category, .select_style_func {
+	composes: select_style;
+}
+.select_style_category ul {
+	height: 145;
+	overflow-y: scroll;
+}
+.select_style_func ul {
+	height: 200px;
+	overflow-y: scroll;
+}
+.notVerified {
+	color: #fe7e17;
+	margin-left: 10px;
+}
+.notVerified i {
+	color: red !important;
+}
+.verified {
+	color: green;
+	margin-left: 10px;
+}
+.verified i {
+	color: green !important;
+}
+
+.error_message {
+	color: #fe7e17;
+	text-align: center;
+}

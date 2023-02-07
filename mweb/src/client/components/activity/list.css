@@ -1,0 +1,9 @@
+.list {
+  margin: 10px 0;
+}
+.loading,
+.error,
+.end {
+	margin: 50px 0;
+	text-align: center;
+}

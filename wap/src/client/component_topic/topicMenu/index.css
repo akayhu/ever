@@ -1,0 +1,56 @@
+.topic_menu {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.description {
+  font-weight: bolder;
+  font-size: 16px;
+  margin: 0 0 0 20px;
+}
+.target {
+  margin: 0;
+  cursor: pointer;
+}
+
+.list {
+  font-size: 14px;
+}
+.list li{
+  text-align: center;
+}
+
+.list li.subscribe_item {
+  width: 100%;
+  padding-right: 10px;
+}
+
+.line {
+  display: block;
+  border-bottom: 1px solid #e3e3e3;
+  padding-bottom: 5px;
+}
+
+/*SubscribePanel*/
+.panel_wrapper {
+  width: 500px;
+}
+.title {
+  text-align: left;
+  margin-bottom: 40px;
+}
+.top_ten_list {
+  text-align: left;
+}
+.show_more {
+  margin: 10px 0;
+  color: #0192b5;
+  cursor: pointer;
+}
+.other_list {
+  text-align: left;
+}
+/**/
+.hide {
+  display: none;
+}

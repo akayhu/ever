@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`parseStrToElements 包含 HTML tag 的字串輸入, expect 對應 element 1`] = `
+Array [
+  <p>
+    Test
+</p>,
+]
+`;
+
+exports[`parseStrToElements 包含 HTML tag 的字串輸入, expect 對應 element 2`] = `
+Array [
+  <div>
+    <p>
+        Test
+    </p>
+</div>,
+]
+`;
+
+exports[`parseStrToElements 包含 HTML tag 的字串輸入, expect 對應 element 3`] = `
+Array [
+  <div>
+    <h1>
+        Test
+    </h1>
+    PureString~~~~
+</div>,
+]
+`;
+
+exports[`parseStrToElements 包含 空白、tab、換行 的字串輸入, expect 跳脫並顯示 1`] = `
+Array [
+  "FirstLine",
+  <br />,
+  "
+SecondLine",
+  <br />,
+  "
+ThirdLine",
+]
+`;
+
+exports[`parseStrToElements 包含 空白、tab、換行 的字串輸入, expect 跳脫並顯示 2`] = `
+Array [
+  "FirstLine",
+  <br />,
+  "
+   SecondLine",
+]
+`;
+
+exports[`parseStrToElements 包含 空白、tab、換行 的字串輸入, expect 跳脫並顯示 3`] = `
+Array [
+  "FirstLine",
+  <br />,
+  "
+	SecondLine",
+  <br />,
+  "
+	ThirdLine",
+]
+`;
+
+exports[`parseStrToElements 包含 空白、tab、換行 的字串輸入, expect 跳脫並顯示 4`] = `
+Array [
+  <p>
+    FirstLine
+    <br />
+    
+    SecondLine
+    <br />
+    
+    	ThirdLine
+    <br />
+    
+    FourthLine
+</p>,
+]
+`;
+
+exports[`parseStrToElements 包含可執行 inline js , expect 被移除 1`] = `
+Array [
+  <button>
+    Click Me
+</button>,
+]
+`;
+
+exports[`parseStrToElements 輸入 script 標籤與可執行 js, expect 被移除 1`] = `Array []`;

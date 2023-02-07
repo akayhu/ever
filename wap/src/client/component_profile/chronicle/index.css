@@ -1,0 +1,307 @@
+/*Item*/
+.itemContent{
+	position: relative;
+	margin: 0 60px;
+	padding: 15px 30px;
+	background: #f4f4f4;
+	border: 1px solid #e3e3e3;
+	border-radius: 3px;
+}
+.itemContent .title{
+	font-size: 20px;
+	font-weight: 800;
+	color: #081b20;
+	line-height: 1.6em;
+	word-wrap: break-word;
+}
+.itemContent .title .itemEdit{
+	margin-left: .5em;
+}
+.itemContent .title .itemSetting{
+	margin-left: -5px;
+}
+.itemContent .title i{
+	color: #afafaf;
+	cursor: pointer;
+}
+.titleBlock{
+	margin-bottom: 15px;
+}
+.descBlock {
+	overflow: hidden;
+}
+.descBlock .relation{
+	font-weight: 800;
+	line-height: 2em;
+	margin-top: 20px;
+}
+.descBlock .viewAll{
+	font-weight: normal;
+	line-height: 2em;
+}
+.descBlock .jobNote{
+	position: relative;
+	line-height: 1.7em;
+	max-height: 65px;
+	overflow: hidden;
+}
+.descBlock .jobNote .bottom_shadow{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 15px;
+	background: linear-gradient(rgba( 243, 243, 243, 0), rgba( 243, 243, 243, 1));
+}
+.descBlock .jobNote.showAllJobNote {
+	max-height: none;
+}
+.descBlock .jobNoteDesc {
+
+}
+.jobNoteMore {
+	padding-top: 5px;
+
+}
+.jobNoteMore a {
+	cursor: pointer;
+}
+
+.chronicleItem:nth-child(2) .itemTop {
+	margin: 30px 0 0;
+}
+.itemTop,
+.itemBottom{
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+.orange_circle{
+	content: '';
+	display: block;
+	position: absolute;
+	z-index: 1;
+	top: -12px;
+	left: 50%;
+	margin-left: -12px;
+	background: #ffd8b9;
+	width: 24px;
+	height: 24px;
+	border-radius: 50%;
+}
+.itemTop .line{
+	height: 35px;
+}
+.itemBottom .line{
+	height: 80px;
+}
+.itemTop .line,
+.itemBottom .line{
+	width: 1px;
+	background: #d0d0d0;
+	z-index: 1;
+}
+.endTime{
+	content: '';
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: absolute;
+	z-index: 0;
+	top: -10px;
+	left: 50%;
+	height: 20px;
+}
+.endTime .dashLine{
+	width: 50px;
+	height: 1px;
+	background: #d0d0d0;
+	margin-right: 5px;
+}
+.endTime .endTimeText{
+	color: #8a8a8a;
+	font-size: 14px;
+}
+.tempData_hint{
+	line-height: 16px;
+	color: red;
+	text-align: right;
+}
+.chronicleItem:last-child .itemBottom {
+	display: none;
+}
+/*itemContentHonor*/
+.itemContentHonor{
+	margin-bottom: 20px;
+	padding: 15px 20px;
+	background: #f4f4f4;
+	border: 1px solid #e3e3e3;
+	border-radius: 3px;
+}
+.itemContentHonor .title{
+	font-size: 20px;
+	color: #081b20;
+	line-height: 24px;
+	word-break: break-all;
+}
+.itemContentHonor .title i{
+	color: #afafaf;
+	cursor: pointer;
+	margin-left: 10px;
+}
+.tag{
+	display: inline-block;
+	margin-bottom: 12px;
+	padding: 0 10px;
+	border: 1px solid #e3e3e3;
+	color: #8a8a8a;
+}
+/*editform*/
+.simple_mode {
+
+}
+.simple_mode .row_block {
+	margin-bottom: 23px;
+}
+.simple_mode.form_edit_main,
+.simple_mode.form_edit_main_honor {
+	border: none;
+	margin: 0;
+}
+.simple_mode.form_edit_main .dropList {
+}
+.form_edit_main {
+	display: block;
+	min-height: 200px;
+	margin: 0 60px 30px;
+	padding: 15px 20px;
+	border: 1px solid #e3e3e3;
+	border-radius: 3px;
+}
+.form_edit_main_honor{
+	display: block;
+	min-height: 200px;
+	margin: 0 40px 30px;
+	padding: 15px 20px;
+	border: 1px solid #e3e3e3;
+	border-radius: 3px;
+}
+.row_block {
+	margin-bottom: 30px;
+}
+.row_block .title{
+	margin-bottom: .5em;
+}
+.star {
+	color: orange;
+	font-size: 14px;
+	margin-left: .3em;
+}
+.description {
+	width: 100%;
+}
+.privacy_setting {
+	display: flex;
+	min-width: 100px;
+	min-height: 30px;
+	border: 1px solid gray;
+	border-radius: 3px;
+	background: #fff;
+	justify-content: center;
+	align-items: center;
+}
+.date_row{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.textItem,
+.dateItem,
+.drgreeItem{
+	display: inline-block;
+	padding-right: 10px;
+}
+.dateItem{
+	flex: 2;
+	text-align: center;
+}
+.dateItem:last-child{
+	flex: 5;
+}
+.btn_row{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.btn_row button{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.form_edit_main .dropList{
+	line-height: 20px;
+}
+.dropList span {
+	right: 10px;
+}
+.dropList ul{
+
+
+}
+.date_row .dropList ul {
+	max-height: 220px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+.exp_title,
+.edu_title,
+.honor_title {
+	/*padding: 0 30px;*/
+}
+.readmore{
+	text-align: center;
+}
+.readmoreBtn{
+	display: inline-block;
+	margin: 15px 0;
+	padding: 5px 40px;
+	border: 1px solid #d0d0d0;
+	color: #34a8c4;
+	cursor: pointer;
+}
+.chronicle_hr, .chronicle_honor_hr{
+	margin: 50px 0;
+	width: 100%;
+}
+
+/**/
+
+.action_btn {
+	margin-top: 60px;
+}
+.action_btn button:first-child {
+	margin-right: 16px;
+}
+.description textarea {
+	height: 83px;
+}
+.form_edit_main input {
+	font-size: 14px;
+}
+.form_edit_main_honor input {
+	font-size: 14px;
+}
+.textField {
+	max-width: 290px;
+	width: 290px;
+}
+.textField input{
+	padding: 6.5px 10px;
+}
+.errormessage{
+	color: #ff530d;
+}
+.errorStyle [class*=Droplist_listInput] {
+	border: 1px solid #ff530d;
+}
+.errorStyle {
+	outline: 0;
+}

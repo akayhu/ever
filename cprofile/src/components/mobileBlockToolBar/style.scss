@@ -1,0 +1,86 @@
+@import "scss/cProfile.scss";
+
+.mobile-renderBlock-sort .ant-modal-close {
+	display: none;
+}
+
+.mobile-renderBlockTitle-list {
+	&-main {
+		max-height: 340px;
+		overflow-y: auto;
+	}
+	&-SubmitButton-main {
+		text-align: center;
+		margin-top: 15px;
+
+		button {
+			margin: 0 10px;
+
+			@include rwd-to(360) { margin: 0 3px; }
+		}
+	}
+}
+
+.mobileBlockSortTitle {
+	color: #484848;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	word-break: break-all;
+	width: 61%;
+	line-height: 2.3;
+
+	&Main {
+		font-size: 16px;
+		padding: 10px;
+		border-radius: 6px;
+		box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.18);
+		background-color: #f6f6f6;
+		margin: 5px 0 10px;
+		display: flex;
+		justify-content: space-between;
+	}
+}
+
+.mobileBlockSortButton {
+	span {
+		padding: 10px;
+		border: 1px solid #d6d6d6;
+		font-size: 15px !important;
+		border-radius: 6px;
+		background-color: #fff;
+		line-height: 1.3;
+		text-align: center;
+		width: 40px;
+		height: 40px;
+
+		&:nth-child(1) {
+			border-top-right-radius: 0;
+			border-bottom-right-radius: 0;
+			border-right: 0px;
+		}
+		&:nth-child(2) {
+			border-top-left-radius: 0;
+			border-bottom-left-radius: 0;
+		}
+		&.rightBorder {
+			border-top-right-radius: 6px;
+			border-bottom-right-radius: 6px;
+			border-right: 1px solid #d6d6d6;
+		}
+	}
+	.mobileBlockSortButton .one span {
+		margin-right: 0;
+	}
+}
+
+.switchTransition {
+	&[data-switch-transition-role=fromTop] {
+		transition: transform 0.5s;
+		transform: translate(0px, calc(0% + 70px));
+	}
+	&[data-switch-transition-role=fromBottom] {
+		transition: transform 0.5s;
+		transform: translate(0px, calc(0% - 70px));
+	}
+}

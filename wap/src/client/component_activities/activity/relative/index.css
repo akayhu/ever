@@ -1,0 +1,20 @@
+.relative_block {
+	padding: 3px 20px;
+}
+.title {
+	line-height: 28px;
+	font-weight: bold;
+	font-size: 14px;
+}
+.relative_item {
+	color: #a0a0a0;
+	cursor: pointer;
+	display: block;
+}
+.relative_item .title {
+	color: #0192b5;
+}
+.relative_item .author {
+	font-size: 10px;
+	margin-left: 5px;
+}

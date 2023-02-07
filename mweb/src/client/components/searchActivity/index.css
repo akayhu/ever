@@ -1,0 +1,21 @@
+.total_count {
+	color: #6a6a6a;
+	margin: 20px 0;
+}
+.no_result {
+	text-align: center;
+	margin-top: 20px;
+}
+.msg {
+	font-weight: bold;
+	font-size: 16px;
+}
+.suggest {
+	color: #6a6a6a;
+}
+.loading,
+.error,
+.end {
+  margin: 50px 0;
+  text-align: center;
+}

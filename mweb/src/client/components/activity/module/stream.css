@@ -1,0 +1,40 @@
+.streamItem {
+  border-top: 1px solid #dbdbdb;
+  background: #fff;
+  margin-bottom: 15px;
+}
+.header {
+  padding: 12px 12px 0 12px;
+}
+.main {
+  padding: 0 12px 12px 12px;
+}
+.pre_content {
+  font-size: 14px;
+  color: #000;
+  line-height: 1.7;
+  margin-bottom: 12px;
+  max-height: 70px;
+  overflow: hidden;
+  word-wrap: break-word;
+  word-break: normal;
+}
+.pre_image_container {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.pre_image {
+  max-width: 100%;
+  max-height: 200px;
+}
+.bottom {
+  border-top: solid 1px #f4f4f4;
+  display: flex;
+}
+.bottom > [class*="baseBtn"] {
+  border-right: 0;
+  border-left: 0;
+}
+/*.bottom > [class*="baseBtn"]:not(:last-child) {
+  border-right: 1px solid #dbdbdb;
+}*/

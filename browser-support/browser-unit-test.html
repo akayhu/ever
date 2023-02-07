@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8" />
+  <title>瀏覽器判斷</title>
+  <link rel="stylesheet" href="https://code.jquery.com/qunit/qunit-2.4.1.css">
+  <script src="https://code.jquery.com/qunit/qunit-2.4.1.js"></script>
+  <script src="browser.2.0.js"></script>
+</head>
+<body>
+  <div id="text"></div>
+  <div id="qunit"></div>
+  <script>
+    window.onload = function() {
+      var closeFuncTest = function() {
+        console.log('測試關閉後的function');
+      };
+
+      // QUnit.test('commonBrowser104.init()', function(assert) {
+      //   var obj = {
+      //     language: [4, 1],
+      //     date: '2018年01月01日',
+      //     date_en: 'January 1, 2018',
+      //     browserVersion: 'IE11',
+      //     lowest: ['11', '100', '100', '100', '100', '100'],
+      //     support: ['ie', 'chrome', 'safari', 'firefox', 'opera', 'edg'],
+      //     language: 4,
+      //     date_en: 'January 1, 2018'
+      //   };
+      //   // assert.deepEqual(commonBrowser104.init(), '成功執行init');
+      //   // assert.deepEqual(commonBrowser104.init(obj), '成功執行init');
+      //   // document.getElementById('browser-support-alert').setAttribute('src', 'browser.2.0.min.js?date=20180101&browserVersion=IE10&lowest=11');
+      //   // assert.deepEqual(commonBrowser104.init(), 'browser.min.js參數輸入不完全');
+      //   // document.getElementById('browser-support-alert').setAttribute('src', 'browser.2.0.min.js?date=20180101&browserVersion=IE10&lowest=11,100&support=ie');
+      //   // assert.deepEqual(commonBrowser104.init(), 'browser.min.js參數輸入錯誤');
+      //   // document.getElementById('browser-support-alert').setAttribute('src', 'browser.2.0.min.js?date=20180101&browserVersion=IE10&lowest=11,100,100&support=ie,chrome,firefox');      
+      //   // assert.deepEqual(commonBrowser104.init(), '成功執行htmlRender');
+      // });
+
+      QUnit.test('commonBrowser104.run()', function(assert) {
+        var actual_test1 = {
+          date: '2018年01月01日',
+          browserVersion: 'IE11',
+          lowest: ['11']
+        };
+        var actual_test2 = {
+          date: '2018年01月01日',
+          browserVersion: 'IE11',
+          lowest: ['11', '100'],
+          support: ['ie']
+        };
+        var actual_test3 = {
+          date: '2018年01月01日',
+          browserVersion: 'IE11',
+          lowest: ['11', '100', '100'],
+          support: ['ie', 'chrome', 'firefox']
+        };
+        var actual_test4 = {
+          date: '2018年01月01日',
+          browserVersion: 'IE11',
+          lowest: ['100'],
+          support: ['chrome'],
+          language: 5,
+          date_en: 'January 1, 2018'
+        };
+        assert.deepEqual(commonBrowser104.run({}), 'browser.min.js參數輸入不完全');
+        assert.deepEqual(commonBrowser104.run(actual_test1), 'browser.min.js參數輸入不完全');
+        assert.deepEqual(commonBrowser104.run(actual_test2), 'browser.min.js參數輸入錯誤');
+        assert.deepEqual(commonBrowser104.run(actual_test4), '成功執行htmlRender');
+        assert.deepEqual(commonBrowser104.run(actual_test3), '成功執行htmlRender');
+      });
+
+      QUnit.test('commonBrowser104.getSrcVars()', function(assert) {
+        assert.deepEqual(commonBrowser104.getSrcVars(), 'browser.min.js找不到id browser-support-alert');
+      });
+
+      QUnit.test('commonBrowser104.userAgentMatch()', function(assert) {
+        var ua1 = 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36';
+        var ua2 = 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.62 Safari/537.36 OPR/49.0.2725.34';
+        var ua3 = 'Opera/9.80 (X11; Linux i686; Ubuntu/14.10) Presto/2.12.388 Version/12.16';
+        var ua4 = 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0';
+        var ua5 = 'Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; rv:11.0) like Gecko';
+        var ua6 = 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E)';
+        var ua7 = 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E)';
+        var ua8 = 'Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E)';
+        var ua9 = 'Mozilla/5.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E)';
+        var ua10 = 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2';
+        var ua11 = 'Mozilla/5.0 (iPhone; U; CPU iPhone OS 99_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16';
+        assert.deepEqual(commonBrowser104.userAgentMatch(ua1), { 'browser': 'chrome', 'version': '62.0.3202.94' });
+        assert.deepEqual(commonBrowser104.userAgentMatch(ua2), { 'browser': 'opr', 'version': '49.0.2725.34' });
+        assert.deepEqual(commonBrowser104.userAgentMatch(ua3), { 'browser': 'opera', 'version': '12.16' });
+        assert.deepEqual(commonBrowser104.userAgentMatch(ua4), { 'browser': 'mozilla', 'version': '57.0' });
+        assert.deepEqual(commonBrowser104.userAgentMatch(ua5), { 'browser': 'rv', 'version': '11.0' });
+        assert.deepEqual(commonBrowser104.userAgentMatch(ua6), { 'browser': 'msie', 'version': '10.0' });
+        assert.deepEqual(commonBrowser104.userAgentMatch(ua7), { 'browser': 'msie', 'version': '9.0' });
+        assert.deepEqual(commonBrowser104.userAgentMatch(ua8), { 'browser': 'msie', 'version': '8.0' });
+        assert.deepEqual(commonBrowser104.userAgentMatch(ua9), { 'browser': 'msie', 'version': '7.0' });
+        assert.deepEqual(commonBrowser104.userAgentMatch(ua10), { 'browser': 'webkit', 'version': '5.1.7' });
+        assert.deepEqual(commonBrowser104.userAgentMatch(ua11), { 'browser': 'webkit', 'version': '4.0' });
+      });
+
+      QUnit.test('commonBrowser104.getVersion()', function(assert) {
+        // 預期 chrome 的最新瀏覽器版本
+        assert.deepEqual(commonBrowser104.getVersion(), '71.0.3578.98');
+        // 預期 firefox 的最新瀏覽器版本
+        // assert.deepEqual(commonBrowser104.getVersion(), '57.0');
+        // 預期 windows safari 的最新瀏覽器版本
+        // assert.deepEqual(commonBrowser104.getVersion(), '5.1.7');
+        // 預期 ie 的最新瀏覽器版本
+        // assert.deepEqual(commonBrowser104.getVersion(), '11.0');
+        // 預期 opera 的最新瀏覽器版本
+        // assert.deepEqual(commonBrowser104.getVersion(), '49.0.2725.34');
+      });
+
+      QUnit.test('commonBrowser104.getBrowser()', function(assert) {
+        // chrome
+        assert.deepEqual(commonBrowser104.getBrowser('chrome'), true);
+        // safari
+        // assert.deepEqual(commonBrowser104.getBrowser('webkit'), true);
+        // firefox
+        // assert.deepEqual(commonBrowser104.getBrowser('mozilla'), true);
+        // ie6 ~ ie10
+        // assert.deepEqual(commonBrowser104.getBrowser('msie'), true);
+        // ie11
+        // assert.deepEqual(commonBrowser104.getBrowser('rv'), true);
+        // opera
+        // assert.deepEqual(commonBrowser104.getBrowser('opr'), true);
+      });
+
+      QUnit.test('commonBrowser104.closeFun()', function(assert) {
+        assert.deepEqual(commonBrowser104.closeFun(), 'browser.min.js帶入closeFun格式錯誤，請帶入function格式');
+        assert.deepEqual(commonBrowser104.closeFun(104), 'browser.min.js帶入closeFun格式錯誤，請帶入function格式');
+        assert.deepEqual(commonBrowser104.closeFun('closeFuncTest()'), 'browser.min.js帶入closeFun格式錯誤，請帶入function格式');
+        assert.deepEqual(commonBrowser104.closeFun(closeFuncTest), '成功執行callback');
+      });
+
+    }
+  </script>
+</body>

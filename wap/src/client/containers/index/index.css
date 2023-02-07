@@ -1,0 +1,9 @@
+.social-info[class*="left_side"] {
+	background: none;
+}
+.social-info [class*="business_card"] {
+	margin-bottom: 15px;
+}
+.index_component {
+	margin-bottom: 15px;
+}

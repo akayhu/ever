@@ -1,0 +1,6 @@
+.content_text {
+  font-weight: bolder;
+}
+.plus_space {
+  composes: content_block from '../shared.css';
+}

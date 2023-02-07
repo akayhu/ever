@@ -1,0 +1,17 @@
+.blocking-alert {
+	.ant-modal-confirm-content {
+		margin-left: 0;
+		text-align: center;
+	}
+	.ant-modal-confirm-btns {
+		margin: 24px auto 0 auto;
+		text-align: center;
+		float: none;
+	}
+	&__description {
+		font-size: 18px;
+		font-weight: 500;
+		color: rgba(0, 0, 0, 0.85);
+		margin: 0;
+	}
+}

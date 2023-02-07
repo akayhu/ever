@@ -1,0 +1,133 @@
+.story {
+    background-color: #634b97;
+}
+
+.story ul {
+    overflow: hidden;
+    padding-top: 1em;
+}
+
+.story ul li {
+    cursor: pointer;
+    width: 90%;
+    margin: 0 auto 20px;
+}
+
+.story h2 {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 0;
+    padding: .8em 1.5em;
+    line-height: 1.8;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    background-color: #7659b2;
+}
+
+.story h2 span {
+    display: inline-block;
+    height: 60px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    font-weight: normal;
+}
+
+.story .study_content {
+    height: 79px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    color: #081b20;
+    margin-left: 10px;
+    text-indent: -41px;
+    padding-top: 1em;
+    padding-left: 3em;
+    padding-bottom: 0.65em;
+    background-color: #fff;
+    border-top: 1px solid #e8e8e8;
+}
+
+.story_content {
+    font-size: 14px;
+    padding: 20px 1.3em .65em;
+    background-color: #fff;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.photo_style {
+    position: relative;
+    float: left;
+    width: 50%;
+    text-align: center;
+    line-height: 1.6;
+    padding-bottom: 1.3em;
+}
+
+.photo_style img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 1em;
+    margin-bottom: 0;
+}
+
+.photo_style p {
+    color: #081b20;
+    width: 95%;
+    margin: 1.3em auto 0;
+    font-size: 16px;
+    text-align: center;
+    display: block;
+    height: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.photo_style span {
+    margin-bottom: .5em;
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+    width: 60px;
+    height: 16px;
+    line-height: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 51%;
+    left: 0;
+    right: 0;
+}
+
+.button {
+    text-align: center;
+    padding: 20px 50px;
+}
+
+.more {
+    padding: 10px 1em;
+    color: #ff7800 !important;
+    border: 1px solid #ff7800;
+    border-radius: 20px;
+    margin-right: .5em;
+}
+
+.join {
+    padding: 10px 40px;
+    border-color: #000;
+    background-color: #000;
+    color: #fff !important;
+    border: 1px solid #000;
+    border-radius: 20px;
+}

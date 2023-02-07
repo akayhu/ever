@@ -1,0 +1,112 @@
+.button_div {
+	text-align: center;
+}
+.test_content {
+	padding: 30px;
+}
+.test_content p {
+	margin: 0;
+	font-size: 16px;
+	letter-spacing: 1px;
+	line-height: 1.7;
+	max-height: inherit;
+}
+.test_content p span {
+	font-weight: bold;
+}
+.test_content table {
+	width: 760px;
+	margin: 40px auto;
+	font-size: 16px;
+	border-left: 1px solid #d5d5d5;
+	border-bottom: 1px solid #d5d5d5;
+}
+.test_content td {
+	padding: 10px 5px;
+	border-top: 1px solid #d5d5d5;
+	border-right: 1px solid #d5d5d5;
+	text-align: center;
+	width: 45px;
+}
+.test_content thead td:first-child {
+	width: calc(100% - 278px);
+}
+.test_content tbody td:first-child + td {
+	text-align: left;
+	width: calc(100% - 324px);
+}
+
+.test_head div {
+	width: 18px;
+	height: 90px;
+	margin: 0 auto;
+	-webkit-writing-mode: vertical-rl;
+  writing-mode: tb-rl;
+  text-align: justify;
+　text-justify: inter-ideograph;
+　-ms-text-justify: inter-ideograph; /*IE9*/
+　-moz-text-align-last:justify; /*Firefox*/
+　-webkit-text-align-last:justify; /*Chrome*/
+}
+
+/**
+ * radioGroup
+ */
+.radioItem {
+	display: inline-block;
+	position: relative;
+}
+.radioGroup {
+	padding: 0 !important;
+}
+.radioGroup label {
+	position: relative;
+	cursor: pointer;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 20px;
+}
+.radioGroup input[type=radio] ~ label .check{
+	display: inline-block;
+	position: absolute;
+	left: calc(50% - 8px);
+	top: calc(50% - 4px);
+	border: 1px solid #ccc;
+	background-color: #fff;
+	border-radius: 100%;
+	height: 16px;
+	width: 16px;
+	z-index: 5;
+	transition: border .25s linear;
+	-webkit-transition: border .25s linear;
+}
+.radioGroup input[type=radio] ~ label .check::before {
+	display: block;
+	position: absolute;
+	content: '';
+	border-radius: 100%;
+	height: 8px;
+	width: 8px;
+	top: 50%;
+	left: 50%;
+	margin-top: -4px;
+	margin-left: -4px;
+	transition: background 0.25s linear;
+	-webkit-transition: background 0.25s linear;
+}
+.radioGroup input[type=radio]:checked ~ label .check {
+	border: 1px solid #34a8c4;
+}
+.radioGroup input[type=radio]:checked ~ label .check::before{
+	background: #34a8c4;
+}
+.radioGroup input[type=radio],
+.radioGroup input[type=checkbox] {
+  font-size: 16px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+}
+.radioGroup input[type=radio] {
+	position: absolute;
+	visibility: hidden;
+}

@@ -1,0 +1,11 @@
+.main {
+  cursor: pointer;
+  color: #34A8C4;
+  text-align: center;
+}
+.loading,
+.error,
+.end {
+	margin: 50px 0;
+	text-align: center;
+}

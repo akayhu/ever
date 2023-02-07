@@ -1,0 +1,38 @@
+.bigCard {
+  margin-bottom: 20px;
+}
+
+.bigCard, .imgSection {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.bigCard p {
+  margin: 0;
+}
+
+.imgSection {
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.cover {
+  width: 100%;
+  max-height: 150px;
+  min-height: 150px;
+}
+
+.avatar {
+  position: absolute;
+  top: 50%;
+  left: calc(50% - 50px);
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.guest_block {
+  margin: 20px 0;
+}

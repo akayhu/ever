@@ -1,0 +1,158 @@
+.button {
+    text-align: center;
+    margin: 20px 50px;
+}
+
+.join {
+    padding: 10px 20px;
+    border-color: #000;
+    background-color: #000;
+    color: #fff !important;
+    border: 1px solid #000;
+    border-radius: 20px;
+}
+
+.news_giver {
+    padding: 10px 20px;
+}
+
+.giver_giver,
+.taker_giver,
+.about_giver {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    border-top: 1px solid #a880ff;
+    margin-top: 1em;
+}
+
+.news_giver h2,
+.giver_giver h2,
+.taker_giver h2,
+.about_giver h2 {
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-weight: normal;
+}
+
+.number_giver {
+    text-align: center;
+    font-size: 13px;
+    color: #a880ff;
+    margin-bottom: 1.5em;
+}
+
+.news_giver ul {
+    border-left: 4px solid #fff;
+    padding-left: 1.5em;
+    line-height: 1.8;
+}
+
+.news_giver li {
+    font-size: 14px;
+    margin-bottom: 0.8em;
+}
+
+.news_giver li a {
+    line-height: 1.6;
+    color: #fff;
+}
+
+.news_giver li span {
+    color: #a880ff;
+    display: block;
+}
+
+.news_giver .news_more {
+    width: 100%;
+    display: block;
+    text-align: right;
+    color: #fff;
+    text-decoration: underline;
+}
+
+.people_item {
+    padding-top: 1em;
+    white-space: nowrap;
+    position: relative;
+    white-space: nowrap;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.people_item li {
+    text-align: center;
+    width: 150px;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+.people_item li:last-child {
+    margin-right: 0;
+}
+
+.people_item a {
+    color: #fff;
+}
+
+.people_item img {
+    width: 120px;
+    height: 120px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.people_item p {
+    display: block;
+}
+
+.people_item p:nth-child(3) {
+    text-align: left;
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.item_name {
+    font-size: 16px;
+    line-height: 2;
+}
+
+.item_pic {
+    width: 120px;
+    height: 120px;
+    vertical-align: middle;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    margin-bottom: 1em;
+}
+
+.item_pic img {
+    width: 120px;
+    height: 100%;
+}
+
+.about_giver p {
+    line-height: 2;
+    margin-bottom: 1em;
+    font-size: 14px;
+}
+
+.about_giver a {
+    color: #ff7800;
+}
+
+.about_first {
+    margin-top: 1.5em;
+}

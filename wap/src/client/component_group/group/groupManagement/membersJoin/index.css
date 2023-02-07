@@ -1,0 +1,81 @@
+.group_right_people {
+	margin: 20px 0;
+	color: #939393;
+	font-size: 16px;
+}
+.list_box {
+	width: 100%;
+	min-height: 100%;
+}
+.list_bg {
+	background-color: #fff;
+	border: 1px solid #e8e8e8;
+	padding: 20px;
+}
+.all {
+	display: flex;
+	overflow: hidden;
+	margin-bottom: 20px;
+	padding-right: 4px;
+}
+
+/*membersItem*/
+.member_item {
+	/*overflow: hidden;*/
+	margin-bottom: 25px;
+	display: flex;
+	/*justify-content: space-around;*/
+}
+.member_item img {
+	float: left;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	margin-right: 20px;
+}
+.user_name {
+	font-weight: bold;
+}
+.search_content {
+	flex: 1;
+	vertical-align: top;
+	display: inline-block;
+	line-height: 1.7;
+}
+.group_class {
+	color: darkgrey;
+}
+.keyword {
+	color: #ff530d;
+}
+.setting_button {
+	/*float: right;*/
+  margin-top: 7px;
+	/*display: inline-block;*/
+}
+.setting_button > div {
+	margin-left: 10px;
+}
+/*
+.checked_text {
+	display: flex;
+	margin-left: auto;
+	text-align: center;
+	padding-top: 19px;
+}*/
+/*loading_text*/
+.batch_act_block {
+	margin-left: auto;
+	color: #ff7e17;
+}
+.checkbox-wrap{
+	display: flex;
+	text-align: center;
+	margin-right: 10px;
+}
+.checkbox-wrap input {
+	margin: 18px 10px 0 0;
+}
+.checkbox-wrap label {
+	margin-bottom: 0;
+}

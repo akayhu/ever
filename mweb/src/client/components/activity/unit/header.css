@@ -1,0 +1,43 @@
+.avatar{
+  border-radius: 50%;
+  margin-right: 10px;
+  float: left;
+  width: 40px;
+  height: 40px;
+}
+.name_block{
+  overflow: hidden;
+}
+.namecard{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-break: break-all;
+  width: 80%;
+  display: block;
+  float: left;
+}
+.setUp_btn{
+  float: right;
+}
+.title_block {
+  display: flex;
+  align-items: center;
+  color: #8a8a8a;
+  margin: 12px 0;
+}
+.title_block i {
+  margin-bottom: 14px;
+}
+.dropdown_arrow {
+  align-self: flex-end;
+}
+.title{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-break: break-all;
+  width: 70%;
+  display: block;
+  float: left;
+}

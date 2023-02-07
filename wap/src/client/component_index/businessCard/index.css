@@ -1,0 +1,136 @@
+/****************名片************************/
+.business_card {
+	background-color: #fff;
+	border: 1px solid #e8e8e8;
+	height: 300px;
+	color: #fff;
+	position: relative;
+	overflow: hidden;
+}
+.business_card .name_card_img {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 350px;
+}
+.business_card .name_card_img .name_card_black_cloth {
+	background-color: #081b20;
+	opacity: .3;
+	position: absolute;
+	width: 100%;
+	height: 350px;
+	top: 0;
+	z-index: 2;
+}
+.business_card .name_card_Information {
+	position: absolute;
+	z-index: 2;
+	width: 100%;
+	height: 350px;
+	top: 0;
+	padding: 20px;
+}
+.business_card .name_card_Information img {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	margin: 0 auto;
+	margin-top: 20px;
+	display: block;
+}
+.business_card .name_card_Information .name {
+	text-align: center;
+	color: #fff;
+	margin-top: 10px;
+	width: 258px;
+	height: 30px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.business_card .name_card_Information .job_name {
+	text-align: center;
+	color: #fff;
+	margin-top: 5px;
+	letter-spacing: 1px;
+	min-height: 40px;
+}
+.business_card .name_card_Information .job_name div {
+	width: 258px;
+	height: 20px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.business_card .name_card_Information .business_main_title {
+	overflow: hidden;
+	margin-top: 30px;
+}
+.business_card .name_card_Information .business_main_title .business_main_title_left {
+	float: left;
+	color: #fff;
+	margin-top: 26px;
+}
+.business_card .name_card_Information .business_main_title .business_main_title_right {
+	float: right;
+	color: #e5e5e5;
+	font-size: 48px;
+	line-height: 1;
+}
+.business_card .name_card_Information .business_percentage_block {
+	min-height: 65px;
+}
+.business_card .name_card_Information .business_percentage {
+	overflow: hidden;
+	margin-top: 3px;
+}
+.business_card .name_card_Information .business_percentage .business_percentage_main {
+	width: 100%;
+	float: left;
+	background-color: #efefef;
+	height: 13px;
+	opacity: 0.6;
+}
+.business_card .name_card_Information .business_percentage .business_percentage_bar{
+	width: 0;
+	height: 13px;
+	background-color: #34a8c4;
+	transition: width .5s ease;
+}
+.business_card .name_card_Information .business_set_up {
+	overflow: hidden;
+	margin-top: 20px;
+}
+.business_card .name_card_Information .business_set_up a{
+	color: #fff;
+}
+.business_card .name_card_Information .business_set_up i:hover {
+	color: #fff;
+}
+.business_card .name_card_Information .business_set_up .left {
+	display: block;
+	width: 46%;
+	float: left;
+	font-size: 16px;
+	border: 1px solid #fff;
+	padding: 3px 5px;
+	text-align: center;
+	border-radius: 14px;
+	cursor: pointer;
+}
+.business_card .name_card_Information .business_set_up .right {
+	display: block;
+	width: 46%;
+	float: right;
+	font-size: 16px;
+	border: 1px solid #fff;
+	padding: 3px 5px;
+	text-align: center;
+	border-radius: 14px;
+	cursor: pointer;
+}
+.right i {
+}
+
+

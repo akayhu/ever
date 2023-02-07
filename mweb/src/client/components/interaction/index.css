@@ -1,0 +1,8 @@
+.wrap {
+  display: flex;
+  justify-content: center;
+  white-space: nowrap;
+}
+.wrap > div:first-of-type {
+	margin-right: 5px;
+}

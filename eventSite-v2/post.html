@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>104</title>
+		<link rel="shortcut icon" href="../favicon.ico" />
+		<link href="./css/reset.css" rel="stylesheet" type="text/css" />
+		<link href="./css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+		<link href="./css/jquery-ui.min.css" rel="stylesheet" type="text/css" />
+		<link href="./css/jquery-ui-timepicker-addon.css" rel="stylesheet" type="text/css" />
+		<link href="./css/common.css" rel="stylesheet" type="text/css" />
+		<link href="./css/createEvent.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+
+		<!-- 內容 -->
+		<main>
+			<div class="create-event-title" style="text-align: center; margin-bottom: 30px;">文章抬頭</div>
+				<dl>
+					<dd class="event-content" style="font-weight: 400;">
+						<div>*文章標題</div>
+						<input type="text" id="title" name="title" placeholder="文章標題" />
+
+						<div style="margin-top: 10px;">*文章日期</div>
+						<input type="text" id="date" name="date" class="datepicker" placeholder="格式：2018-09-21" />
+
+						<div style="margin-top: 10px;">*文章編號 <a href="" target="_blank" style="float: right; color: #55f; text-decoration: none;">取得UUID</a></div>
+						<input type="text" id="path" name="path" placeholder="格式：0389c3d0-83ad-4eea-be0d-166a10d7fc8a" readonly="readonly" />
+						<!-- <a onclick="createUUID();">Create ID</a> -->
+
+						<div style="margin-top: 10px;">圖片位置 <a href="" target="_blank" style="float: right; color: #55f; text-decoration: none;">上傳圖片</a></div>
+						<input type="text" id="img" name="img" placeholder="格式：https://" readonly="readonly" />
+
+						<div style="margin-top: 10px;">文章標籤</div>
+						<div class="tag-editor" style="margin-top: 10px;">
+							<input type="hidden" id="tags" name="tags" class="tag-editor-value" />
+							<ul class="tag-editor-list"></ul>
+							<input type="text" placeholder="Enter新增" class="tag-editor-input" />
+						</div>
+
+						<div style="margin-top: 10px;">文章作者</div>
+						<input type="text" id="author" name="author" placeholder="請輸入PID" />
+
+						<div style="margin-top: 10px;">出版商</div>
+						<input type="text" id="publisher" name="publisher" placeholder="請輸入頻道名稱" />
+						<div style="color: #FF6789;">提醒：作者與出版商至少要填一個</div>
+					</dd>
+
+					<dd class="submit-dd">
+						<button class="submitButton" onclick="transferData();">轉換成代碼</button>
+					</dd>
+
+					<dd class="event-content" style="padding-top: 30px;">
+						<textarea id="format-display" style="height: 200px;"></textarea>
+					</dd>
+				</dl>
+		</main>
+
+		<script src="./js/jquery-3.3.1.min.js"></script>
+		<script src="./js/popper.min.js"></script>
+		<script src="./js/bootstrap.min.js"></script>
+		<script src="./js/jquery-ui.min.js"></script>
+		<script src="./js/datepicker-zh-TW.js"></script>
+		<script src="./js/tag.js"></script>
+		<script>
+			$(document).ready(function() {
+				$(".datepicker").datepicker({ dateFormat:'yy-mm-dd'});
+			});
+
+			function transferData() {
+				title = $.trim($("#title").val());
+				tags = JSON.stringify($.trim($("#tags").val()).split(','));
+				date = $.trim($("#date").val());
+				path = $.trim($("#path").val());
+				author = $.trim($("#author").val());
+
+				var data = "---\n"
+					+ "title: \"" + title + "\"\n"
+					+ "date: \"" + date + "\"\n"
+					+ "path: \"" + path + "\"\n"
+					+ "tags: \"" + tags + "\"\n"
+					+ "author: \"" + author + "\"\n"
+					+ "---";
+				$("#format-display").append(data);
+			}
+
+			function createUUID() {
+				var dt = new Date().getTime();
+				var uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+					var r = (dt + Math.random()*16)%16 | 0;
+					dt = Math.floor(dt/16);
+					return (c=='x' ? r :(r&0x3|0x8)).toString(16);
+				});
+				$("#path").val('/article/'+uuid);
+			}
+		</script>
+	</body>
+</html>

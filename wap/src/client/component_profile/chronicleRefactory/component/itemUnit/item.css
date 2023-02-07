@@ -1,0 +1,151 @@
+.itemContent{
+	position: relative;
+	margin: 0 30px;
+	padding: 15px 30px;
+	background: #f4f4f4;
+	border: 1px solid #e3e3e3;
+	border-radius: 3px;
+}
+.itemContent .title{
+	font-size: 20px;
+	font-weight: 800;
+	color: #081b20;
+	line-height: 1.6em;
+	word-wrap: break-word;
+}
+.itemContent .title .itemSetting{
+	margin-left: -5px;
+}
+.titleBlock{
+	margin-bottom: 15px;
+}
+.descBlock {
+	overflow: hidden;
+}
+.descBlock .relation{
+	font-weight: 800;
+	line-height: 2em;
+	margin-top: 20px;
+}
+.descBlock .viewAll{
+	font-weight: normal;
+	line-height: 2em;
+}
+.descBlock .jobNote{
+	position: relative;
+	line-height: 1.7em;
+	max-height: 65px;
+	overflow: hidden;
+}
+.descBlock .jobNote .bottom_shadow{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 15px;
+	background: linear-gradient(rgba( 243, 243, 243, 0), rgba( 243, 243, 243, 1));
+}
+.descBlock .jobNote.showAllJobNote {
+	max-height: none;
+}
+.descBlock .jobNoteDesc {
+
+}
+.jobNoteMore {
+	padding-top: 5px;
+
+}
+.jobNoteMore a {
+	cursor: pointer;
+}
+
+.chronicleItem:nth-child(2) .itemTop {
+	margin: 30px 0 0;
+}
+.itemTop,
+.itemBottom{
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+.orange_circle{
+	content: '';
+	display: block;
+	position: absolute;
+	z-index: 1;
+	top: -12px;
+	left: 50%;
+	margin-left: -12px;
+	background: #ffd8b9;
+	width: 24px;
+	height: 24px;
+	border-radius: 50%;
+}
+.itemTop .line{
+	height: 35px;
+}
+.itemBottom .line{
+	height: 40px;
+}
+.itemTop .line,
+.itemBottom .line{
+	width: 1px;
+	background: #d0d0d0;
+	z-index: 1;
+}
+.endTime{
+	content: '';
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: absolute;
+	z-index: 0;
+	top: -10px;
+	left: 50%;
+	height: 20px;
+}
+.endTime .dashLine{
+	width: 50px;
+	height: 1px;
+	background: #d0d0d0;
+	margin-right: 5px;
+}
+.endTime .endTimeText{
+	color: #8a8a8a;
+	font-size: 14px;
+}
+.tempData_hint{
+	line-height: 16px;
+	color: red;
+	text-align: right;
+}
+.chronicleItem:last-child .itemBottom {
+	display: none;
+}
+
+/* item honor */
+
+.itemContentHonor{
+	margin: 0 30px 10px 20px;
+	padding: 15px 20px;
+	background: #f4f4f4;
+	border: 1px solid #e3e3e3;
+	border-radius: 3px;
+}
+.itemContentHonor .title{
+	font-size: 20px;
+	color: #081b20;
+	line-height: 24px;
+	word-break: break-all;
+}
+.itemContentHonor .title i{
+	color: #afafaf;
+	cursor: pointer;
+	margin-left: 10px;
+}
+.tag{
+	display: inline-block;
+	margin-bottom: 12px;
+	padding: 0 10px;
+	border: 1px solid #e3e3e3;
+	color: #8a8a8a;
+}

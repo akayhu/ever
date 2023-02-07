@@ -1,0 +1,81 @@
+.ant-card-body {
+	padding: 0 !important;
+}
+
+.business-card-main {
+	position: relative;
+  min-height: 168px;
+  
+  .business-card-avatar {
+    position: absolute;
+    top: calc(50% + 32px);
+    left: calc(50% - 46px);
+
+    img {
+      position: absolute;
+      border-radius: 50%;
+      border: 2px solid #fff;
+    }
+  }
+}
+
+.business-card-content {
+	min-height: 210px;
+	padding-top: 15px;
+	margin-top: 40px;
+  position: relative;
+  
+  .business-card-user-name {
+    font-size: 20px;
+    color: #3a3a3a;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .business-card-user-jobTitle {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #3a3a3a;
+    padding: 0 15px;
+    min-height: 24px;
+  }
+
+  .business-card-user-companyName,
+  .business-card-user-location {
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+    margin-top: 5px;
+    padding: 0 15px;
+    min-height: 18px;
+  }
+
+  .business-card-user-location {
+    margin-bottom: 70px;
+  }
+
+  .business-card-user-QRCode {
+    border-bottom: 3px solid #f5b523;
+    bottom: 0;
+    width: 100%;
+    margin: 0 0 15px;
+
+    canvas {
+      height: 70px !important;
+      width: 70px !important;
+      right: 0;
+      bottom: -7px;
+      padding: 12px;
+      background-color: #fff;
+      position: absolute;
+    }
+  }
+
+  .business-card-user-dash {
+    display: block;
+    margin: 10px auto;
+    width: 40px;
+    border-top: 1px solid #e6e6e6;
+  }
+}

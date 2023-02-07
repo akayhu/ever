@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="cache-control" content="no-store, no-cache" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+    <meta name="description" content="104職涯社群APP，免費課程一鍵報名，打造自己的學習軌跡" />
+    <meta name="language" content="en" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta property="og:title" content="104職涯社群APP，免費課程一鍵報名，打造自己的學習軌跡" />
+    <meta property="og:url" content="" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="104職涯社群APP，免費課程一鍵報名，打造自己的學習軌跡" />
+    <meta property="og:image" content="" />
+    <meta property="og:site_name" content="104職涯社群APP" />
+    <meta name="apple-itunes-app" content="app-id=770520900" />
+    <meta name="google-play-app" content="app-id=com.m104plus" />
+    <title>104職涯社群APP，免費課程一鍵報名，打造自己的學習軌跡</title>
+    <!-- <link rel="shortcut icon" href="favicon.ico" /> -->
+    <link rel="apple-touch-icon" href="image/appBanner.jpg">
+    <link rel="android-touch-icon" href="image/appBanner.jpg" />
+    <link rel="windows-touch-icon" href="image/appBanner.jpg" />
+    <link href="css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="css/all.css" rel="stylesheet" type="text/css" />
+    <link href="css/smart-app-banner.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="js/smart-app-banner.js"></script>
+  </head>
+  <body class="error500_body">
+    <header class="error500_header">
+      <div id="logo" class="logo">
+        <a href="https://akayhu.github.io/eventSite/">
+          <img id="logoImg" src="image/104-plus-250.png" alt="104職涯社群" />
+        </a>
+      </div>
+    </header>
+    <div class="bg_500">
+      <img id="img500" src="image/bg-pc-500.png" alt="404" />
+    </div>
+    <div class="absence">系統錯誤</div>
+    <a href="" class="goHome">回首頁</a>
+    <footer class="footer">
+      探索、學習、互動 累積職涯學習軌跡
+      <div class="appDownload">
+        <a href=""><img src="image/google-play.png" alt="Google Play 立即下載" /></a>
+        <a href=""><img src="image/app-store.png" alt="App Store 下載" /></a>
+      </div>
+      <div class="qr_footer">
+        <div class="qr_code_main">
+          <div class="qr_code_div">
+            Google Play<br />
+            <img src="image/qr_code_android.jpg" alt="android" />
+          </div>
+          <div class="qr_code_div">
+            Apple Store<br />
+            <img src="image/qr_code_iOS.jpg" alt="ios" />
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script>
+      var mobileDevice = (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(window.navigator.userAgent));
+      banner = undefined;
+      function run(force) {
+        var n = document.querySelector('.smartbanner');
+        if (n) {
+          n.parentNode.removeChild(n);
+        }
+        new SmartBanner({
+          daysHidden: 15, // 單擊關閉按鈕後隱藏橫幅的天數（默認為15）
+          daysReminder: 90, // 單擊“查看”按鈕後可以隱藏橫幅的天數（默認為90）
+          appStoreLanguage: 'tw', // App Store的語言代碼（默認為us)
+          title: '104職涯社群',
+          author: '104人力銀行',
+          button: '安裝',
+          store: {
+            ios: '★★★★☆',
+            android: '★★★★☆',
+            windows: '★★★★☆'
+          },
+          price: {
+            ios: 'FREE',
+            android: 'FREE',
+            windows: 'FREE'
+          },
+          force: 'windows' // 取消平台仿真的註釋
+        });
+      };
+      if (mobileDevice) {
+        run('ios');
+      }
+      var bodyWidth = document.body.clientWidth;
+      var img500 = document.getElementById('img500');
+      if (bodyWidth <= 568) {
+        img500.src = 'image/bg-phone-500.png';
+      } else if (bodyWidth <= 960) {
+        img500.src = 'image/bg-tablet-500.png';
+      }
+    </script>
+  </body>

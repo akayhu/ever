@@ -1,0 +1,33 @@
+.collect_article_main {
+	border-left: 4px solid #f4f4f4;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 24px;
+}
+.collect_article_main ul.collectUl {
+	margin: 0;
+	padding-left: 0;
+}
+.collect_article_main li.collectLi {
+	padding: 10px 0;
+	border-bottom: 1px solid #ddd;
+	line-height: 1.5;
+	font-weight: normal;
+}
+.collect_article_main li.collectLi:first-child {
+	padding-top: 0;
+}
+.lightbox_article{
+	text-align: left;
+	line-height: 1.5;
+}
+.lightbox_main{
+	text-align: left;
+}
+.lightbox_main li{
+	margin: 0;
+	padding: 10px;
+}
+.lightbox_main li:hover{
+	background-color: #f9f9f9;
+}

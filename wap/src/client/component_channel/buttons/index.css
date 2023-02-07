@@ -1,0 +1,16 @@
+.ui.basic.buttons {
+	color: #fff;
+}
+.viewpoint li {
+	width: 100px;
+	padding: 5px 0;
+	text-align: center;
+}
+.interaction {
+	display: inline-block;
+  float: right;
+}
+.setting_ul li{
+  width: 100px;
+  text-align: center;
+}

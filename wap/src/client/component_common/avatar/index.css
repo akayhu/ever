@@ -1,0 +1,77 @@
+.avatar_wrap {
+}
+.avatar_img_block {
+	position: relative;
+	display: inline-block;
+}
+
+.avatar_img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	position: relative;
+}
+
+.avatar_fileinput {
+	position: absolute;
+	top: 1px;
+	display: block;
+	width: 100px;
+	height: 30px;
+	opacity: 0;
+	padding: 0;
+}
+
+.dropdown_block {
+	position: absolute;
+	right: -4px;
+	bottom: -4px;
+	float: right;
+}
+.dropdown_block i {
+	color: #fff;
+	font-size: 1.7em;
+}
+.crop {
+	width: 763px;
+	height: 500px;
+}
+.preview_block {
+	float: right;
+}
+.crop_preview {
+	overflow: hidden;
+	margin: 10px;
+	width: 150px;
+	height: 150px;
+}
+.round_crop_preview {
+	overflow: hidden;
+	margin: 10px;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+.crop_button {
+	display: block;
+}
+
+/* tooltip */
+.tooltip:hover .tooltip_text{
+	visibility: visible;
+	opacity: 1;
+}
+.tooltip_text {
+	visibility: hidden;
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	background: #ee7b1e;
+	color: #fff;
+	white-space: nowrap;
+	padding: 0.5em;
+	border-radius: 0.5em;
+
+	opacity: 0;
+	transition: opacity 0.3s;
+}

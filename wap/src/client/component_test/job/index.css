@@ -1,0 +1,178 @@
+/* simple_done */
+
+.simple_done {
+  display: flex;
+  padding: 30px;
+}
+
+.simple_done > div {
+  flex: 1;
+  padding: 20px;
+  font-size: 16px;
+}
+
+.simple_done > div:first-child {
+  border-right: 1px solid #e3e3e3;
+}
+
+.btn_section {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+}
+
+/* answer */
+
+.test_container {
+  min-height: 500px;
+}
+
+.count {
+	color: #fd8a2d;
+  padding: 0 5px;
+}
+
+.count:nth-child(2) {
+  color: inherit;
+}
+
+
+/* report */
+
+.report {
+  padding: 30px;
+  min-height: 800px;
+}
+
+.top {
+  display: flex;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.top > div:first-child {
+  width: 45%;
+}
+
+.bottom {
+
+}
+
+.dmsDet_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #d5d5d5;
+  padding: 0 15px;
+  font-size: 16px;
+}
+
+.dmsDet_title {
+
+}
+
+.dmsDet_percent {
+  color: #ff7800;
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+.save_default_sectoin {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.top_title {
+  background-color: rgb(254, 220, 192);
+  font-size: 16px;
+  position: relative;
+  padding: 15px
+}
+
+.top_title:after {
+	content: '';
+	border-color: transparent #fedcc0 transparent transparent;
+	border-style: dashed solid dashed dashed;
+	position: absolute;
+	display: inline-block;
+  border-width: 12px;
+  top: 30px;
+  left: -23px;
+	position: absolute;
+}
+
+.top_desc {
+  line-height: 1.6em;
+  font-size: 15px;
+  padding: 0 30px 20px 30px;
+}
+
+.desc_sub_title {
+  font-weight: bold;
+	margin: 20px 0 5px 0;
+}
+
+.desc_sub_title:last-child {
+  margin-top: 20px;
+}
+
+.number {
+  padding: 0 5px;
+  color: rgb(255, 120, 0);
+}
+
+.more_btn {
+  margin: 20px 30px;
+  font-size: 15px;
+}
+
+.bottom_title {
+  margin: 20px 0;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.bottom_container {
+  display: flex;
+}
+
+.future {
+  width: 25%;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.future:hover {
+  opacity: 0.8;
+}
+
+.future img {
+  width: 100%;
+}
+
+.future_percent {
+  color: #ff7800;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.champion {
+  cursor: default;
+}
+
+.champion:hover {
+  opacity: 1;
+}
+
+.re_choose_dmsname {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+}
+
+.re_choose_dmsname button {
+  font-size: 16px;
+}

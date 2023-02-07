@@ -1,0 +1,13 @@
+.wrapper {
+	margin-top: 20px;
+}
+.fix_display{
+	display: block;
+	height: 515px;
+}
+.empty{
+	margin: 20px auto;
+	text-align: center;
+	color: rgb(204, 204, 204);
+	width: 100%;
+}

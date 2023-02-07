@@ -1,0 +1,9 @@
+.content_text {
+  font-weight: bolder;
+}
+.plus_class {
+  composes: content_block from '../shared.css';
+}
+.plus_class a {
+  margin-right: 3px;
+}

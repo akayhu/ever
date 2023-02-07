@@ -1,0 +1,21 @@
+.counter {
+  color: gray;
+  overflow: hidden;
+}
+.left {
+  text-align: left;
+  float: left;
+  width: 25%;
+}
+.right {
+  float: right;
+  max-width: 75%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-break: break-all;
+}
+.count_item,
+.tag {
+  margin-left: 5px;
+}

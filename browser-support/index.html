@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>瀏覽器e2e test</title>
+  <script src="browser.3.0.min.js"></script>
+  <!-- <style>
+    body {
+      margin: 0;
+    }
+  </style> -->
+  <!-- <script src="https://static.104.com.tw/104main/common/browser.3.0.min.js"></script> -->
+  <script>
+    function test() {
+      console.log(1111111);
+    }
+    commonBrowser104.init({
+      language: [4, 1],
+      date: '2018年01月01日',
+      date_en: 'January 1, 2018',
+      browserVersion: 'IE11',
+      lowest: [8, 100, 100, 100, 100, 100, 0],
+      support: ['ie', 'chrome', 'safari', 'firefox', 'opera', 'edge', 'mobileDevice'],
+      fixedHeight: '0',
+      closeFun: test,
+      // appendId: 'h01',
+      closeCookieTime: '111'
+    });
+  </script>
+</head>
+<body>
+  <div id="h01"></div>
+  <!-- <img src="https://tls-detect.support.104.com.tw/" onerror="commonBrowser104.tlsError()" alt="tls" /> -->
+  <!-- <script id="browser-support-alert" src="https://static.104.com.tw/104main/common/browser.min.js?date=2018年01月01日&browserVersion=IE11&lowest=11,100&support=ie,chrome&fixedHeight=0px"></script> -->
+  <!-- <script src="browser.2.0.js"></script> -->
+  <!-- <script src="browser.3.0.js?date=2018年01月01日&browserVersion=IE11&lowest=11,100&support=ie,chrome&fixedHeight=0px" id="browser-support-alert"></script> -->
+  <!-- <script>
+    function test() {
+      console.log(1111111);
+    }
+    commonBrowser104.init({
+      language: [4, 1],
+      date: '2018年01月01日',
+      date_en: 'January 1, 2018',
+      browserVersion: 'IE11',
+      lowest: [8, 100, 100, 100, 100, 100, 0],
+      support: ['ie', 'chrome', 'safari', 'firefox', 'opera', 'edge', 'mobileDevice'],
+      fixedHeight: '0',
+      closeFun: test,
+      // appendId: 'h01',
+      closeCookieTime: '111'
+    });
+  </script> -->
+</body>

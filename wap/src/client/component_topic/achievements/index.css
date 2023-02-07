@@ -1,0 +1,271 @@
+.worksContent .userContent {
+	margin: 0;
+	line-height: 1;
+	color: #8A8A8A;
+	display: inline-block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 100%;
+}
+.worksContent {
+	padding: 10px;
+}
+.worksImg {
+	width: 100%;
+	height: 120px;
+	line-height: 120px;
+	overflow: hidden;
+}
+.worksImg img {
+	width: 100%;
+	vertical-align: middle;
+	cursor: pointer;
+}
+.worksTit {
+	max-height: 47px;
+	line-height: 1.4;
+	font-size: 16px;
+	width: 100%;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+/*.worksContent .userMain img{
+	margin-top: 5px;
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}*/
+.worksContent .userMain {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	margin-top: 10px;
+	padding-top: 10px;
+	border-top: 1px solid #e3e3e3;
+}
+.worksContent .userInfo {
+	width: 75%;
+	margin-bottom: 15px;
+}
+.honorTop {
+	width: 100%;
+	background: #fff;
+	border: 1px solid #e3e3e3;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 25px;
+	margin-bottom: 15px;
+}
+.topImg {
+	width: 300px;
+	height: 320px;
+	margin-right: 20px;
+	position: relative;
+}
+.topImg > img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+}
+.topImg .bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	background: #081b20;
+	opacity: .2;
+}
+.topImg .userMain {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+.topImg .userMain .userImg img {
+	margin-top: 30px;
+	margin-bottom: 15px;
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+}
+.topImg .userMain .userName {
+	font-size: 16px;
+	line-height: 1.5;
+	width: 90%;
+	display: block;
+	margin: 0 auto;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.topImg .userMain p {
+	margin-bottom: 0;
+	color: #fff;
+	width: 90%;
+	display: block;
+	margin: 0 auto;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.honorTop .topMsg {
+	padding: 20px;
+	cursor: pointer;
+	width: 66%;
+}
+.honorTop .topMsg .tag {
+	display: inline-block;
+	margin-bottom: 12px;
+	padding: 0 10px;
+	border: 1px solid #e3e3e3;
+	color: #8a8a8a;
+}
+.title {
+	width: 100%;
+	font-size: 18px;
+	font-weight: 800;
+	color: #081b20;
+	line-height: 1.6em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.honorTop .title {
+	font-size: 20px;
+}
+.honorTop .topMsg .viewAll {
+	font-weight: 800;
+	line-height: 2em;
+	width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.honorTop .topMsg .jobName {
+	font-size: 16px;
+}
+.honorTop .topMsg .content {
+	max-height: 115px;
+	overflow: hidden;
+	margin-bottom: 5px;
+}
+.topMsg .more {
+	text-align: left;
+	line-height: 1;
+	padding: 0;
+}
+.honorList {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.honorList > li {
+	width: 475px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	background: #fff;
+	border: 1px solid #e3e3e3;
+	padding: 15px 15px 0px;
+}
+.honorList li:nth-child(even) {
+	margin-right: 0;
+}
+.honorUser {
+	width: 100%;
+	margin-bottom: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	border-bottom: 1px solid #e3e3e3;
+}
+.honorUser .btn {
+	height: 30px;
+	margin-top: 20px;
+}
+.honorUser .userImg {
+	margin-right: 5px;
+}
+.honorUser .userInfo {
+	width: 250px;
+}
+.honorUser .userInfo .userName,
+.honorUser .userInfo p {
+	display: block;
+	width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.honorUser .userInfo .userName {
+	font-size: 16px;
+	line-height: 1.5;
+}
+.honorUser .userInfo p {
+	margin-bottom: 0;
+}
+.honorList .tag {
+	display: inline-block;
+	margin-bottom: 12px;
+	padding: 0 10px;
+	border: 1px solid #e3e3e3;
+	color: #8a8a8a;
+}
+.user_exp_top,
+.user_exp_bot {
+	height: 24px;
+}
+.honorList .viewAll {
+	font-weight: 800;
+	line-height: 1.3em;
+	width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.honorList .jobName {
+	font-size: 16px;
+}
+.honorList .jobName,
+.honorList .content {
+	width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	margin: 0;
+}
+.honor_body {
+	cursor: pointer;
+}
+.worksMain {
+	margin-top: 1em;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.worksMain li {
+	width: 230px;
+	margin-right: 13px;
+	background: #fff;
+	border: 1px solid #e3e3e3;
+	transition: background 1s;
+}
+.worksMain li:last-child {
+	margin-right: 0;
+}
+.userInfo {
+	margin: 0 5px 10px;
+}
+.activityBlock {
+	cursor: pointer;
+}

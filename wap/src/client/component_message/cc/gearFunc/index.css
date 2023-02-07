@@ -1,0 +1,9 @@
+.dropdownMenuStyle {
+	float: right;
+	/*margin-right: 10px;*/
+	font-size: 20px;
+	color: #999;
+}
+.dropdownMenuStyle [class*="dropdown"] {
+	padding-left: 10px;
+}

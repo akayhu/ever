@@ -1,0 +1,23 @@
+.other_actions {
+    letter-spacing: 1px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+    color: #081b20;
+    /*width: 100px;*/
+    text-align: center;
+    cursor: pointer;
+}
+
+.other_actions li {
+    text-align: center;
+    width: 100px;
+}
+
+.other_actions li:hover {
+    width: 100px;
+}
+
+.other_actions li:hover {
+    background: #d8f3fd;
+}

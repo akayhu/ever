@@ -1,0 +1,9 @@
+.user_name .right ul.stream_ul li{
+	width: 160px;
+}
+
+.line{
+    margin: 15px 10px;
+    height: 1px;
+    background: #ddd;
+}

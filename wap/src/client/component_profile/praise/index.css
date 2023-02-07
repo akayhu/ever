@@ -1,0 +1,78 @@
+.praise_main {
+	border-left: 4px solid #f4f4f4;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 24px;
+}
+.praise_main_top_title {
+	margin-bottom: 10px;
+	color: #8a8a8a;
+	line-height: 1.5;
+}
+.praise_main_top img{
+	margin-right: 8px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+.lbContainer {
+	width: 700px;
+	height: 340px;
+	overflow-y: scroll;
+}
+.lbContainer::-webkit-scrollbar-track {
+	border-radius: 10px;
+	background-color: #eee;
+}
+
+.lbContainer::-webkit-scrollbar {
+	width: 8px;
+}
+
+.lbContainer::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background-color: #ccc;
+}
+.button_row{
+	margin-top: 40px;
+}
+.addwishbtn{
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+}
+.mask{
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-radius: 50%;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.7);
+	text-align: center;
+}
+.mask:hover{
+	background: rgba(0, 0, 0, 0.4);
+}
+i.maskIcon{
+	width: 40px;
+}/* forgive me 權重問題 */
+.maskIcon::before{
+	width: 40px;
+	height: 40px;
+	font-size: 20px;
+	font-weight: 800;
+	color: white;
+	line-height: 40px;
+}
+.maskIcon:hover{
+	color: white;
+}
+.addwishImg{
+	width: 40px;
+	height: 40px;
+}

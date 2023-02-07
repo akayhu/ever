@@ -1,0 +1,515 @@
+@import "scss/cProfile.scss";
+
+.gallery-container {
+	flex-wrap: wrap;
+	display: flex;
+	align-content: flex-start;
+
+	.drag-wrapper {
+		width: 100%;
+	}
+}
+
+/* 上傳檔案文案 */
+.gallery-no-picture {
+	width: 100%;
+	border: 1px solid #e3e0e0;
+	border-radius: 8px;
+	font-size: 18px;
+	text-align: center;
+	color: tomato;
+
+	&--def {
+    height: 163px;
+    line-height: 170px;
+
+		@include rwd-to(768) {
+			height: 186px;
+			line-height: 200px;
+		}
+	}
+	
+	&--new,
+	&--dark {
+		height: 280px;
+		line-height: 290px;
+
+		@include rwd-to(960) {
+			height: 280px;
+			line-height: 270px;
+		}
+		@include rwd-to(414) {
+			height: 200px;
+			line-height: 200px;
+		}
+	}
+}
+
+/* 第一個模板 */
+.gallery-def {
+	.drag-wrapper {
+		flex-basis: (100% / 3);
+
+		@include rwd-to(900) {
+			flex-basis: 50%;
+		}
+		@include rwd-to(568) {
+			flex-basis: auto;
+		}
+	}
+
+	.gallery-displayFlex {
+		@include rwd-to(900) {
+			flex-basis: 50%;
+		}
+		@include rwd-to(568) {
+			flex-basis: 100%;
+		}
+	}
+
+	.gallery-def-main {
+		position: relative;
+		margin: 20px 15px;
+		text-align: left;
+		flex-basis: 33%;
+
+		.gallery-def-img {
+			margin-bottom: 15px;
+			border-radius: 8px;
+			overflow: hidden;
+		
+			.children-main {
+				position: relative;
+				overflow: hidden;
+				width: 100%;
+				max-height: 200px;
+
+				@include rwd-to(768) {
+					height: auto;
+					max-height: 200px;
+				}
+		
+				img {
+					height: 154.98px;
+					width: 100%;
+
+					@include rwd-to(960) {
+						height: 152.623px;
+					}
+					@include rwd-to(854) {
+						height: 211.5px;
+					}
+					@include rwd-to(823) {
+						height: 202.781px;
+					}
+					@include rwd-to(812) {
+						height: 199.687px;
+					}
+					@include rwd-to(800) {
+						height: 196.312px;
+					}
+					@include rwd-to(768) {
+						height: 182.25px;
+					}
+					@include rwd-to(667) {
+						height: 158.906px;
+					}
+					@include rwd-to(640) {
+						height: 151.312px;
+					}
+					@include rwd-to(600) {
+						height: 140.062px;
+					}
+					@include rwd-to(568) {
+						height: 282.375px;
+					}
+					@include rwd-to(533) {
+						height: 262.687px;
+					}
+					@include rwd-to(480) {
+						height: 232.875px;
+					}
+					@include rwd-to(414) {
+						height: 212.625px;
+					}
+					@include rwd-to(412) {
+						height: 211.5px;
+					}
+					@include rwd-to(411) {
+						height: 210.937px;
+					}
+					@include rwd-to(384) {
+						height: 195.75px;
+					}
+					@include rwd-to(375) {
+						height: 190.687px;
+					}
+					@include rwd-to(360) {
+						height: 182.25px;
+					}
+					@include rwd-to(320) {
+						height: 159.75px;
+					}
+				}
+			}
+		}
+
+		.gallery-def-title {
+			font-size: 20px;
+			color: #2b2b2b;
+			margin-bottom: 5px;
+			word-break: break-all;
+		}
+
+		.gallery-def-description {
+			padding-bottom: 10px;
+			word-break: break-all;
+			color: #3a3a3a;
+		}
+
+		&.gallery-preview {
+			flex-basis: 30%;
+
+			@include rwd-to(936) {
+				flex-basis: 29%;
+			}
+			@include rwd-to(900) {
+				flex-basis: 46%;
+			}
+			@include rwd-to(768) {
+				flex-basis: 45%;
+			}
+			@include rwd-to(667) {
+				flex-basis: 100%;
+			}
+		}
+	}
+}
+
+/* 第二個模板 */
+.gallery-new {
+	.gallery-displayFlex {
+		flex-basis: 100%;
+	}
+
+	.gallery-new-main {
+		width: 100%;
+		min-height: 320px;
+		padding: 20px 20px 40px;
+
+		@include rwd-to(960) {
+			min-height: 305px;
+		}
+		@include rwd-to(900) {
+			min-height: 275px;
+		}
+		@include rwd-to(823) {
+			min-height: 270px;
+		}
+		@include rwd-to(800) {
+			min-height: 260px;
+		}
+		@include rwd-to(768) {
+			min-height: 250px;
+		}
+		@include rwd-to(736) {
+			min-height: 240px;
+		}
+		@include rwd-to(668) {
+			padding: 20px 20px 0;
+		}
+
+		.gallery-new-img {
+			max-width: 55.6%;
+			min-width: 55.6%;
+			float: right;
+			margin-left: 30px;
+			border-radius: 8px;
+			overflow: hidden;
+			border-radius: 8px;
+		
+			@include rwd-to(667) {
+				float: initial;
+				max-width: 100%;
+				margin-left: 0;
+			}
+		
+			.children-main {
+				position: relative;
+				overflow: hidden;
+				width: 100%;
+				max-height: 280px;
+		
+				@include rwd-to(414) {
+					max-height: 200px;
+				}
+		
+				img {
+					width: 100%;
+
+					@include rwd-to(960) {
+						height: 273.965px;
+					}
+					@include rwd-to(950) {
+						height: 271.456px;
+					}
+					@include rwd-to(900) {
+						height: 255.825px;
+					}
+					@include rwd-to(854) {
+						height: 243.315px;
+					}
+					@include rwd-to(823) {
+						height: 233.623px;
+					}
+					@include rwd-to(812) {
+						height: 230.175px;
+					}
+					@include rwd-to(800) {
+						height: 226.423px;
+					}
+					@include rwd-to(768) {
+						height: 210.785px;
+					}
+					@include rwd-to(736) {
+						height: 206.409px;
+					}
+					@include rwd-to(732) {
+						height: 205.160px;
+					}
+					@include rwd-to(731) {
+						height: 204.845px;
+					}
+					@include rwd-to(667) {
+						height: 332.437px;
+					}
+					@include rwd-to(640) {
+						height: 317.25px;
+					}
+					@include rwd-to(600) {
+						height: 294.75px;
+					}
+					@include rwd-to(568) {
+						height: 276.75px;
+					}
+					@include rwd-to(533) {
+						height: 257.062px;
+					}
+					@include rwd-to(480) {
+						height: 227.25px;
+					}
+					@include rwd-to(414) {
+						height: 207px;
+					}
+					@include rwd-to(412) {
+						height: 205.875px;
+					}
+					@include rwd-to(411) {
+						height: 205.312px;
+					}
+					@include rwd-to(384) {
+						height: 190.125px;
+					}
+					@include rwd-to(375) {
+						height: 185.062px;
+					}
+					@include rwd-to(360) {
+						height: 176.625px;
+					}
+					@include rwd-to(320) {
+						height: 154.125px;
+					}
+				}
+			}
+		}
+
+		.gallery-new-content {
+			max-width: 40%;
+			position: relative;
+			color: #3a3a3a;
+		
+			@include rwd-to(668) {
+				max-width: 100%;
+				padding-top: 10px;
+			}
+
+			.gallery-new-title {
+				font-size: 20px;
+				color: #2b2b2b;
+				margin-bottom: 5px;
+				text-align: left;
+				word-break: break-all;
+			}
+
+			.gallery-new-bottom {
+				padding-bottom: 10px;
+			}
+		}
+	}
+}
+
+/* 第三個模板 */
+.gallery-dark {
+	.gallery-displayFlex {
+		flex-basis: 100%;
+	}
+
+	.gallery-dark-main {
+		width: 100%;
+		min-height: 320px;
+		padding: 20px 20px 40px;
+
+		@include rwd-to(960) {
+			min-height: 305px;
+		}
+		@include rwd-to(900) {
+			min-height: 275px;
+		}
+		@include rwd-to(823) {
+			min-height: 270px;
+		}
+		@include rwd-to(800) {
+			min-height: 260px;
+		}
+		@include rwd-to(768) {
+			min-height: 250px;
+		}
+		@include rwd-to(736) {
+			min-height: 240px;
+		}
+
+		.gallery-dark-img {
+			max-width: 55.6%;
+			min-width: 55.6%;
+			float: left;
+			margin-right: 30px;
+			border-radius: 8px;
+			overflow: hidden;
+		
+			@include rwd-to(668) {
+				float: initial;
+				max-width: 100%;
+				margin-right: 0;
+			}
+		
+			.children-main {
+				position: relative;
+				overflow: hidden;
+				width: 100%;
+				max-height: 280px;
+		
+				@include rwd-to(414) {
+					max-height: 200px;
+				}
+		
+				img {
+					width: 100%;
+
+					@include rwd-to(960) {
+						height: 273.965px;
+					}
+					@include rwd-to(950) {
+						height: 271.456px;
+					}
+					@include rwd-to(900) {
+						height: 255.825px;
+					}
+					@include rwd-to(854) {
+						height: 243.315px;
+					}
+					@include rwd-to(823) {
+						height: 233.623px;
+					}
+					@include rwd-to(812) {
+						height: 230.175px;
+					}
+					@include rwd-to(800) {
+						height: 226.423px;
+					}
+					@include rwd-to(768) {
+						height: 210.785px;
+					}
+					@include rwd-to(736) {
+						height: 206.409px;
+					}
+					@include rwd-to(732) {
+						height: 205.160px;
+					}
+					@include rwd-to(731) {
+						height: 204.845px;
+					}
+					@include rwd-to(667) {
+						height: 332.437px;
+					}
+					@include rwd-to(640) {
+						height: 317.25px;
+					}
+					@include rwd-to(600) {
+						height: 294.75px;
+					}
+					@include rwd-to(568) {
+						height: 276.75px;
+					}
+					@include rwd-to(533) {
+						height: 257.062px;
+					}
+					@include rwd-to(480) {
+						height: 227.25px;
+					}
+					@include rwd-to(414) {
+						height: 207px;
+					}
+					@include rwd-to(412) {
+						height: 205.875px;
+					}
+					@include rwd-to(411) {
+						height: 205.312px;
+					}
+					@include rwd-to(384) {
+						height: 190.125px;
+					}
+					@include rwd-to(375) {
+						height: 185.062px;
+					}
+					@include rwd-to(360) {
+						height: 176.625px;
+					}
+					@include rwd-to(320) {
+						height: 154.125px;
+					}
+				}
+			}
+		}
+
+		.gallery-dark-content {
+			max-width: 40%;
+			min-width: 40%;
+			position: relative;
+			float: left;
+			color: #3a3a3a;
+		
+			@include rwd-to(812) {
+				max-width: 38%;
+				min-width: 38%;
+			}
+			@include rwd-to(668) {
+				width: 100%;
+				max-width: 100%;
+				min-width: 100%;
+				padding-top: 10px;
+			}
+
+			.gallery-dark-title {
+				font-size: 20px;
+				color: #2b2b2b;
+				margin-bottom: 5px;
+				text-align: left;
+				word-break: break-all;
+			}
+
+			.gallery-dark-bottom {
+				padding-bottom: 10px;
+			}
+		}
+	}
+}

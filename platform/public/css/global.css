@@ -1,0 +1,117 @@
+
+html, body, #root, .wrap, .container {
+  min-height: 100%;
+}
+
+#root > .wrap {
+	padding-top: 62px;
+}
+
+body {
+	font-family: "Microsoft JhengHei", "微軟正黑體", helvetica, arial, verdana, sans-serif;
+  font-size: 14px;
+  color: #081B20;
+}
+
+div::-webkit-scrollbar-track,
+ul::-webkit-scrollbar-track {
+	border-radius: 10px;
+	background-color: #eee;
+}
+
+div::-webkit-scrollbar,
+ul::-webkit-scrollbar {
+	width: 5px;
+}
+
+div::-webkit-scrollbar-thumb,
+ul::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background-color: #ccc;
+}
+
+a:link, a:visited, a:active, a:hover {
+  color: #0192b5;
+  text-decoration: none;
+}
+
+button.ui.icon.button i {
+	color: #8A8A8A;
+}
+
+header button.ui.icon.button i {
+  color: #2B2B2B;
+}
+
+h1, .h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+}
+
+h2, .h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+}
+
+h3, .h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+}
+
+h4, .h4 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+}
+
+h5, .h5 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+}
+
+/**
+ * typography
+ */
+.clearfix:after { 
+	content: "\0020"; 
+	display: block; 
+	height: 0; 
+	line-height: 0; 
+	font-size: 0; 
+	clear: both; 
+	visibility: hidden; 
+	overflow: hidden;
+}
+.tabs {
+	display: flex;
+	border-bottom: 1px solid #d5d5d5;
+}
+.tabs li {
+	padding-bottom: 16px;
+	font-size: 16px;
+  color: #8A8A8A;
+	font-weight: bold;
+	cursor: pointer;
+}
+.tabs li.active {
+	border-bottom: 1px solid #ffa500;
+	color: #000;
+	font-weight: bold;
+}
+.tabs li:not(:first-child) {
+	margin-left: 20px;
+}
+.hide {
+	display: none !important;
+}
+.search_hightlight {
+	color: #e87418;
+}
+.container-wrap {
+	width: 960px;
+	margin: 0 auto;
+}

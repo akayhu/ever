@@ -1,0 +1,113 @@
+.endorseMain {
+    background: #fff;
+    border: 1px solid #e3e3e3;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+
+.endorseMain ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.endorseMain li {
+    width: 210px;
+    padding-right: 26px;
+    margin-right: 26px;
+    border-right: 1px solid #e3e3e3;
+}
+
+.endorseMain li:last-child {
+    margin-right: 0;
+    border-right: 0;
+    padding-right: 0;
+}
+
+.endorseMain .more {
+    margin-top: 10px;
+    text-align: right;
+    padding-bottom: 3px;
+}
+
+.endorseList {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.endorseList li {
+    width: 210px;
+    text-align: center;
+    padding-right: 26px;
+    margin-right: 26px;
+    border-right: 1px solid #e3e3e3;
+}
+
+.endorseList li:last-child {
+    margin-right: 0;
+    border-right: 0;
+    padding-right: 0;
+}
+
+.endorseTit {
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.endorseTit span {
+    color: #FE7E17;
+    font-style: italic;
+}
+
+.endorseItem {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.endorseItem li {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 15px;
+    border: 0;
+    line-height: 1.5;
+}
+
+.userInfo {
+    text-align: left;
+    width: 88%;
+    display: flex;
+    flex-direction: column;
+}
+
+.userInfo a,
+.userInfo p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.userInfo p.userJobTitle {
+    margin: 0;
+    color: #8A8A8A;
+}
+
+.endorseName {
+    display: block;
+    padding-top: .5em;
+}
+
+.endorseNameCard {
+    margin-right: 10px;
+}
+
+.more {
+    margin-top: 10px;
+    text-align: right;
+    padding-bottom: 3px;
+}

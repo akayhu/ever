@@ -1,0 +1,24 @@
+.group_right_people {
+	line-height: 65px;
+  font-size: 16px;
+}
+.list_box {
+	width: 100%;
+	min-height: 100%;
+}
+.list_bg {
+	background-color: #fff;
+	border: 1px solid #e8e8e8;
+}
+.list_bg dl{
+	margin: 0;
+}
+.keyword {
+	color: #ff530d;
+}
+.list_button{
+	width: 93px;
+}
+.list_setting{
+	width: 76px;
+}

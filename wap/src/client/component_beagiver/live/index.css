@@ -1,0 +1,67 @@
+.topMovieTitle {
+	font-size: 18px;
+	padding: 30px 10px;
+	text-align: center;
+	border-bottom: 1px solid #9772e3;
+}
+.topMovie p {
+	font-size: 16px;
+	text-align: center;
+	line-height: 2;
+	margin: 0 auto;
+	display: block;
+	letter-spacing: 1px;
+	padding: 40px 0;
+	border-bottom: 1px solid #9772e3;
+}
+.maxWidth {
+	width: 700px;
+	margin: 0 auto;
+}
+.listVideo {
+	margin: 0 auto;
+	padding: 50px 0 10px;
+}
+.listVideoTitle {
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+}
+.listVideo ul {
+	overflow: hidden;
+	margin-top: 25px;
+}
+.listVideo li {
+	float: left;
+	padding-bottom: 30px;
+}
+.listVideo li:nth-child(odd) {
+	margin-right: 30px;
+}
+.listVideoDataTitle {
+	/*text-align: center;*/
+	font-size: 16px;
+	margin: 15px 0;
+	letter-spacing: 1px;
+	line-height: 1.7;
+	width: 335px
+}
+.button {
+	text-align: center;
+	margin: 20px 50px;
+}
+.more {
+	padding: 10px 40px;
+	color: #ff7800 !important;
+	border: 1px solid #ff7800;
+	border-radius: 20px;
+	margin-right: 20px;
+}
+.join {
+	padding: 10px 40px;
+	border-color: #000;
+	background-color: #000;
+	color: #fff !important;
+	border: 1px solid #000;
+	border-radius: 20px;
+}

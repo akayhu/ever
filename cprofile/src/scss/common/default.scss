@@ -1,0 +1,68 @@
+// 單行文字顯示省略符號
+@mixin one-line-ellipsis() {
+  white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+// 多行文字顯示省略符號
+@mixin multi-line-ellipsis($max-line: 2, $base-font-size: 1em, $base-line-height: 1) {
+	text-overflow: ellipsis;
+	display: -webkit-box;
+  -webkit-line-clamp: $max-line;
+	overflow: hidden;
+	word-break: break-all;
+	max-height: $max-line * $base-font-size * $base-line-height;
+	
+	// HACK: for fix autoprefixer issue for ellipsis
+	/* autoprefixer: off */
+	-webkit-box-orient: vertical;
+}
+
+// for remove textarea drag and border
+@mixin normalize-textarea() {
+	outline: none;
+	resize: none;
+}
+
+// 一般欄位 placeholder 顯示顏色
+@mixin placeholder--default($color: #000, $element: 'textarea') {
+	#{$element}::placeholder {
+		color: $color !important;
+	}
+	#{$element}::-webkit-input-placeholder {
+		color: $color !important;
+	}
+	#{$element}::-ms-input-placeholder {
+		color: $color !important;
+	}
+	#{$element}::-moz-placeholder {
+		color: $color !important;
+	}
+}
+// 必填欄位 placeholder 顯示顏色
+@mixin placeholder--required($color: red, $element: 'textarea') {
+	#{$element}[data-required='true']:empty::placeholder { /* CSS 3 標準 */
+		color: $color !important;
+	}
+	#{$element}[data-required='true']:empty::-webkit-input-placeholder { /* Chrome, Safari */
+		color: $color !important;
+	}
+	#{$element}[data-required='true']:empty::-ms-input-placeholder { /* IE 10+ */
+		color: $color !important;
+	}
+	#{$element}[data-required='true']:empty::-moz-placeholder { /* Firefox 19+ */
+		color: $color !important;
+	}
+}
+
+// 區塊內垂直置中
+@mixin vertical-align-center() {
+	&::before {
+		content: '';
+		width: 0;
+		height: 100%;
+		display: inline-block;
+		vertical-align: middle;
+	}
+}

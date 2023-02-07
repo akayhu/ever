@@ -1,0 +1,11 @@
+.groupMain{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.groupMain li{
+  margin-right: 30px;
+}
+.groupMain li:last-child{
+  margin-right:0;
+}

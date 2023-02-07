@@ -1,0 +1,26 @@
+.people_dl {
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 0;
+  background-color: #fff;
+  border-radius: 3px;
+}
+.people_dl:last-child {
+  margin-bottom: 0;
+}
+.people_dl > div {
+  border-left: 1px solid #d1d1d1;
+  border-right: 1px solid #d1d1d1;
+}
+.people_dl > div:first-child {
+  border-top: 1px solid #d1d1d1;
+}
+.people_dl > div:last-child {
+  border-bottom: 1px solid #d1d1d1;
+}
+.loading,
+.error,
+.end {
+  margin: 50px 0;
+  text-align: center;
+}

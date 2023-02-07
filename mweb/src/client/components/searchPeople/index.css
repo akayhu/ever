@@ -1,0 +1,35 @@
+/*.people_results {
+  padding-left: 12px;
+  font-size: 14px;
+  color: #8b8b8b;
+  margin-bottom: 12px;
+}*/
+/*.people_dl {
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 0;
+  border: 1px solid #d1d1d1;
+  background-color: #fff;
+  border-radius: 3px;
+}*/
+.total_count {
+  color: #6a6a6a;
+  margin: 20px 0;
+}
+.no_result {
+  text-align: center;
+  margin-top: 20px;
+}
+.msg {
+  font-weight: bold;
+  font-size: 16px;
+}
+.suggest {
+  color: #6a6a6a;
+}
+.loading,
+.error,
+.end {
+  margin: 50px 0;
+  text-align: center;
+}

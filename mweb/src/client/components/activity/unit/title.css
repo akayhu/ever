@@ -1,0 +1,8 @@
+.main_text {
+	font-size: 20px;
+  font-weight: bold;
+  color: #081b20;
+  margin: 12px 0;
+  word-wrap:break-word;
+  word-break:normal;
+}

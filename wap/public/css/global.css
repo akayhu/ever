@@ -1,0 +1,294 @@
+.list {
+  font-size: 16px;
+  font-weight: normal;
+  color: #000;
+}
+
+.m_title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+}
+
+.main_text {
+  font-size: 16px;
+  font-weight: normal;
+  color: #000;
+}
+
+.body_text {
+  font-size: 14px;
+  color: #000;
+}
+
+.sub_title {
+  font-size: 14px;
+  color: #8a8a8a;
+}
+
+.statics_text {
+  font-size: 14px;
+  color: #8a8a8a;
+}
+
+.timestamp {
+  font-size: 12px;
+  color: #8a8a8a;
+}
+
+a.primary_link {
+  font-size: 18px;
+  color: #0192b5;
+}
+
+a.artcle_link{
+  font-size: 16px;
+  color: #0192b5;
+}
+
+a.name_link{
+  font-size: 14px;
+  color: #0192b5;
+}
+
+input[type=checkbox].css-checkbox {
+  position: absolute;
+  z-index: -1000;
+  left: -1000px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+}
+input[type=checkbox].css-checkbox + label.css-label {
+  padding-left: 23px;
+  height: 18px;
+  display: inline-block;
+  line-height: 18px;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  vertical-align: middle;
+  cursor: pointer;
+  font-weight: normal;
+}
+input[type=checkbox].css-checkbox:checked + label.css-label {
+  background-position: 0 -18px;
+}
+label.css-label {
+  background-image: url(../img/checkbox_primary.png);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/**
+ * typography
+ */
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.bar {
+  fill: orange;
+}
+
+.solidArc:hover {
+  fill: orangered ;
+}
+
+.solidArc {
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.aster-score { 
+  line-height: 1;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+
+
+/**
+ * grid system
+ */
+.container_wrap {
+  width: 960px;
+  min-height: 100%;
+  margin: 0 auto;
+}
+.wrap_w200_m20_w760,
+.wrap_w300_m0_w660,
+.wrap_w300_m20_w640 {
+  width: 960px;
+  display: flex;
+  margin: 0 auto;
+}
+.wrap_w200_m20_w760 .left_side,
+.wrap_w300_m0_w660 .left_side,
+.wrap_w300_m20_w640 .left_side {
+  background: #FFF;
+}
+
+/**
+ * .wrap_w200_m20_w760 {
+ */
+.wrap_w200_m20_w760 .left_side {
+  width: 200px;
+  margin-right: 20px; 
+}
+.wrap_w200_m20_w760 .right_side {
+  width: 740px;
+}
+
+/**
+ * .wrap_w300_m0_w660 {
+ */
+.wrap_w300_m0_w660 .left_side {
+  width: 300px;
+  margin-right: 0; 
+}
+.wrap_w300_m0_w660 .right_side {
+  width: 660px;
+}
+
+/**
+ * .wrap_w300_m20_w640 {
+ */
+.wrap_w300_m20_w640 .left_side {
+  width: 300px;
+  margin-right: 20px; 
+}
+.wrap_w300_m20_w640 .right_side {
+  width: 640px;
+}
+
+/**
+ * header100, left300 right660
+ */
+.original_panel {
+  border: 1px solid #e3e3e3;
+  background: #fff;
+}
+.original_panel .header {
+  border-bottom: 1px solid #e3e3e3;
+  padding: 10px 10px 10px 20px;
+  height: 65px;
+}
+.original_panel .header .title {
+  float: left;
+}
+.original_panel .header .title h2 {
+  font-size: 22px;
+  margin: 10px 10px 10px 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+.original_panel .header .title .text {
+  display: inline-block;
+}
+.original_panel .header .options,
+.original_panel .header .info {
+  float: right;
+  margin-top: 12px;
+  position: relative;
+}
+.original_panel .header .options a, 
+.original_panel .header .options span {
+  cursor: pointer;
+  color: #0192b5;
+}
+.original_panel .header .options .layer {
+  position: absolute;
+}
+.original_panel .body {
+  width: 100%;
+}
+.original_panel .body .aside {
+  
+}
+.original_panel .body .main {
+  border-left: 1px solid #e3e3e3;
+}
+
+/**
+ * full-height
+ */
+.full_height {
+  overflow: hidden;
+}
+.full_height .container {
+  height: calc(100vh - 110px);
+  overflow-y: auto;
+  min-height: auto;
+}
+.full_height .container_wrap{
+  /* height: 100%; */
+  max-height: 725px;
+  min-height: 580px;
+}
+.full_height .container_wrap .body {
+  /* height: calc(100% - 65px); */
+}
+.full_height .container_wrap .aside,
+.full_height .container_wrap .main {
+  height: 100%;
+  overflow: auto;
+}
+.full_height .y_auto {
+  overflow-y: scroll; 
+  max-height: 500px;
+}
+.full_height footer {
+  display: none;
+}
+
+/**
+ * Google Optimize
+ */
+.async-hide { 
+  opacity: 0 !important
+}

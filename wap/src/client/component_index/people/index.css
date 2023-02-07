@@ -1,0 +1,90 @@
+
+/***********你可能認識的人 值得關注的人***********/
+.personal_social_content {
+	margin-bottom: 15px;
+}
+
+.mayknow_note {
+	background-color: #fff;
+	border: 1px solid #e8e8e8;
+}
+.mayknow_note_title {
+	margin-bottom: 15px;
+}
+.mayknow_note dl {
+	margin: 0;
+}
+.mayknow_note dd {
+	display: block;
+	padding: 20px 20px 15px 20px;
+	margin: 0;
+}
+.mayknow_note dd:first-child {
+	border-bottom: 1px solid #e8e8e8;
+}
+.mayknow_note ul {
+	margin: 0;
+	padding: 0;
+}
+.mayknow_note ul li {
+}
+.mayknow_note ul li:last-child {
+}
+.mayknow_note ul li span.left {
+	float: left;
+	width: 155px;
+}
+.mayknow_note ul li span.left > div > a > img {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin-right: 10px;
+	float: left;
+}
+.mayknow_note .left .left_name {
+	display: inline-block;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	word-break: break-all;
+	width: 100px;
+	overflow: hidden;
+	float: right;
+	/*position: relative;
+	top: -6px;
+	left: 10px;*/
+}
+.mayknow_note .left .left_detail {
+	display: inline-block;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	word-break: break-all;
+	width: 100px;
+	overflow: hidden;
+	float: right;
+	margin-top: -20px;
+	/*position: relative;
+	top: -22px;
+	left: 50px;*/
+}
+.mayknow_note ul li span.right {
+	float: right;
+	color: #8a8a8a;
+	padding-top: 3px;
+}
+.mayknow_note ul li span.right span {
+	color: #8a8a8a;
+}
+.mayknow_note ul li span.all {
+	float: right;
+	color: #8a8a8a;
+	cursor: pointer;
+}
+
+.mayknow_note .people {
+	height: 60px;
+	overflow: visible;
+}
+.mayknow_note .more {
+	height: 30px;
+	position: relative;
+}

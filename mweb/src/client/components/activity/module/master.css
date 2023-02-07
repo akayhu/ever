@@ -1,0 +1,43 @@
+.master {
+  background: #fff;
+  word-wrap:break-word;
+  word-break:normal;
+}
+.article {
+  padding-top: 0;
+}
+.pre_content {
+  font-size: 14px;
+  color: #000;
+  line-height: 1.7;
+  margin-bottom: 24px;
+  max-height: 70px;
+  overflow: hidden;
+  word-wrap: break-word;
+  word-break: normal;
+}
+.bottom {
+  border-top: solid 1px #f4f4f4;
+  display: flex;
+  height: 49px;
+  margin-bottom: 12px;
+}
+.first_btn {
+  color: #0192B5;
+}
+.first_section {
+  margin: 0;
+  padding: 12px;
+  font-size: 13px;
+  color: #8a8a8a;
+}
+.e104_ad img,
+.google_ad {
+  width: 100%;
+}
+.master iframe {
+  width: 100% !important;
+}
+.master [class*="fullscreen"] {
+  display: none !important;
+}

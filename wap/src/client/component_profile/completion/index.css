@@ -1,0 +1,92 @@
+.completionAll{
+	margin-bottom: 45px;
+}
+.completion_main {
+	padding-top: 30px;
+	padding-right: 20px;
+	padding-bottom: 17px;
+	padding-left: 20px;
+	border: 1px solid #e1e1e1;
+	border-radius: 3px;
+}
+.completion_top_title {
+	color: #8a8a8a;
+}
+.completion_main ul {
+	margin: 0;
+	padding: 0;
+	line-height: 1.7;
+}
+.completion_main ul li {
+	border-bottom: 1px solid #e6e6e6;
+	height: 41px;
+	padding-top: 8px;
+}
+.completion_main ul li:last-child {
+	border-bottom: 0;
+}
+.completion_main ul li button {
+	float: right;
+	width: 50px;
+	height: 25px;
+	padding: 0 !important;
+	font-size: 12px;
+	font-weight: bold;
+}
+.completion_percentage {
+	overflow: hidden;
+	margin-top: 3px;
+}
+.completion_percentage_main {
+	width: 100%;
+	float: left;
+	background-color: #efefef;
+	height: 15px;
+}
+.completion_percentage_bar{
+	width: 0;
+	height: 15px;
+	background-color: #34a8c4;
+}
+.completion_percentage_number {
+	color: #8a8a8a;
+	float: right;
+}
+.completion_main_title {
+	overflow: hidden;
+}
+.completion_main_title_left {
+	float: left;
+	color: #8a8a8a;
+	margin-top: 26px;
+}
+.completion_main_title_right {
+	float: right;
+	color: #e5e5e5;
+	font-size: 48px;
+	line-height: 1;
+}
+.intermediate_copywriter {
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 30px;
+	margin-bottom: 12px;
+}
+.name_link{
+	font-size: 14px;
+	color: #0192b5;
+}
+.inputformbtn{
+	position: relative;
+}
+.inputform{
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 30px;
+	opacity: 0;
+	padding: 0;
+	cursor: pointer;
+}

@@ -1,0 +1,25 @@
+.alert {
+  width: 90%;
+  position: fixed;
+  top: 100px;
+  left: 5%;
+  z-index: 2;
+  border-radius: 3px;
+  background-color: #fe7e17;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+}
+
+.alert p {
+  margin: 0;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.alert i {
+  font-size: 18px;
+  margin-bottom: 14px;
+}

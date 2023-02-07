@@ -1,0 +1,102 @@
+.m-lightboxDiv {
+    background-color: #ccc;
+    font-family: Arial, '微軟正黑體', Verdana, Tahoma, '新細明體';
+    margin: 1.3rem .9rem .9rem;
+    height: 94%;
+    position: absolute;
+    width: 95%;
+    z-index: 50;
+    display: none;
+    top: 0;
+}
+.m-lightboxDiv .m-lightboxDiv-head {
+    margin: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    color: #696969;
+    font-size: 17px;
+    font-weight: bold;
+    background: -moz-linear-gradient(top, #fdfdfd 0%, #e3e4e3 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fdfdfd), color-stop(100%, #e3e4e3));
+    background: -webkit-linear-gradient(top, #fdfdfd 0%, #e3e4e3 100%);
+    background: -o-linear-gradient(top, #fdfdfd 0%, #e3e4e3 100%);
+    background: -ms-linear-gradient(top, #fdfdfd 0%, #e3e4e3 100%);
+    background: linear-gradient(to bottom, #fdfdfd 0%, #e3e4e3 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfdfd', endColorstr='#e3e4e3',GradientType=0 );
+    text-align: left;
+    line-height: 47px;
+    height: 47px;
+    padding: 0px 60px 0px 30px;
+    position: relative;
+    border-bottom: 1px solid #d6d6d6;
+}
+.m-lightboxDiv .m-lightboxDiv-head button {
+    font-size: 21px;
+    display: block;
+    width: 47px;
+    line-height: 47px;
+    text-align: center;
+    color: #acacac;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    border-left: 1px solid #cfcfcf;
+    background-color: transparent;
+}
+.m-lightboxDiv-content {
+    padding: 1rem;
+}
+.m-lightboxDiv-content .buttonDiv {
+    text-align: center;
+}
+.m-lightboxDiv-content .title {
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 1.3rem;
+}
+.m-lightboxDiv-content .button {
+    display: inline-block;
+    vertical-align: middle;
+    width: auto;
+    overflow: visible;
+    border-radius: 3px;
+    text-decoration: none;
+    font-family: inherit;
+    border: 1px solid;
+    background: none;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2), 0 0 1px rgba(0, 0, 0, 0.1);
+    height: 40px;
+    line-height: 40px;
+    padding: 0 .75em;
+    box-sizing: border-box;
+    white-space: nowrap;
+    text-align: center;
+    width: 60%;
+    border-color: #d5d5d5;
+    color: #666;
+    background-color: #fff;
+    FILTER: progid:DXImageTransform.Microsoft.gradient( startColorstr=#fff, endColorstr=#f2f2f2,GradientType=0 );
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f2f2f2));
+    background-image: -webkit-linear-gradient(top, #fff, #f2f2f2);
+    background-image: -moz-linear-gradient(top, #fff, #f2f2f2);
+    background-image: -ms-linear-gradient(top, #fff, #f2f2f2);
+    background-image: -o-linear-gradient(top, #fff, #f2f2f2);
+    background-image: linear-gradient(top bottom, #fff, #f2f2f2);
+}
+.m-lightboxDiv-content .primary {
+    border-color: #e46709;
+    color: #fff;
+    background-color: #fd9301;
+    FILTER: progid:DXImageTransform.Microsoft.gradient( startColorstr=#fd9301, endColorstr=#e46709,GradientType=0 );
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fd9301), to(#e46709));
+    background-image: -webkit-linear-gradient(top, #fd9301, #e46709);
+    background-image: -moz-linear-gradient(top, #fd9301, #e46709);
+    background-image: -ms-linear-gradient(top, #fd9301, #e46709);
+    background-image: -o-linear-gradient(top, #fd9301, #e46709);
+    background-image: linear-gradient(top bottom, #fd9301, #e46709);
+    margin: 3rem 0 1rem;
+}

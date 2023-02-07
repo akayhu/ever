@@ -1,0 +1,24 @@
+@import 'scss/common/default.scss';
+@import 'scss/common/layout.scss';
+
+.category-picker {
+  @include placeholder--required(tomato, 'input');
+  
+  &--trigger {
+    text-align: center;
+    border: 0;
+    width: 100%;
+    font-size: 14px;
+    padding-left: 0;
+    margin-bottom: 6px;
+    cursor: pointer;
+    color: #3a3a3a;
+
+    @include text-align-distributed();
+  }
+  
+  &--preview {
+    font-size: 14px;
+    color: #3a3a3a;
+  }
+}

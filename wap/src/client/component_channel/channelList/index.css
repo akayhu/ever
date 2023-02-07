@@ -1,0 +1,18 @@
+.channel_block {
+	margin: 0;
+	display: flex;
+  flex-wrap: wrap;
+}
+
+.channel_block > div:nth-child(odd) {
+	margin-right: 20px;
+}
+.loading_block {
+	width: 100%;
+}
+.loading_block.empty {
+  margin-top: 150px;
+}
+.loading_block.non_empty {
+  margin-top: 15px;
+}

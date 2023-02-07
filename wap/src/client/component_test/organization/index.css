@@ -1,0 +1,68 @@
+/**
+ * answer
+ */
+.test_main {
+	position: absolute;;
+	width: 960px;
+	background-color: #fff;
+	border: 1px solid #e3e3e3;
+	margin-bottom: 40px;
+}
+.test_title {
+	padding: 15px 25px;
+	border-bottom: 1px solid #e3e3e3;
+}
+.test_title h3 {
+	margin: 0;
+	display: inline-block;
+}
+.test_content {
+	padding: 25px 30px;
+}
+.test_content p {
+	margin: 0;
+	font-size: 16px;
+	letter-spacing: 1px;
+	line-height: 1.7;
+	max-height: inherit;
+}
+.answer_content {
+	width: 760px;
+	margin: 40px auto;
+	font-size: 16px;
+}
+.test_footer {
+	margin: 40px;
+	text-align: center;
+}
+
+/**
+ * report
+ */
+.report_more {
+	display: inline-block;
+	height: 30px;
+	vertical-align: middle;
+	position: relative;
+  top: -5px;
+  margin-left: 5px;
+}
+div.report_more {
+	top: -6px;
+}
+.report_more [class*="Droplist_listInput"] {
+	height: 30px;
+}
+.flex_content {
+	display: flex;
+}
+.chart,
+.text {
+	flex: 1;
+}
+.text span {
+	font-weight: bold;
+}
+.option span {
+	margin-left: 5px;
+}

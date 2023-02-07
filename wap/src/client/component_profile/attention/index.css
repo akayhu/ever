@@ -1,0 +1,36 @@
+.attention_main {
+	border-left: 4px solid #f4f4f4;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 24px;
+}
+.attention_main a img{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+.lbContainer {
+	width: 700px;
+	height: 340px;
+	overflow-y: scroll;
+}
+.lbContainer::-webkit-scrollbar-track {
+	border-radius: 10px;
+	background-color: #eee;
+}
+
+.lbContainer::-webkit-scrollbar {
+	width: 8px;
+}
+
+.lbContainer::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background-color: #ccc;
+}
+.namecard_box {
+	display: inline-block;
+	margin-right: 10px;
+}
+.namecard_box[data-index="4"] {
+	margin-right: 0;
+}

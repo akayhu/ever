@@ -1,0 +1,11 @@
+.alert-banner {
+	z-index: 2000;
+	margin-top: 50px !important;
+	position: fixed;
+	width: 100%;
+
+	.ant-alert-message {
+		max-width: calc(100% - 16px);
+		display: inline-block;
+	}
+}

@@ -1,0 +1,31 @@
+/*-------- for feature --------*/
+.block {
+	width: 800px;
+	display: flex;
+	justify-content: space-between;
+	margin: 30px auto 40px auto;
+	text-align: center;
+}
+.block .col {
+	width: 226px;
+}
+.block .col h2 {
+	font-size: 28px;
+	font-weight: bold;
+}
+.block .col p {
+	font-size: 16px;
+	line-height: 1.75;
+	text-align: left;
+	margin: 0 auto;
+}
+.block .col p.eventP {
+	margin-left: 16px;
+}
+.block .col img {
+	width: 155px;
+	margin: 9px auto;
+}
+.block a {
+	color: #4a4a4a;
+}

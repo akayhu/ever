@@ -1,0 +1,94 @@
+main {
+  margin: 80px auto 0;
+  width: 1014px;
+}
+main .top-option {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e8e8e8;
+  padding: 15px 0;
+}
+main .top-title {
+  font-size: 24px;
+  color: #333;
+}
+main .creat-instructor > button {
+  margin-right: 5px;
+}
+main dl dt {
+  height: 35px;
+  border-bottom: solid 1px #e8e8e8;
+}
+main dl dd {
+  padding: 20px 15px;
+  border-bottom: solid 1px #e8e8e8;
+  margin-bottom: 0;
+  overflow: hidden;
+  color: #333;
+}
+main dl dd.no-event {
+  padding: 40px 20px;
+  border-bottom: 0;
+}
+main dl dd.no-event:hover {
+  background-color: #fff;
+}
+main .no-event span {
+  font-size: 24px;
+  vertical-align: sub;
+  margin-right: 10px;
+  font-weight: 300;
+}
+.system-item-title {
+  color: #333;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+.system-item-news {
+  font-size: 18px;
+  margin-left: 10px;
+  font-weight: 300;
+}
+.stop-authorization-title {
+  color: #aaa;
+}
+.stop-authorization {
+  color: #999;
+  font-size: 14px;
+  margin-top: 8px;
+}
+.system-item-button {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.system-dropdown {
+  color: #666;
+  font-size: 24px;
+  cursor: pointer;
+}
+.system-item-button .dropdown-menu {
+  min-width: 72px !important;
+}
+
+.view-organizer-lightbox-modal {
+  max-width: 600px !important;
+}
+.view-organizer-lightbox-modal .modal-body {
+  padding: 20px 30px;
+}
+.view-organizer-lightbox-modal .modal-body p {
+  font-size: 14px;
+  line-height: 1.7;
+  font-weight: 400;
+}
+.view-organizer-title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 15px;
+}
+.lightbox-view-organizer-button {
+  text-align: center;
+  margin-top: 20px;
+}

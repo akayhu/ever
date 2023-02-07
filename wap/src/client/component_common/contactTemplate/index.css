@@ -1,0 +1,61 @@
+.lb_box {
+	display: flex;
+	position: relative;
+	padding: 16px;
+	margin-right: 16px;
+	text-align: left;
+	white-space: nowrap;
+}
+.lb_box:hover {
+  background-color: #fafafa;
+}
+.lb_left {
+  flex: 1;
+  align-items: center;
+  margin-right: 16px;
+}
+.lb_left .size40 {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.lb_right {
+	flex: 6;
+}
+.lb_right_top {
+  font-size: 14px;
+	display: flex;
+}
+.lb_right_top > a {
+	max-width: 300px;
+	display: inline-block;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.lb_right_bottom > p {
+  margin: 0;
+  font-size: 14px;
+	line-height: 16px;
+  color: #081b20;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	width: 300px;
+}
+.lb_btn {
+	flex: 2;
+	display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.mutual_lb {
+	width: 440px;
+	min-height: 300px;
+	max-height: 500px;
+	overflow-y: auto;
+}
+.extra {
+	color: darkgrey;
+	margin-left: 5px;
+}

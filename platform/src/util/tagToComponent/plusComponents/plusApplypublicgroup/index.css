@@ -1,0 +1,6 @@
+.content_text {
+  font-weight: bolder;
+}
+.plus_applypublicgroup {
+  composes: content_block from '../shared.css';
+}

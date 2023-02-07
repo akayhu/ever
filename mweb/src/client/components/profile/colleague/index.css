@@ -1,0 +1,25 @@
+.title {
+  font-size: 15px;
+  font-weight: bold;
+}
+.container {
+	position: relative;
+	margin: 12px 0;
+  font-size: 13px;
+  overflow-x: auto;
+  white-space: nowrap;
+  
+  /*display: flex;*/
+}
+/*div.container::-webkit-scrollbar{
+  width: 0;
+}*/
+.container [class*="wrap"] {
+	display: inline-block;
+}
+.container [class*="wrap"]:not(:first-child) {
+  margin-left: 8px;
+}
+.container [class*="wrap"] img {
+	margin: 0 !important;
+}

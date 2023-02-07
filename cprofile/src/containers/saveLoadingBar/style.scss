@@ -1,0 +1,15 @@
+.save-loading-bar {
+	position: fixed;
+	z-index: 2050;
+	width: 100%;
+	top: 0;
+	text-align: center;
+
+	.in-storage {
+		text-align: center;
+		background-color: #fff;
+		display: inline-block;
+		color: #7e7e7e;
+		font-size: 12px;
+	}
+}

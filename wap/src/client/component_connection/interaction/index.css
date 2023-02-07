@@ -1,0 +1,338 @@
+.wrapper {}
+
+.personal_main {
+    position: relative;
+    top: 0;
+    display: inline-block;
+    padding: 0;
+    width: 100%;
+}
+
+.personal_content {
+    display: flex;
+    margin: 0 auto;
+    width: 960px;
+}
+
+.personal_social_content {
+    margin-bottom: 35px;
+}
+
+.social_main {
+    width: 300px;
+    background-color: white;
+    margin-top: 20px;
+    padding-top: 50px;
+    max-height: 600px;
+}
+
+.personal_info_main {
+    width: 660px;
+    padding-top: 35px;
+    padding-left: 35px;
+}
+
+.profile_component {
+    margin-bottom: 15px;
+}
+
+.personal_social_content dl dt {
+    padding: 10px 0;
+    padding-left: 25px;
+}
+
+.personal_social_content dl dt:first-child {
+    padding-top: 0;
+}
+
+.personal_social_content dl dd {
+    color: #666;
+    margin: 0;
+    padding: 10px 0;
+    padding-left: 50px;
+    cursor: pointer;
+    display: flex;
+    position: relative;
+}
+
+.personal_social_content dl dd:hover {
+    background-color: #e1e1e1;
+    color: #333333;
+    font-weight: bold;
+}
+
+.personal_social_content dl dd.focus {
+    background-color: #ffd8b9;
+    color: #fe8322;
+    font-weight: bold;
+}
+
+.personal_social_content dl dd.focus:after {
+    content: " ";
+    border-color: transparent #fff transparent transparent;
+    border-style: dashed solid dashed dashed;
+    position: absolute;
+    display: inline-block;
+    border-width: .5rem;
+    top: 15px;
+    right: 0;
+    position: absolute;
+}
+
+.personal_social_content dl dd.hr {
+    padding-left: 0;
+}
+
+.personal_social_content dl dd.hr:hover {
+    background-color: #f4f4f4;
+}
+
+.personal_social_content dl dd.hr div {
+    width: 88%;
+    border-bottom: 1px solid #e8e8e8;
+    margin: 0 auto;
+}
+
+.contacts_title {
+    line-height: 65px;
+    font-size: 16px;
+}
+
+.contacts_main {
+    background: #fff;
+}
+
+.contacts_main dl {
+    margin: 0;
+    padding: 0;
+}
+
+.contacts_main dd {
+    padding: 15px;
+    margin: 0;
+    display: flex;
+}
+
+.contacts_content_pic {
+    display: flex;
+    align-items: center
+}
+
+.contacts_content_pic img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.contacts_main .contacts_content_left {
+    display: flex;
+    width: 71%;
+}
+
+.contacts_main .contacts_content_right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 39%;
+    padding-top: 20px;
+}
+
+.contacts_main .contacts_content_text {
+    line-height: 1.7;
+}
+
+.contacts_main .contacts_content_text a.title {
+    font-weight: bold;
+}
+
+.contacts_content_job {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-break: break-all;
+    width: 309px;
+}
+
+.contacts_content_job:hover {
+    white-space: normal;
+}
+
+.contacts_loader {
+    height: 100px;
+}
+
+.other_actions {
+    letter-spacing: 1px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+    color: #081b20;
+    /*width: 100px;*/
+    text-align: center;
+    cursor: pointer;
+}
+
+
+/* Friends */
+
+.icon_btn>button {
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+
+.send_message {
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border-right: 1px solid #FFF !important;
+    padding: 7.2px 16px !important;
+}
+
+.other_actions li {
+    text-align: center;
+    width: 100px;
+}
+
+.other_actions li:hover {
+    width: 100px;
+}
+
+.other_actions li:hover {
+    background: #d8f3fd;
+}
+
+
+/* Invitations */
+
+.invite_confirm {
+    margin: 0 -12px;
+}
+
+.confirm_message {}
+
+
+/* Unconfirmed */
+
+.invite_unconfirmed {
+    display: flex;
+    justifyContent: flex-end;
+    alignItems: center;
+    width: 100%;
+}
+
+
+/* Following */
+
+
+/* ChangeCard */
+
+.change_card_text {
+    margin: 0;
+    width: 88px;
+    text-align: center;
+}
+
+
+/* SubscribePeople */
+
+.subscribe_people_text {
+    margin: 0px;
+    width: calc(0.25em + 62px);
+    text-align: center;
+}
+
+
+/* RevokeInvitation */
+
+.revoke_invitation_text {
+    margin: 0px;
+    width: calc(0.25em + 116px);
+    text-align: center;
+}
+
+
+/* LightboxItem */
+
+.lbContainer {
+    min-height: 300px;
+    max-height: 550px;
+    overflow-y: auto;
+}
+
+.dropdownlist_title {
+    color: black;
+    font-weight: bold;
+}
+
+.change_subscribed_confirm {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.block_name_card {
+    border: solid 1px #d5d5d5;
+    border-radius: 3px;
+    background: #fafafa;
+    width: 380px;
+    margin: 0 auto 10px;
+    height: 80px;
+    text-align: left;
+    padding: 15px 18px 20px;
+}
+
+.block_name_card_info {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.block_name_card img {
+    float: left;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 4px;
+}
+
+.block_detail {
+    width: 380px;
+    text-align: left;
+}
+
+.block_list {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+}
+
+.block_list li {
+    display: list-item;
+    list-style: initial;
+}
+
+.submit_main {
+    position: absolute;
+    top: 1.5em;
+    left: 50%;
+    background: #FEF1E5;
+    border: 1px solid #F9C99D;
+    padding: 5px;
+    color: #333;
+    width: 380px;
+    margin-left: -190px;
+    height: 50px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+}
+
+.remove {
+    cursor: pointer;
+}
+
+.remove_block {
+    float: right;
+    padding: 0;
+    font-size: 1.4em;
+}

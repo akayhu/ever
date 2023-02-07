@@ -1,0 +1,36 @@
+.exp-new-entry .exp-new-body ul li::before {
+	content: '';
+	margin-right: 0;
+}
+
+.public-DraftEditorPlaceholder-root {
+	color: #aaa;
+	width: 100%;
+}
+
+.editor-sample-text {
+	color: #aaa;
+	width: 100%;
+}
+
+.draftJsToolbar__toolbar__dNtBH {
+	z-index: 20 !important;
+	background-color: #f8f8f8;
+}
+
+.user-def-summary {
+	.public-DraftEditorPlaceholder-root {
+		text-align: center;
+	}
+	.public-DraftEditor-content {
+		text-align: center;
+	}
+	& .public-DraftEditor-content ul,
+	& .public-DraftEditor-content ol {
+		display: inline-block;
+	}
+	& ul.public-DraftStyleDefault-ul li .public-DraftStyleDefault-ltr,
+	& ol.public-DraftStyleDefault-ol li .public-DraftStyleDefault-ltr{
+		text-align: left;
+	}
+}

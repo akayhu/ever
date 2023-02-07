@@ -1,0 +1,10 @@
+.content_text {
+  font-weight: bolder;
+}
+.plus_activitycomment {
+  composes: content_block from '../shared.css';
+}
+p {
+  display: inline-block;
+  margin: 0;
+}

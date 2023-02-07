@@ -1,0 +1,212 @@
+/*gallery*/
+.gallery{
+	position: relative;
+}
+.gallery_container {
+	margin-bottom: 50px;
+}
+.all_loading_cover {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgba(255, 255, 255, 0.6);
+	z-index: 2000;
+}
+.all_loading_cover div {
+	top: 50%;
+}
+.gallery_items {
+	width: 560px;
+	margin: 0 auto;
+	display: flex;
+	/*justify-content: space-between;*/
+	flex-wrap: wrap;
+}
+.gallery_items img {
+	cursor: pointer;
+}
+.list_div {
+  display: inline-block;
+  position: relative;
+  width: calc(20% - 10px);
+  height: 80px;
+  text-align: center;
+  overflow: hidden;
+  margin: 0 0px 10px 10px;
+  cursor: pointer;
+}
+.list_div:nth-child(5n+1)  {
+	margin-left: 0;
+}
+.list_item {
+	height: 100%;
+}
+/*carousel*/
+.carousel {
+	position: relative;
+	margin-bottom:30px;
+}
+.carousel ul {
+	position: relative;
+	height: 410px;
+	padding: 0;
+	margin: 0;
+}
+.carousel > i{
+	margin: 0;
+	font-size: 3em;
+	color: #a8a8a8;
+	width: 20px;
+}
+.left {
+	position: absolute;
+	top: 180px;
+	left: -10px;
+	cursor: pointer;
+}
+/*為了增加展示櫥窗左右的觸碰區域*/
+.left::after {
+	content: '';
+  height: 480px;
+  width: 50px;
+  position: absolute;
+  left: -10px;
+  top: -180px;
+  z-index: 1;
+}
+.right {
+	position: absolute;
+	top: 180px;
+	right: -10px;
+	cursor: pointer;
+}
+/*為了增加展示櫥窗左右的觸碰區域*/
+.right::after {	
+	content: '';
+	height: 480px;
+	width: 50px;
+	position: absolute;
+	right: -10px;
+	top: -180px;
+	z-index: 1;
+}
+.items {
+	position: absolute;
+	left: 10px;
+	display: inline-block;
+	width: 560px;
+	height: 410px;
+	overflow: hidden;
+	transition: all .3s ease-in-out;
+}
+
+.main_pos {
+	z-index: 3;
+}
+.main_pos img{
+	max-width: 545px;
+	max-height: 303px;
+}
+.image_div {
+  width: 560px;
+  height: 315px;
+  vertical-align: middle;
+	text-align: center;
+  display: table-cell;
+  background-color: #081b20;
+  cursor: pointer;
+}
+.image_div > img{
+	min-width: 100px;
+	min-height: 100px;
+}
+
+.image_div .fake_text {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	overflow: hidden;
+	padding: 5px;
+}
+.image_div .fake_text > img {
+	position: absolute;
+	top: 35%;
+	left: 40%;
+	width: 100px;
+}
+.left_pos {
+	margin-left: -4em;
+	opacity: 0;
+	transform: scale(.3);
+}
+
+.back_pos {
+	margin-left: 2em;
+	opacity: 0;
+	transform: scale(.3);
+}
+
+.right_pos {
+	z-index: 2;
+	margin-left: 7em ;
+	opacity: 0;
+	transform: scale(.3);
+}
+.content {
+  font-size: 18px;
+  margin: 0;
+}
+.content span {
+	color: #34a8c4;
+	padding-right: 5px;
+  display: inline-block;
+  max-width: 95%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+}
+.content i {
+	color: #9a9a9a;
+}
+.counts {
+	padding: 0 3px;
+}
+.desc {
+	padding: 20px;
+	border: 1px solid #eee;
+}
+.desc > span {
+	color: #9A9A9A;
+}
+.active {
+  border: 5px solid #34A8C4;
+	transition: all .1s ease-in-out;
+}
+.more {
+	padding-top: 40px;
+  padding-bottom: 30px;
+  text-align: center;
+  width: 100%;
+}
+.more a {
+	position: relative;
+	display: inline-block;
+	padding: 5px 40px;
+	border: 1px solid #d0d0d0;
+	color: #34a8c4;
+	text-decoration: none;
+	cursor: pointer;
+}
+.more .loading_cover {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgba(255, 255, 255, 0.6);
+	z-index: 1;
+}

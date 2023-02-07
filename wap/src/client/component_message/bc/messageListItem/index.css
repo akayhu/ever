@@ -1,0 +1,40 @@
+.item {
+	margin: 0;
+	padding: 15px 0;
+	padding-left: 20px;
+	padding-right: 10px;
+	border-bottom: 1px solid #e3e3e3;
+	cursor: pointer;
+	position: relative;
+}
+.focus {
+	background-color: #ffd8b9;
+}
+.unread {
+	background-color: #f9f9f9;
+}
+
+.summary {
+	overflow: hidden;
+}
+.job {
+	display: block;
+	width: 69%;
+	float: left;
+	font-weight: bold;
+	word-wrap: break-word;
+	word-break: break-all;
+}
+.time {
+	display: block;
+	float: right;
+	font-size: 12px;
+	color: #8d8c8b;
+}
+.company {
+	clear: both;
+	margin-top: 5px;
+	font-size: 12px;
+	color: #8a8a8a;
+	font-weight: bold;
+}

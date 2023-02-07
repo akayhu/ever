@@ -1,0 +1,183 @@
+.editMain_title {
+	padding: 15px 30px;
+	font-size: 14px;
+	line-height: 1.7;
+	border-bottom: 1px solid #ececec;
+	font-weight: bold;
+	color: #939393;
+	overflow: hidden;
+}
+.editMain_left {
+	float: left;
+}
+.editMain_left .more {
+	cursor: pointer;
+}
+.editMain_copywriter_max_height {
+	max-height: 140px;
+	overflow: hidden;
+}
+ul.editMain_copywriter {
+	list-style-type: decimal;
+	margin-left: 40px;
+}
+ul.editMain_copywriter li {
+	list-style: inherit;
+}
+
+a.edit {
+	cursor: pointer;
+	float: right;
+	border: 1px solid #0192b5;
+	padding: 3px 15px;
+	border-radius: 5px;
+	margin-top: 1.4%;
+	color: #0192b5;
+}
+
+.editMain_table_div {
+	background-color: #fafafa;
+	border-bottom: 1px solid #ececec;
+}
+.blockade_top {
+	padding: 20px 0 20px 50px;
+}
+.inputAll {
+	display: flex;
+}
+.inputWidth {
+	width: 215px;
+	margin-right: 10px;
+}
+.inputWidth input {
+	height: 30px;
+}
+.inputAll button {
+	margin-left: 15px;
+	height: 30px;
+	margin-top:5px;
+}
+.membership_number {
+	margin-top: 5px;
+	color: #939393;
+}
+
+.numbering{
+	color: #fe7e17;
+}
+.blockade_top .title,
+.blockade_bottom .title{
+	font-weight: bold;
+}
+.blockade_bottom {
+	padding-left: 58px;
+	padding-top: 15px;
+}
+.blockade_content {
+	padding: 3px 10px;
+	margin-bottom: 10px;
+}
+.blockade_content dl {
+	margin: 0;
+}
+.blockade_content dl dd {
+	font-weight: bold;
+	margin: 7px 0;
+}
+.blockade_content dl dd a {
+	margin-left: 10px;
+	font-weight: 100;
+}
+.blockade_content .splice_block_a {
+	cursor: pointer;
+}
+.editMain {
+	min-height: 240px;
+}
+.editMain table {
+	width: 92%;
+	border-collapse: collapse;
+	margin-left: 8%;
+}
+.editMain table tr td {
+	text-align: center;
+	vertical-align: middle;
+	padding: 12px 0;
+	padding-right: 45px;
+	color: #939393;
+	font-size: 14px;
+	border-bottom: 1px solid #ececec;
+	text-align: left;
+	line-height: 1.7;
+	font-weight: bold;
+}
+.editMain table tr:last-child td {
+	border-bottom: 0;
+}
+.editMain table tr td:last-child {
+	padding-right: 0;
+}
+.editMain table tr td span.title {
+	color: #081b20;
+}
+.editMain table tr td a.more {
+	float: right;
+}
+.editMain table tr td.td_button {
+	padding-left: 34%;
+}
+.editMain .annotation {
+	color: #999;
+	line-height: 2.1;
+}
+.blockListNameCard {
+	background-color: #fafafa;
+	border: 1px solid #ededed;
+	padding: 15px;
+	overflow: hidden;
+}
+.blockListNameCard img {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	float: left;
+	margin-right: 10px;
+}
+.blockListMain {
+	text-align: left;
+	width: 400px;
+}
+.blockListMain a {
+	color: #0192b5;
+}
+.blockListMain ul {
+	margin: 0;
+	margin-left: 20px;
+	margin-bottom: 25px;
+	font-size: 16px;
+	padding-left: 15px;
+	padding-bottom: 15px;
+}
+.blockListMain ul li {
+	list-style: inherit;
+}
+.blockListText {
+	margin: 25px 0px;
+	margin-left: 15px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.blockListSubText {
+	margin-left: 15px;
+	font-size: 16px;
+}
+.blockListSubButton {
+	text-align: center;
+	margin-top: 45px;
+}
+.blockListSubButton button:first-child {
+	margin-right: 20px;
+}
+.blockName{
+	line-height: 45px;
+}

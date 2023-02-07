@@ -1,0 +1,13 @@
+.announcement_bg {
+  background-color: #ffd8b9;
+  font-size: 16px;
+}
+.announcement_text {
+  padding: 5px 10px;
+}
+.layer_close {
+  color: #428bca;
+}
+.lightbox_fontSize {
+  font-size: 16px;
+}

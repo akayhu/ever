@@ -1,0 +1,161 @@
+.lightbox_root {
+	padding: 45px;
+}
+.sub_function_row{
+	text-align: left;
+}
+.container{
+	text-align: left;
+	padding: 5px 0;
+}
+.titleError{
+	border-bottom: 2px solid red;
+}
+/* Editor */
+.editor_main{
+	width: 700px;
+	min-height: 400px;
+}
+.editor_main > div:first-child{
+	height: auto;
+	padding: 0 8px 0 20px;
+}
+.header {
+	padding: 0 0 0 7px;
+}
+.header .left{
+	width: 75%;
+	display: inline-block;
+	vertical-align: middle;
+}
+.header .right{
+	width: 24.5%;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: right;
+}
+.title_textfield input,
+.title_textfield input:focus {
+	border: none;
+}
+.title_textfield textarea,
+.title_textfield textarea:focus {
+	height: 38px;
+	border: 0
+}
+.privacySetting{
+	margin-right: 5px;
+  margin-left: 10px;
+  color: #8a8a8a;
+  font-size: 16px;
+}
+.hr{
+	background: #ccc;
+	height: 1px;
+	margin: 10px auto 15px;
+}
+.remind {
+	text-align: left;
+	font-size: 16px;
+	color: #666;
+	margin-bottom: 20px;
+}
+.btnRow{
+	padding: 10px 0;
+	position: relative;
+}
+.btnRow .error_message {
+	color: #ff530d;
+	float: right;
+	position: absolute;
+	right: 0;
+	top: 19px;
+}
+.reselectArticleTag {
+	position: absolute;
+	left: 165px;
+	top: 13px;
+}
+
+.main-editor {
+	
+}
+.article-tag {
+	width: 400px;
+}
+.radioGroup{
+	max-width: 400px;
+	margin: 0 auto;
+}
+.radioGroup label{
+	margin-left: 5px;
+	margin-right: 5px;
+	padding-right: 10px;
+}
+.articleTagHint{
+	color: #d4d4d4;
+	text-align: left;
+	margin-top: 10px;
+}
+
+.endorse_item{
+	display: inline-block;
+	vertical-align: middle;
+	margin: 15px 15px 15px 0;
+	padding: 5px 10px;
+	border-radius: 5px;
+	background: #cfcfcf;
+	color: #081b20;
+	cursor: pointer;
+	/*box-shadow: 2px 2px 2px rgba(40%,40%,40%,0.5);*/
+}
+.endorse_textfield{
+	text-align: left;
+}
+.endorse_textfield input:focus{
+	border: 1px solid #ccc;
+}
+.endorse_btn{
+	margin-top: 13px;
+	color: #0192B5;
+	border: 1px solid #0192B5;
+	border-radius: 4px;
+	display: inline-block;
+	padding: 5px 10px;
+	cursor: pointer;
+}
+.tag_item{
+	display: inline-block;
+	vertical-align: middle;
+	border: 1px solid #d0d0d0;
+	margin: 10px 10px 10px 0px;
+	padding: 5px 10px;
+	border-radius: 4px;
+}
+.endorse_item i,
+.tag_item .text i {
+	margin-left: 10px;
+	cursor:pointer;
+}
+.tag_errorMsg,
+.tag_textfield_block{
+	display: inline-block;
+	vertical-align: middle;
+}
+.tag_textfield input{
+	border-color: #eee;
+	font-size: 14px;
+}
+.tag_textfield input:focus{
+	border: none;
+}
+.tag_textfield > div {
+	display: flex;
+	align-items: center;
+}
+.tag_textfield > div > div {
+	padding-left: 15px;
+}
+.tag_textfield input {
+	flex: 3;
+}

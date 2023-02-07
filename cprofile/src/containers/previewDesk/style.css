@@ -1,0 +1,130 @@
+.preview-desk-paint-wrapper {
+	background: #fff;
+}
+.preview-desk-paint-wrapper .block-title {
+	padding-left: 10px;
+}
+.preview-desk-paint-paper-wrapper {
+	width: 980px;
+	margin: 0 auto;
+	box-shadow: 0px 0px 9px #999;
+	background-color: #fff;
+}
+.preview-desk-paint-wrapper .github-def .repo-box {
+	margin-left: 4px;
+}
+.preview-web-alert-banner {
+	z-index: 1049 !important;
+	position: absolute !important;
+}
+.dark.preview-desk-paint-wrapper.print {
+	background: black;
+}
+.businessCard-radio-content {
+	text-align: center;
+	margin-top: 60px;
+}
+.businessCard-radio-content .ant-radio-checked .ant-radio-inner {
+	border-color: #f5b532;
+}
+.businessCard-radio-content .ant-radio-checked .ant-radio-inner:after {
+	background-color: #f5b532;
+}
+.businessCard-radio-content
+	.ant-radio-wrapper:hover
+	.ant-radio
+	.ant-radio-inner,
+.businessCard-radio-content .ant-radio:hover .ant-radio-inner,
+.businessCard-radio-content .ant-radio-focused .ant-radio-inner {
+	border-color: #f5b532;
+}
+p.businessCard-unfilled {
+	text-align: center;
+	color: #666;
+	font-size: 16px;
+}
+.QRCodeFooter {
+	display: flex;
+	justify-content: space-between;
+	background: #f6f6f6;
+	padding: 10px 15px;
+}
+.QRCodeFooter .QRCode {
+	line-height: 0;
+}
+.QRCodeFooter canvas {
+	width: 57px !important;
+	height: 57px !important;
+	padding: 7px;
+	background: #fff;
+}
+.QRCodeFooter span {
+	vertical-align: top;
+	display: inline-block;
+	margin-top: 30px;
+	margin-left: 15px;
+	font-size: 14px;
+	font-weight: 700;
+}
+.QRCodeFooter .userName {
+	text-align: right;
+	line-height: 1.5;
+	padding-top: 8px;
+	font-weight: 700;
+}
+.github-banner,
+.behance-banner {
+	float: right;
+}
+.github-banner {
+	width: 132px;
+}
+.behance-banner {
+	width: 160px;
+}
+
+@media print {
+	* {
+		box-decoration-break: clone;
+	}
+	@page {
+		size: A4;
+		margin: 1cm 0;
+	}
+	.block-wrapper {
+		page-break-inside: avoid;
+	}
+	.profile-personal-information-container {
+		width: 0 !important;
+	}
+	.profile-personal-information-open {
+		left: 0 !important;
+		width: 100% !important;
+	}
+	.preview-desk-paint-web-wrapper {
+		width: 980px !important;
+		margin: 0 auto !important;
+		box-shadow: none;
+	}
+	.preview-desk-paint-paper-wrapper {
+		box-shadow: none;
+	}
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		page-break-after: avoid;
+		page-break-inside: avoid;
+	}
+	img {
+		page-break-after: avoid;
+		page-break-inside: avoid;
+	}
+	ul,
+	ol,
+	dl {
+		page-break-before: avoid;
+	}
+}

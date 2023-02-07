@@ -1,0 +1,40 @@
+.ccAlertItem {
+	display: flex;
+	padding: 10px;
+	border-bottom: 1px solid #e8e8e8;
+	overflow: hidden;
+	cursor: pointer;
+}
+.messageImg {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+.messageMain {
+	overflow: hidden;
+  width: 85%;
+	line-height: 1.7;
+}
+.messageName {
+	font-size: 16px;
+	height: 27px;
+	overflow: hidden;
+}
+.messageContent {
+	font-size: 14px;
+	color: #8a8a8a;
+	line-height: 1.4em;
+	max-height: 2.8em;
+	word-wrap: break-word;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+
+}
+.messageTime {
+	font-size: 14px;
+	color: #8a8a8a;
+}

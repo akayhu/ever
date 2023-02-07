@@ -1,0 +1,21 @@
+.mobile-prompt-main {
+	position: fixed;
+	opacity: 0.7;
+	background: #000;
+	top: 50px;
+	width: 100%;
+	padding: 13px 12px;
+	display: flex;
+	justify-content: space-between;
+	z-index: 2001;
+}
+.mobile-prompt-text {
+	color: #fff;
+	font-size: 14px;
+	letter-spacing: 1px;
+	padding-right: 10px;
+}
+.mobile-prompt-close {
+	color: #fff;
+	font-size: 18px;
+}

@@ -1,0 +1,61 @@
+main {
+  width: 600px;
+  margin: 80px auto 0;
+}
+main .title {
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+}
+main .event-name {
+  font-size: 14px;
+  color: #333;
+  font-weight: 300;
+  margin: 15px 0;
+}
+main .select-option {
+  display: inline-block;
+}
+main .nice-select {
+  width: 148px;
+}
+main .nice-select.open {
+  border: solid 1px #55f;
+}
+main .content {
+  margin-top: 15px;
+}
+main .content textarea {
+  border-radius: 5px;
+  border: solid 1px #dcdcdc;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+}
+main .content textarea:focus {
+  border: solid 1px #55f;
+}
+main .content .word-count {
+  text-align: right;
+  color: #aaa;
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 5px;
+}
+main .content .message {
+  display: flex;
+  justify-content: space-between;
+}
+.error-message {
+  color: #ff6789;
+  font-size: 14px;
+  clear: both;
+  padding-top: 5px;
+}
+main .submit-div {
+  text-align: center;
+  margin-top: 30px;
+}
+main .submit-div button:first-child {
+  margin-right: 5px;
+}

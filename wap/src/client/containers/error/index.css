@@ -1,0 +1,28 @@
+.error_main {
+	width: 700px;
+	margin: 0 auto;
+	margin-top: 150px;
+	margin-bottom: 270px;
+	overflow: hidden;
+}
+.error_main img {
+	float: left;
+	margin-right: 15px;
+}
+.error_main .error_content {
+	float: left;
+}
+.error_main .error_content h1 {
+	line-height: 1;
+	margin-bottom: 30px;
+}
+.error_main .error_content ul {
+	padding-left: 20px;
+	margin-top: 5px;
+	margin-bottom: 30px;
+}
+.error_main .error_content ul li {
+	padding: 0;
+	line-height: 1.8;
+	list-style: inherit;
+}

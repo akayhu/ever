@@ -1,0 +1,21 @@
+// 自動文字靠左靠右
+@mixin text-align-distributed() {
+	&[data-align=left] {
+		text-align: left;
+		p, span, input, textarea {
+			text-align: left;
+		}
+	}
+	&[data-align=right] {
+		text-align: right;
+		p, span, input, textarea {
+			text-align: right;
+		}
+	}
+	&[data-align=center] {
+		text-align: center;
+		p, span, input, textarea {
+			text-align: center;
+		}
+	}
+}

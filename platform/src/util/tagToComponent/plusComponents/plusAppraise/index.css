@@ -1,0 +1,6 @@
+.content_text {
+  font-weight: bolder;
+}
+.plus_appraise {
+  composes: content_block from '../shared.css';
+}

@@ -1,0 +1,26 @@
+button[class*="-btn"] {
+	display: inline-block;
+	vertical-align: top;
+	width: auto;
+	overflow: visible;
+	font-size: 14px;
+	line-height: 14px;
+	border-radius: 3px;
+	padding: 7px 14px 6px;
+	cursor: pointer;
+}
+button[class*="-btn"][class*="pif-"]:before {
+	margin-right: .5rem;	
+}
+button.img-btn {
+	border: 0;
+	padding: 0;
+	background: none;
+}
+button.img-btn[class*='pif-']:before {
+	margin-right: 0;
+}
+button.txt-btn {
+	background: none;
+	border: none;
+}

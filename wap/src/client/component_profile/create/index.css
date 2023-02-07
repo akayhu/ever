@@ -1,0 +1,56 @@
+.create_ul_main {
+	/*padding: 0 30px;*/
+	clear: both;
+	overflow: hidden;
+	/*display: flex;*/
+}
+.create_ul_main li {
+	/*float: left;*/
+	border: 1px solid #d6eef3;
+	background-color: #d6eef3;
+	padding: 20px 9px;
+	width: calc(50% - 20px);
+	overflow: hidden;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	height: 78px;
+	cursor: pointer;
+	color: #0192b5;
+	line-height: 1;
+	display: inline-block;
+}
+.create_ul_main li:hover {
+	border: 1px solid #0192b5;
+}
+.create_ul_main li:nth-child(odd) {
+	margin-left: 0;
+}
+.create_ul_main i {
+	float: left;
+	font-size: 57px;
+	position: relative;
+	top: -8px;
+	margin: 0;
+}
+.create_line_height {
+	line-height: 2.6;
+}
+.icon_img {
+	float: left;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: #0192b5;
+	margin-right: 10px;
+}
+.create_title {
+	color: #0192b5;
+	cursor: pointer;
+	font-weight: bold;
+}
+.create_text {
+	font-weight: bold;
+}
+.create_bottom_hr {
+	margin-top: 28px;
+}

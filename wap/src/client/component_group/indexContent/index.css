@@ -1,0 +1,15 @@
+.group_index_main {
+	margin-top: 20px;
+}
+.group_index_main_ov {
+	/*overflow: hidden;*/
+}
+.group_index_main dl {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.index_wrapper {
+	width: 760px;
+}

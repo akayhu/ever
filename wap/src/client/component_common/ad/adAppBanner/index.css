@@ -1,0 +1,13 @@
+.app_banner_content {
+	margin-bottom: 15px;
+	padding: 0 5px;
+}
+.app_banner {
+	overflow: hidden;
+}
+.app_banner img.left {
+	float: left;
+}
+.app_banner img.right {
+	float: right;
+}

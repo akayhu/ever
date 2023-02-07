@@ -1,0 +1,37 @@
+.focusMain {
+  background: #fff;
+  border: 1px solid #e3e3e3;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+}
+
+.focusImg > img{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+}
+.focusMain ul{
+  width: 90%;
+  margin: 20px auto 0;
+  display: flex;
+  justify-content: space-around;
+}
+.focusMain li{
+  text-align: center;
+}
+.focusMain li:last-child{
+  margin-right: 0;
+}
+.focusMain .more{
+  text-align: right;
+}
+.focusName{
+	display: block;
+	font-size: 16px;
+	margin-top: .5em;
+	margin-bottom: .5em;
+	color:#081b20;
+}
+.focusName:hover{
+	color:#0192b5
+}

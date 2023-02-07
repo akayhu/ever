@@ -1,0 +1,14 @@
+.personal-list > div{
+	margin-top: 20px;
+}
+.personal-list [class*="search_article"],
+.personal-list [class*="search_article"] ~ div {
+	margin-top: 0;
+}
+.personal-list [class*="publication"] {
+	margin-bottom: 20px;
+}
+.totalCount {
+	line-height: 65px;
+	font-size: 16px;
+}

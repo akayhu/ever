@@ -1,0 +1,41 @@
+.nav_main {
+  background-color: #f4f4f4;
+  height: 50px;
+}
+.nav_width {
+  width: 960px;
+  margin: 0 auto;
+}
+.eyebrow {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	font-size: 14px;
+}
+.eyebrow li a{
+ text-decoration: none;
+ color: #8A8A8A;
+ font-size: 16px;
+}
+.eyebrow li.active a {
+ color: #081B20;
+}
+.eyebrow {
+	display: flex;
+	padding: 0;
+	margin: -2px 0 0;
+	font-size: 14px;
+}
+.eyebrow > li, .user > li, .account > li {
+	display: inline-block;
+	position: relative;
+}
+.eyebrow li {
+	padding: 10px 20px;
+  margin-top: 3px;
+}
+
+.eyebrow li.active {
+  margin-top: 0;
+	border-top: solid 3px #fe7e17;
+}

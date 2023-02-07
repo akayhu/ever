@@ -1,0 +1,37 @@
+.flyout {
+	position: absolute;
+	top: 39px;
+	right: 0;
+	display: none;
+	border: 1px solid #CCC;
+	box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+	background: #FFF;
+	min-height: 100px;
+	z-index: 100;
+}
+.show {
+	display: block;
+}
+.bubbles_box {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 3px;
+	right: 19px;
+}
+.bubbles {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: -14px;
+	left: 20px;
+	height: 22px;
+	/*width: 26px;*/
+	/*border-radius: 50%;*/
+	background: #ff530d;
+	color: white;
+	font-size: 10px;
+	padding: 0 6px;
+	-webkit-transform: scale(0.83);
+}

@@ -1,0 +1,11 @@
+.wrapper [class*="sub_nav"]{
+  display: block;
+  float: none;
+  margin: 10px 0 20px;
+}
+.wrapper [class*="sub_nav"] [class*="item"] a {
+  color: #333;
+}
+.wrapper [class*="sub_nav"] [class*="active"] a {
+  color: #FFF;
+}

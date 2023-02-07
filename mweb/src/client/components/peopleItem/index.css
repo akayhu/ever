@@ -1,0 +1,46 @@
+.wrap {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  min-width: 0;
+  background-color: #ffffff;
+  padding: 10px;
+  position: relative;
+}
+.user_avatar {
+  border-radius: 50%;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+  overflow: hidden;
+}
+.top {
+  color: #34A8C4;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: left;
+}
+.bot {
+  color: #8a8a8a;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.arrow {
+  display: inline-block;
+  margin: 0px 5px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-color: transparent transparent transparent #8a8a8a;
+}
+.button_section {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}

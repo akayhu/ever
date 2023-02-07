@@ -1,0 +1,15 @@
+.activity_ignore{
+	padding: 20px;
+    border: 1px solid #dedede;
+    background: #eee;
+    margin-bottom: 20px;
+}
+.activity_ignore span{
+	color: #0192b5;
+	margin-left: 15px;
+	cursor: pointer;
+}
+.activity_ignore i {
+	float: right;
+	cursor: pointer;
+}

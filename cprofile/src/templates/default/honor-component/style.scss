@@ -1,0 +1,652 @@
+@import "scss/cProfile.scss";
+
+/* honor-{元件名}--{templateType} */
+/* 區塊 container */
+.honor-container {
+  flex-wrap: wrap;
+  display: flex;
+  align-content: flex-start;
+
+  &--def,
+  &--card {
+    .honor-displayFlex {
+      @include rwd-to(900) {
+        flex-basis: 50%;
+      }
+      @include rwd-to(568) {
+        flex-basis: 100%;
+      }
+    }
+  }
+
+  &--dou {
+    .drag-wrapper {
+      @include rwd-to(1024) {
+        flex-basis: 50%;
+      }
+      @include rwd-to(568) {
+        flex-basis: auto;
+      }
+    }
+
+    .honor-displayFlex {
+      flex-basis: 50%;
+
+      @include rwd-to(568) {
+        flex-basis: 100%;
+      }
+    }
+  }
+
+  &--dark,
+  &--text {
+    .honor-displayFlex {
+      flex-basis: 100%;
+    }
+  }
+
+  &--dark {
+    .drag-wrapper {
+      flex-basis: 100%;
+    }
+  }
+
+  &--def,
+  &--card {
+    .drag-wrapper {
+      flex-basis: (100% / 3);
+
+      @include rwd-to(900) {
+        flex-basis: 50%;
+      }
+      @include rwd-to(568) {
+        flex-basis: 100%;
+      }
+    }
+  }
+}
+
+/* 單筆資料 container */
+.honor-main {
+  position: relative;
+  text-align: left;
+
+  &--def {
+    margin: 20px 15px 30px;
+    margin-top: 15px;
+
+    &.honor-preview {
+      flex-basis: 30%;
+
+      @include rwd-to(935) {
+        flex-basis: 29%;
+      }
+      @include rwd-to(900) {
+        flex-basis: 46%;
+      }
+      @include rwd-to(768) {
+        flex-basis: 45%;
+      }
+      @include rwd-to(568) {
+        flex-basis: 100%;
+      }
+    }
+  }
+
+  &--card {
+    margin: 20px 15px;
+    margin-top: 15px;
+
+    &.honor-preview {
+      flex-basis: 29.8%;
+
+      @include rwd-to(900) {
+        flex-basis: 46%;
+      }
+      @include rwd-to(768) {
+        flex-basis: 45%;
+      }
+      @include rwd-to(568) {
+        flex-basis: 100%;
+      }
+    }
+  }
+
+  &--dou {
+    margin: 20px;
+    margin-top: 15px;
+
+    &.honor-preview {
+      flex-basis: 45.6%;
+
+      @include rwd-to(945) {
+        flex-basis: 45%;
+      }
+      @include rwd-to(835) {
+        flex-basis: 44%;
+      }
+      @include rwd-to(768) {
+        flex-basis: 43%;
+      }
+      @include rwd-to(568) {
+        flex-basis: 100%;
+      }
+    }
+  }
+
+  &--dark,
+  &--text {
+    width: 100%;
+    overflow: hidden;
+    padding: 20px;
+  }
+}
+
+.honor-no-picture {
+  width: 100%;
+  border: 1px solid #e3e0e0;
+  border-radius: 8px;
+  font-size: 18px;
+  text-align: center;
+  color: tomato;
+
+  span {
+    font-size: 14px;
+  }
+
+  &--card {
+    height: 154.67px;
+    line-height: 25px;
+    align-items: center;
+    padding-top: 50px;
+
+    @include rwd-to(960) {
+      height: 152.623px;
+    }
+    @include rwd-to(854) {
+      height: 211.5px;
+      padding-top: 70px;
+    }
+    @include rwd-to(823) {
+      height: 202.781px;
+    }
+    @include rwd-to(812) {
+      height: 199.687px;
+    }
+    @include rwd-to(800) {
+      height: 196.312px;
+    }
+    @include rwd-to(768) {
+      height: 182.25px;
+      line-height: 25px;
+    }
+    @include rwd-to(667) {
+      height: 158.906px;
+    }
+    @include rwd-to(640) {
+      height: 151.312px;
+    }
+    @include rwd-to(600) {
+      height: 140.062px;
+      padding-top: 50px;
+    }
+    @include rwd-to(568) {
+      height: 282.375px;
+      padding-top: 70px;
+    }
+    @include rwd-to(533) {
+      height: 262.687px;
+    }
+    @include rwd-to(480) {
+      height: 232.875px;
+    }
+    @include rwd-to(414) {
+      height: 212.625px;
+    }
+    @include rwd-to(412) {
+      height: 211.5px;
+    }
+    @include rwd-to(411) {
+      height: 210.937px;
+    }
+    @include rwd-to(384) {
+      height: 195.75px;
+    }
+    @include rwd-to(375) {
+      height: 190.687px;
+    }
+    @include rwd-to(360) {
+      height: 182.25px;
+    }
+    @include rwd-to(320) {
+      height: 159.75px;
+    }
+  }
+
+  &--dou {
+    height: 239.625px;
+    line-height: 25px;
+    padding-top: 95px;
+
+    @include rwd-to(1024) {
+      height: 239.625px;
+      padding-top: 110px;
+    }
+
+    @include rwd-to(900) {
+      height: 254px;
+      padding-top: 110px;
+    }
+
+    @include rwd-to(768) {
+      height: 186px;
+      padding-top: 70px;
+    }
+  }
+
+  &--dark {
+    height: 280px;
+    line-height: 25px;
+    padding-top: 120px;
+
+    @include rwd-to(960) {
+      height: 273.965px;
+      padding-top: 105px;
+    }
+    @include rwd-to(950) {
+      height: 271.456px;
+    }
+    @include rwd-to(900) {
+      height: 255.825px;
+      padding-top: 95px;
+    }
+    @include rwd-to(854) {
+      height: 243.315px;
+    }
+    @include rwd-to(823) {
+      height: 233.623px;
+      padding-top: 85px;
+    }
+    @include rwd-to(812) {
+      height: 230.175px;
+    }
+    @include rwd-to(800) {
+      height: 226.423px;
+    }
+    @include rwd-to(768) {
+      height: 210.785px;
+      padding-top: 75px;
+    }
+    @include rwd-to(736) {
+      height: 206.409px;
+    }
+    @include rwd-to(732) {
+      height: 205.160px;
+    }
+    @include rwd-to(731) {
+      height: 204.845px;
+    }
+    @include rwd-to(667) {
+      height: 332.437px;
+      padding-top: 135px;
+    }
+    @include rwd-to(640) {
+      height: 317.25px;
+    }
+    @include rwd-to(600) {
+      height: 294.75px;
+      padding-top: 115px;
+    }
+    @include rwd-to(568) {
+      height: 276.75px;
+    }
+    @include rwd-to(533) {
+      height: 257.062px;
+      padding-top: 95px;
+    }
+    @include rwd-to(480) {
+      height: 227.25px;
+      padding-top: 80px;
+    }
+    @include rwd-to(414) {
+      height: 207px;
+    }
+    @include rwd-to(412) {
+      height: 205.875px;
+    }
+    @include rwd-to(411) {
+      height: 205.312px;
+      padding-top: 70px;
+    }
+    @include rwd-to(384) {
+      height: 190.125px;
+      padding-top: 60px;
+    }
+    @include rwd-to(375) {
+      height: 185.062px;
+    }
+    @include rwd-to(360) {
+      height: 176.625px;
+      padding-top: 55px;
+    }
+    @include rwd-to(320) {
+      height: 154.125px;
+      padding-top: 43px;
+    }
+  }
+}
+
+.honor-title {
+  font-size: 20px;
+  color: #2b2b2b;
+  margin-bottom: 5px;
+  word-break: break-all;
+  text-align: left;
+}
+
+.honor-time {
+  font-size: 14px;
+	color: #2b2b2b;
+	position: relative;
+	overflow: hidden;
+	height: 30px;
+
+  &__ball {
+    width: 20px;
+    height: 14px;
+    color: #5eddde;
+  }
+
+  &__con {
+    padding-right: 7px;
+    left: 15px;
+  }
+
+  &__ball,
+  &__con {
+    position: absolute;
+    z-index: 3;
+    top: 1px;
+  }
+}
+
+.honor-bottom-line {
+  border-bottom: 1px solid #e9e9e9;
+  padding-bottom: 10px;
+  word-break: break-all;
+  min-height: 116px;
+  margin-bottom: 10px;
+  color: #3a3a3a;
+
+  @include rwd-to(667) {
+    min-height: 50px;
+  }
+
+  &--dou {
+    min-height: 53px;
+  }
+}
+
+.honor-img {
+  &--card {
+    margin-bottom: 15px;
+    border-radius: 8px;
+    overflow: hidden;
+
+    img {
+      width: 100% !important;
+
+      @include rwd-to(960) {
+        height: 152.623px;
+      }
+      @include rwd-to(854) {
+        height: 211.5px;
+      }
+      @include rwd-to(823) {
+        height: 202.781px;
+      }
+      @include rwd-to(812) {
+        height: 199.687px;
+      }
+      @include rwd-to(800) {
+        height: 196.312px;
+      }
+      @include rwd-to(768) {
+        height: 182.25px;
+      }
+      @include rwd-to(667) {
+        height: 158.906px;
+      }
+      @include rwd-to(640) {
+        height: 151.312px;
+      }
+      @include rwd-to(600) {
+        height: 140.062px;
+      }
+      @include rwd-to(568) {
+        height: 282.375px;
+      }
+      @include rwd-to(533) {
+        height: 262.687px;
+      }
+      @include rwd-to(480) {
+        height: 232.875px;
+      }
+      @include rwd-to(414) {
+        height: 212.625px;
+      }
+      @include rwd-to(412) {
+        height: 211.5px;
+      }
+      @include rwd-to(411) {
+        height: 210.937px;
+      }
+      @include rwd-to(384) {
+        height: 195.75px;
+      }
+      @include rwd-to(375) {
+        height: 190.687px;
+      }
+      @include rwd-to(360) {
+        height: 182.25px;
+      }
+      @include rwd-to(320) {
+        height: 159.75px;
+      }
+    }
+  }
+
+  &--dou {
+    margin-bottom: 15px;
+    border-radius: 8px;
+    overflow: hidden;
+
+    img {
+      width: 100% !important;
+
+      @include rwd-to(1024) {
+        height: 239.625px;
+      }
+      @include rwd-to(960) {
+        height: 233.437px;
+      }
+      @include rwd-to(950) {
+        height: 231.187px;
+      }
+      @include rwd-to(900) {
+        height: 217.125px;
+      }
+      @include rwd-to(854) {
+        height: 205.875px;
+      }
+      @include rwd-to(823) {
+        height: 197.156px;
+      }
+      @include rwd-to(812) {
+        height: 194.062px;
+      }
+      @include rwd-to(800) {
+        height: 190.687px;
+      }
+      @include rwd-to(768) {
+        height: 176.625px;
+      }
+      @include rwd-to(736) {
+        height: 172.687px;
+      }
+      @include rwd-to(732) {
+        height: 171.562px;
+      }
+      @include rwd-to(731) {
+        height: 171.281px;
+      }
+      @include rwd-to(667) {
+        height: 153.281px;
+      }
+      @include rwd-to(640) {
+        height: 145.687px;
+      }
+      @include rwd-to(600) {
+        height: 134.437px;
+      }
+      @include rwd-to(568) {
+        height: 254.188px;
+      }
+      @include rwd-to(533) {
+        height: 235.597px;
+      }
+      @include rwd-to(480) {
+        height: 227.25px;
+      }
+      @include rwd-to(414) {
+        height: 207px;
+      }
+      @include rwd-to(412) {
+        height: 205.875px;
+      }
+      @include rwd-to(411) {
+        height: 187.171px;
+      }
+      @include rwd-to(384) {
+        height: 190.125px;
+      }
+      @include rwd-to(375) {
+        height: 185.062px;
+      }
+      @include rwd-to(360) {
+        height: 176.625px;
+      }
+      @include rwd-to(320) {
+        height: 154.125px;
+      }
+    }
+  }
+
+  &--dark {
+    min-width: 55.6%;
+    max-width: 55.6%;
+    float: left;
+    margin-right: 30px;
+    border-radius: 8px;
+    overflow: hidden;
+
+    @include rwd-to(667) {
+      float: initial;
+      max-width: 100%;
+      margin-right: 0;
+    }
+
+    img {
+      width: 100%;
+
+      @include rwd-to(960) {
+        height: 273.965px;
+      }
+      @include rwd-to(950) {
+        height: 271.456px;
+      }
+      @include rwd-to(900) {
+        height: 255.825px;
+      }
+      @include rwd-to(854) {
+        height: 243.315px;
+      }
+      @include rwd-to(823) {
+        height: 233.623px;
+      }
+      @include rwd-to(812) {
+        height: 230.175px;
+      }
+      @include rwd-to(800) {
+        height: 226.423px;
+      }
+      @include rwd-to(768) {
+        height: 210.785px;
+      }
+      @include rwd-to(736) {
+        height: 206.409px;
+      }
+      @include rwd-to(732) {
+        height: 205.160px;
+      }
+      @include rwd-to(731) {
+        height: 204.845px;
+      }
+      @include rwd-to(667) {
+        height: 332.437px;
+      }
+      @include rwd-to(640) {
+        height: 317.25px;
+      }
+      @include rwd-to(600) {
+        height: 294.75px;
+      }
+      @include rwd-to(568) {
+        height: 276.75px;
+      }
+      @include rwd-to(533) {
+        height: 257.062px;
+      }
+      @include rwd-to(480) {
+        height: 227.25px;
+      }
+      @include rwd-to(414) {
+        height: 207px;
+      }
+      @include rwd-to(412) {
+        height: 205.875px;
+      }
+      @include rwd-to(411) {
+        height: 205.312px;
+      }
+      @include rwd-to(384) {
+        height: 190.125px;
+      }
+      @include rwd-to(375) {
+        height: 185.062px;
+      }
+      @include rwd-to(360) {
+        height: 176.625px;
+      }
+      @include rwd-to(320) {
+        height: 154.125px;
+      }
+    }
+  }
+}
+
+.honor-content {
+  &--dark {
+    width: 40%;
+    position: relative;
+    float: left;
+
+    @include rwd-to(812) {
+      width: 38%;
+    }
+    @include rwd-to(667) {
+      width: 100%;
+      padding-top: 10px;
+    }
+  }
+}

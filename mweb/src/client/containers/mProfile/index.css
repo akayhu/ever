@@ -1,0 +1,14 @@
+.wrap {
+	margin-top: 10px;
+}
+.m_change_profile {
+	padding: 0 10px;
+	padding-bottom: 7px;
+}
+.m_block > div {
+	margin-top: 10px;
+	background-color: #fff;
+	color: #000;
+	border: 1px solid #e2e2e2;
+	padding: 12px;
+}

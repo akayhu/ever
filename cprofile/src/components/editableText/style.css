@@ -1,0 +1,42 @@
+.editable-text {
+	cursor: text;
+	position: relative;
+	min-width: 30px;
+	min-height: 1em;
+}
+
+.invalid-text {
+	color: tomato !important;
+}
+
+/* .editable-text[contenteditable=true]:empty::after {
+	content: '' ; 
+	display: block ; 
+	position: absolute ; 
+	top: 0 ; 
+	bottom: 0 ; 
+	left: -4px ; 
+	right: 0 ; 
+	border-radius: 5px ; 
+	border: 2px dashed #48eeff ; 
+} */
+
+.editable-text[required]:empty:before {
+	color: tomato !important;
+}
+
+.editable-text[contenteditable='true']:empty:before {
+	content: attr(placeholder);
+	/* padding-left: 2px; */
+	color: #aaa;
+	min-height: 1em;
+}
+
+.editable-sample-text {
+	color: #aaa !important;
+}
+
+.sketch-picker {
+	position: absolute;
+	z-index: 100;
+}

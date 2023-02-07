@@ -1,0 +1,8 @@
+@import "scss/cProfile.scss";
+
+@include rwd-to(414) {
+  .drag-wrapper {
+    width: 100%;
+    display: inline-flex;
+  }
+}

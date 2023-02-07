@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="cache-control" content="no-store, no-cache" />
+		<meta http-equiv="pragma" content="no-cache" />
+		<meta http-equiv="expires" content="0" />
+		<meta name="description" content="104職涯社群APP，免費課程一鍵報名，打造自己的學習軌跡" />
+		<meta name="language" content="en" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta property="og:title" content="104職涯社群APP，免費課程一鍵報名，打造自己的學習軌跡" />
+		<meta property="og:url" content="" />
+		<meta property="og:type" content="website" />
+		<meta property="og:description" content="104職涯社群APP，免費課程一鍵報名，打造自己的學習軌跡" />
+		<meta property="og:image" content="" />
+		<meta property="og:site_name" content="104職涯社群APP" />
+		<title>104職涯社群APP，免費課程一鍵報名，打造自己的學習軌跡</title>
+		<link rel="shortcut icon" href="../favicon.ico" />
+		<link href="../css/reset.css" rel="stylesheet" type="text/css" />
+		<link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+		<link href="../css/common.css" rel="stylesheet" type="text/css" />
+		<link href="../css/createSystem.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+
+    <!-- Header -->
+		<header>
+      <div class="header_main">
+        <div>
+          <a href="/" title="104職涯社群">
+            <img src="https://static.104.com.tw/logo/104logo_plus_119x24_edm.png" class="logo" alt="104職涯社群" />
+          </a>
+        </div>
+        <div class="event-user">
+          <img src="http://5b0988e595225.cdn.sohucs.com/images/20170721/e88a6cf59432427a9924ebc75f8ad7c4.png" class="rounded-circle" />
+          <span class="user-dropdown">
+            <span class="event-user-name" id="userDropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              大中天 <img src="../image/inverted_triangle.png" alt="" class="inverted-triangle" />
+            </span>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdownMenu">
+              <a class="dropdown-item" target="_blank" href="https://accounts.104.com.tw/hello">會員中心</a>
+              <a class="dropdown-item" href="https://plus.104.com.tw/privacy">隱私設定</a>
+              <a class="dropdown-item" href="https://plus.104.com.tw/newsletter">管理電子報</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" target="_blank" href="https://static.104.com.tw/bigc/c_wap/html/statute/">服務條款</a>
+              <a class="dropdown-item" target="_blank" href="https://www.104.com.tw/jobs/search/showLogin?return_url=https%3A%2F%2Fwww.104.com.tw%2Fquestion_admin%2Freaction.cfm%3Ffaq_from%3Dplus">意見反映</a>
+              <a class="dropdown-item" target="_blank" href="https://static.104.com.tw/bigc/c_wap/html/commonProblem/">常見問題</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="https://plus.104.com.tw/sso/saml-logout?r=/">登出</a>
+            </div>
+          </span>
+        </div>
+      </div>
+    </header>
+
+    <!-- 內容 -->
+    <main>
+      <div class="create-system-title">建立主辦單位</div>
+      <div class="all-required">所有欄位皆必填</div>
+
+      <dl>
+        <dd>
+          <input class="organizer-name" placeholder="主辦單位名稱" type="text" />
+          <span class="required">主辦單位名稱不可為空</span>
+        </dd>
+        <dd>
+          <input class="organizer-numbering" placeholder="申請人之會員編號" type="text" />
+          <span class="required">請輸入申請人之會員編號</span>
+        </dd>
+        <dd>
+          <textarea class="organizer-introduction" placeholder="介紹" cols="30" rows="7"></textarea>
+          <div class="number-of-words">
+            <div class="required">介紹不可為空</div>
+            <div class="number"><span id="chars">0</span>/1000</div>
+          </div>
+        </dd>
+        <dd>
+          <input class="organizer-email" placeholder="Email" type="text" />
+          <span class="required">請輸入Email</span>
+        </dd>
+        <!-- 有填資料送出鈕 -->
+        <dd class="submit-dd">
+          <button class="whiteButton" data-toggle="modal" data-target="#exampleModalCenter">取消</button>
+          <button class="submitButton">建立</button>
+        </dd>
+        <!-- 未填資料送出鈕 -->
+        <dd class="submit-dd">
+          <button class="whiteButton" data-toggle="modal" data-target="#exampleModalCenter">取消</button>
+          <button class="disabledButton">建立</button>
+        </dd>
+      </dl>
+
+    </main>
+
+    <!-- Lightbox Modal 取消編輯/取消建立 -->
+		<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered lightbox-modal" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="title">取消建立 <!-- 編輯文案為：取消編輯 --></div>
+            <p>確定取消建立嗎？取消後內容不會被儲存。 <!-- 編輯文案為：確定取消編輯主辦單位嗎？取消後內容不會被儲存。--></p>
+            <div class="lightbox-obtained-button">
+              <button class="whiteButton" data-dismiss="modal">取消 <!-- 編輯文案為：取消編輯。--></button>
+              <button class="submitButton" data-dismiss="modal">確定</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../js/jquery-3.3.1.min.js"></script>
+		<script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script>
+      $(document).ready(function() {
+				$('#chars').html($('textarea').val().length || 0);
+				$('textarea').keyup(function() {
+					var length = $(this).val().length;
+					$('#chars').text(length);
+				});
+			})
+    </script>
+
+  </body>
+</html>

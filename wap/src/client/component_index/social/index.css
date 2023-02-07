@@ -1,0 +1,74 @@
+.personal_social_content {
+	margin-bottom: 15px;
+}
+
+/****************我的社團、關注的動態*************/
+.group_follow {
+	background-color: #fff;
+	border: 1px solid #e8e8e8;
+}
+.group_follow_title {
+	margin-bottom: 25px;
+}
+.group_follow i {
+	width: 35px;
+	height: 35px;
+	font-size: 31px;
+	display: inline-block;
+	margin-right: 10px;
+	color: #0192b5;
+	background-color: #d6eef3;
+	border-radius: 50%;
+}
+.group_follow i ~ a {
+	color:#333;
+	position: relative;
+	top: -4px;
+}
+.group_follow i[class*="bookmark"] {
+	font-size: 20px;
+    padding-top: 8px;
+}
+.group_follow dl {
+	margin: 0;
+}
+.group_follow dd {
+	display: block;
+	padding: 20px 20px 15px 20px;
+	margin: 0;
+}
+.group_follow dd {
+	border-bottom: 1px solid #e8e8e8;
+}
+.group_follow dd:last-child {
+	border-bottom: none;
+}
+.group_follow ul {
+	margin: 0;
+	padding: 0;
+}
+.group_follow ul li {
+	overflow: hidden;
+	height: 50px;
+}
+.group_follow ul li:last-child {
+	height: inherit;
+}
+.group_follow ul li span.left {
+	float: left;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	word-break: break-all;
+	width: 200px;
+}
+.group_follow ul li span.right {
+	float: right;
+	padding-top: 16px;
+	color: #8a8a8a;
+}
+.group_follow ul li span.all {
+	float: right;
+	color: #8a8a8a;
+	cursor: pointer;
+}

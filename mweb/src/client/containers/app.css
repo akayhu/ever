@@ -1,0 +1,54 @@
+.wrap {
+	width: 100%;
+	min-height: 100%;
+	display: flex;
+	position: relative;
+}
+.wrap > header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: inherit;
+	height: 77px;
+	z-index: 1;
+}
+.wrap > aside {
+	position: fixed;
+	top: 0;
+	left: -240px;
+	width: 240px;
+	height: 100%;
+}
+.wrap > main {
+	width: 100%;
+	min-height: 100%;
+	padding-top: 67px;
+	word-break: break-all;
+	overflow-x: hidden;
+}
+.mask {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	width: 100%;
+	display: none;
+	padding: 0;
+  margin: 0;
+  border: 0;
+  background: none;
+}
+
+.show_menu .mask {
+	display: block;
+	height: 50000px;
+}
+.show_menu > * {
+	transition: transform 400ms ease;
+	transform: translate3d(240px,0,0);
+}
+
+.hide_menu > * {
+	transition: transform 400ms ease;
+	transform: translate3d(0,0,0);
+}

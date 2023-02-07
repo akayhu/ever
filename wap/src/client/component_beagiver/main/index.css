@@ -1,0 +1,169 @@
+.button {
+    text-align: center;
+    margin: 20px 50px;
+}
+
+.button a {
+    display: inline-block;
+}
+
+.join {
+    padding: 10px 40px;
+    border-color: #000;
+    background-color: #000;
+    color: #fff !important;
+    border: 1px solid #000;
+    border-radius: 20px;
+}
+
+.news_giver {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1em;
+    background-color: #634b97;
+}
+
+.giver_giver {
+    background-color: #634b97;
+}
+
+.taker_giver,
+.about_giver {
+    background-color: #634b97;
+    border-top: 1px solid #a880ff;
+    margin-top: 60px;
+}
+
+.news_giver h2,
+.giver_giver h2,
+.taker_giver h2,
+.about_giver h2 {
+    text-align: center;
+    color: #fff;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.number_giver {
+    text-align: center;
+    font-size: 13px;
+    color: #a880ff;
+    margin-bottom: 1.5em;
+}
+
+.news_giver {
+    padding-bottom: 60px;
+    background-color: #634b97;
+    border-bottom: 1px solid #a880ff;
+}
+
+.news_giver ul {
+    border-left: 4px solid #fff;
+    padding-left: 2em;
+    line-height: 1.8;
+}
+
+.news_giver li {
+    margin-bottom: 0.8em;
+}
+
+.news_giver li a {
+    color: #fff;
+    font-size: 16px;
+}
+
+.news_giver li span {
+    font-size: 16px;
+    color: #a880ff;
+    display: block;
+}
+
+.news_giver .news_more {
+    width: 100%;
+    display: block;
+    text-align: right;
+    color: #fff;
+    text-decoration: underline;
+}
+
+.people_item {
+    padding-top: 1em;
+}
+
+.people_item li {
+    text-align: center;
+    width: 150px;
+    height: 210px;
+    margin-bottom: 2.5em;
+    display: inline-block;
+    margin-right: 33px;
+}
+
+.people_item li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.people_item a {
+    color: #fff;
+}
+
+.people_item img {
+    width: 120px;
+    height: 120px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.people_item p {
+    display: block;
+}
+
+.people_item p:nth-child(3) {
+    text-align: left;
+    font-size: 14px;
+    height: 50px;
+    margin-left: 10px;
+    text-indent: -41px;
+    padding-left: 3em;
+    overflow: hidden;
+}
+
+.item_name {
+    font-size: 16px;
+    line-height: 2;
+}
+
+.item_pic {
+    width: 120px;
+    height: 120px;
+    vertical-align: middle;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    margin-bottom: 1em;
+}
+
+.item_pic img {
+    width: 120px;
+    height: 100%;
+}
+
+.about_giver p {
+    line-height: 2;
+    margin-bottom: 1em;
+    font-size: 14px;
+}
+
+.about_giver a {
+    color: #ff7800;
+}
+
+.about_first {
+    margin-top: 1.5em;
+}

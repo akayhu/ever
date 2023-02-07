@@ -1,0 +1,29 @@
+.for_activity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  margin: 0;
+  background: #fff;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.for_activity:active {
+  background-color: #babbbc;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.for_comment {
+  display: inline-block;
+}
+
+.checked {
+  color: #34a8c4;
+}
+
+.for_activity i,
+.for_comment i,
+.checked i {
+  line-height: 1;
+}

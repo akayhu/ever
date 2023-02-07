@@ -1,0 +1,123 @@
+.search_inner {
+	width: 360px;
+	height: 30px;
+	overflow: visible;
+	white-space: nowrap;
+	position: relative;
+}
+.search_inner [class*="inputRoot"] {
+	width: 260px;
+	height: 100%;
+	display: inline-block;
+}
+.search_inner [class*="inputRoot"] input {
+	height: 30px;
+	border: solid 1px #D0D0D0;
+	/* color: #081B20; */
+	color: #FE7E17;
+	border-radius: 0 3px 3px 0;
+}
+/* for 關鍵字實驗改顏色 */
+.search_inner [class*="inputRoot"] input::-webkit-input-placeholder{
+	color: #FE7E17;
+}
+.search_inner [class*="inputRoot"] input::-moz-input-placeholder{
+	color: #FE7E17;
+}
+.search_inner [class*="inputRoot"] input::-ms-input-placeholder{
+	color: #FE7E17;
+}
+
+.search_inner .search_btn {
+	position: absolute;
+	right: -5px;
+  top: 1px;
+	padding: 4px;
+}
+.search_inner .search_btn i.search_btn_i {
+	color: #8a8a8a !important;
+}
+.search_dropdown {
+	width: 100px;
+	height: 100%;
+	border: solid 1px #D0D0D0;
+	border-radius: 3px 0 0 3px;
+	border-right: 0;
+	display: inline-block;
+	vertical-align: top;
+}
+.dropdown_button {
+	padding: 3px 19px 2px;
+	background-color: #fff;
+	color: #8a8a8a;
+	display: block;
+	position: relative;
+}
+.dropdown_button:after {
+	content: '';
+	display: inline-block;
+	float: right;
+	width: 0;
+	height: 0;
+	margin-top: 7px;
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	border-top: 7px solid #8a8a8a;
+	position: absolute;
+	top: 4px;
+	right: 23px;
+}
+.dropdown_button:hover {
+	cursor: pointer;
+}
+.dropdown_list {
+	position: absolute;
+	top: 89%;
+	left: 0;
+	width: 100px;
+	display: none;
+	z-index: 1000;
+	max-height: 240px;
+	border: solid 1px #eee;
+	border-radius: 3px;
+	border-top-right-radius: 0;
+	border-top-left-radius: 0;
+	padding: 5px 0;
+	background-color: #fff;
+}
+.show {
+	display: block;
+}
+.dropdown_list li {
+	display: block;
+	color: #081b20;
+	padding: 2px 17px;
+	text-align: center;
+	font-weight: bold;
+}
+.dropdown_list li:hover{
+	cursor: pointer;
+	background: #def6ff;
+}
+
+/**
+ * on
+ * css3 can't effect the elem from siblings of parent
+ * son using this class by js
+ */
+.on [class*="inputRoot"] input,
+.on .search_dropdown {
+	border: solid 1px #8A8A8A;
+}
+.on .search_dropdown{
+	border-right: 0;
+}
+.on .search_dropdown span {
+	color: #081B20;
+}
+.on .search_dropdown span:after {
+	border-top: 7px solid #081B20;
+}
+.on .search_btn i.search_btn_i {
+	color: #081B20 !important;
+}

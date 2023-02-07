@@ -1,0 +1,138 @@
+.footer_main {
+    width: 100%;
+    background-color: #634b97;
+    text-align: center;
+    padding-top: .3em;
+}
+
+.footer_text {
+    padding: 1.4em 1.3em .8em;
+    font-size: 16px;
+    color: #fff;
+    word-break: normal;
+}
+
+.footer_iconArea {
+    padding: 0;
+    position: relative;
+}
+
+.footer_iconArea a {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.footer_iconArea a>i {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: url(./icons.png) no-repeat;
+    background-size: 110%;
+    cursor: pointer
+}
+
+.footer_iconArea a>i+i {
+    margin-left: 1.2em
+}
+
+.footer_iconArea .icon_facebook {
+    background-position: 0 -142px!important
+}
+
+.footer_iconArea .icon_104 {
+    background-image: url(./logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footer_iconArea .icon_instagram {
+    background-position: 0 -144px!important
+}
+
+.footer_iconArea .icon_youtube {
+    background-position: 0 -212px!important
+}
+
+.footer_iconArea .icon_email {
+    background-position: 0 -247px!important;
+    position: relative
+}
+
+.webAppDownload a.android,
+.webAppDownload a.ios {
+    background-size: auto 99% !important;
+}
+
+.webAppDownload {
+    padding-left: .5em;
+    padding-right: .5em;
+    margin-top: 2rem;
+}
+
+.webAppDownload a {
+    margin-left: .3em;
+    margin-right: .3em;
+    display: inline-block;
+    vertical-align: middle;
+    width: 140px;
+    height: 45px;
+    color: #fff;
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+.webAppDownload a.android {
+    background: #000 url(./android.svg) no-repeat;
+}
+
+.webAppDownload a.ios {
+    background: #000 url(./ios.svg) no-repeat;
+}
+
+.email_msg {
+    margin: 15px auto 2em;
+    line-height: 1.7;
+    text-align: left;
+    font-size: 15px;
+    background-color: #fff;
+    color: #333;
+    text-align: left;
+    font-size: 15px;
+    width: 270px;
+    padding: 11px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    position: relative;
+}
+
+.email_msg::before {
+    content: " ";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 10px 10px 10px;
+    border-color: transparent transparent #ffffff transparent;
+    top: -10px;
+    right: 23%;
+    position: absolute;
+}
+
+footer.giver_footer {
+    width: 100%;
+    background-color: #634b97;
+    color: #fff;
+    border-bottom: 1em solid #ff7800;
+    text-align: center;
+    padding-top: 1em;
+    border: none;
+    padding: 1em 0 0;
+}
+
+.giver_content {
+    line-height: 1.8;
+    letter-spacing: 1px;
+    border-top: 1px solid #9772e3;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}

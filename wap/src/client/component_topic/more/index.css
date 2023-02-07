@@ -1,0 +1,8 @@
+.moreCenter{
+	margin-top: 30px;
+	margin-bottom: 10px;
+  	text-align: center;
+}
+.moreCenter button{
+  display: inline-block;
+}

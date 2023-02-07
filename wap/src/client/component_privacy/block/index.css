@@ -1,0 +1,159 @@
+/*整塊黑名單*/
+.block {
+	min-height: 240px;
+}
+.block .title {
+	font-weight: bold;
+	color: black;
+	margin: 0;
+}
+
+/*黑名單上方敘述區塊*/
+.block_desc_conatiner {
+	position: relative;
+	display: flex;
+	padding: 20px 30px;
+	border-bottom: 1px solid #ececec;
+	color: #939393;
+}
+.block_desc_conatiner .more {
+	position: absolute;
+	bottom: 5px;
+	color: #0192b5;
+}
+.max_height {
+	max-height: 125px;
+	overflow: hidden;
+}
+.desc {
+	margin-left: 20px;
+}
+.desc li {
+	list-style: inherit;
+}
+.desc_more {
+	list-style-type: decimal;
+	margin-left: 40px;
+}
+.desc_more li {
+	list-style: inherit;
+}
+.edit {
+	border: 1px solid #0192b5;
+	padding: 5px 15px;
+	border-radius: 5px;
+	color: #0192b5;
+	background: transparent;
+	height: 30px;
+}
+
+
+/*新增刪除黑名單區塊*/
+.block_add_container {
+	background-color: #fafafa;
+	border-bottom: 1px solid #ececec;
+	padding: 20px 0 20px 50px;
+}
+.block_form {
+	display: flex;
+}
+.block_form .block_input {
+	width: 200px;
+}
+.block_form input {
+	height: 30px;
+}
+.block_form .block_btn {
+	height: 30px;
+	margin-left: 15px;
+}
+.example {
+	margin-top: 5px;
+	color: #939393;
+}
+.number{
+	color: #fe7e17;
+}
+
+
+/*已加入黑名單區塊*/
+.block_lists_container {
+	margin-top: 15px;
+}
+.lists {
+	position: relative;
+	padding: 5px 10px;
+	margin-bottom: 10px;
+}
+.lists dl {
+	margin: 0;
+}
+.lists dl dd {
+	font-weight: bold;
+	margin: 5px 0;
+}
+.lists .remove {
+	color: #0192b5;
+	margin-left: 10px;
+}
+.lists_loading {
+	position: absolute;
+	top: 15px;
+	left: 40px;
+}
+
+
+/*重複加入 或 無法找到時的alert*/
+.block_alert {
+	text-align: center;
+	margin-top: 45px;
+}
+
+/*黑名單的警告視窗*/
+.block_lightbox {
+	text-align: left;
+	width: 400px;
+}
+.block_lightbox a {
+	color: #0192b5;
+}
+.block_lightbox ul {
+	font-size: 16px;
+	margin: 0 0 25px 20px;
+	padding: 0 0 15px 15px;
+}
+.block_lightbox ul li {
+	list-style: inherit;
+}
+.block_lightbox .name_card {
+	display: flex;
+	align-items: center;
+	background-color: #fafafa;
+	border: 1px solid #ededed;
+	padding: 15px;
+}
+.block_lightbox .name_card img {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+.block_lightbox .title {
+	margin: 25px 0px;
+	margin-left: 15px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.block_lightbox .desc {
+	margin-left: 15px;
+	font-size: 16px;
+}
+.block_lightbox .footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 20px;
+}
+.block_lightbox .block_success {
+	width: 300px;
+}

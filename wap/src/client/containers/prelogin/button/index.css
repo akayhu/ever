@@ -1,0 +1,48 @@
+.btn {
+	border-radius: 4px;
+	border: 0;
+	cursor: pointer;
+	text-align: center;
+	color: #fff;
+	text-shadow: none;
+}
+/* 橘色長按鈕 */
+.btn-call {
+	background: #ff7800;
+	width: 300px;
+	height: 56px;
+}
+/* 加入社團 */
+.btn-join {
+	height: 36px;
+	font-size: 14px;
+	background: #34a8c4;
+	padding: 8px 16px;
+}
+/* 關注 */
+.btn-subscribe {
+	border: 1px  #d0d0d0 solid;
+	font-size: 14px;
+	color: #081b20;
+	background: #fff;
+	padding: 8px 16px;
+	margin: 16px auto 0 auto;
+}
+/* facebook login */
+.ac-login {
+	background: #ff7800;
+	border: 1px solid #ff7800;
+	font-size: 16px;
+	padding: 15px 40px;
+	margin-right: 15px;
+}
+.fb-login {
+	border: 1px solid #428bca;
+	font-size: 16px;
+	padding: 15px 18px;
+	color: #428bca;
+	background: rgba(255, 255, 255, 0.6);
+}
+.ac-login:hover {
+	background: #ff7800;
+}

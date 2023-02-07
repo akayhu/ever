@@ -1,0 +1,95 @@
+body {
+	background-color: #fff !important;
+	font-family: 'Segoe UI', '微軟正黑體', sans-serif;
+}
+/* width */
+::-webkit-scrollbar {
+	width: 6px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+	background: #fff;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #d8d8d8;
+	border-radius: 4.5px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #d8d8d8;
+}
+.webapp-body {
+	width: 100%;
+	background: #fff;
+}
+.webapp-container {
+	position: relative;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+.modal-title {
+	font-size: 32px;
+	height: 75px;
+	line-height: 75px;
+	border-bottom: 1px solid #b4b4b4;
+}
+.modal-container .ant-checkbox-group-item {
+	display: block;
+	font-size: 18px;
+	margin: 5px;
+}
+/* 
+	ANT DESIGN HACK
+*/
+.ant-calendar-picker input {
+	border: 0;
+}
+
+.mobile-editor-remind-main {
+	text-align: center;
+	margin-top: 20px;
+}
+.mobile-editor-remind-main img {
+	width: 65%;
+}
+.mobile-editor-remind-main h3 {
+	margin-top: 15px;
+}
+.mobile-editor-remind-main p {
+	text-align: center;
+	margin: 10px 20px 0;
+	line-height: 1.5;
+	font-size: 15px;
+}
+.mobile-editor-remind-main button {
+	margin-top: 15px;
+}
+
+.main-container-information > div {
+	overflow: initial !important;
+	z-index: 2000 !important;
+}
+
+.main-container-information-mobile > div {
+	overflow: initial !important;
+	z-index: 2000 !important;
+	max-height: 812px !important;
+}
+.main-container-information-switch {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	top: 50%;
+	right: -30px;
+	background-color: #fff;
+	border-radius: 50%;
+	box-shadow: rgba(0, 0, 0, 0.16) 1px 0px 0px, rgba(0, 0, 0, 0.23) 2px 0px 3px;
+	cursor: pointer;
+	z-index: 5;
+}
+.main-container-information-switch i {
+	font-size: 17px;
+	margin: 17px 0 0 30px;
+	color: #666;
+}

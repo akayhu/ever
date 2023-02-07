@@ -1,0 +1,28 @@
+/**
+ * notice-person 
+ */
+.notice-person {
+	width: 100%;
+	display: flex;
+}
+.notice-person .avator {
+	justify-content: flex-start;
+	display: block;
+	overflow: hidden;
+	width: 90px;
+	height: 90px;
+	border-radius: 45px;
+}
+.notice-person .avator img {
+	height: 90px;
+}
+.notice-person .content {
+	position: relative;
+	flex: 1 1 auto;
+	justify-content: flex-end;
+	margin-left: 10px;
+}
+.notice-person .content .name {
+	position: absolute;
+	margin-top: 5%;
+}

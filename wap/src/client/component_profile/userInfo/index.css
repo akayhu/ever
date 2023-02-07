@@ -1,0 +1,64 @@
+.name {
+	display: inline-block;
+	color: #fff;
+	margin: 0;
+}
+.edit_icon{
+	font-size: 24px;
+	font-weight: bold;
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+}
+.displayname div i{
+	cursor: pointer;
+	margin-left: 8px;
+}
+.name_edit_input {
+	width: 320px;
+	color: #081b20;
+	padding: 6px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	font-size: 16px;
+	outline: 0;
+	resize: none;
+	overflow: hidden;
+	margin-bottom: .5em;
+}
+.name_edit_input:focus{
+	border: 1px solid #42ADC8;
+}
+.location {
+	margin-bottom: 0;
+	font-size: 16px;
+}
+.location a{
+	color:#fff;
+}
+.location a:hover{
+	color:#2697B9;
+}
+.title {
+	font-size: 16px;
+}
+.user_infos {
+	color: #fff;
+	display: block;
+	letter-spacing: 1px;
+}
+.button{
+	display: inline-block;
+	margin-top: .6em;
+	padding-left: 100px;
+}
+.save{
+	margin-right: .8em;
+}
+.location label{
+	display: inline-block;
+	margin-left: .7em;
+	font-size: 14px;
+	font-weight: normal;
+}
+

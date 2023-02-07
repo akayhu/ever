@@ -1,0 +1,44 @@
+.associations_set {
+	background-color: #fff;
+	padding: 20px 30px;
+	border: 1px solid #e8e8e8;
+}
+.associations_set table,
+.associations_set tr {
+	width: 100%;
+}
+.associations_set td {
+	border-bottom: 0px;
+	font-size: 16px;
+	padding: 10px;
+	vertical-align: top;
+}
+.associations_set td.pt5 {
+	padding-top: 5px;
+}
+.associations_set td:nth-child(odd) {
+	text-align: right;
+	width: 30%;
+	white-space: nowrap;
+}
+.associations_set td:nth-child(even) {
+	text-align: left;
+	width: 70%;
+	font-size: 14px;
+}
+.associations_set span.need {
+	color: red;
+}
+.associations_set textarea {
+	width: 520px;
+}
+.explanation {
+	color: #8a8a8a;
+	width: 82%;
+	margin-left: 25%;
+}
+.button {
+	margin-top: 40px;
+	margin-bottom: 50px;
+	text-align: center;
+}

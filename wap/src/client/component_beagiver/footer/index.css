@@ -1,0 +1,94 @@
+.footer_giver {
+    width: 100%;
+    background-color: #634b97;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.footer_text {
+    padding: 30px 0;
+    font-size: 16px;
+    color: #fff;
+}
+
+.footer_iconArea {
+    padding: 0;
+}
+
+.footer_iconArea a {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.footer_iconArea a>i {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background: url(./icons.png) no-repeat;
+    background-size: 110%;
+    cursor: pointer
+}
+
+.footer_iconArea a>i+i {
+    margin-left: 1.2em
+}
+
+.footer_iconArea .icon_facebook {
+    background-position: 0 -116px!important
+}
+
+.footer_iconArea .icon_104 {
+    background-image: url(./logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footer_iconArea .icon_instagram {
+    background-position: 0 -144px!important
+}
+
+.footer_iconArea .icon_youtube {
+    background-position: 0 -173px!important
+}
+
+.footer_iconArea .icon_email {
+    background-position: 0 -201px!important;
+    position: relative
+}
+
+.webAppDownload {
+    margin-top: 30px;
+}
+
+.webAppDownload a {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.email_msg {
+    margin: 15px auto 2em;
+    line-height: 1.7;
+    text-align: left;
+    font-size: 15px;
+    background-color: #fff;
+    color: #333;
+    text-align: left;
+    font-size: 15px;
+    width: 270px;
+    padding: 11px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    position: relative;
+}
+
+.email_msg::before {
+    content: " ";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 10px 10px;
+    border-color: transparent transparent #ffffff transparent;
+    top: -10px;
+    right: 68px;
+    position: absolute;
+}

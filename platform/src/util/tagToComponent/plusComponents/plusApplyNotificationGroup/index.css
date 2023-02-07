@@ -1,0 +1,11 @@
+.content_text {
+  font-weight: bolder;
+}
+.plus_plusApplyNotificationGroup {
+  composes: content_block from '../shared.css';
+}
+.link{
+  cursor: pointer;
+  color: #0192b5;
+  font-weight: bold;
+}

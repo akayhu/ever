@@ -1,0 +1,22 @@
+.errorPage {
+  margin-top: 12px;
+  height: 180px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  color: #081b20;
+  font-size: 13px;
+}
+.btn_section {
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+  font-size: 13px;
+}
+.btn_section button:last-child {
+  margin-left: 12px;
+}

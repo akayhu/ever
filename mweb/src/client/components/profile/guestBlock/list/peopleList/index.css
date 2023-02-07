@@ -1,0 +1,9 @@
+.list_wrap > div:before {
+  content : "";
+  position: absolute;
+  left    : 10px;
+  bottom  : 0;
+  height  : 1px;
+  width   : calc(100% - 10px);
+  border-bottom:1px solid #d9d9d9;
+}

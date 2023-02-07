@@ -1,0 +1,115 @@
+.factory-container {
+	position: fixed;
+	top: 50px;
+	left: 0;
+	background: #fff;
+	width: 261px;
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+	z-index: 5;
+	padding-bottom: 50px;
+}
+.mobile-factory-container {
+	width: 170px;
+}
+.category-title.top {
+	border-bottom: 1px solid #eaeaea;
+	color: #f5b523;
+	cursor: initial;
+	padding: 25px 20px 3px;
+	font-size: 13px;
+}
+.control-box {
+	display: flex;
+	justify-content: space-around;
+	border-bottom: 1px solid #eee;
+}
+.control-box button img {
+	height: 20px;
+	margin-right: 5px;
+}
+.control-box button {
+	border: 1px solid #f5b523;
+	color: #f5b523;
+	border-radius: 40px;
+	height: 40px;
+	padding: 0 15px;
+	margin: 20px 10px;
+	outline: 0;
+}
+.control-box button.active {
+	background: #f5b523;
+	color: #fff;
+}
+.control-box.out button {
+	padding: 0 10px;
+}
+.template-card.theme {
+	text-align: center;
+}
+.control-box.behance {
+	display: flex;
+	flex-flow: row wrap;
+	padding: 20px 5px;
+}
+.control-box.behance input {
+	flex: 1;
+	margin-top: 5px;
+}
+.control-box.behance button {
+	padding: 5px;
+	height: auto;
+	margin: 5px;
+}
+.novice-guide-button {
+	position: fixed;
+	bottom: 0;
+	border-top: 1px solid #eee;
+	width: 100%;
+	padding: 10px 15px;
+	cursor: pointer;
+	background-color: #fff;
+	z-index: 10;
+	color: #979797;
+	font-size: 14px;
+	font-weight: 500;
+}
+.novice-guide-button:hover {
+	background-color: rgba(153, 153, 153, 0.2);
+}
+.novice-guide-button i {
+	font-size: 34px;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+.re-import {
+	margin: 15px 0;
+	border: 1px solid #5e5e5e;
+	text-align: center;
+	padding: 6px;
+	border-radius: 5px;
+	color: #5e5e5e;
+	cursor: pointer;
+	font-size: 14px;
+}
+.re-import:hover {
+	background-color: rgba(153, 153, 153, 0.2);
+}
+
+@media only screen and (max-width: 1000px) {
+	.templatePreview {
+		width: 75% !important;
+		margin: 0 auto;
+	}
+}
+@media only screen and (max-width: 800px) {
+	.templatePreview {
+		width: 85% !important;
+	}
+}
+@media only screen and (max-width: 568px) {
+	.templatePreview {
+		width: 95% !important;
+	}
+}

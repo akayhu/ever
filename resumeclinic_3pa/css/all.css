@@ -1,0 +1,513 @@
+head, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif, 微軟正黑體;
+}
+body {
+  background-color: #dcdcdc;
+}
+header {
+  background-color: #666;
+  padding: 17px 20px;
+  font-size: 0;
+}
+header h1 {
+  display: none;
+}
+article {
+  width: 640px;
+  margin: 0 auto;
+  background-color: #fff;
+  margin-top: 30px;
+}
+.m640, .m320 {
+  display: none;
+}
+.web {
+  display: block;
+}
+section h2 {
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+section.top_header {
+  position: relative;
+  line-height: 0;
+}
+section.top_header img {
+  width: 100%;
+}
+section.top_header .top_header_content {
+  position: absolute;
+  right: 30px;
+  top: 25px;
+  color: #fff;
+  line-height: 1.6;
+  letter-spacing: 1px;
+}
+section.top_header .top_header_content h2 {
+  font-size: 26px;
+  letter-spacing: 1px;
+}
+section.top_header .top_header_content p {
+  margin-top: 5px;
+}
+section.section_form {
+  padding: 40px;
+}
+section.section_form .resume_div {
+  padding: 30px 0 15px 20px;
+}
+section.section_form .resume_div a {
+  margin-left: 10px;
+}
+section.section_form .fitness_test {
+  margin: 30px 0 0 20px;
+  font-size: 18px;
+}
+section.section_form .fitness_test a {
+  font-size: 16px;
+}
+section.section_form .fitness_test .not_measured {
+  color: #666;
+}
+section.section_form .resume_title {
+  float: left;
+  font-size: 18px;
+}
+section.section_form .error_message {
+  line-height: 1.7;
+  color: #666;
+  margin: 20px 0 0 20px;
+  font-size: 14px;
+  clear: both;
+  display: none;
+}
+section.section_form .error_message img {
+  vertical-align: sub;
+  margin-right: 10px;
+  float: left;
+}
+section.section_form .error_message p {
+  margin-left: 31px;
+}
+section.section_form h2.industry_category_title {
+  margin: 40px 0 20px;
+}
+section.section_form .industry_categor_select {
+  padding: 5px 0 15px 5px;
+}
+section.section_form .i_agree {
+  margin-top: 20px;
+  margin-left: 15px;
+  color: #666;
+  font-size: 16px;
+  line-height: 1.7;
+  clear: both;
+}
+section.section_form .submit {
+  margin-top: 30px;
+  text-align: center;
+}
+
+
+section.section_note {
+  padding: 0 30px 30px;
+}
+section.section_note img {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+section.section_note h2 {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+section.section_note ul {
+  padding: 0;
+  list-style-type: decimal;
+  margin: 20px 0 0 18px;
+}
+section.section_note ul li {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #666;
+}
+section.section_form .resume_div a,
+section.section_form .fitness_test a,
+section.section_note ul li a,
+section.section_form .error_message a,
+.fullContent a,
+.successfulContent a {
+  text-decoration: none;
+  color: #05a;
+}
+footer {
+  color: #666;
+  text-align: center;
+  margin: 20px 0;
+}
+
+
+
+
+input[name=resume],
+input[name=test] {
+  display:none;
+}
+input[name=resume] + label,
+input[name=test] + label {
+  background-image: url(../images/icon_unchecked.png);
+  height: 20px;
+  width: 24px;
+  display:inline-block;
+  padding: 0;
+  vertical-align: sub;
+}
+input[name=resume]:checked + label,
+input[name=test]:checked + label {
+  background-image: url(../images/icon_checked.png);
+  height: 20px;
+  width: 24px;
+  display:inline-block;
+  padding: 0;
+  vertical-align: sub;
+} 
+input[type=submit] {
+  background-color: #ff7800;
+  font-size: 20px;
+  color: #fff;
+  width: 240px;
+  padding: 9px 0;
+  text-align: center;
+  border: 0;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif, 微軟正黑體;
+  cursor: pointer;
+}
+
+
+
+.text {
+  /*width: 100%;*/
+  float: left;
+}
+.text select {
+  /*width: 500px; */
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  color: #999;
+  margin-left: 15px;
+  border-radius: 5px;
+  margin-top: -9px;
+  min-width: 300px;
+}
+
+
+.been_full_bg {
+  width: 100%;
+  height: 100%;
+  background: #000;
+  position: fixed;
+  z-index: 50;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  display: none;
+}
+.been_full {
+  width: 540px;
+  height: 140px;
+  background-color: #fff;
+  z-index: 100;
+  margin: -105px auto 0 -310px;
+  padding: 40px;
+  top: 50%;
+  position: absolute;
+  left: 50%;
+  text-align: center;
+}
+.been_full h2 {
+  font-size: 22px;
+  padding: 0;
+  margin: 0;
+}
+.distribution {
+  background-color: #ff7800;
+  border: 1px solid #ff7800;
+  font-size: 18px;
+  margin: 10px 10px 0 0;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  width: 180px;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 5px;
+}
+.re_select {
+  background-color: #fff;
+  border: 1px solid #ff7800;
+  font-size: 18px;
+  margin-right: 10px;
+  color: #ff7800;
+  text-decoration: none;
+  text-align: center;
+  width: 180px;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+
+
+
+.success,
+.full,
+.successful {
+  text-align: center;
+  padding: 40px 0;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+.full {
+  overflow: hidden;
+}
+.successTitle,
+.fullTitle,
+.successfulTitle {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.successContent,
+.successfulTime {
+  font-size: 18px;
+  font-weight: bold;
+  color: #e4007f;
+}
+.successfulTime {
+  margin-bottom: 20px;
+}
+.fullContent,
+.successfulContent {
+  padding: 0 40px;
+  text-align: left;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+  letter-spacing: 0;
+  overflow: hidden;
+}
+.fullContent img,
+.successfulContent img {
+  float: left;
+  margin-right: 30px;
+}
+.fullContent p,
+.successfulContent p {
+  padding-top: 15px;
+  display: block;
+  margin: 0;
+  margin-left: 130px;
+}
+
+@media only screen and ( max-width: 640px ){
+  .web, .m320 {
+    display: none;
+  }
+  .m640 {
+    display: block;
+  }
+  .top_header_content {
+    text-align: center;
+    width: 100%;
+    top: 10px !important;
+    right: 0 !important;
+  }
+  header img {
+    /*width: 28%;*/
+  }
+  article {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+
+@media only screen and ( max-width: 414px ){
+  .web, .m640 {
+    display: none;
+  }
+  .m320 {
+    display: block;
+  }
+  .top_header_content {
+    text-align: center;
+    width: 100%;
+    top: 25px !important;
+    right: 0 !important;
+  }
+  header img {
+    width: 49%;
+  }
+  article {
+    width: 100%;
+    margin-top: 0;
+  }
+  section.section_form {
+    padding: 20px 20px 40px;
+  }
+  section.section_form .resume_title {
+    float: initial;
+    font-size: 20px;
+    clear: both;
+    margin-bottom: 30px;
+  }
+  section.section_form .resume_div {
+    padding: 20px 0 0 0;
+    overflow: hidden;
+  }
+  .resume_div a {
+    float: left;
+    font-size: 18px;
+  }
+  section.section_form .fitness_test {
+    margin: 30px 0 0 0;
+  }
+  section.section_form .error_message {
+    margin-left: 0;
+  }
+  section.section_form .industry_categor_select {
+    padding-left: 0;
+  }
+  section.section_form .i_agree {
+    margin-left: 0; 
+  }
+  .text {
+    width: 86%;
+    float: left;
+  }
+  .text select {
+    width: 76%;
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid #ccc;
+    color: #999;
+    margin-left: 0; 
+    border-radius: 5px;
+    margin-top: -9px;
+    min-width: 100%;
+  }
+  .been_full {
+    width: 330px;
+    height: 245px;
+    background-color: #fff;
+    z-index: 100;
+    margin: -123px auto 0 -195px;
+    padding: 30px;
+    top: 50%;
+    position: absolute;
+    left: 50%;
+    text-align: center;
+  }
+  .been_full p {
+    font-size: 20px;
+  }
+  .been_full .re_select {
+    margin-top: 20px;
+  }
+  section.section_note {
+    padding: 0 20px 30px;
+  }
+  .successContent {
+    width: 278px;
+    margin: 0 auto;
+  }
+  .fullTitle {
+    width: 79%;
+    margin: 0 auto;
+  }
+  .fullContent,
+  .successfulContent {
+    padding: 0 20px;
+  }
+  .fullContent img,
+  .successfulContent img {
+    float: initial;
+    margin-right: 0; 
+    margin: 20px auto;
+    display: block;
+  }
+  .fullContent p,
+  .successfulContent p {
+    padding-top: 0;
+    margin-left: 0;
+  }
+  .successfulTime {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and ( max-width: 320px ) {
+  .web, .m640 {
+    display: none;
+  }
+  .m320 {
+    display: block;
+  }
+  section.top_header .top_header_content h2 {
+    font-size: 22px;
+  }
+  section.section_form .resume_title {
+    font-size: 16px !important;
+  }
+  section.section_form .fitness_test {
+    font-size: 16px !important;
+  }
+  .top_header_content { 
+    top: 13px !important;
+  }
+  section.section_note {
+    padding: 0 20px 30px;
+  }
+  .been_full {
+    width: 260px;
+    height: 236px;
+    background-color: #fff;
+    z-index: 100;
+    margin: -123px auto 0 -151px;
+    padding: 21px;
+    top: 50%;
+    position: absolute;
+    left: 50%;
+    text-align: center;
+  }
+  .been_full h2 {
+    font-size: 20px;
+  }
+  .been_full p {
+    font-size: 18px;
+  }
+  .text {
+    width: 82%;
+    float: left;
+  }
+  .text select {
+    font-size: 15px;
+  }
+  footer {
+    font-size: 14px;
+  }
+  .successContent {
+    width: 210px;
+    margin: 0 auto;
+  }
+  .successfulTitle {
+    width: 86%;
+    margin: 0 auto 20px;
+  }
+}

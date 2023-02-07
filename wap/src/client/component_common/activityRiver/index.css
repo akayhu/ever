@@ -1,0 +1,8 @@
+.latest_news {
+	text-align: right;
+	color: #8a8a8a;
+	font-size: 16px;
+	cursor: pointer;
+	margin: 15px 0;
+	padding-right: 10px;
+}

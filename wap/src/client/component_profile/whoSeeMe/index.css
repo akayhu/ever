@@ -1,0 +1,81 @@
+.see_me_main_border {
+	border-left: 4px solid #f4f4f4;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 24px;
+	/*min-height: 215px;*/
+}
+.see_me_for_peo a img{
+	margin-right: 8px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+.see_me_for_peo {
+	padding-bottom: 30px;
+}
+.see_me_for_peo_title {
+	padding-bottom: 15px;
+	color: #8a8a8a;
+}
+.see_me_for_com img {
+	margin-right: 10px;
+	max-width: 110px;
+	max-height: 43px;
+}
+.see_me_for_com a:last-child img {
+	float: left;
+}
+.see_me_for_peo a {
+	position: relative;
+}
+.see_me_light_box {
+	display: flex;
+}
+
+.see_me_light_box .noSee{
+	font-size: 16px;
+	line-height: 8em;
+}
+.lightWidth{
+	width: 680px;
+	margin-top:-28px;
+}
+.lightbox_list{
+	text-align: left;
+	width: 100%;
+}
+.lightbox_list .listItem{
+	margin: 0;
+  padding: 13px;
+  display: flex;
+}
+.lightbox_list .listItem:hover{
+	background-color: #f9f9f9;
+}
+.lightbox_list .listItem .noFound{
+	line-height: 35px;
+	margin-bottom:-10px;
+}
+.lbContainer {
+	margin-top: 30px;
+	margin-bottom: 10px;
+	overflow-y: scroll;
+	max-height:320px;
+}
+.lbContainer::-webkit-scrollbar-track {
+	border-radius: 10px;
+	background-color: #eee;
+}
+
+.lbContainer::-webkit-scrollbar {
+	width: 8px;
+}
+
+.lbContainer::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background-color: #ccc;
+}
+.popularity {
+	margin-bottom: 10px;
+}

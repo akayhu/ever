@@ -1,0 +1,11 @@
+
+.endorsePer{
+	width: 105px;
+	margin: 0 auto;
+}
+
+.endorsePer text {
+  font-size: 26px;
+  font-weight: 400;
+  fill: #000;
+}

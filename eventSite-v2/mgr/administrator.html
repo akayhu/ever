@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="cache-control" content="no-store, no-cache" />
+		<meta http-equiv="pragma" content="no-cache" />
+		<meta http-equiv="expires" content="0" />
+		<meta name="description" content="104職涯社群APP，免費課程一鍵報名，打造自己的學習軌跡" />
+		<meta name="language" content="en" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta property="og:title" content="104職涯社群APP，免費課程一鍵報名，打造自己的學習軌跡" />
+		<meta property="og:url" content="" />
+		<meta property="og:type" content="website" />
+		<meta property="og:description" content="104職涯社群APP，免費課程一鍵報名，打造自己的學習軌跡" />
+		<meta property="og:image" content="" />
+		<meta property="og:site_name" content="104職涯社群APP" />
+		<title>104職涯社群APP，免費課程一鍵報名，打造自己的學習軌跡</title>
+		<link rel="shortcut icon" href="../favicon.ico" />
+		<link href="../css/reset.css" rel="stylesheet" type="text/css" />
+		<link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+		<link href="../css/nice-select.css" rel="stylesheet" type="text/css" />
+		<link href="../css/common.css" rel="stylesheet" type="text/css" />
+		<link href="../css/administrator.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+
+		<!-- Header -->
+		<header>
+			<div class="header_main">
+				<div>
+					<a href="/" title="104職涯社群">
+						<img src="https://static.104.com.tw/logo/104logo_plus_119x24_edm.png" class="logo" alt="104職涯社群" />
+					</a>
+				</div>
+				<div class="event-nav">
+						<a href="./event.html" title="活動後台">活動後台</a>
+						<a class="event-nav-focus" href="./administrator.html" title="管理員設定">管理員設定</a>
+						<a href="./instructorSetting.html" title="講師設定">講師設定</a>
+				</div>
+				<div class="event-user">
+					<img src="http://5b0988e595225.cdn.sohucs.com/images/20170721/e88a6cf59432427a9924ebc75f8ad7c4.png" class="rounded-circle" />
+					<span class="user-dropdown">
+						<span class="event-user-name" id="userDropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="-20,3">
+							大中天 <img src="../image/inverted_triangle.png" alt="" class="inverted-triangle" /> ｜
+						</span>
+						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdownMenu">
+							<a class="dropdown-item" target="_blank" href="https://accounts.104.com.tw/hello">會員中心</a>
+							<a class="dropdown-item" href="https://plus.104.com.tw/privacy">隱私設定</a>
+							<a class="dropdown-item" href="https://plus.104.com.tw/newsletter">管理電子報</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" target="_blank" href="https://static.104.com.tw/bigc/c_wap/html/statute/">服務條款</a>
+							<a class="dropdown-item" target="_blank" href="https://www.104.com.tw/jobs/search/showLogin?return_url=https%3A%2F%2Fwww.104.com.tw%2Fquestion_admin%2Freaction.cfm%3Ffaq_from%3Dplus">意見反映</a>
+							<a class="dropdown-item" target="_blank" href="https://static.104.com.tw/bigc/c_wap/html/commonProblem/">常見問題</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="https://plus.104.com.tw/sso/saml-logout?r=/">登出</a>
+						</div>
+					</span>
+					<span class="user-dropdown">
+						<span id="organizerDropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<span class="event-user-name">財團法人資訊工業策進會</span>
+							<img src="../image/inverted_triangle.png" class="adm-down-arrow" alt="" class="inverted-triangle" />
+						</span>
+						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="organizerDropdownMenu">
+							<h4 class="dropdown-header">切換身份</h4>
+							<a class="dropdown-item focus" href="./event.html">敘思花藝</a>
+							<a class="dropdown-item" href="./event.html">★韓台青年壯遊交流團한-대만청년서포터즈 駐台北韓國代表部★</a>
+							<a class="dropdown-item" href="./event.html">職涯社群</a>
+						</div>
+					</span>
+				</div>
+			</div>
+		</header>
+
+		<!-- 內容 -->
+		<main>
+
+			<!-- 列表狀態 -->
+			<div class="top-option">
+				<div class="top-title">管理員
+					<img
+						src="../image/questionMark.png"
+						alt=""
+						data-toggle="tooltip"
+						data-placement="bottom"
+						trigger="hover"
+						title="管理員共有2種不同的角色。當您建立主辦單位時，即自動成為該主辦單位的管理員，可以編輯活動和新增/編輯活動管理員；活動管理員僅能編輯活動。"
+					/>
+				</div>
+				<div class="creat-administrator">
+					<button class="submitButton" data-toggle="modal" data-target="#creatAdministratorModalCenter">建立新的管理員</button>
+				</div>
+			</div>
+
+			<dl>
+				<!-- 主辦單位管理者視角 -->
+				<dd>
+					<div>
+						<img src="../image/4.jpg" alt="邱娜娜" class="rounded-circle" />
+						<span class="user-name">主辦單位管理員視角(看別人)</span>
+						<span class="administrator-title">活動管理者</span>
+					</div>
+					<div>
+						<span class="obtained" id="removeDropdownMenu" data-toggle="dropdown">...</span>
+						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="removeDropdownMenu">
+							<a class="dropdown-item" href="#" data-toggle="modal" data-target="#organizerModalCenter">設定為主辦單位管理員</a>
+							<a class="dropdown-item" href="#" data-toggle="modal" data-target="#exampleModalCenter">移除此帳號</a>
+						</div>
+					</div>
+				</dd>
+				<dd>
+					<div>
+						<img src="../image/2.jpg" alt="邱娜娜" class="rounded-circle" />
+						<span class="user-name">主辦單位管理員視角(看自己)</span>
+						<span class="administrator-title">主辦單位管理員</span>
+					</div>
+				</dd>
+				<dd>
+					<div>
+						<img src="../image/3.jpg" alt="邱娜娜" class="rounded-circle" />
+						<span class="user-name">主辦單位管理員視角(看別人)</span>
+						<span class="administrator-title">活動管理者</span>
+					</div>
+					<div>
+						<span class="obtained" id="removeDropdownMenu" data-toggle="dropdown">...</span>
+						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="removeDropdownMenu">
+							<a class="dropdown-item" href="#" data-toggle="modal" data-target="#organizerModalCenter">設定為主辦單位管理員</a>
+							<a class="dropdown-item" href="#" data-toggle="modal" data-target="#exampleModalCenter">移除此帳號</a>
+						</div>
+					</div>
+				</dd>
+
+				<!-- 活動管理者視角 -->
+				<dd>
+					<div>
+						<img src="../image/4.jpg" alt="邱娜娜" class="rounded-circle" />
+						<span class="user-name">活動管理者視角</span>
+						<span class="administrator-title">活動管理者</span>
+					</div>
+					<div>
+						<span class="obtained" id="removeDropdownMenu" data-toggle="dropdown">...</span>
+						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="removeDropdownMenu">
+							<a class="dropdown-item" href="#" data-toggle="modal" data-target="#exampleModalCenter">移除此帳號</a>
+						</div>
+					</div>
+				</dd>
+				<dd>
+					<div>
+						<img src="../image/5.jpg" alt="邱娜娜" class="rounded-circle" />
+						<span class="user-name">活動管理者視角</span>
+						<span class="administrator-title">活動管理者</span>
+					</div>
+					<div>
+						<span class="obtained" id="removeDropdownMenu" data-toggle="dropdown">...</span>
+						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="removeDropdownMenu">
+							<a class="dropdown-item" href="#" data-toggle="modal" data-target="#exampleModalCenter">移除此帳號</a>
+						</div>
+					</div>
+				</dd>
+			</dl>
+
+			<!-- 頁數 -->
+			<div class="number-pages">
+				<ul>
+					<li><a href="#">上一頁</a></li>
+					<li><a href="#" class="focus">1</a></li>
+					<li><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+					<li><a href="#">4</a></li>
+					<li><a href="#">5</a></li>
+					<li><a href="#">6</a></li>
+					<li><a href="#">7</a></li>
+					<li><a href="#">8</a></li>
+					<li><a href="#">9</a></li>
+					<li><a href="#">10</a></li>
+					<li><a href="#">下一頁</a></li>
+				</ul>
+			</div>
+
+		</main>
+
+		<!-- Lightbox Modal 設定主辦單位管理 -->
+		<div class="modal fade" id="organizerModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered lightbox-modal-bigger" role="document">
+				<div class="modal-content">
+					<div class="modal-body">
+						<div class="title">設定為主辦單位管理員</div>
+						<p>是否將此帳號設定為主辦單位管理者？<br />確認後您的帳號將變更為活動管理者。</p>
+						<div class="lightbox-obtained-button">
+							<button class="whiteButton" data-dismiss="modal">取消</button>
+							<button class="submitButton">移除</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Lightbox Modal 移除 -->
+		<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered lightbox-modal" role="document">
+				<div class="modal-content">
+					<div class="modal-body">
+						<div class="title">移除管理員</div>
+						<p>確定移除管理員嗎？移除後無法再恢復操作。</p>
+						<div class="lightbox-obtained-button">
+							<button class="whiteButton" data-dismiss="modal">取消</button>
+							<button class="submitButton">移除</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Lightbox Modal 建立新的管理員 -->
+		<div class="modal fade" id="creatAdministratorModalCenter" tabindex="-1" role="dialog" aria-labelledby="creatAdministratorModalCenterTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered lightbox-modal-large" role="document">
+				<div class="modal-content">
+					<div class="modal-body">
+						<div class="title">建立新的管理員</div>
+						<div class="lightbox-input-div">
+							<div class="lightbox-input">
+								<input class="form-control" type="text" placeholder="輸入會員編號" />
+							</div>
+							<div>
+								<button class="submitButton">搜尋</button>
+							</div>
+						</div>
+						<div>
+							<div class="invalid-feedback" style="display: block">會員編號格式錯誤，請輸入阿拉伯數字</div>
+						</div>
+						<div class="loader"></div>
+						<div class="lightbox-user">
+							<img src="../image/5.jpg" alt="李鳳鳳" class="rounded-circle" /> <span>李鳳鳳</span> <span>咖啡調理師</span>
+						</div>
+						<!-- 有輸入時的按鈕 -->
+						<div class="lightbox-submit-div">
+							<button class="whiteButton" data-dismiss="modal">取消</button>
+							<button class="submitButton">建立</button>
+						</div>
+						<!-- 沒輸入時的按鈕 -->
+						<div class="lightbox-submit-div">
+							<button class="whiteButton" data-dismiss="modal">取消</button>
+							<button class="disabledButton" disabled>建立</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- 管理員建立成功 -->
+		<div class="creat-success" style="display: none;">管理員建立成功 !</div>
+
+		<script src="../js/jquery-3.3.1.min.js"></script>
+		<script src="../js/popper.min.js"></script>
+		<script src="../js/bootstrap.min.js"></script>
+		<script src="../js/jquery.nice-select.min.js"></script>
+		<script>
+			$(document).ready(function() {
+				$('select').niceSelect();
+				$('[data-toggle="tooltip"]').tooltip();
+			})
+		</script>
+	</body>
+</html>

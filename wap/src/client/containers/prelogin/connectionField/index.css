@@ -1,0 +1,74 @@
+.text-wrap-one{
+    white-space: nowrap;
+    overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+/* ------- for connection -------- */
+.block {
+    margin: 0 auto;
+    padding: 148px 0 40px 0;
+}
+.block h2{
+    margin: 40px 0 30px 0;
+}
+.block ul{
+    overflow: auto;
+    width: 960px;
+    margin: 0 auto;
+    z-index: -1;
+}
+.block ul li{
+    width: 176px;
+    height: 273px;
+    float: left;
+    margin: 0 20px 20px 0;
+    text-align: center;
+    position: relative;
+    z-index: 0;
+}
+.block ul li:nth-child(5n){
+    margin: 0 0 20px 0;
+}
+/* 頭像圖片 */
+.block img{
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
+/* 人脈卡片 */
+.content-main{
+    width: 100%;
+    height: 213px;
+    position: absolute;
+    background: #fff;
+    color: #8a8a8a;
+    top: 60px;
+    z-index: -1;
+    padding: 60px 16px 15px 16px;
+}
+.content-main a{
+    color: #4a4a4a;
+}
+.name{
+    color: #4a4a4a;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px auto;
+}
+.title{
+    margin: 0 4px;
+}
+.company{
+    padding: 0;
+}
+.company .icon{
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;    /* 包含 6px margin */
+    height: 14px;
+}
+.block-button {
+	margin: 20px 0;
+	text-align: center;
+}

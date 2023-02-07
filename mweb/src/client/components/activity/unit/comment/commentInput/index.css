@@ -1,0 +1,137 @@
+.comment_input_wrap {
+  overflow: auto;
+}
+.comment_input {
+  display: flex;
+  margin: 10px;
+}
+.comment_input > button {
+  white-space: nowrap;
+}
+.self_message {
+  position: relative;
+  display: flex;
+  width: 100%;
+  align-items: center;
+	margin-right: 8px;
+	border: 1px solid #d0d0d0;
+  padding: 5px 40px 5px 12px;
+  border-radius: 3px;
+}
+.file_uploader {
+	position: absolute;
+	right: 0;
+	top: 0;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  z-index: 1;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hasAttachment {
+  margin: 10px;
+}
+.hasAttachment > div {
+  min-width: 25px;
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.attachmentName {
+  max-width: 240px;
+  overflow: hidden;
+}
+.cancel_upload_btn{
+  display: inline-block;
+  vertical-align: middle;
+  color: #34a8c4;
+  cursor: pointer;
+}
+.slow {
+  position: relative;
+  height: 25px;
+  width: 240px;
+}
+.slow span {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.slow span:first-child {
+  opacity: 1;
+  animation-name: slow;
+  -webkit-animation-name: slow;
+  animation-duration: 10s;
+  -webkit-animation-duration: 10s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+.slow span:last-child {
+  opacity: 0;
+  animation-name: slowR;
+  -webkit-animation-name: slowR;
+  animation-duration: 10s;
+  -webkit-animation-duration: 10s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@keyframes slow {
+  0% {
+    opacity: 1;
+  }
+  33% {
+    opacity: 0;
+  }
+  66% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes slow {
+  0% {
+    opacity: 1;
+  }
+  33% {
+    opacity: 0;
+  }
+  66% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes slowR {
+  0% {
+    opacity: 0;
+  }
+  33% {
+    opacity: 1;
+  }
+  66% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes slowR {
+  0% {
+    opacity: 0;
+  }
+  33% {
+    opacity: 1;
+  }
+  66% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

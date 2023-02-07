@@ -1,0 +1,25 @@
+.wrapper {
+  position: absolute !important;
+  height: 56px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.layer {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(230,230,230, 0.5);
+}
+.fake_block {
+  height: 75%;
+  filter: blur(4px);
+  width: 127px;
+  background-color: #ddd;
+}
+
+.hide {
+  display: none;
+}

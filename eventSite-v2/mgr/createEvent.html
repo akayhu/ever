@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="cache-control" content="no-store, no-cache" />
+		<meta http-equiv="pragma" content="no-cache" />
+		<meta http-equiv="expires" content="0" />
+		<meta name="description" content="104職涯社群APP，免費課程一鍵報名，打造自己的學習軌跡" />
+		<meta name="language" content="en" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta property="og:title" content="104職涯社群APP，免費課程一鍵報名，打造自己的學習軌跡" />
+		<meta property="og:url" content="" />
+		<meta property="og:type" content="website" />
+		<meta property="og:description" content="104職涯社群APP，免費課程一鍵報名，打造自己的學習軌跡" />
+		<meta property="og:image" content="" />
+		<meta property="og:site_name" content="104職涯社群APP" />
+		<title>104職涯社群APP，免費課程一鍵報名，打造自己的學習軌跡</title>
+		<link rel="shortcut icon" href="../favicon.ico" />
+		<link href="../css/reset.css" rel="stylesheet" type="text/css" />
+		<link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+		<link href="../css/jquery-ui.min.css" rel="stylesheet" type="text/css" />
+		<link href="../css/jquery-ui-timepicker-addon.css" rel="stylesheet" type="text/css" />
+		<link href="../css/common.css" rel="stylesheet" type="text/css" />
+		<link href="../css/createEvent.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+
+		<!-- Header -->
+		<header>
+			<div class="header_main">
+				<div>
+					<a href="/" title="104職涯社群">
+						<img src="https://static.104.com.tw/logo/104logo_plus_119x24_edm.png" class="logo" alt="104職涯社群" />
+					</a>
+				</div>
+				<div class="event-nav">
+					<a class="event-nav-focus" href="./event.html" title="活動後台">活動後台</a>
+					<a href="./administrator.html" title="管理員設定">管理員設定</a>
+					<a href="./instructorSetting.html" title="講師設定">講師設定</a>
+				</div>
+				<div class="event-user">
+					<img src="http://5b0988e595225.cdn.sohucs.com/images/20170721/e88a6cf59432427a9924ebc75f8ad7c4.png" class="rounded-circle" />
+					<span class="user-dropdown">
+						<span class="event-user-name" id="userDropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="-20,3">
+							大中天 <img src="../image/inverted_triangle.png" alt="" class="inverted-triangle" /> ｜
+						</span>
+						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdownMenu">
+							<a class="dropdown-item" target="_blank" href="https://accounts.104.com.tw/hello">會員中心</a>
+							<a class="dropdown-item" href="https://plus.104.com.tw/privacy">隱私設定</a>
+							<a class="dropdown-item" href="https://plus.104.com.tw/newsletter">管理電子報</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" target="_blank" href="https://static.104.com.tw/bigc/c_wap/html/statute/">服務條款</a>
+							<a class="dropdown-item" target="_blank" href="https://www.104.com.tw/jobs/search/showLogin?return_url=https%3A%2F%2Fwww.104.com.tw%2Fquestion_admin%2Freaction.cfm%3Ffaq_from%3Dplus">意見反映</a>
+							<a class="dropdown-item" target="_blank" href="https://static.104.com.tw/bigc/c_wap/html/commonProblem/">常見問題</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="https://plus.104.com.tw/sso/saml-logout?r=/">登出</a>
+						</div>
+					</span>
+					<span class="user-dropdown">
+						<span id="organizerDropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<span class="event-user-name">財團法人資訊工業策進會</span>
+							<img src="../image/inverted_triangle.png" class="adm-down-arrow" alt="" class="inverted-triangle" />
+						</span>
+						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="organizerDropdownMenu">
+							<h4 class="dropdown-header">切換身份</h4>
+							<a class="dropdown-item focus" href="./event.html">敘思花藝</a>
+							<a class="dropdown-item" href="./event.html">★韓台青年壯遊交流團한-대만청년서포터즈 駐台北韓國代表部★</a>
+							<a class="dropdown-item" href="./event.html">職涯社群</a>
+						</div>
+					</span>
+				</div>
+			</div>
+		</header>
+
+		<!-- 內容 -->
+		<main>
+
+			<div class="create-event-title">建立活動</div>
+
+				<dl>
+
+					<!-- 活動講師 -->
+					<dt>
+						<span class="required">*</span> 活動講師 <span class="first-come">(請先至”講師設定”中建立講師名單)</span>
+					</dt>
+					<dd>
+						<div class="required unfilled">請選擇活動講師</div>
+						<div class="choose-title">從清單中選擇講師</div>
+						<div class="event-lecturer-item">
+							<ul>
+								<li>
+									<div>
+										<img src="../image/5.jpg" class="rounded-circle" width="40" height="40" alt="大中天" />
+										<span class="lecturer-name">張夢平</span>
+										<span>花藝設計師</span>
+									</div>
+									<div><img src="../image/delete_normal.png" class="lecturer-item-delete" title="刪除" alt="刪除" /></div>
+								</li>
+								<li>
+									<div>
+										<img src="../image/5.jpg" class="rounded-circle" width="40" height="40" alt="大中天" />
+										<span class="lecturer-name">張夢平</span>
+										<span>花藝設計師</span>
+									</div>
+									<div><img src="../image/delete_normal.png" class="lecturer-item-delete" title="刪除" alt="刪除" /></div>
+								</li>
+							</ul>
+						</div>
+						<div class="create-event-lecturer" data-toggle="collapse" data-target="#createEventLecturer" aria-expanded="false" aria-controls="createEventLecturer">
+							請選擇 <img src="../image/dropdown.png" alt="請選擇" />
+						</div>
+						<div class="collapse create-lecturer" id="createEventLecturer">
+							<div class="card card-body">
+								<!-- 未達上限狀態 -->
+								<div class="create-lecturer-top-button">
+									<div>可複選，上限5位</div>
+									<div><button class="submitButton">確定</button></div>
+								</div>
+								<!-- 已達上限5位狀態 -->
+								<div class="create-lecturer-top-button">
+									<div class="required">已達上限5位</div>
+									<div><button class="submitButton">確定</button></div>
+								</div>
+								<!-- 列表 -->
+								<div class="lecturer-item">
+									<ul>
+										<!-- 未達上限狀態 -->
+										<li>
+											<input type="checkbox" id="item1" />
+											<img src="../image/5.jpg" class="rounded-circle" width="40" height="40" alt="張夢平" />
+											<label for="item1">
+												<span class="lecturer-name">張夢平</span>
+												<span class="lecturer-jobTitle">花藝設計師</span>
+											</label>
+										</li>
+										<li>
+											<input type="checkbox" id="item2" />
+											<img src="../image/5.jpg" class="rounded-circle" width="40" height="40" alt="張夢平" />
+											<label for="item2">
+												<span class="lecturer-name">張夢平</span>
+												<span class="lecturer-jobTitle">花藝設計師</span>
+											</label>
+										</li>
+										<li>
+											<input type="checkbox" id="item3" />
+											<img src="../image/5.jpg" class="rounded-circle" width="40" height="40" alt="張夢平" />
+											<label for="item3">
+												<span class="lecturer-name">張夢平</span>
+												<span class="lecturer-jobTitle">花藝設計師</span>
+											</label>
+										</li>
+										<li>
+											<input type="checkbox" id="item4" />
+											<img src="../image/5.jpg" class="rounded-circle" width="40" height="40" alt="張夢平" />
+											<label for="item4">
+												<span class="lecturer-name">張夢平</span>
+												<span class="lecturer-jobTitle">花藝設計師</span>
+											</label>
+										</li>
+										<li>
+											<input type="checkbox" id="item5" />
+											<img src="../image/5.jpg" class="rounded-circle" width="40" height="40" alt="張夢平" />
+											<label for="item5">
+												<span class="lecturer-name">張夢平</span>
+												<span class="lecturer-jobTitle">花藝設計師</span>
+											</label>
+										</li>
+										<!-- 已達上限5位狀態 -->
+										<li>
+											<input type="checkbox" disabled id="item6" />
+											<img src="../image/5.jpg" class="rounded-circle" width="40" height="40" alt="張夢平" />
+											<label for="item5">
+												<span class="lecturer-name">張夢平</span>
+												<span class="lecturer-jobTitle">花藝設計師</span>
+											</label>
+										</li>
+										<li>
+											<input type="checkbox" disabled id="item6" />
+											<img src="../image/5.jpg" class="rounded-circle" width="40" height="40" alt="張夢平" />
+											<label for="item5">
+												<span class="lecturer-name">張夢平</span>
+												<span class="lecturer-jobTitle">花藝設計師</span>
+											</label>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</dd>
+
+					<!-- 活動內容 -->
+					<dt>
+						<span class="required">*</span> 活動內容 <span class="first-come">(請先至”講師設定”中建立講師名單)</span>
+					</dt>
+					<dd class="event-content">
+						<!-- 圖片上傳 -->
+						<div class="upload-image-block">
+							<div class="file-upload-content">
+								<input class="file-upload-input" type='file' onChange="readURL(this);"  accept="image/*" />
+								<div class="file-upload-limit">
+									<div class="file-upload-button"><button class="submitButton">上傳圖片</button></div>
+									建議圖片尺寸1200x628，檔案不超過2MB。<br />
+									接受格式：JPG、PNG、GIF、BMP<br />
+									若未設定活動圖片將使用系統預設圖。
+								</div>
+							</div>
+							<div class="image-title-wrap">
+								<img class="file-upload-image" src="#" alt="your image" />
+								<div class="remove-image">
+									<button class="whiteButton remove-image-button" onClick="removeUpload()"></button>
+								</div>
+							</div>
+						</div>
+						<div class="required unfilled">圖片尺寸不足，請參考建議尺寸</div>
+						<input type="text" placeholder="活動標題（限50字" />
+						<div class="required unfilled">活動標題不可為空</div>
+						<div class="tag-editor">
+							<input type="hidden" name="tag" class="tag-editor-value" />
+							<ul class="tag-editor-list">
+								<li class="tag-editor-tag">動畫</li>
+								<li class="tag-editor-tag">履歷優化</li>
+								<li class="tag-editor-tag">職涯規劃</li>
+							</ul>
+							<input type="text" placeholder="標籤 (直接按Enter即可，最多5個)" class="tag-editor-input" />
+						</div>
+						<div class="required unfilled">活動標籤不可為空</div>
+						<textarea name="" placeholder="活動介紹" cols="30" rows="7"></textarea>
+						<div class="textarea-text-length">
+							<div class="required">請填寫活動介紹</div>
+							<div class="number"><span id="chars">0</span> / 1000</div>
+						</div>
+					</dd>
+
+					<!-- 基本資訊 -->
+					<dt>
+						<span class="required">*</span> 基本資訊
+					</dt>
+					<dd class="event-date">
+						<div>
+							<div class="event-date-title">活動日期</div>
+							<input type="text" class="datepicker" placeholder="開始日期" />
+							<input type="text" class="timepicker" placeholder="開始時間" /> ~
+							<input type="text" class="datepicker" placeholder="結束日期" />
+							<input type="text" class="timepicker" placeholder="結束時間" />
+							<div class="required unfilled">請設定活動日期與時段</div>
+						</div>
+					</dd>
+					<dd class="event-date">
+						<div>
+							<div class="event-date-title">報名時間(非必填)</div>
+							<input type="text" class="datepicker" placeholder="開始日期" />
+							<input type="text" class="timepicker" placeholder="開始時間" /> ~
+							<input type="text" class="datepicker" placeholder="結束日期" />
+							<input type="text" class="timepicker" placeholder="結束時間" />
+							<br />
+							<input type="text" class="quota" placeholder="名額" /> 人
+							<div class="required unfilled">請設定名額</div>
+						</div>
+					</dd>
+					<dd>
+						<div class="event-date-title">費用</div>
+						<div>
+							<div class="form-check form-check-inline">
+								<input class="form-check-input" type="radio" checked name="inlineRadioOptions" id="inlineRadio1" value="1">
+								<label class="form-check-label" for="inlineRadio1">免費</label>
+							</div>
+							<!-- <div class="form-check form-check-inline"></div>
+								<input class="form-check-input cost-radio" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="2">
+								<input type="text" class="cost disabled-style" id="cost" disabled placeholder="費用" /> 元
+							</div> -->
+						</div>
+					</dd>
+					<dd class="address-dd">
+						<input type="text" class="address" placeholder="地址" />
+						<div class="required unfilled">活動地址不可為空</div>
+						<iframe
+							width="100%"
+							frameborder="0"
+							src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAYBMYS-eSUwFL3Z1cn5P2bNWrVIr27Cgc&q=711&zoom=14&center=25.033952,121.564360" 
+							allowfullscreen>
+						</iframe>
+					</dd>
+
+					<!-- 有填資料送出鈕 -->
+					<dd class="submit-dd">
+						<button class="whiteButton">取消</button>
+						<button class="checkInButton">儲存草稿</button>
+						<button class="submitButton" data-toggle="modal" data-target="#loaderModalCenter">送出</button>
+						<div class="draft-text">*編輯完成後才能執行預覽與存成草稿功能</div>
+					</dd>
+					<!-- 未填資料送出鈕 -->
+					<dd class="submit-dd">
+						<button class="whiteButton">取消</button>
+						<button class="disabledButton">送出</button>
+					</dd>
+
+				</dl>
+
+		</main>
+
+		<!-- Lightbox Modal 建立活動中loader -->
+		<div class="modal fade" id="loaderModalCenter" tabindex="-1" role="dialog" aria-labelledby="loaderModalCenterTitle" aria-hidden="true" data-backdrop="static">
+			<div class="modal-dialog modal-dialog-centered loader-lightbox-modal" role="document">
+				<div class="modal-content">
+					<div class="modal-body">
+						<div class="title">新增活動中，請稍候...</div>
+						<div class="loader"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="../js/jquery-3.3.1.min.js"></script>
+		<script src="../js/popper.min.js"></script>
+		<script src="../js/bootstrap.min.js"></script>
+		<script src="../js/jquery-ui.min.js"></script>
+		<script src="../js/jquery-ui-timepicker-addon.js"></script>
+		<script src="../js/datepicker-zh-TW.js"></script>
+		<script src="../js/jquery-ui-timepicker-zh-TW.js"></script>
+		<script src="../js/tag.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$(".datepicker").datepicker();
+				$(".timepicker").timepicker();
+				$("input[type=radio]").change(function () {
+					var result = parseInt($(this).val());
+					if (result === 2) {
+						$("#cost").removeAttr("disabled");
+						$("#cost").removeClass("disabled-style");
+					} else {
+						$("#cost").attr("disabled", "true");
+						$("#cost").val('');
+						$("#cost").addClass("disabled-style");
+					}
+				});
+
+				$('textarea').keyup(function() {
+					var length = $(this).val().length;
+					$('#chars').text(length);
+				});
+			});
+
+			// 上傳圖片
+			var readURL = function(input) {
+				if (input.files && input.files[0]) {
+					var reader = new FileReader();
+					reader.onload = function(e) {
+						$('.file-upload-content').hide();
+						$('.file-upload-image').attr('src', e.target.result);
+						$('.image-title-wrap').show();
+						$('.remove-image-button').html('移除圖片 ' + input.files[0].name);
+					};
+					reader.readAsDataURL(input.files[0]);
+				} else {
+					removeUpload();
+				}
+			};
+
+			// 刪除圖片
+			var removeUpload = function() {
+				$('.file-upload-input').replaceWith($('.file-upload-input').clone());
+				$('.image-title-wrap').hide();
+				$('.file-upload-content').show();
+			};
+		</script>
+	</body>
+</html>

@@ -1,0 +1,27 @@
+{
+  "name": "104fp-f2e-browser-support",
+  "version": "1.0.0",
+  "description": "提供瀏覽器版本偵測、顯示不支援警告",
+  "main": "browser.js",
+  "scripts": {
+    "minlify": "uglifyjs browser.2.0.js -o browser.2.0.min.js --config-file uglify-js.json && npm run open:test",
+    "open:test": "opener ./browser-unit-test.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/104corp/104fp-f2e-browser-support.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "uglify-js": "^3.2.0",
+    "chromedriver": "^2.33.2",
+    "webdriverio": "^4.9.10"
+  },
+  "devDependencies": {
+    "opener": "^1.4.3",
+    "wdio-chromedriver-service": "^0.1.1",
+    "wdio-mocha-framework": "^0.5.11",
+    "webdriverio": "^4.9.10"
+  }
+}

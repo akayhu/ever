@@ -1,0 +1,109 @@
+.block-wrapper,
+.block-elem-wrapper {
+	position: relative;
+	padding: 15px;
+	margin: 0 auto;
+}
+.show-border {
+	border: solid 1px #48eeff;
+	border-radius: 8px;
+	position: relative;
+}
+.noshow-border {
+	border: solid 1px transparent;
+}
+.block-title {
+	position: relative;
+	font-size: 28px;
+	height: 36px;
+	padding: 5px;
+	margin-bottom: 20px;
+	text-align: left;
+}
+.block-title h3 {
+	position: absolute;
+	display: inline-block;
+	font-size: 26px;
+	padding-left: 33px;
+}
+.block-title-dash {
+	position: absolute;
+	border-top: 3px solid #67dce3;
+	width: 20px;
+	top: 18px;
+}
+.text-title {
+	font-size: 20px;
+	color: #484848;
+	min-height: 1em;
+}
+
+/* THEME DARK */
+.def .text-title {
+	color: #484848;
+}
+.dark .text-title {
+	color: #f8e71c;
+}
+.dark .text-desc {
+	color: #afafaf;
+}
+.dark .education-title {
+	color: #fff;
+}
+.dark .education-container {
+	color: #fff;
+}
+.dark .honor-card .honor-container {
+	color: #fff;
+	background: transparent;
+	border: 1px solid #fff;
+	box-shadow: none;
+}
+.dark .honor-card .honor-container:nth-child(even) {
+	border: 1px solid #fff;
+}
+.dark .block-title {
+	text-align: center;
+	height: 50px;
+}
+.dark .block-title::before {
+	display: none;
+}
+.dark .block-title::after {
+	position: absolute;
+	content: ' ';
+	width: 30px;
+	height: 6px;
+	background-color: #f8e71c;
+	left: 50%;
+	margin-left: -15px;
+	bottom: -15px;
+}
+.dark .block-title h3 {
+	background: transparent;
+	color: #fff;
+	font-weight: 200;
+	position: relative;
+}
+
+/* EXP COMPONENT */
+.inline {
+	display: inline-block;
+}
+
+.mobile-block-wrapper {
+	position: relative;
+	padding: 15px 0;
+	margin: 0 15px;
+}
+
+@media only screen and (max-width: 414px) {
+	.block-wrapper,
+	.block-elem-wrapper {
+		padding: 15px 0;
+	}
+	.block-title {
+		padding-left: 15px;
+	}
+}

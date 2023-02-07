@@ -1,0 +1,267 @@
+.comment_main {
+	background-color: #fafafa;
+	padding: 15px;
+}
+.self_message {}
+.comment_main .self_message{
+	width: 530px;
+	max-width: 88%;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 10px;
+	border: 1px solid #d3d3d3;
+  padding: 3px 30px 3px 15px;
+}
+.comment_main .self_message_warning{
+	width: 530px;
+	max-width: 88%;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 10px;
+	border: 1px solid #ff530d;;
+  padding: 3px 30px 3px 15px;
+}
+.comment_main button{
+	display: inline-block;
+	vertical-align: middle;
+}
+.comment_main .cancel_upload_btn{
+	display: inline-block;
+	vertical-align: middle;
+	color: #34a8c4;
+	cursor: pointer;
+}
+.comment_main .self_message,
+.comment_main .self_message_warning,
+.comment_main .comment_message {
+	position: relative;
+	border-radius: 3px;
+	background: #fff;
+}
+.comment_main .self_message .attachment_icon,
+.comment_main .self_message_warning .attachment_icon,
+.comment_main .comment_message .attachment_icon {
+	font-size: 1.4em;
+}
+.comment_main .self_message .attachment_icon i ,
+.comment_main .self_message_warning .attachment_icon i ,
+.comment_main .comment_message .attachment_icon i{
+	color: #8a8a8a;
+	cursor: pointer;
+}
+.comment_main .warning_text{
+		color: #ff530d;
+    font-size: 14px;
+    float: left;
+}
+.comment_message .hasAttachment {
+	padding-right: 155px;
+}
+.self_message_main {
+	position: relative;
+}
+.self_message_main .btn_row{
+	padding: 10px 0;
+	/*float: right;*/
+}
+.comment_main .self_message_main .btn_row button{
+	border: 1px solid #ddd;
+}
+.comment_textfield input
+.comment_textfield input:foucs{
+	border: 1px solid #ccc;
+}
+.comment_textfield_hasAttachment input
+.comment_textfield_hasAttachment input:foucs{
+	border: 1px solid #ccc;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+.getMoreComment_btn{
+	width: 100px;
+	min-height: 20px;
+	margin-bottom: 10px;
+	padding: 5px 0;
+	color: #0192b5;
+	cursor: pointer;
+}
+.getMoreComment_btn span.getMoreComment_loading:before{
+	margin-left: 0;
+}
+.activity_comment{
+	position: relative;
+	margin-bottom: 12px;
+	border-bottom: 1px solid #eee;
+}
+.activity_comment .commentDate{
+	float: right;
+}
+.activity_comment .header_img{
+	width: 10%;
+	display: inline-block;
+	vertical-align: top;
+}
+.activity_comment .header_text{
+	width: 90%;
+	display: inline-block;
+	vertical-align: top;
+}
+.activity_comment .header_text .commentAuthor{
+	color: #0192b5;
+}
+.activity_comment .header_text .comment_content{
+	overflow: hidden;
+	word-break: break-word;
+}
+.activity_comment .header_text .comment_content P{
+	display: block;
+}
+.activity_comment .header_text .interact{
+	float: right;
+}
+.activity_comment .header_text .likeCount{
+	vertical-align: middle;
+	padding-left: 6px;
+	padding-right: 6px;
+}
+.activity_comment .attachment_block{
+	position: relative;
+	margin: 12px auto 20px;
+	text-align: center;
+}
+.activity_comment .attachment_block .crossItem{
+	position: absolute;
+	right: 0;
+	cursor: pointer;
+}
+.activity_comment .attachment_block .preview_image {
+	max-width: 418px;
+	margin-left: auto;
+	margin-right: auto;
+	/*max-height: 235px;*/
+}
+.activity_comment .attachment_block .uploading_icon {
+	display: block;
+	margin-bottom: 15px;
+	height: 1px;
+}
+.activity_comment .attachment_block .uploading_hint {
+	font-size: 18px;
+	color: #081b20;
+}
+.delete_loading{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(256, 256, 256, 0.5);
+}
+.delete_loading .flower{
+	top: 50%;
+}
+.file_uploader {
+	position: absolute;
+	right: 5px;
+	top: 7px;
+}
+
+.hasAttachment {
+	margin: 10px 0;
+}
+.hasAttachment > div {
+	min-width: 25px;
+	display: inline-block;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+.attachmentName {
+	max-width: 240px;
+  overflow: hidden;
+}
+.slow {
+	position: relative;
+	height: 25px;
+  width: 240px;
+}
+.slow span {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.slow span:first-child {
+	opacity: 1;
+	animation-name: slow;
+	-webkit-animation-name: slow;
+	animation-duration: 10s;
+	-webkit-animation-duration: 10s;
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+.slow span:last-child {
+	opacity: 0;
+	animation-name: slowR;
+	-webkit-animation-name: slowR;
+	animation-duration: 10s;
+	-webkit-animation-duration: 10s;
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+
+@keyframes slow {
+	0% {
+		opacity: 1;
+	}
+	33% {
+		opacity: 0;
+	}
+	66% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-webkit-keyframes slow {
+	0% {
+		opacity: 1;
+	}
+	33% {
+		opacity: 0;
+	}
+	66% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes slowR {
+	0% {
+		opacity: 0;
+	}
+	33% {
+		opacity: 1;
+	}
+	66% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+@-webkit-keyframes slowR {
+	0% {
+		opacity: 0;
+	}
+	33% {
+		opacity: 1;
+	}
+	66% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}

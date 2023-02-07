@@ -1,0 +1,42 @@
+.list_item_box {
+	padding: 15px;
+	border-bottom: 1px solid #e3e3e3;
+}
+
+.list_item_box img {
+	margin-right: 10px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+
+.item_for_group, .item_for_company {
+	display: flex;
+}
+.list_item_box .item_for_group .left {
+	display: flex;
+	align-items: center;
+	margin-right: 16px;
+}
+
+.item_for_group .right {
+	width: 100%;
+}
+.item_for_group .right .content {
+	color: #000;
+}
+
+.time {
+	font-size: 14px;
+	color: #8a8a8a;
+	margin-top: 5px;
+}
+
+
+/* for item */
+.content_block {
+	display: inline;
+}
+.content_text {
+	font-weight: bolder;
+}  

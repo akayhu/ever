@@ -1,0 +1,194 @@
+.searchMain {
+	margin-top: 50px;
+}
+.searchListMain {
+	margin-top: 50px !important;
+}
+.searchTopMain {
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.6);
+	margin-top: 50px;
+}
+.searchTopContent {
+	width: 650px;
+	margin: 0 auto;
+	padding: 140px 0 100px;
+	text-align: center;
+}
+.searchTitle {
+	font-family: PingFangTC;
+	font-size: 44px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	text-align: center;
+	color: #fff;
+	margin-bottom: 15px;
+}
+.searchP {
+	font-family: PingFangTC;
+	font-size: 24px;
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	text-align: center;
+	color: #fff;
+	margin-bottom: 20px;
+}
+.searchInput {
+	display: flex;
+	justify-content: center;
+}
+.searchInput input {
+	display: inline-flex;
+	border: 0px;
+	width: 490px;
+	height: 52px;
+	padding: 0 20px;
+	letter-spacing: 1px;
+	font-size: 16px;
+	color: #2b2b2b;
+}
+.searchInput input::placeholder {
+	/* Chrome, Firefox, Opera, Safari 10.1+ */
+	color: #aaa;
+	opacity: 1; /* Firefox */
+}
+
+.searchInput input:-ms-input-placeholder {
+	/* Internet Explorer 10-11 */
+	color: #aaa;
+}
+
+.searchInput input::-ms-input-placeholder {
+	/* Microsoft Edge */
+	color: #aaa;
+}
+.searchInput button {
+	width: 52px;
+	background-color: #f5b523;
+	height: 52px;
+	border: 0px;
+}
+.searchInput button i {
+	font-size: 25px;
+	color: #fff;
+}
+.searcTitle {
+	font-family: PingFangTC;
+	font-size: 20px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #2b2b2b;
+	padding-bottom: 15px;
+	background: #f6f6f6;
+}
+.searchRemind {
+	color: #666;
+	font-size: 18px;
+	margin: 0 15px 35px;
+}
+.searcLayer {
+	flex-wrap: wrap;
+	display: flex;
+	align-content: flex-start;
+	padding-bottom: 40px;
+	width: 100%;
+	background-color: #f6f6f6;
+	min-height: 270px;
+}
+.searchLayer::after {
+	content: ' ';
+	height: 100%;
+	display: inline-block;
+	vertical-align: middle;
+}
+.searchTag {
+	color: #f5b523;
+	margin: 0 0.5em;
+}
+.search-noData-name {
+	font-family: PingFangTC;
+	font-size: 24px;
+	font-weight: 600;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	text-align: center;
+	color: #2b2b2b;
+	margin-bottom: 10px;
+}
+.search-noData-prompt {
+	font-family: PingFangTC;
+	font-size: 16px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	text-align: center;
+	color: #666;
+}
+
+@media only screen and (max-width: 667px) {
+	.searchTopContent {
+		width: 100% !important;
+	}
+	.searchTopContent .searchTitle {
+		font-size: 36px;
+	}
+}
+@media only screen and (max-width: 600px) {
+	.searchTopContent {
+		padding: 95px 0 100px;
+	}
+}
+@media only screen and (max-width: 568px) {
+	.searchInput input {
+		width: 84% !important;
+	}
+}
+@media only screen and (max-width: 533px) {
+	.searchTopContent .searchTitle {
+		font-size: 28px;
+	}
+	.searchTopContent .searchP {
+		font-size: 20px;
+	}
+}
+@media only screen and (max-width: 480px) {
+	.searchTopContent {
+		padding: 65px 0 60px;
+	}
+	.searcLayer {
+		padding-bottom: 20px;
+	}
+}
+@media only screen and (max-width: 414px) {
+	.search-noData-name {
+		font-size: 22px;
+		padding: 0 15px;
+	}
+	.search-noData-prompt {
+		padding: 0 15px;
+	}
+}
+@media only screen and (max-width: 384px) {
+	.searchTopContent .searchTitle {
+		font-size: 22px;
+	}
+	.searchTopContent .searchP {
+		font-size: 16px;
+	}
+	.searchTopContent {
+		padding: 55px 0 32px;
+	}
+}

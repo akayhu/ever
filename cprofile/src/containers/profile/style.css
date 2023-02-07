@@ -1,0 +1,81 @@
+.profile-personal-information-close {
+	left: 0;
+	width: 100%;
+	transition: left 0.3s;
+	-moz-transition: left 0.3s;
+	-webkit-transition: left 0.3s;
+	-o-transition: left 0.3s;
+}
+.profile-personal-information-open {
+	left: 310px;
+	width: calc(100% - 310px);
+	transition: left 0.3s;
+	-moz-transition: left 0.3s;
+	-webkit-transition: left 0.3s;
+	-o-transition: left 0.3s;
+}
+.profile-personal-information > div {
+	overflow: initial !important;
+}
+.profile-personal-information .profile-personal-information-switch {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	top: 50%;
+	right: -30px;
+	background-color: #fbfbfb;
+	border-radius: 50%;
+	box-shadow: rgba(0, 0, 0, 0.16) 1px 0px 0px, rgba(0, 0, 0, 0.23) 2px 0px 3px;
+	cursor: pointer;
+}
+.profile-personal-information-switch i {
+	font-size: 17px;
+	margin: 17px 0 0 30px;
+	color: #666;
+}
+
+/* mobile */
+.profile-personal-information-mobile-drawer {
+	position: fixed;
+	z-index: 1300;
+	border-top: 1px solid #ddd;
+	width: 100%;
+	background-color: #fff;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px -1px 0px, rgba(0, 0, 0, 0.23) 0px -3px 5px;
+	bottom: -385px;
+	transition: bottom 0.3s;
+	-moz-transition: bottom 0.3s;
+	-webkit-transition: bottom 0.3s;
+	-o-transition: bottom 0.3s;
+}
+.profile-personal-information-mobile-drawer.open {
+	bottom: 0;
+	transition: bottom 0.3s;
+	-moz-transition: bottom 0.3s;
+	-webkit-transition: bottom 0.3s;
+	-o-transition: bottom 0.3s;
+}
+.profile-personal-information-mobile-bottom {
+	width: 50px;
+	height: 50px;
+	background-color: #fbfbfb;
+	position: absolute;
+	z-index: 1301;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px -3px 0px, rgba(0, 0, 0, 0.23) 0px -3px 5px;
+	cursor: pointer;
+	left: 50%;
+	top: -25px;
+	margin-left: -25px;
+	border-radius: 50%;
+}
+.profile-personal-information-mobile-bottom i {
+	margin: 8px 0 0 16px;
+	font-size: 17px;
+}
+
+@media only screen and (max-width: 1290px) {
+	.profile-personal-information-open {
+		width: 100%;
+		left: 0;
+	}
+}

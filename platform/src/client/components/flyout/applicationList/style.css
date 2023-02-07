@@ -1,0 +1,34 @@
+.application_list a {
+  margin-left: 10px;
+}
+.application_list {
+	width: 370px;
+	/*min-height: 546px;*/
+}
+.title {
+	padding: 5px 10px;
+	font-weight: bold;
+	border-bottom: solid 1px #eee;
+}
+.detail {
+	background: #f9f9f9;
+	color: #6a6a6a;
+	padding-bottom: 10px;
+	border-bottom: solid 1px #eee;
+}
+.detail  img {
+	width: 70px;
+	height: 70px;
+	float: left;
+	margin: 20px 10px;
+
+}
+.detailTxt {
+	padding: 20px;
+}
+.actions {
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 20px;
+	min-height: 30px;
+}

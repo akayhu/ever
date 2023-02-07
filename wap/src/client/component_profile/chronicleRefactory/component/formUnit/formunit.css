@@ -1,0 +1,123 @@
+.simple_mode {
+}
+.simple_mode .row_block {
+	margin-bottom: 23px;
+}
+.simple_mode.form_edit_main,
+.simple_mode.form_edit_main_honor {
+	border: none;
+	margin: 0;
+}
+.simple_mode.form_edit_main .dropList {
+}
+.form_edit_main {
+	display: block;
+	min-height: 200px;
+	margin: 0 60px 30px;
+	padding: 15px 20px;
+	border: 1px solid #e3e3e3;
+	border-radius: 3px;
+}
+.form_edit_main_honor{
+	display: block;
+	min-height: 200px;
+	margin: 0 40px 30px;
+	padding: 15px 20px;
+	border: 1px solid #e3e3e3;
+	border-radius: 3px;
+}
+.row_block {
+	margin-bottom: 30px;
+}
+.row_block .title{
+	margin-bottom: .5em;
+}
+.star {
+	color: orange;
+	font-size: 14px;
+	margin-left: .3em;
+}
+.description {
+	width: 100%;
+}
+.privacy_setting {
+	display: flex;
+	min-width: 100px;
+	min-height: 30px;
+	border: 1px solid gray;
+	border-radius: 3px;
+	background: #fff;
+	justify-content: center;
+	align-items: center;
+}
+.date_row{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.textItem,
+.dateItem,
+.drgreeItem{
+	display: inline-block;
+	padding-right: 10px;
+}
+.dateItem{
+	flex: 2;
+	text-align: center;
+}
+.dateItem:last-child{
+	flex: 5;
+}
+.btn_row{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.btn_row button{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.form_edit_main .dropList{
+	line-height: 20px;
+}
+.dropList span {
+	right: 10px;
+}
+.dropList ul{
+}
+.date_row .dropList ul {
+	max-height: 220px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+.action_btn {
+	margin-top: 60px;
+}
+.action_btn button:first-child {
+	margin-right: 16px;
+}
+.description textarea {
+	height: 83px;
+}
+.form_edit_main input {
+	font-size: 14px;
+}
+.form_edit_main_honor input {
+	font-size: 14px;
+}
+.textField {
+	max-width: 290px;
+	width: 290px;
+}
+.textField input{
+	padding: 6.5px 10px;
+}
+.errormessage{
+	color: #ff530d;
+}
+.errorStyle [class*=Droplist_listInput] {
+	border: 1px solid #ff530d;
+}
+.errorStyle {
+	outline: 0;
+}

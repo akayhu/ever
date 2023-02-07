@@ -1,0 +1,234 @@
+.endorse_main {
+	position: relative;
+	padding: 0 20px;
+    border: 1px solid #eee;
+	/*padding: 0 30px;*/
+}
+.endorse_hr {
+
+}
+.endorse_main textarea, .endorse_main input {
+	font-size: 14px;
+}
+.endorse_main .all_loading_cover {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgba(255, 255, 255, 0.6);
+	z-index: 1;
+}
+.endorse_main .all_loading_cover div {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+.endorse_list > div:last-child .endorse_item {
+	border-bottom: none;
+}
+.more {
+	cursor: pointer;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+.more a {
+	position: relative;
+	display: inline-block;
+	padding: 5px 40px;
+	border: 1px solid #d0d0d0;
+	color: #34a8c4;
+	text-decoration: none;
+}
+.more .more_loading_cover {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgba(255, 255, 255, 0.6);
+	z-index: 1;
+}
+.more_loading_cover div {
+	top: 15px;
+}
+.ui_edit_font_size {
+	font-size: 18px;
+	float: right;
+}
+.ui_edit_font_size i {
+	color: #8A8A8A;
+}
+/* endorse_item*/
+.endorse_item {
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid #D0D0D0;
+	height: 50px;
+	line-height: 1.7;
+}
+.content_left {
+	font-size: 16px;
+	padding-right: 10px;
+	display: inline-block;
+	max-width: 350px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	vertical-align: middle;
+}
+.content_left i {
+	margin-left: 6px;
+}
+.content_right {
+	margin-left: auto;
+	display: flex;
+	align-items: center;
+	padding-left: 10px;
+}
+.content_right img {
+	width: 27px;
+	border-radius: 50%;
+}
+
+.endorse_body {
+	text-align: center;;
+	padding: 20px;
+	background: #F4F4F4;
+	border-bottom: 1px solid #D0D0D0;
+}
+.endorse_body p {
+	text-align: left;
+}
+.endorse_body textarea {
+	text-align: left;
+	width: 100%;
+	height: 80px;
+	font-size: 16px;
+  	resize: none;
+	overflow-y: auto;
+}
+.endorse_title {
+	margin-bottom: 30px;
+	text-align: left;
+}
+.endorse_title .no_add_title {
+	margin-bottom: 30px;
+}
+.endorse_edit_desc {
+	margin-bottom: 40px;
+}
+.edit_button i {
+	cursor: pointer;
+}
+.other_shelfies {
+	display: inline-block;
+	margin: 0 5px;
+}
+.newDiv {
+	margin-top: 15px;
+	padding: 10px;
+	background-color: #e5e5e5;
+}
+.newDiv input {
+	margin-bottom: 5px;
+}
+.count {
+	position: relative;
+	margin: 0 5px;
+	width: 27px;
+	border: solid 1px #f0f0f0;
+	text-align: center;
+	color: #0192b5;
+	background-color: #F9F9F9;
+	border-radius: 50%;
+}
+/*lightbox內的user列表*/
+.look_desc {
+	width: 700px;
+	margin-top: 20px;
+	text-align: left;
+}
+.user_list {
+	max-height: 420px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.user_list::-webkit-scrollbar-track {
+	border-radius: 10px;
+	background-color: #eee;
+}
+
+.user_list::-webkit-scrollbar {
+	width: 8px;
+}
+
+.user_list::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background-color: #ccc;
+}
+.user_box {
+	width: 700px;
+	display: flex;
+	margin-bottom: 30px;
+}
+.user_left a img {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+.user_right {
+	text-align: left;
+	width: 100%;
+	margin-left: 14px;
+  padding: 0 17px 3px;
+}
+.user_right a {
+	margin-right: 10px;
+}
+.user_right i {
+	color: #8a8a8a;
+	font-size: 1.5em;
+}
+.trash_content {
+	width: 250px;
+  padding: 10px;
+	text-align: center;
+}
+.action_cotent {
+	margin-top: 5px;
+	display: flex;
+	justify-content: center;
+}
+/*肯定最右邊的自己頭像*/
+.my_shelfies {
+  display: inline-block;
+  position: relative;
+  width: 27px;
+  border-radius: 50%;
+	cursor: pointer;
+}
+
+.my_shelfies i {
+	position: absolute;
+	top: calc(50% - 7px);
+  left: calc(50% - 8px);
+  color: white;
+  z-index: 1;
+  font-weight: bold;
+}
+
+.my_shelfies i:hover {
+	color: white;
+};
+.simple_mode {
+
+}
+.simple_mode.endorse_body {
+	border: none;
+	background: none;
+	height: initial;
+}
+.simple_mode textarea, .simple_mode input {
+}

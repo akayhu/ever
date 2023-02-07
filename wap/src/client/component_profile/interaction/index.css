@@ -1,0 +1,118 @@
+
+.interactionLock {
+	height: 40px;
+	color: #081b20;
+}
+
+.interaction {
+	display: inline-block;
+	float: right;
+}
+.interaction .ui.basic.buttons {
+	color: #fff;
+}
+.viewpoint {
+
+}
+.viewpoint li {
+	width: 100px;
+	padding: 5px 0;
+}
+
+.more_interaction {
+	margin-left: 15px;
+}
+.interaction i:hover,.more_interaction i:hover {
+	color: #fff;
+}
+
+.other_actions {
+	letter-spacing: 1px;
+	padding-left: 0px;
+	padding-right: 0px;
+	position: relative;
+	color: #081b20;
+	/*width: 100px;*/
+	text-align: center;
+	cursor: pointer;
+}
+.other_actions li {
+	text-align: center;
+	width: 100px;
+}
+.other_actions li:hover {
+	width: 100px;
+}
+.viewpoint li:hover, .other_actions li:hover {
+}
+
+
+.submit_main{
+	position: absolute;
+	top:1.5em;
+	left:50%;
+	background: #FEF1E5;
+	border: 1px solid #F9C99D;
+	padding: 5px;
+	color:#333;
+	width: 380px;
+	margin-left:-190px;
+	height:50px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 16px;
+}
+
+.remove_block {
+	float: right;
+	padding: 0;
+	font-size: 1.4em;
+}
+.remove {
+	cursor: pointer;
+}
+.block_name_card {
+	border: solid 1px #d5d5d5;
+	border-radius: 3px;
+	background: #fafafa;
+	width: 380px;
+	margin: 0 auto 10px;
+	height: 80px;
+	text-align: left;
+	padding: 15px 18px 20px;
+}
+.block_name_card_info {
+	display: inline-block;
+	margin-left: 10px;
+
+}
+.block_name_card img{
+	float: left;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin-top: 4px;
+}
+.block_detail {
+	width: 380px;
+	text-align: left;
+}
+.block_list {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding-left: 20px;
+}
+.block_list li{
+	display: list-item;
+	list-style: initial;
+}
+.block_success {
+	width: 300px;
+}
+.disconnect {
+
+}
+.disconnect button.button  {
+	margin-left: 8px;
+	margin-right: 8px;
+}

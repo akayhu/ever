@@ -1,0 +1,258 @@
+@import "scss/cProfile.scss";
+
+.custom-def-title,
+.custom-new-title,
+.custom-new-contrary-title,
+.custom-dark-title,
+.custom-pai-title {
+	font-size: 30px;
+	color: #2b2b2b;
+	margin-bottom: 15px;
+	line-height: 1.5;
+	text-align: left;
+  word-break: break-all;
+
+  @include rwd-to(414) {
+    font-size: 24px;
+  }
+}
+
+.mobile-toolbar-custom-menu {
+	margin-left: 15px;
+	margin-top: 5px;
+	border: 1px solid #999;
+	border-radius: 5px;
+	height: 30px;
+	background: #fff;
+  opacity: 0.9;
+  
+  button {
+    padding: 0 !important;
+    height: 28px !important;
+    width: 28px !important;
+
+    svg {
+      color: #999 !important;
+    }
+  }
+}
+
+/* 第一個模板 */
+.custom-def-main {
+	padding: 20px 0 30px;
+	font-size: 16px;
+	line-height: 1.7;
+	letter-spacing: 0.6px;
+  color: #676767;
+
+  @include rwd-to(414) {
+    padding: 0 0 30px;
+		margin: 0 15px;
+  }
+  
+  .mobile-custom-def-title {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+/* 第二個模板 */
+.custom-new-main {
+	padding: 20px 0 30px;
+	clear: both;
+  font-size: 16px;
+
+  @include rwd-to(414) {
+    padding: 0 0 30px;
+		margin: 0 15px;
+  }
+  
+  .custom-new-content {
+    display: flex;
+    flex-wrap: wrap;
+
+    .custom-new-left {
+      width: 39%;
+      margin-right: 40px;
+      line-height: 1.7;
+
+      @include rwd-to(866) {
+        width: 38%;
+      }
+      @include rwd-to(743) {
+        width: 37%;
+      }
+      @include rwd-to(668) {
+        margin-right: 0;
+        margin-bottom: 15px;
+        width: 100%;
+        padding-top: 10px;
+      }
+    }
+
+    .custom-new-right {
+      width: 55.6%;
+      border-radius: 8px;
+
+      @include rwd-to(668) {
+        width: 100%;
+        margin-left: 0;
+      }
+
+      img {
+        border-radius: 8px;
+        width: 100%;
+      }
+    }
+  }
+
+  .mobile-custom-new-title {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+/* 第三個模板 */
+.custom-new-contrary-main {
+	padding: 20px 0 30px;
+	clear: both;
+  font-size: 16px;
+
+  @include rwd-to(414) {
+    padding: 0 0 30px;
+		margin: 0 15px;
+  }
+  
+  .custom-new-contrary-content {
+    display: flex;
+    flex-wrap: wrap;
+
+    .custom-new-contrary-right {
+      width: 39%;
+      line-height: 1.7;
+
+      @include rwd-to(866) {
+        width: 38%;
+      }
+      @include rwd-to(743) {
+        width: 37%;
+      }
+      @include rwd-to(668) {
+        width: 100%;
+        margin-left: 0;
+      }
+    }
+
+    .custom-new-contrary-left {
+      margin-right: 40px;
+      width: 55.6%;
+
+      @include rwd-to(668) {
+        margin-right: 0;
+        margin-bottom: 15px;
+        width: 100%;
+        padding-top: 10px;
+      }
+
+      img {
+        border-radius: 8px;
+        width: 100%;
+      }
+    }
+  }
+
+  .mobile-custom-contrary-title {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+/* 第四個模板 */
+.custom-dark-main {
+  @include rwd-to(414) {
+    margin: 0 15px;
+  }
+
+  .custom-dark-content {
+    padding-top: 120px;
+    font-size: 16px;
+    word-wrap: break-word;
+    width: 556px;
+    font-weight: 500;
+    line-height: 1.7;
+    position: absolute;
+    left: calc(50% - 278px);
+    z-index: 12;
+
+    @include rwd-to(668) {
+      padding-top: 25px;
+      padding-bottom: 20px;
+      width: 80%;
+      left: calc(50% - 40%);
+    }
+
+    .custom-dark-title {
+      font-size: 30px;
+      margin-bottom: 25px;
+      word-wrap: break-word;
+
+      @include rwd-to(414) {
+        font-size: 24px;
+      }
+    }
+  }
+
+  .mobile-custom-dark-title {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+/* 第五個模板 */
+.custom-pai-main {
+  @include rwd-to(414) {
+    margin: 0 15px 15px;
+  }
+
+  .custom-pai-content {
+    margin: 0 0 0 auto;
+    padding-top: 170px;
+    right: 45px;
+    font-size: 16px;
+    word-wrap: break-word;
+    width: 556px;
+    font-weight: 400;
+    line-height: 1.7;
+    text-align: left;
+    color: #fff;
+    z-index: 12;
+    position: absolute;
+
+    @include rwd-to(668) {
+      padding-top: 105px;
+      padding-bottom: 20px;
+      width: 80%;
+      right: calc(50% - 40%);
+    }
+    @include rwd-to(414) {
+      padding-top: 25px;
+    }
+
+    .custom-pai-title {
+      font-size: 30px;
+      margin-bottom: 25px;
+      word-wrap: break-word;
+      color: #fff;
+      font-weight: 400;
+
+      @include rwd-to(414) {
+        font-size: 24px;
+      }
+    }
+  }
+
+  .mobile-custom-pai-title {
+    display: flex;
+    justify-content: space-between;
+  }
+}

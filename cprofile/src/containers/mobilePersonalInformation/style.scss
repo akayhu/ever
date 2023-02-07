@@ -1,0 +1,229 @@
+.mobile-personal-information {
+	&-main {
+		height: 100%;
+		background-color: #fbfbfb;
+		overflow-y: auto;
+
+		hr {
+			background-color: #eaeaea;
+			margin: 10px 0;
+		}
+		::-webkit-scrollbar {
+			height: 3px;
+		}
+	}
+
+	&-small-business-card {
+		padding: 17px 15px 15px;
+		overflow: hidden;
+		max-width: 320px;
+		margin: 0 auto;
+
+		img {
+			border-radius: 50%;
+			margin-right: 10px;
+			float: left;
+		}
+		&-content {
+			margin-top: 3px;
+			line-height: 1.7;
+			float: left;
+
+			.mobile-personal-information-name {
+				font-size: 16px;
+				font-weight: 600;
+				color: #333;
+			}
+			.mobile-personal-information-jobTitle,
+			.mobile-personal-information-contact {
+				font-size: 12px;
+				color: #666;
+			}
+			.mobile-personal-information-contact {
+				cursor: pointer;
+				margin-top: 5px;
+
+				span {
+					margin-right: 10px;
+				}
+				i {
+					color: #bbb;
+				}
+			}
+		}
+	}
+
+	&-attention {
+		padding: 0 15px;
+		max-width: 320px;
+		margin: 0 auto 18px auto;
+		text-align: center;
+
+		button:nth-child(1) {
+			margin-right: 16px;
+		}
+	}
+
+	&-share {
+		padding: 0 15px;
+		font-size: 14px;
+		color: #666;
+		max-width: 320px;
+		margin: 0 auto;
+
+		i {
+			color: #bbb;
+			font-size: 17px;
+			margin-right: 5px;
+			vertical-align: sub;
+		}
+		img {
+			margin: 0 10px 0 5px;
+		}
+	}
+
+	&-similar {
+		min-height: 95px;
+		padding: 0 15px;
+		margin-bottom: 10px;
+		position: static;
+		top: auto;
+		left: auto;
+		z-index: 0;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+
+		.title {
+			color: #333;
+			font-size: 14px;
+			font-weight: 600;
+		}
+		ul {
+			position: relative;
+			white-space: nowrap;
+			width: 100%;
+			overflow-x: auto;
+			overflow-y: hidden;
+			margin-bottom: 0;
+		}
+		li {
+			font-size: 16px;
+			padding: 10px 0;
+			text-align: left;
+			display: inline-block;
+			min-width: 250px;
+		}
+
+		&-small-business-card {
+			padding-right: 25px;
+			overflow: hidden;
+	
+			&:hover {
+				background-color: #f6f6f6;
+			}
+			img {
+				border-radius: 50%;
+				margin-right: 10px;
+				float: left;
+			}
+			&-content {
+				overflow: hidden;
+				line-height: 1.5;
+				float: left;
+			}
+		}
+		&-small-business-card &-userName {
+			font-size: 16px;
+			font-weight: 600;
+			color: #333;
+		}
+		&-small-business-card-content &-jobTitle,
+		&-small-business-card-content &-contact {
+			font-size: 14px;
+			color: #666;
+		}
+	}
+
+	&-plus {
+		height: 50px;
+		padding: 0 20px;
+		font-size: 14px;
+		position: relative;
+
+		&::before {
+			display: inline-block;
+			content: '';
+			height: 100%;
+			vertical-align: middle;
+		}
+
+		img {
+			display: inline-block;
+			margin-right: 15px;
+			vertical-align: middle;
+		}
+
+		&__info {
+			display: inline-block;
+			vertical-align: middle;
+			height: 100%;
+			p {
+				margin: 0;
+			}
+		}
+
+		&__title {
+			color: #333;
+			font-size: 16px;
+			font-weight: 600;
+		}
+
+		&__analytics {
+			position: relative;
+			bottom: 0;
+			color: #666;
+		}
+		
+		&__action {
+			position: absolute;
+			top: 0;
+			right: 20px;
+			color: #f5b623;
+
+			&:hover {
+				color: #F7AD01;
+			}
+			.anticon {
+				display: inline-block;
+				vertical-align: middle;
+			}
+		}
+
+		&__tagDiv {
+			padding: 0 20px;
+		}
+
+		&__more {
+			margin-left: 10px;
+			text-decoration: underline;
+			cursor: pointer;
+		}
+
+		&__tag {
+			color: #fff;
+			background-color: #f5b623;
+			padding: 5px 10px;
+			font-size: 12px;
+			margin: 5px;
+			display: inline-block;
+			border-radius: 20px;
+		}
+	}
+
+	&-center {
+		position: absolute;
+		width: 100%;
+		text-align: center;
+		top: 50%;
+	}
+}

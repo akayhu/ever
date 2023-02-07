@@ -1,0 +1,292 @@
+.no_head_wrapper {
+	margin-top: -62px;
+	font-family: "Microsoft JhengHei", "微軟正黑體", helvetica, arial, verdana, sans-serif;
+}
+
+/*******************個人簡介*******************/
+.personal {
+	padding: 20px 15px;
+}
+.personal i {
+	float: right;
+	color: #6ac0d4;
+	font-size: 30px;
+}
+.personal .writing {
+	font-size: 16px;
+	margin-top: 25px;
+	margin-bottom: 15px;
+	padding: 0 10px;
+}
+.social_main [class*="business_card"] {
+	margin-bottom: 15px;
+}
+
+/*******************滿意度調查****************/
+.satisfaction {
+	position: relative;
+	background-color: #d6eef3;
+	padding: 15px 27px;
+}
+.satisfaction i {
+	position: absolute;
+	right: 20px;
+	top: 5px;
+	color: #6ac0d4;
+	font-size: 30px;
+	cursor: pointer;
+}
+.satisfaction .writing {
+	margin-top: 25px;
+	margin-bottom: 15px;
+	padding: 0;
+}
+.satisfaction_action {
+	float: right;
+}
+.writing .satisfaction_action button {
+	margin-left: 13px;
+}
+.commercial {
+	position: relative;
+	width: 640px;
+	height: 100px;
+}
+.commercial i {
+	position: absolute;
+	right: 20px;
+	color: #6ac0d4;
+	font-size: 30px;
+	cursor: pointer;
+}
+
+/*******************最新動態****************/
+.latest_news {
+	text-align: right;
+	color: #8a8a8a;
+	font-size: 16px;
+	cursor: pointer;
+	margin: 15px 0;
+	padding-right: 10px;
+}
+
+/*******************target****************/
+.header {
+	height: 60px;
+	background: #fff;
+	width: 100%;
+	text-align: center;
+}
+.target, .user_name {
+	width: 620px;
+	margin: 10px auto;
+	min-height: 600px;
+}
+.question {
+	background-color: #fff;
+	border: solid 1px #eee;
+	border-radius: 3px;
+	padding: 10px 0;
+}
+.target_title, .user_name_title {
+	margin-bottom: 25px;
+	padding-left: 20px;
+}
+.target_desc, .user_name_desc {
+	margin-bottom: 25px;
+	padding-left: 20px;
+}
+.introduction {
+	padding-left: 25px;
+	padding-bottom: 20px;
+}
+.introduction p {
+	display: inherit;
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 1px;
+}
+.introduction p:before {
+	content: " ";
+	display: inline-block;
+	border: 2px solid #fe7e17;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+	width: 10px;
+	height: 10px;
+	margin-right: 10px;
+	float: left;
+	margin-top: 12px;
+}
+.question li {
+	cursor: pointer;
+	padding: 10px 20px;
+}
+.question li:hover{
+	background: #f4f4f4;
+}
+.question i {
+	color: #919191;
+	float: right;
+	font-size: 1.4em;
+	position: relative;
+	top: -5px;
+}
+.user_name_input {
+	background-color: #fff;
+	border: solid 1px #eee;
+	border-radius: 3px;
+	padding: 20px ;
+	min-height: 200px;
+}
+.user_name_input button {
+	float: right;
+}
+.user_name_inner_title {
+	margin-bottom: 15px;
+}
+.user_name_button {
+	position: relative;
+	top: 39px;
+	left: 34px;
+}
+.members_block {
+	width: 740px;
+	margin: 0 auto 80px;
+}
+.members_block .title {
+	text-align: center;
+	margin: 10px;
+}
+.verticle_namecard {
+	display: inline-block;
+	width: 140px;
+	height: 310px;
+	background: #fff;
+	border: solid 1px #eee;
+	border-radius: 3px;
+	margin: 5px 3px;
+	float: left;
+	position: relative;
+}
+.img_block {
+	border-radius: 50%;
+	margin: 10px;
+	width: 120px;
+	height: 120px;
+	overflow: hidden;
+}
+.img_block img {
+	height: 100%;
+	min-width: 100%;
+	min-height: 100%;
+}
+.verticle_name {
+	font-weight: bold;
+	padding: 10px;
+	max-height: 64px;
+	overflow: hidden;
+}
+.verticle_desc {
+	color: #939393;
+	padding: 0 10px;
+	height: 70px;
+	overflow: hidden;
+}
+.member_subscribe {
+	position: absolute;
+	bottom: 5px;
+	width: 100%;
+	text-align: center;
+}
+.actions {
+	margin-bottom: 30px;
+}
+.actions button{
+	margin: 0 30px;
+	float: right;
+}
+.members_list {
+	
+}
+/*******************new target****************/
+.nt_title {
+	width: 216px;
+  height: 72px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+	color: #4a4a4a;
+	margin: 20px auto;
+}
+.nt_layer {
+  width: 432px;
+	font-size: 16px;
+  text-align: center;
+	color: #4a4a4a;
+	margin: 32px auto 40px;
+}
+.nt_img {
+	margin: 32px auto;
+	display: block;
+	width: 700px;
+}
+.nt_confirm {
+	text-align: center;
+}
+.nt_confirm .nt_checkbox {
+	margin-right: 7px;
+}
+.nt_confirm .nt_term {
+	position: relative;
+	font-weight: bold;
+	color: #4a4a4a;
+	margin-left: 2px;
+}
+.nt_wave_line {
+	position: absolute;
+	top: 1.2em;
+	left: 1em;
+	width: 55px;
+	height: 7px;
+}
+.nt_button_div {
+	margin: 32px 0;
+	text-align: center;
+}
+.nt_button, .nt_button_disable {
+	width: 120px;
+	height: 36px;
+  object-fit: contain;
+  border-radius: 24.5px;
+  box-shadow: 6px 8px 0 0 #ffee61;
+	padding: 9px 28px;
+	font-weight: bold;
+	
+	font-size: 15px;
+	margin: 0 12px;
+}
+.nt_button {
+	background-color: #ffffff;
+	border: solid 3px #4a4a4a;
+	cursor: pointer;
+}
+.nt_button:hover {
+	border: solid 3px #ff7800;
+}
+.nt_button_disable {
+	background-color: #f4f4f4;
+	border: solid 3px #dcdcdc;
+	color: #dcdcdc;
+	cursor: not-allowed;
+}
+.nt_other {
+	text-align: right;
+	padding-right: 168px;
+}
+.nt_other span {
+	font-weight: bold;
+	cursor: pointer;
+	font-size: 15px;
+}

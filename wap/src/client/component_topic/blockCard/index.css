@@ -1,0 +1,149 @@
+.topMain {
+  padding: 15px 20px;
+  background: #fff;
+  border: 1px solid #e3e3e3;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+.activityBlock {
+  width: 425px;
+}
+.activityBlock ul {
+  width: 100%;
+  padding-top: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.activityBlock .more {
+  display: block;
+  margin-top: .8em;
+  text-align: right;
+}
+.blockCard {
+  margin-right: 15px;
+  border: 1px solid #e1e1e1;
+  background-color: #fff;
+  width: 470px;
+}
+.index_img {
+  cursor: pointer;
+  width: 100%;
+  height: 165px;
+  position: relative;
+  overflow: hidden;
+}
+.bg {
+  cursor: pointer;
+  background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.6) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.6) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.6) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#b3000000',GradientType=0 ); /* IE6-9 */
+  width: 100%;
+  height: 165px;
+  position: absolute;
+  left: 0;
+  top:0;
+  z-index: 1;
+}
+.blockCard .index_img > img {
+  width: 100%;
+}
+.blockCard .index_img .index_master {
+  position: absolute;
+  width: 95%;
+  height: 70px;
+  display: inline-block;
+  left: 15px;
+  bottom: 5px;
+  z-index: 2;
+}
+.blockCard .index_img .master_name {
+  color: #fff;
+  margin-top: 10px;
+}
+.blockCard .index_img .index_master > img {
+  margin-right: 15px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: -10px;
+  float: left;
+}
+.blockCard .index_img .master_title {
+  max-width: 340px;
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+  display: inline-block;
+  overflow : hidden;
+  text-overflow : ellipsis;
+  white-space : nowrap;
+}
+.blockCard .index_img .index_master.title .master_title {
+  line-height: 48px;
+}
+.blockCard .index_img .index_master.title .master_name {
+  display: none;
+}
+.blockCard .index_img .index_master.name .master_title,
+.blockCard .index_img .index_master.name .master_name {
+  line-height: 1em;
+}
+.blockCard .index_introduction_main {
+  padding: 10px;
+}
+.index_people ul {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.index_people ul li.name_card_image {
+  width: 33%;
+}
+.index_people ul li.name_card_image ul li {
+  margin-right: 5px;
+}
+.index_people ul li.number {
+  width: 42%;
+  color: #8a8a8a;
+  float: right;
+}
+.index_people ul li.button {
+  text-align: right;
+  width: 27%;
+  float: right;
+}
+.index_people ul li.button button {
+  margin-right: 0;
+}
+.index_people ul li > img {
+  margin-right: 5px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.listItem {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-bottom: .7em;
+  font-size: 16px;
+}
+li.listItem:last-child {
+  margin-bottom: 0;
+}
+li.listItem a {
+  color: #111;
+}
+li.listItem a:hover {
+  color: #0192b5;
+}
+li.listItem .icon {
+  color: #b5b5b5;
+  font-size: 12px;
+  margin-right: 6px;
+}

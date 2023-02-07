@@ -1,0 +1,57 @@
+.wrap {
+	margin-top: 10px;
+}
+.input_container {
+	margin: 10px 0;
+	padding: 0 10px;
+	display: flex;
+	justify-content: center;
+}
+.input_container button {
+	margin: 0 0 0 20px;
+	width: 60px;
+	height: 40px;
+	text-align: center;
+	background: #34abca;
+	border: solid 1px #0192b5;
+	border-radius: 5px;
+}
+.input_container i {
+	color: #fff;
+	line-height: 1;
+	font-size: 26px;
+	margin: 0;
+}
+.input_container i:before {
+	margin-left: 3px;
+}
+.input_container ~ div {
+	padding: 0 10px;
+}
+.input_bar {
+	width: 100%;
+	position: relative;
+}
+.input_bar ul {
+	width: 100% !important;
+}
+.input_bar ul li {
+	padding: 10px;
+	background: #f3f3f3;
+}
+.input_bar ul li:nth-child(2n) {
+	background: #eee;
+} 
+.search_null {
+	font-size: 16px;
+	font-weight: bold;
+	padding-left: 11px;
+}
+.search_keyword {
+	color: red;
+}
+.search_recommend {
+	color: #949494;
+	font-size: 14px;
+	font-weight: normal;
+}

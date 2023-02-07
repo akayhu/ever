@@ -1,0 +1,30 @@
+.list_container {
+	width: 370px;
+	max-height: 600px;
+}
+.list_container dl {
+	margin: 0;
+	max-height: 314px;
+	overflow-y: scroll;
+}
+.error_content {
+	text-align: center;
+	padding: 5px 0;
+}
+.list_title {
+	background-color: #fff;
+	padding: 5px 10px;
+	border-bottom: 1px solid #e8e8e8;
+}
+.empty {
+	text-align: center;
+	color: #ccc;
+}
+.list_loading {
+	height: 30px;
+}
+.list_read_more {
+	text-align: center;
+	padding: 10px 0;
+	border-top: 1px solid #e8e8e8;
+}

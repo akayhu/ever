@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  font-family: 微軟正黑體, Arial, Geneva, sans-serif, 新細明體;
+  color: #333;
+}
+header {
+  background: #fff;
+  border-bottom: 1px solid #dedede;
+}
+header > div {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  width: 960px;
+  margin: 0 auto;
+}
+header > div h1 {
+  display: none;
+}
+header > div img {
+  width: 70%;
+}
+section {
+  width: 960px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+a {
+  color: #0192b5;
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  margin-bottom: 10px;
+}
+.wrapper {
+	background-color: #fff;
+}
+.wrapper .wrapper_header {
+	padding: 20px 30px;
+	border: 1px solid #e3e3e3;
+}
+.wrapper .wrapper_header h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+.wrapper .wrapper_content {
+	overflow: hidden;
+	border: 1px solid #e3e3e3;
+	border-top: 0px;
+  padding: 40px;
+  font-size: 16px;
+  line-height: 1.8;
+}
+.wrapper .wrapper_content ul li {
+  list-style-type: decimal;
+}
+.wrapper .wrapper_content dl dd dl {
+  margin: 0;
+}
+.statute-content {
+  font-size: 16px;
+  line-height: 24px;
+}
+footer {
+  font-size: 13px;
+  text-align: center;
+  line-height: 1.7;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}

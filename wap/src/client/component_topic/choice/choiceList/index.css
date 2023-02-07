@@ -1,0 +1,83 @@
+.choiceList {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.activityBlock {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: calc(25% - 10px);
+    height: 450px;
+    margin-right: 10px;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid #e3e3e3;
+}
+
+.activityBlock:last-child {
+    margin-right: 0;
+}
+
+.activityBlock:after {
+    content: " ";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    display: block;
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 20%, rgba(255, 255, 255, 0) 100%);
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 20%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(to top, rgba(255, 255, 255, 1) 20%, rgba(255, 255, 255, 0) 100%);
+}
+
+.bgImg {
+    width: 100%;
+    height: 130px;
+    overflow: hidden;
+}
+
+.bgImg>img {
+    width: 100%;
+    height: auto;
+}
+
+.userImg {
+    position: absolute;
+    top: calc(130px - 37.5px);
+    left: calc(50% - 37.5px);
+}
+
+.mainInfo {
+    margin-top: 55px;
+    padding: 0 15px;
+    position: relative;
+    height: 270px;
+    overflow: hidden;
+}
+
+.title {
+    color: #081b20;
+    max-height: 55px;
+    display: block;
+    display: -webkit-box;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.title:hover {
+    color: #0192B5;
+}
+
+.content {
+    line-height: 1.7;
+    font-size: 16px;
+    /*overflow: hidden;*/
+    word-break: break-all;
+}

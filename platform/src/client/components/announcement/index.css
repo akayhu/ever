@@ -1,0 +1,21 @@
+.announcement {
+	background-color: #ffd8b9;
+	line-height: 1.7;
+	width: 960px;
+	max-height: 75px;
+	margin: 0 auto 10px;
+	overflow: hidden;
+}
+.announcement_main {
+	width: 800px;
+	margin: 0 auto;
+	color: #40352c;
+	font-size: 16px;
+}
+.announcement_div {
+	padding: 5px 0;
+}
+.lightboxContentStyle {
+	font-size: 16px;
+	text-align: left;
+}

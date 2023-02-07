@@ -1,0 +1,432 @@
+.bccommunication_content_right {
+	/*float: right;*/
+	/*width: 658px;*/
+	border-left: 1px solid #e3e3e3;
+	/*min-height: 685px;*/
+	height: 100%;
+}
+.bccommunication_first {
+	padding: 20px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 2;
+}
+
+/**
+ * title
+ */
+.bccommunication_title_main {
+	padding: 10px 20px;
+	border-bottom: 1px solid #e3e3e3;
+	height: 80px;
+}
+.bccommunication_right_job_title {
+	font-size: 20px;
+	font-weight: bold;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	display: inline-block;
+	/*float: left;*/
+	/*max-width: 500px;*/
+	overflow: hidden;
+	width: 90%;
+}
+/*.bccommunication_right_job_title_people {
+	font-size: 20px;
+	font-weight: bold;
+	display: inline-block;
+	float: left;
+}*/
+.bccommunication_right_people_title {
+	cursor: pointer;
+	color: #34a8c4;
+}
+
+/**
+ * message
+ */
+.bccommunication_message {
+	padding: 0 20px;
+	min-height: 250px;
+	/*max-height: 377px;*/
+	overflow-y: auto;
+}
+.bccommunication_message dl {
+	margin: 0;
+}
+.bccommunication_message dl dd {
+	padding-bottom: 20px;
+	/*overflow: hidden;*/
+}
+/*.bccommunication_message dl dd img {
+	float: left;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}*/
+/*.bccommunication_message [class*="hover"] {
+	float: left;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}*/
+.bccommunication_invite {
+	margin: 20px 0;
+	background-color: #f4f4f4;
+	color: #a7a7a7;
+	text-align: center;
+	padding: 5px 0;
+	border-radius: 3px;
+	line-height: 1.4;
+}
+.bccommunication_message_content_left {
+	border: 1px solid #e8e8e8;
+	margin-left: 9px;
+	margin-right: 80px;
+	border-radius: 3px;
+	/*float: left;*/
+	font-size: 16px;
+	max-width: 78%;
+	display: inline-block;
+	vertical-align: top;
+}
+.bccommunication_message_content_right {
+	border: 1px solid #e8e8e8;
+	margin-left: 127px;
+	margin-right: 5px;
+	border-radius: 3px;
+	font-size: 16px;
+	float: right;
+	max-width: 78%;
+}
+.message_content {
+	padding: 10px;
+	line-height: 1.7;
+	word-wrap: break-word;
+	word-break: break-all;
+	position: relative;
+}
+.bccommunication_message_content_left .message_content:before {
+	content: " ";
+	border-color: transparent #e8e8e8 transparent transparent;
+	border-style: dashed solid dashed dashed;
+	position: absolute;
+	display: inline-block;
+	border-width: .5rem;
+	top: 13px;
+	left: -11px;
+	position: absolute;
+}
+.bccommunication_message_content_left .message_content:after {
+	content: " ";
+	border-color: transparent #fff transparent transparent;
+	border-style: dashed solid dashed dashed;
+	position: absolute;
+	display: inline-block;
+	border-width: .5rem;
+	top: 13px;
+	left: -10px;
+	position: absolute;
+}
+.bccommunication_message_content_right .message_content:before {
+	content: " ";
+	border-color: transparent transparent transparent #e8e8e8;
+	border-style: dashed dashed dashed solid;
+	position: absolute;
+	display: inline-block;
+	border-width: .5rem;
+	top: 13px;
+	right: -11px;
+	position: absolute;
+}
+.bccommunication_message_content_right .message_content:after {
+	content: " ";
+	border-color: transparent transparent transparent #fff;
+	border-style: dashed dashed dashed solid;
+	position: absolute;
+	display: inline-block;
+	border-width: .5rem;
+	top: 13px;
+	right: -10px;
+	position: absolute;
+}
+.message_down {
+	border-top: 1px solid #e8e8e8;
+	padding: 5px;
+	padding-left: 10px;
+	font-size: 14px;
+}
+.message_down i {
+	margin-left: 50px;
+	color: #8a8a8a;
+	padding-top: 5px;
+	font-size: 12px;
+	clear: both;
+}
+.bccommunication_message_time_left {
+	margin-left: 50px;
+	color: #8a8a8a;
+	padding-top: 5px;
+	font-size: 12px;
+	clear: both;
+}
+.bccommunication_message_time_right {
+	margin-right: 5px;
+	color: #8a8a8a;
+	padding-top: 5px;
+	font-size: 12px;
+	text-align: right;
+	clear: both;
+}
+
+/**
+ * reply
+ */
+.bccommunication_reply {
+	padding: 15px 20px;
+	border-top: 1px solid #e8e8e8;
+	/*min-height: 200px;*/
+}
+.bccommunication_reply textarea {
+	height: 90px !important;
+	overflow: auto;
+}
+.bccommunication_reply span[class*="maxWord"] {
+	margin-top: 10px;
+}
+/*.bccommunication_remind {
+	color: #ff7247;
+	margin-bottom: 15px;
+}*/
+.bccommunication_reply_mid {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	position:relative;
+	/*margin-bottom: 20px;*/
+}
+.bccommunication_reply_mid > div:first-child {
+	width: 100%;
+}
+.bccommunication_reply_block {
+	display: flex;
+	overflow: hidden;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+.bccommunication_reply_button {
+	/*float: right;
+	width: 32%;
+	text-align: right;
+	color: #8a8a8a;*/
+	margin-top: 10px;
+	margin-left: auto;
+	/*width: 32%;*/
+	text-align: right;
+	color: #8a8a8a;
+}
+.bccommunication_reply_button button[class*="button"] {
+	margin-right: 0;
+	margin-left: 10px;
+	width: 65px;
+	height: 30px;
+}
+.delete_attachment {
+	cursor: pointer;
+}
+.upload_block {
+	position: relative;
+	/*margin-top: 10px;*/
+	width: auto;
+	float: left;
+}
+.upload_file {
+	position: absolute;
+	visibility: hidden;
+}
+.upload_text {
+	font-size: 14px;
+	color: #0192b5;
+	cursor: pointer;
+}
+.error {
+	color: red;
+	margin-left: 10px;
+}
+
+/**
+ * reply for cc
+ */
+.bccommunication_reply_cc {
+	height: 185px;
+}
+.bccommunication_message_cc {
+	height: calc(100% - 270px);
+	max-height: calc(100vh - 540px);
+}
+.bccommunication_message_new {
+	height: calc(100% - 320px);
+}
+
+/**
+ * new message
+ */
+.new_message_title_main,
+.add_receiver_main {
+	display: flex;
+	overflow-y: scroll;
+	padding-left: 35px;
+	border-bottom: 1px solid #e3e3e3;
+}
+.reciver_label {
+	flex-shrink: 0;
+	margin-top: 20px;
+}
+.new_message_title_main {
+	height: 80px;
+}
+.add_receiver_main {
+	min-height: 50px;
+}
+.add_receiver_main [class*="tag_textfield"] input {
+	border: 0;
+}
+.new_message_title {
+	font-size: 20px;
+	font-weight: bold;
+	border-bottom: 1px solid #e3e3e3;
+	height: 80px;
+	padding: 10px 20px;
+}
+
+.add_receiver_title {
+	font-size: 16px;
+	display: inline-block;
+}
+.seach_block {
+	align-self: stretch;
+	margin-left: auto;
+	border-left: 1px solid #e3e3e3;
+}
+.seach_block i {
+	font-size: 1.7em;
+	margin-top: 15px;
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+
+/**
+ * hasAttachment
+ */
+.hasAttachment > div {
+	min-width: 25px;
+	display: inline-block;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+.attachmentName {
+	max-width: 240px;
+  overflow: hidden;
+}
+.cancel_upload_btn {
+	display: inline-block;
+	vertical-align: middle;
+	color: #34a8c4;
+	cursor: pointer;
+}
+.slow {
+	position: relative;	
+	height: 25px;
+  width: 240px; 
+}
+.slow span {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.slow span:first-child {
+	opacity: 1;
+	animation-name: slow;
+	-webkit-animation-name: slow;	
+	animation-duration: 10s;	
+	-webkit-animation-duration: 10s;
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+.slow span:last-child {
+	opacity: 0;
+	animation-name: slowR;
+	-webkit-animation-name: slowR;	
+	animation-duration: 10s;	
+	-webkit-animation-duration: 10s;
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+
+.error_message {
+	color: #fe7e17;
+	cursor: pointer;
+}
+
+@keyframes slow {
+	0% {
+		opacity: 1;
+	}
+	33% {
+		opacity: 0;
+	}
+	66% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;	
+	}						
+}
+@-webkit-keyframes slow {
+	0% {
+		opacity: 1;
+	}
+	33% {
+		opacity: 0;
+	}
+	66% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;	
+	}				
+}
+@keyframes slowR {
+	0% {
+		opacity: 0;
+	}
+	33% {
+		opacity: 1;
+	}
+	66% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;	
+	}						
+}
+
+@-webkit-keyframes slowR {
+	0% {
+		opacity: 0;
+	}
+	33% {
+		opacity: 1;
+	}
+	66% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;	
+	}		
+}

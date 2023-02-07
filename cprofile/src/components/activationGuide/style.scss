@@ -1,0 +1,131 @@
+@import "scss/cProfile.scss";
+
+
+.activationLightbox {
+
+    .ant-modal-header {
+        border-bottom: 1px solid #dfdfdf;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .ant-modal-title {
+        font-size: 18px;
+        font-weight: normal;
+        color:#333333;
+    }
+
+    .ant-modal-content {
+        border-radius: 10px;
+
+        .ant-modal-body {
+            padding: 22px 24px 24px 34px;
+        }
+    }
+}
+
+.activation_main {
+
+    .activation_content {
+
+        p:nth-child(1) {
+            margin-top: 0 !important;
+            margin-bottom: 0.5em ;
+        }
+
+        p:nth-child(3) {
+            margin-top: 11px !important;
+            margin-bottom: 40px ;
+        }
+
+        font-size: 16px;
+        border-bottom: 1px solid #dfdfdf;
+        margin-bottom: 20px;
+
+        .feature_ist {
+            margin-bottom: 10px;
+        }
+
+        .feature_ist li{
+            font-weight: 400;
+            color: #f5a623;
+
+        }
+
+        .feature_ist li:not(:last-child){
+            padding-bottom: 10px;
+        }
+    } 
+
+    .activation-button {
+        display: flex;
+        justify-content: center;
+
+        .expeience-btn, .publish-btn {
+            width: 156px;
+            height: 40px;
+        }
+
+        .expeience-btn {
+            font-weight: normal;
+            margin-right: 15px;
+        }
+
+        .publish-btn {
+            font-weight: 600;
+            margin-left: 15px;
+        }
+    }
+}
+
+
+
+
+@include rwd-to(414) {
+
+    .activation_main {
+
+        .activation-button {
+            flex-direction: column;
+            align-items: center;
+
+            .expeience-btn {
+                margin-right: 0;
+                margin-bottom: 15px;
+            }
+
+            .publish-btn {
+                margin-left: 0;
+                margin-top: 15px;
+            }
+        }
+    }
+   
+    .activationLightbox { 
+
+        .ant-modal-content {
+            .ant-modal-body {
+                padding: 22px 24px 24px 16px;
+            }
+        }
+    }
+}
+
+@include rwd-to(320) {
+
+    .activationLightbox {
+
+        .ant-modal-title {
+            font-size: 16px;
+
+        }
+    }
+
+    .activation_main {
+
+        .activation_content {
+            font-size: 14px;
+        }
+
+    }
+}

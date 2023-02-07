@@ -1,0 +1,21 @@
+.dropdownlist_title {
+	color: black;
+	font-weight: bold;
+}
+
+.other_actions {
+	letter-spacing: 1px;
+	color: #000;
+	text-align: center;
+	line-height: 20px;
+	margin-bottom: 0;
+}
+
+.other_actions li {
+	text-align: center;
+	width: 100px;
+}
+
+.other_actions li:hover {
+	background: #d8f3fd;
+}

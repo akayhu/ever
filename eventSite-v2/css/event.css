@@ -1,0 +1,106 @@
+main {
+  margin: 80px auto 0;
+  width: 1014px;
+}
+main .creat-event {
+  text-align: right;
+  height: 37px;
+}
+main dl dt {
+  height: 35px;
+  border-bottom: solid 1px #e8e8e8;
+}
+.hold-nav span {
+  font-family: PingFangTC;
+  color: #333;
+  font-size: 16px;
+  padding: 10px 18px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.hold-nav a {
+  color: #333;
+  text-decoration: none;
+}
+.hold-nav .focus {
+  font-family: MicrosoftJhengHei;
+  font-weight: 700;
+  border-bottom: solid 3px #333;
+}
+main dl dd {
+  padding: 20px 15px;
+  border-bottom: solid 1px #e8e8e8;
+  margin-bottom: 0;
+}
+main dl dd:hover {
+  background-color: #f8f8f8;
+}
+main dl dd.no-event {
+  padding: 40px 20px;
+  border-bottom: 0;
+}
+main dl dd.no-event:hover {
+  background-color: #fff;
+}
+main .no-event span {
+  font-size: 24px;
+  vertical-align: sub;
+  margin-right: 10px;
+  font-weight: 300;
+}
+.creat-title-main {
+  overflow: hidden;
+}
+.creat-title-main .title {
+  float: left;
+  font-size: 24px;
+  color: #333;
+}
+.creat-title-main .time {
+  float: right;
+  font-size: 14px;
+  color: #999;
+  margin-top: 10px;
+}
+.creat-situation-main {
+  overflow: hidden;
+  margin: 10px 0;
+}
+.creat-situation-main .situation {
+  float: left;
+}
+.creat-situation-main .situation > span {
+  margin-right: 10px;
+  font-size: 14px;
+}
+.creat-situation-main .situation a {
+  color: #666;
+}
+.creat-situation-main .status {
+  float: right;
+  font-size: 14px;
+  color: #999;
+}
+.creat-button-main {
+  overflow: hidden;
+}
+.creat-button-main a {
+  margin-right: 5px;
+}
+.creat-button-main .creat-button {
+  float: left;
+}
+.creat-button button {
+  margin-right: 5px;
+}
+.creat-button-main .obtained {
+  float: right;
+}
+.creat-button-main .obtained > span {
+  font-size: 26px;
+  color: #666;
+  cursor: pointer;
+}
+.creat-button-main .obtained .dropdown-menu {
+  min-width: 72px !important;
+}

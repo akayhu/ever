@@ -1,0 +1,47 @@
+.group_item {
+	border-top: 1px solid #d0d0d0;
+	border-bottom: 1px solid #d0d0d0;
+	margin-bottom: 10px;
+}
+.group_item img {
+	width: 100%;
+}
+.group_item:last-child {
+	margin-bottom: 0;
+}
+.group_content {
+	padding: 15px;
+	background-color: #fff;
+	font-size: 14px;
+}
+.group_title {
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+.group_title h3 {
+	float: left;
+	font-size: 18px;
+	font-weight: bold;
+	margin: 0;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	word-break: break-all;
+	width: 70%;
+}
+.group_members {
+	float: right;
+	color: #969696;
+}
+.group_text {
+	line-height: 1.7;
+	max-height: 70px;
+	overflow: hidden;
+}
+.group_text a {
+	color: #000;
+}
+.image_wrap {
+	max-height: 150px;
+	overflow: hidden;
+}

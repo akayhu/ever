@@ -1,0 +1,30 @@
+.bcAlertItem {
+	padding: 10px;
+	border-bottom: 1px solid #e8e8e8;
+	overflow: hidden;
+	background-color: #f9f9f9;
+	cursor: pointer;
+}
+.bcAlertMain {
+	overflow: hidden;
+	line-height: 1.7;
+}
+.bcAlertHrName {
+	font-size: 16px;
+	font-weight: bold;
+	max-height: 24px;
+	overflow: hidden;
+}
+.bcAlertCompany {
+	font-size: 14px;
+	color: #8a8a8a;
+}
+.bcAlertContent {
+	font-size: 14px;
+	max-height: 46px;
+	overflow: hidden;
+}
+.bcAlertTime {
+	font-size: 14px;
+	color: #8a8a8a;
+}

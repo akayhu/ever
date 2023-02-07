@@ -1,0 +1,39 @@
+.related {
+  background-color: #fff;
+  padding: 12px;
+}
+
+.title {
+  font-size: 13px;
+  color: #8a8a8a;
+}
+
+.main {
+  margin-top: 12px;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.sub_title {
+  font-size: 13px;
+  color: #2c98b7;
+  width: 80%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 0 10px;
+}
+
+.name {
+  font-size: 13px;
+  color: #8a8a8a;
+  width: 20%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-left: auto;
+}

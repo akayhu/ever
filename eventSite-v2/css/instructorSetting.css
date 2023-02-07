@@ -1,0 +1,176 @@
+main {
+  margin: 80px auto 0;
+  width: 1014px;
+}
+main .top-option {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e8e8e8;
+  padding: 15px 0;
+}
+main .top-title {
+  font-size: 24px;
+  color: #333;
+}
+main .creat-instructor > button {
+  margin-right: 5px;
+}
+main dl dt {
+  height: 35px;
+  border-bottom: solid 1px #e8e8e8;
+}
+main dl dd {
+  padding: 20px 15px;
+  border-bottom: solid 1px #e8e8e8;
+  margin-bottom: 0;
+  overflow: hidden;
+  color: #333;
+}
+main dl dd.no-event {
+  padding: 40px 20px;
+  border-bottom: 0;
+}
+main dl dd.no-event:hover {
+  background-color: #fff;
+}
+main .no-event span {
+  font-size: 24px;
+  vertical-align: sub;
+  margin-right: 10px;
+  font-weight: 300;
+}
+main dl dd img {
+  float: left;
+  margin-right: 15px;
+}
+main dl dd .instructor-name span {
+  font-size: 24px;
+  margin-right: 8px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 437px;
+  display: inline-block;
+}
+main dl dd .instructor-name span:last-child {
+  font-size: 16px;
+  margin-right: 0;
+  font-weight: 300;
+  vertical-align: super;
+}
+main dl dd .instructor-button {
+  margin-top: 10px;
+}
+main dl dd .instructor-remove {
+  float: right;
+  margin-top: -15px;
+}
+main dl dd .instructor-remove span {
+  font-size: 26px;
+  color: #666;
+  cursor: pointer;
+}
+.instructor-button .instructor-remove .dropdown-menu {
+  min-width: 72px !important;
+}
+
+/* Lightbox Modal 講者介紹 */
+.speaker-introduction-lightbox-modal {
+  max-width: 600px !important;
+}
+.speaker-introduction-lightbox-modal .modal-body {
+  padding: 25px;
+}
+.speaker-introduction-lightbox-modal .speaker-introduction-name {
+  overflow: hidden;
+}
+.speaker-introduction-lightbox-modal .speaker-introduction-name img {
+  float: left;
+  margin-right: 20px;
+}
+.speaker-introduction-name div {
+  color: #333;
+  font-size: 24px;
+  line-height: 1.7;
+  margin-top: 3px;
+}
+.speaker-introduction-content {
+  font-size: 14px;
+  color: #333;
+  line-height: 1.5;
+  font-weight: 300;
+  margin: 20px 0 25px;
+}
+.speaker-introduction-close {
+  text-align: center;
+}
+/* Lightbox Modal 講者編輯 */
+.edit-lightbox-modal {
+  max-width: 600px !important;
+}
+.edit-lightbox-modal .modal-body {
+  padding: 15px 25px;
+}
+.edit-lightbox-modal .title {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.edit-introduction-name {
+  overflow: hidden;
+}
+.edit-introduction-name img {
+  float: left;
+  margin-right: 20px;
+}
+.edit-introduction-name input {
+  border-radius: 6px;
+  border: solid 1px #dcdcdc;
+  background-color: #fff;
+  padding: 6px 10px;
+  width: 440px;
+  margin: 5px 0;
+  color: #333;
+  font-size: 14px;
+}
+.edit-introduction-data {
+  float: left;
+}
+.edit-introduction-data .user-name {
+  font-size: 16px;
+  color: #666;
+  font-weight: 400;
+}
+.edit-introduction-data .remarks {
+  font-size: 14px;
+  margin: 4px 0 0;
+  display: inline-block;
+}
+.edit-introduction-content textarea {
+  border-radius: 6px;
+  border: solid 1px #dcdcdc;
+  background-color: #ffffff;
+  width: 100%;
+  height: 260px;
+  margin-top: 5px;
+  font-size: 14px;
+  padding: 10px;
+  color: #333;
+}
+.edit-introduction-content .textarea-text {
+  text-align: right;
+  color: #aaa;
+  margin-top: 5px;
+  font-weight: 300;
+}
+.edit-introduction-content .lecturer-information {
+  font-size: 14px;
+  margin-top: 10px;
+}
+.edit-introduction-name input:focus,
+.edit-introduction-content textarea:focus {
+  border: solid 1px #55f;
+}
+.edit-instructor-button {
+  text-align: center;
+  margin-top: 40px;
+}

@@ -1,0 +1,21 @@
+.nav_giver {
+	width: 100%;
+	background-color: #ff7800;
+	margin-top: 3em;
+}
+.nav_giver ul {
+	margin-bottom: 0;
+}
+.nav_giver li {
+	font-size: 16px;
+	padding: 10px 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	display: inline-block;
+}
+.nav_giver li a {
+	color: #fff;
+}
+.nav_giver li.active {
+	border-bottom: 2px solid #fff;
+}

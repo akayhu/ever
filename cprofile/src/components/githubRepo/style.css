@@ -1,0 +1,179 @@
+.githubLightbox .ant-modal-header {
+	border-bottom: 1px solid #e8e8e8;
+}
+.certified_main {
+	text-align: center;
+	padding: 20px 0 30px;
+	line-height: 2;
+}
+.not_certified_yet {
+	margin: 20px 0;
+	font-size: 26px;
+	color: #333;
+}
+.please_verify {
+	margin: 0 10px 40px;
+	font-size: 16px;
+	color: #666;
+	font-weight: 200;
+	line-height: 1.5;
+}
+.github_outer_layer {
+	flex-wrap: wrap;
+	display: flex;
+	align-content: flex-start;
+	margin-top: 20px;
+	padding-bottom: 50px;
+	overflow-y: scroll;
+	max-height: 370px;
+	min-height: 150px;
+}
+.github-empty {
+	text-align: center;
+	padding: 16px 0 30px 0;
+	font-size: 14px;
+	border-bottom: 1px solid #eaeaea;
+	color: #777;
+}
+.github-button {
+	margin-top: 20px;
+	text-align: center;
+}
+.white_gradient {
+	z-index: 2;
+	position: relative;
+	height: 50px;
+	margin-top: -50px;
+	overflow: hidden;
+	background: -moz-linear-gradient(
+		bottom,
+		rgb(255, 255, 255) 45%,
+		rgba(255, 255, 255, 0) 100%
+	);
+	background: -webkit-gradient(
+		linear,
+		bottom,
+		top,
+		color-stop(45%, rgb(255, 255, 255)),
+		color-stop(100%, rgba(255, 255, 255, 0))
+	);
+	background: -webkit-linear-gradient(
+		bottom,
+		rgb(255, 255, 255) 45%,
+		rgba(255, 255, 255, 0) 100%
+	);
+	background: -o-linear-gradient(
+		bottom,
+		rgb(255, 255, 255) 45%,
+		rgba(255, 255, 255, 0) 100%
+	);
+	background: -ms-linear-gradient(
+		bottom,
+		rgb(255, 255, 255) 45%,
+		rgba(255, 255, 255, 0) 100%
+	);
+}
+.github-block-main {
+	flex-basis: 30.5%;
+	border: solid 1px #d6d6d6;
+	border-radius: 10px;
+	position: relative;
+	margin-right: 25px;
+	margin-top: 15px;
+}
+.github-block-main.watch {
+	margin-right: 13.5px;
+}
+.github-block-main.isCheck {
+	border: solid 1px #fa0;
+}
+.github-block-main:nth-child(1),
+.github-block-main:nth-child(2),
+.github-block-main:nth-child(3) {
+	margin-top: 0;
+}
+.github-block-main:nth-child(3n) {
+	margin-right: 0;
+}
+.github-block-title {
+	font-size: 16px;
+	line-height: 1.2;
+	text-align: center;
+	color: #484848;
+	padding: 16px 20px 0;
+}
+.github-block-content {
+	padding: 10px 20px 0;
+	vertical-align: middle;
+}
+.github-block-description {
+	vertical-align: middle;
+	min-height: 40px;
+	overflow: hidden;
+	justify-content: center;
+	font-size: 13px;
+	line-height: 1.5;
+	color: #7e7e7e;
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+.github-block-hide-footer {
+	height: 42px;
+	margin-top: 15px;
+}
+.github-block-footer {
+	border-top: solid 1px #d6d6d6;
+	padding: 10px 0;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	font-size: 14px;
+	color: #6a6a6a;
+}
+.github-block-footer span {
+	width: 33%;
+	display: inline-block;
+	text-align: center;
+}
+.github-block-footer span i {
+	font-size: 18px;
+	vertical-align: text-bottom;
+	color: #4a4a4a;
+}
+@media only screen and (max-width: 1000px) {
+	.githubLightbox {
+		width: 96% !important;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.github-block-main {
+		flex-basis: 47%;
+	}
+	.github-block-main:nth-child(even) {
+		margin-right: 0 !important;
+	}
+	.github-block-main:nth-child(3n) {
+		margin-right: 25px;
+	}
+	.github-block-main:nth-child(3) {
+		margin-top: 15px;
+	}
+}
+@media only screen and (max-width: 600px) {
+	.github-block-main {
+		flex-basis: 100%;
+		margin: 0 0 10px;
+	}
+	.github-block-main:nth-child(3n) {
+		margin-right: 0;
+	}
+	.github-block-main:nth-child(3) {
+		margin-top: 0;
+	}
+}
+@media only screen and (max-width: 360px) {
+	.githubLightbox {
+		width: 94% !important;
+	}
+}

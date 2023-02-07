@@ -1,0 +1,82 @@
+.root {
+	display: inline-block;
+}
+.dropdownMenu{
+    display: block;
+}
+.arrow.top {
+	bottom: -12px;
+	top: initial;
+}
+.arrow.top::before {
+	top: -6px;
+}
+.arrow.top::after {
+	top: -8px;
+}
+.arrow {
+	position: absolute;
+	left: 50%;
+	margin-left: -6px;
+	width: 12px;
+	height: 10px;
+	top: 0;
+}
+.arrow::before{
+	content: '';
+	position: absolute;
+	display: block;
+	width: 8px;
+	height: 6px;
+	border: 1px solid #ddd;
+	background: #fff;
+	top: -4px;
+	left: 50%;
+	margin-left: -4px;
+	transform: rotate(45deg);
+}
+.arrow::after {
+	content: '';
+	position: absolute;
+	display: block;
+	width: 14px;
+	height: 6px;
+	background: #fff;
+	top: 0;
+	left: 50%;
+	margin-left: -6px;
+}
+.container {
+	display: inline-block;
+	position: absolute;
+	transition: height 0.5s ease;
+	overflow: hidden;
+	padding: 3px;
+}
+.list {
+    position: relative;
+    padding-top: 7px;
+	padding-bottom: 2px;
+    background: #fff;
+    border:1px solid #ddd;
+    z-index: 2001;
+	margin-top: 5px;
+	
+}
+.default{}
+.target {
+	cursor: pointer;
+	display: inline-block;
+}
+.item {
+	position: relative;
+	min-width: 60px;
+	text-align: center;
+	cursor: pointer;
+}
+.item:hover {
+	background: #d8f3fd;
+}
+li {
+	padding: 0;
+}

@@ -1,0 +1,654 @@
+@import "scss/cProfile.scss";
+
+// 第一個模板
+.user-def {
+	.user-container {
+		max-width: 880px;
+		margin: 0 auto 50px;
+		padding: 20px 0 35px;
+		position: relative;
+		z-index: 12;
+		display: block;
+
+		.user-block-mid {
+			margin: 0 auto;
+			text-align: center;
+
+			.text-title {
+				@include rwd-to(320) {
+					width: 100% !important;
+				}
+
+				input {
+					@include rwd-to(320) {
+						width: 90% !important;
+					}
+				}
+			}
+
+			.name {
+				margin-bottom: 0;
+				font-size: 32px;
+			}
+
+			.user-def-company-icon-domain {
+				color: #484848;
+				font-size: 16px;
+				line-height: 1.7;
+				letter-spacing: 2.5px;
+				text-align: center;
+
+				@include rwd-to(320) {
+					width: 90% !important;
+				}
+
+				input {
+					letter-spacing: 2.5px;
+
+					@include rwd-to(320) {
+						width: 90% !important;
+					}
+				}
+			}
+
+			.user-def-summary {
+				max-width: 700px;
+				margin: 14px auto 0;
+				font-size: 16px;
+				line-height: 1.89;
+				text-overflow: ellipsis;
+				display: -webkit-box;
+				-webkit-box-orient: vertical;
+				word-break: normal;
+				min-height: 120px;
+
+				@include rwd-to(668) {
+					width: 90%;
+				}
+				@include rwd-to(414) {
+					max-height: inherit;
+					overflow: inherit;
+				}
+
+				.public-DraftStyleDefault-ltr {
+					text-align: center;
+				}
+			}
+		}
+
+		.user-image-wrapper {
+			width: 155px;
+			height: 155px;
+			margin: 20px auto;
+			border-radius: 50%;
+			overflow: hidden;
+
+			@include rwd-to(412) {
+				margin: 0px auto 40px;
+			}
+
+			.black-avatar {
+				position: relative;
+
+				.crop-icon {
+					display: none;
+				}
+
+				&:hover {
+					.crop-icon {
+						display: block;
+					}
+				}
+			}
+		}
+
+		.user-def-jobTitle__input {
+			text-align: center;
+			color: #5e5e5e;
+			font-size: 16px;
+			margin: 0 auto;
+		}
+	}
+}
+
+/* 第二個模板 */
+.user-new {
+	text-align: center;
+
+	.user-new-container {
+		width: 980px;
+		margin: 0 auto;
+		display: inline-flex;
+		flex-wrap: wrap;
+		align-content: flex-start;
+		padding: 50px 0 50px 20px;
+		background: #fff;
+
+		@include rwd-to(960) {
+			width: 100%;
+			padding: 50px 30px 20px;
+		}
+		@include rwd-to(668) {
+			padding: 50px 30px 20px;
+		}
+
+		.user-new-left {
+			margin-right: 40px;
+
+			@include rwd-to(812) {
+				margin-right: 30px;
+			}
+			@include rwd-to(668) {
+				flex-basis: 100%;
+				margin-right: 0;
+			}
+
+			img {
+				@include rwd-to(768) {
+					width: 230px;
+					height: 230px;
+				}
+				@include rwd-to(668) {
+					width: 200px;
+					height: 200px;
+					margin-bottom: 15px;
+				}
+			}
+		}
+
+		.user-new-right {
+			text-align: left;
+			width: min-content;
+
+			@include rwd-to(960) {
+				width: 63%;
+			}
+			@include rwd-to(950) {
+				width: 60%;
+			}
+			@include rwd-to(854) {
+				width: 57%;
+			}
+			@include rwd-to(823) {
+				width: 56%;
+			}
+			@include rwd-to(812) {
+				width: 55%;
+			}
+			@include rwd-to(768) {
+				width: 61%;
+			}
+			@include rwd-to(668) {
+				flex-basis: 100%;
+			}
+
+			.user-new-title {
+				font-size: 28px;
+				color: #484848;
+				min-height: 1em;
+				word-break: break-all;
+				margin-bottom: 8px;
+				text-align: left;
+
+				@include rwd-to(668) {
+					text-align: center !important;
+				}
+			}
+
+			.user-new-jobTitle {
+				text-align: left;
+				margin-bottom: 5px;
+				vertical-align: super;
+				line-height: 2;
+
+				&__input {
+					font-size: 18px;
+					color: #5e5e5e;
+
+					@include rwd-to(668) {
+						text-align: center;
+					}
+				}
+
+				@include rwd-to(668) {
+					max-width: initial;
+				}
+
+				> div {
+					@include rwd-to(668) {
+						text-align: center !important;
+					}
+				}
+
+				input {
+					@include rwd-to(668) {
+						text-align: center !important;
+					}
+				}
+			}
+
+			.user-new-summary {
+				white-space: pre-wrap;
+				word-wrap: break-word;
+				word-break: normal;
+				width: 620px;
+				border-bottom: 1px solid #d2d2d2;
+				margin-bottom: 15px;
+				font-size: 16px;
+				min-height: 115px;
+				padding-bottom: 5px;
+				line-height: 1.7;
+
+				@include rwd-to(960) {
+					width: 100%;
+				}
+				@include rwd-to(668) {
+					min-height: auto;
+					max-height: initial;
+					padding-bottom: 10px;
+					min-height: 65px;
+				}
+			}
+
+			.icon-icon_company {
+				font-size: 20px;
+				position: absolute;
+				margin-right: 10px;
+				margin-top: 3px;
+			}
+
+			.user-new-company {
+				padding-top: 4px;
+				font-size: 14px;
+				padding-left: 30px;
+				color: #5e5e5e;
+
+				@include rwd-to(480) {
+					width: 88% !important;
+				}
+
+				input {
+					@include rwd-to(480) {
+						width: 100%;
+					}
+				}
+			}
+
+			.icon-icon-card_travel {
+				float: left;
+				font-size: 20px;
+				margin-right: 10px;
+			}
+
+			.user-new-location {
+				color: #5e5e5e;
+				font-size: 14px;
+				width: 91%;
+				float: left;
+				margin-bottom: 10px;
+
+				@include rwd-to(480) {
+					width: 88%;
+				}
+			}
+		}
+	}
+}
+
+/* 第三個模板 */
+.user-com {
+	text-align: center;
+
+	.user-com-container {
+		width: 980px;
+		margin: 0 auto;
+		display: inline-flex;
+		flex-wrap: wrap;
+		align-content: flex-start;
+		padding: 50px 0 50px 30px;
+		background: #fff;
+
+		@include rwd-to(960) {
+			width: 910px;
+			padding: 50px 30px 20px;
+		}
+		@include rwd-to(900) {
+			width: 100%;
+		}
+		@include rwd-to(736) {
+			padding: 50px 30px 20px;
+		}
+
+		.user-com-left {
+			margin-right: 40px;
+
+			@include rwd-to(736) {
+				flex-basis: 100%;
+				margin-right: 0;
+				margin-bottom: 20px;
+			}
+
+			img {
+				@include rwd-to(480) {
+					width: 200px;
+					height: 200px;
+				}
+			}
+		}
+
+		.user-com-right {
+			text-align: left;
+
+			@include rwd-to(960) {
+				width: 59%;
+			}
+			@include rwd-to(900) {
+				width: 58%;
+			}
+			@include rwd-to(854) {
+				width: 55%;
+			}
+			@include rwd-to(823) {
+				width: 54%;
+			}
+			@include rwd-to(812) {
+				width: 53%;
+			}
+			@include rwd-to(800) {
+				width: 52%;
+			}
+			@include rwd-to(768) {
+				width: 50%;
+			}
+			@include rwd-to(736) {
+				flex-basis: 100%;
+			}
+
+			.user-com-jobTitle {
+				vertical-align: super;
+				line-height: 2;
+			
+				&__input {
+					font-size: 18px;
+					text-align: left;
+					color: #5e5e5e;
+
+					@include rwd-to(736) {
+						text-align: center;
+					}
+				}
+
+				.com-jobTitle-preview {
+					p {
+						@include rwd-to(736) {
+							text-align: center !important;
+						}
+					}
+				}
+
+				input {
+					@include rwd-to(736) {
+						text-align: center !important;
+					}
+				}
+			}
+
+			.user-com-title {
+				font-size: 28px;
+				color: #484848;
+				min-height: 1em;
+				word-break: break-all;
+				margin-bottom: 10px;
+				text-align: left;
+
+				@include rwd-to(736) {
+					text-align: center !important;
+				}
+			}
+
+			.user-com-summary {
+				white-space: pre-wrap;
+				word-wrap: break-word;
+				word-break: normal;
+				width: 580px;
+				border-bottom: 1px solid #d2d2d2;
+				margin-bottom: 10px;
+				font-size: 16px;
+				line-height: 1.7;
+				min-height: 142px;
+				padding-bottom: 5px;
+
+				@include rwd-to(960) {
+					width: 100%;
+				}
+				@include rwd-to(736) {
+					width: 100%;
+					min-height: auto;
+					max-height: initial;
+					padding-bottom: 10px;
+					min-height: 65px;
+				}
+			}
+
+			.icon-icon_company {
+				font-size: 20px;
+				position: absolute;
+				margin-right: 10px;
+				margin-top: 3px;
+			}
+
+			.user-com-company {
+				padding-top: 4px;
+				font-size: 14px;
+				padding-left: 30px;
+				color: #5e5e5e;
+
+				@include rwd-to(480) {
+					width: 88% !important;
+				}
+
+				input {
+					@include rwd-to(480) {
+						width: 100%;
+					}
+				}
+			}
+
+			.icon-icon-card_travel {
+				float: left;
+				font-size: 20px;
+				margin-right: 10px;
+			}
+
+			.user-com-location {
+				color: #5e5e5e;
+				font-size: 14px;
+				width: 91%;
+				float: left;
+				margin-bottom: 10px;
+
+				@include rwd-to(480) {
+					width: 88%;
+				}
+			}
+		}
+	}
+}
+
+/* 第四個模板 */
+.user-dark {
+	.user-dark-block {
+		clear: both;
+		text-align: center;
+
+		.user-dark-container {
+			width: 980px;
+			margin: 0 auto;
+			display: inline-flex;
+			flex-wrap: wrap;
+			align-content: flex-start;
+			padding: 50px 20px 50px;
+			background: #fff;
+
+			@include rwd-to(960) {
+				width: 960px;
+				padding: 50px 55px 20px;
+			}
+			@include rwd-to(950) {
+				width: 950px;
+			}
+			@include rwd-to(900) {
+				width: 100%;
+				padding: 50px 45px 20px;
+			}
+			@include rwd-to(667) {
+				padding: 50px 35px 20px;
+			}
+			@include rwd-to(533) {
+				padding: 50px 30px 20px;
+			}
+
+			.user-dark-left {
+				margin-right: 30px;
+				text-align: left;
+				width: 610px;
+
+				@include rwd-to(960) {
+					width: 61%;
+				}
+				@include rwd-to(950) {
+					width: 60%;
+				}
+				@include rwd-to(900) {
+					width: 59%;
+				}
+				@include rwd-to(854) {
+					width: 56%;
+				}
+				@include rwd-to(823) {
+					width: 54%;
+				}
+				@include rwd-to(800) {
+					width: 100%;
+					margin-right: 0;
+				}
+
+				.user-dark-jobTitle {
+					vertical-align: super;
+					line-height: 2;
+				
+					&__input {
+						font-size: 18px;
+						color: #5e5e5e;
+
+						@include rwd-to(800) {
+							text-align: center;
+						}
+					}
+				}
+
+				.user-dark-title {
+					font-size: 36px;
+					color: #484848;
+					min-height: 1em;
+					word-break: break-all;
+					margin-bottom: 10px;
+					text-align: left;
+
+					@include rwd-to(800) {
+						text-align: center;
+					}
+				}
+
+				.icon-icon_company {
+					font-size: 20px;
+					position: absolute;
+					margin-right: 10px;
+					margin-top: 3px;
+				}
+
+				.user-dark-summary {
+					white-space: pre-wrap;
+					word-wrap: break-word;
+					word-break: normal;
+					border-bottom: 1px solid #d2d2d2;
+					margin-bottom: 10px;
+					font-size: 16px;
+					min-height: 140px;
+					line-height: 1.7;
+					padding-bottom: 5px;
+
+					@include rwd-to(960) {
+						width: 100%;
+					}
+					@include rwd-to(768) {
+						min-height: auto;
+						max-height: initial;
+						padding-bottom: 10px;
+						min-height: 65px;
+					}
+				}
+
+				.user-dark-company {
+					padding-top: 4px;
+					font-size: 14px;
+					padding-left: 30px;
+					color: #5e5e5e;
+
+					@include rwd-to(320) {
+						width: 88% !important;
+					}
+				}
+
+				.icon-icon-card_travel {
+					float: left;
+					font-size: 20px;
+					margin-right: 10px;
+				}
+
+				.user-dark-location {
+					color: #666;
+					font-size: 14px;
+					width: 89%;
+					float: left;
+					margin-bottom: 10px;
+
+					@include rwd-to(320) {
+						width: 88%;
+					}
+				}
+			}
+
+			.user-dark-right {
+				width: 300px;
+				height: 300px;
+
+				@include rwd-to(800) {
+					margin: 20px auto 0;
+				}
+				@include rwd-to(480) {
+					height: 250px;
+					width: 250px;
+				}
+				@include rwd-to(320) {
+					height: 200px;
+					width: 200px;
+				}
+
+				img {
+					border-radius: 10px;
+					object-fit: cover;
+
+					@include rwd-to(480) {
+						height: 250px;
+						width: 250px;
+					}
+					@include rwd-to(320) {
+						height: 200px;
+						width: 200px;
+					}
+				}
+			}
+		}
+	}
+}

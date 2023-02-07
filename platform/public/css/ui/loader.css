@@ -1,0 +1,154 @@
+/*!
+ * # Semantic UI 2.1.7 - Loader
+ * http://github.com/semantic-org/semantic-ui/
+ *
+ *
+ * Copyright 2015 Contributors
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ *
+ */
+
+
+/*******************************
+            Loader
+*******************************/
+
+
+/* Standard Size */
+.ui.loader {
+  display: none;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  margin: 0px;
+  text-align: center;
+  z-index: 1000;
+
+}
+
+/* Static Shape */
+.ui.loader:before {
+  position: absolute;
+  content: '';
+  top: 0%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+/* Active Shape */
+.ui.loader:after {
+  position: absolute;
+  content: '';
+  top: 0%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  background: url(spin.svg);
+}
+
+.ui.loader {
+  width: 3.2585em;
+  height: 3.2585em;
+  font-size: 1em;
+}
+
+
+.ui.loading {
+  position: relative;
+  text-indent: -9999px;
+}
+.ui.loading:before {
+  content: '';
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background: url(spin_invert.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -12.5px;
+  margin-left: -12.5px;
+}
+
+/*-------------------
+      Coupling
+--------------------*/
+
+
+/* Show inside active dimmer */
+.ui.dimmer .loader {
+  display: block;
+}
+
+/* Black Dimmer */
+.ui.dimmer .ui.loader {
+}
+.ui.dimmer .ui.loader:before {
+}
+.ui.dimmer .ui.loader:after {
+  background: url(spin.svg);
+}
+
+/* White Dimmer (Inverted) */
+.ui.inverted.dimmer .ui.loader {
+  color: rgba(0, 0, 0, 0.87);
+}
+.ui.inverted.dimmer .ui.loader:before {
+  border-color: rgba(0, 0, 0, 0.1);
+}
+.ui.inverted.dimmer .ui.loader:after {
+  border-color: #767676 transparent transparent;
+}
+
+
+/*******************************
+             Types
+*******************************/
+
+
+/*-------------------
+        Text
+--------------------*/
+
+.ui.text.loader {
+  width: auto !important;
+  height: auto !important;
+  text-align: center;
+  font-style: normal;
+}
+
+
+
+.ui.loader.active,
+.ui.loader.visible {
+  display: block;
+}
+.ui.loader.disabled,
+.ui.loader.hidden {
+  display: none;
+}
+
+
+/*******************************
+            Variations
+*******************************/
+
+
+/*-------------------
+        Sizes
+--------------------*/
+
+
+
+/*******************************
+         Theme Overrides
+*******************************/
+
+
+
+/*******************************
+         Site Overrides
+*******************************/

@@ -1,0 +1,48 @@
+/* 登入 */
+main {
+  width: 700px;
+  margin: 130px auto;
+  text-align: center;
+  overflow: hidden;
+}
+main .title {
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+main dl {
+  margin: 25px 0 0;
+}
+main dl dd {
+  text-align: center;
+  width: 700px;
+  font-size: 24px;
+  padding: 15px;
+}
+main dl dd:hover {
+  background-color: #f8f8f8;
+  cursor: pointer;
+}
+main dl dd a,
+main dl dd a:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+/* 沒權限 */
+main .no-permission-title {
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-top: 50px;
+}
+main .submitButton {
+  display: inline-block;
+  margin-top: 25px;
+}
+main .submitButton:hover {
+  color: #fff;
+  text-decoration: none;
+}

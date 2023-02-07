@@ -1,0 +1,413 @@
+.header_bar {
+	display: block;
+	width: 100%;
+	height: 60px;
+	background-color: #333333;
+}
+.header_bar a{
+    color: #fff;
+}
+
+.header_box {
+	width: 1440px;
+	margin: auto;
+	clear: both;
+}
+/*logo*/
+.logo {
+	float: left;
+	display: inline-block;
+	background: url(./logo_plus_W.png) left center no-repeat;
+	margin: 10px auto;
+	color: #ffffff;
+	font-size: 21px;
+	line-height: 40px;
+	letter-spacing: 5px;
+}
+
+.logo a {
+	display: inline-block;
+	width: 180px;
+	height: 26px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+/*登入區*/
+.login {
+	float: right;
+	display: inline-block;
+	margin: 10px auto;
+}
+
+.login a {
+}
+
+
+.header_logo {
+	background: url(./logo_plus_W.png) no-repeat;
+	width: 180px;
+	height: 36px;
+	margin: 0 auto 35px auto;
+	padding: auto;
+}
+
+.main_wrapper {
+	position: relative;
+	margin: 0 auto;
+	background: #CBCCCE;
+	width: 100%;
+}
+.main_wrapper a {
+    color: #fff;
+}
+
+.screen_1 {
+	width: 1440px;
+	margin: 0 auto;
+	color: #fff;
+	height: 850px;
+	background-color: #fff;
+}
+
+.screen_1 .video_wrapper {
+	width: 100%;
+	height: 850px;
+}
+
+.temp_image {
+	background-image: url(./bg_01.jpg);
+	background-repeat: no-repeat;
+	background-size: 1440px 850px;
+}
+
+.reason_title {
+	font-size: 2.2em;
+}
+
+.reason_1, .reason_2, .reason_3 {
+	font-size: 1.5em;
+}
+
+.to_1, .to_2, .to_3 {
+	width: 940px;
+	margin: 0 auto;
+	color: #081b20;
+	text-align: center;
+}
+
+.to_1 a,.to_2 a,.to_3 a {
+}
+
+.screen_2 {
+	height: 570px;
+	background-image: url(./bg_02_1080px.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.screen_3 {
+	height: 1392px;
+	background-color: #fff;
+	padding-top: 85px;
+}
+
+.screen_3 .title {
+	font-weight: bold;
+	font-size: 3em;
+	width: 850px;
+	border-radius: 7px;
+	color: #fff;
+	background-color: #FF9431;
+	margin: 85px auto 10px;
+	text-align: center;
+}
+
+.screen_3 .title_2 {
+	font-weight: bold;
+	font-size: 6.5em;
+	text-align: center;
+}
+
+.screen_3 .title_2 .highlight {
+	color: #FF9431;
+	margin-left: 0;
+}
+
+.screen_3 {
+	background-image: url(./bg_03.jpg); 
+}
+
+.detail {
+	position: relative;
+	width: 1000px;
+	height: 870px;
+	margin: 0 auto;
+}
+
+.detail img {
+	position: absolute;
+}
+
+.detail .d1 {
+	top: 1px;
+	left: 600px;
+}
+
+.detail .d2 {
+	top: 50px;
+	left: 300px;
+}
+
+.detail .d3 {
+	top: 220px;
+	left: 0;
+}
+
+.detail .d4 {
+	top: 500px;
+	left: -50px;
+}
+
+.detail .d5 {
+	top: 400px;
+	left: 400px;
+}
+
+@media screen and (max-width: 1440px) {
+	.header_box {
+		width: 1170px;
+	}
+
+	.screen_1 {
+		width: 1170px;
+		height: 657px;
+		margin: 0 auto;
+		color: #fff;
+		background-color: #fff;
+	}
+
+	.screen_1 .video_wrapper {
+		height: 657px;
+	}
+
+	.temp_image {
+		background-size: 1170px 657px;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.header_box {
+		width: 1024px;
+	}
+
+	.screen_1 {
+		width: 1024px;
+		height: 531px;
+		margin: 0 auto;
+		color: #fff;
+		background-color: #fff;
+	}
+
+	.screen_1 .video_wrapper {
+		height: 531px;
+	}
+
+	.temp_image {
+		background-image: url(./bg_01_1080px.jpg);
+		background-size: 1080px 768px;
+	}
+
+	.promote {
+		width: 200px;
+	}
+
+	.promote_title {
+		font-size: 1em;
+	}
+
+	.screen_3 .title {
+		width: 600px;
+		font-size: 2.5em;
+	}
+
+	.screen_3 .title_2 {
+		font-size: 4em;
+	}
+
+	.screen_3 {
+		height: 1000px;
+	}
+
+	.detail {
+		width: 600px;
+		height: 600px;
+	}
+
+	.detail  .d1 {
+		width: 191px;
+		height: 217px;
+		left: 380px;
+	}
+
+	.detail  .d2 {
+		width: 182px;
+		height: 214px;
+		left: 180px;
+		top: 29px;
+	}
+
+	.detail  .d3 {
+		width: 231px;
+		height: 151px;
+		top: 174px;
+		left: 23px;
+	}
+
+	.detail  .d4 {
+		width: 215px;
+		height: 135px;
+		left: 17px;
+		top: 356px;
+	}
+
+	.detail  .d5 {
+		width: 297px;
+		height: 280px;
+		left: 280px;
+		top: 240px;
+	}
+}
+
+.copyright {
+	font-size: 13px;
+	text-align: center;
+	border-top: 1px solid #ccc;
+	padding: 15px 0;
+}
+
+.guestBanner {
+	border: 1px solid #999;
+	color: #fff;
+	font-color: #fff;
+	font-size: 18px;
+	padding: 5px 14px 5px 20px;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.guestBanner:hover {
+	color: #999;
+	font-color: #fff;
+}
+
+.login_txt {
+	font-size: 18px;
+	border: 1px solid #ffffff;
+	padding: 5px 14px 5px 20px;
+	text-decoration: none;
+	display: inline-block;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #124B90;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#124B90), to(#081b20000));
+	background-image: -webkit-linear-gradient(top, #124B90, #081b20000);
+	background-image: -moz-linear-gradient(top, #124B90, #081b20000);
+	background-image: -ms-linear-gradient(top, #124B90, #081b20000);
+	background-image: -o-linear-gradient(top, #124B90, #081b20000);
+	background-image: linear-gradient(to bottom, #124B90, #081b20000);
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#124B90, endColorstr=#081b20000);
+	text-align: center;
+	z-index: 1;
+	letter-spacing: 3px;
+}
+
+.header_login {
+	width: 80px;
+	margin-top: 12px;
+}
+
+.screen_1 {
+	text-align: center;
+	font-weight: bold;
+}
+
+.chance {
+	background: rgba(255, 120, 0, 0.65);
+	width: 640px;
+	margin: 0 auto 20px;
+	padding: 10px;
+	color: #fff;
+	font-size: 3em;
+}
+
+.highlight {
+	color: #ff4800;
+	margin-left: 3px;
+}
+
+.reason {
+	background: rgba(255, 255, 255, 0.75);
+	width: 640px;
+	margin: 0 auto;
+	padding: 25px 10px;
+	font-size: 1.1em;
+	color: #081b20;
+}
+
+.reason div {
+	margin-bottom: 10px;
+}
+
+.join_now {
+	display: block;
+	width: 300px;
+	margin: 25px auto;
+	padding: 15px;
+}
+
+.screen_2 {
+	text-align: center;
+	font-weight: bold;
+}
+
+.screen_2 img {
+	display: block;
+	height: 140px;
+	margin: 0 auto 10px;
+	padding: 20px 10px;
+}
+
+.bg_2 {
+	background-repeat: no-repeat;
+	background-size: 640px 963px;
+	height: 963px;
+	padding-top: 100px;
+}
+
+.promote {
+	vertical-align: top;
+	display: inline-block;
+	width: 300px;
+	margin: 10px 20px;
+}
+
+.promote_title {
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+.promote_title .highlight {
+	font-size: 1.5em;
+}
+
+.player {
+}
+
+.temp_image {
+}
+
+.video_wrapper {
+}
+
+.lazy {
+}

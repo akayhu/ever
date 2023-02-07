@@ -1,0 +1,22 @@
+/**
+ * operating-area
+ */
+.operating-area {
+	flex: 1 1 auto;
+	justify-content: flex-end;
+}
+.subscribe {
+	position: absolute;
+	margin-top: 4%;
+}
+.btn-wrap {
+	margin-top: 6%;
+	text-align: right;
+}
+.btn-wrap .msg {
+	line-height: 33px;
+	margin-left: 10px;
+}
+.operating-area button {
+	margin-left: 5px;
+}

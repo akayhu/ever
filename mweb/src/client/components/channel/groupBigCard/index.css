@@ -1,0 +1,49 @@
+.bigCard {
+  /*margin-bottom: 20px;*/
+  position: relative;
+}
+
+.bigCard, .imgSection {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.bigCard p {
+  margin: 0;
+}
+
+.bigCard h2 {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  margin: 0;
+  max-width: calc(100% - 40px);
+  font-size: 18px;
+  color: #FFF;
+  text-align: left;
+}
+
+.imgSection {
+  position: relative;
+  /*margin-bottom: 25px;*/
+}
+
+.cover {
+  width: 100%;
+  max-height: 150px;
+}
+
+.avatar {
+  position: absolute;
+  top: 50%;
+  left: calc(50% - 50px);
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.guest_block {
+  margin: 20px 0;
+}

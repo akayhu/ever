@@ -1,0 +1,29 @@
+.exp {
+  max-height: 200px;
+  overflow: hidden;
+}
+.title {
+  font-size: 15px;
+  font-weight: bold;
+}
+.container {
+	position: relative;
+	margin: 12px 0;
+  font-size: 13px;
+}
+.item:not(:first-child) {
+  margin-top: 12px;
+}
+.item p {
+  margin: 0;
+}
+.item_title {
+  margin-right: 12px;
+  font-weight: bold;
+}
+.gray_color {
+  color: #8a8a8a;
+}
+.bold {
+  font-weight: bold;
+}

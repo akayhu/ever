@@ -1,0 +1,19 @@
+.required-description {
+  &.notification {
+    position: absolute;
+    left: 115px;
+    font-size: 14px;
+    font-weight: bolder;
+    color: #00bddd;
+    top: 10px;
+    cursor: pointer;
+  }
+
+  &.honor {
+    left: 165px;
+  }
+
+  &.gallery {
+    left: 135px;
+  }
+}

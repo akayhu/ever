@@ -1,0 +1,71 @@
+.socialMain {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  background: #fff;
+  border: 1px solid #e3e3e3;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+}
+.socialList{
+  width: calc(100%/3 - 20px);
+  margin-right: 20px;
+}
+.socialList:last-child {
+  margin-right: 0;
+}
+.socialListTitle {
+  font-size: 18px;
+  border-bottom: 4px solid #34A8C4;
+  margin-top: .8em;
+  padding-bottom: .8em;
+  margin-bottom: .8em;
+}
+.socialInfo{
+  display: flex;
+	flex-direction: column;
+	width: 47%;
+}
+.socialInfo a,
+.socialInfo p{
+	overflow : hidden;
+	text-overflow : ellipsis;
+	white-space : nowrap;
+}
+.socialInfo p{
+	margin:0;
+}
+.socialImg {
+	margin-top: 10px;
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.socialList .socialName{
+	display: block;
+	padding-top: .5em;
+}
+.sociaItemlList {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.sociaItem {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-bottom: 15px;
+  height: 60px;
+}
+.socialAvatar {
+  margin-right: 10px;
+}
+.socialSubscribe {
+  margin-left: auto;
+}
+.more {
+  padding-bottom: 3px;
+  margin-left: auto;
+}

@@ -1,0 +1,85 @@
+.topMovieIframe,
+.listIframe {
+  position: relative;
+  padding-top: 30px;
+  height: 0;
+  /*padding-bottom: 56.25%;*/
+  padding-bottom: 49%;
+  overflow: hidden;
+}
+.topMovieIframe iframe,
+.listVideo li iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.topMovieTitle {
+  font-size: 16px;
+  margin: 0 15px;
+  padding: 20px 0;
+  text-align: center;
+  font-weight: bold;
+  border-bottom: 1px solid #9772e3;
+}
+.topMovie p {
+	font-size: 13px;
+	line-height: 2;
+	max-width: 780px;
+	margin: 0 15px;
+	display: block;
+	letter-spacing: 1px;
+	padding: 30px 0;
+	border-bottom: 1px solid #9772e3;
+  text-align: center;
+}
+.listVideo {
+  /*margin: 0 15px;
+	padding-bottom: 30px;*/
+}
+.listVideo ul {
+	overflow: hidden;
+	margin-top: 20px;
+}
+.listVideo li {
+	padding-bottom: 20px;
+}
+.listVideoTitle {
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+  margin-top: 30px;
+}
+.listVideoDataTitle {
+	/*text-align: center;*/
+	font-size: 16px;
+	margin: 12px;
+	letter-spacing: 1px;
+	line-height: 1.7;
+	/*max-width: 380px;*/
+}
+.button {
+	text-align: center;
+	padding: 20px 15px 100px;
+  height: 55px;
+	margin: 0 auto;
+}
+.button a {
+  text-decoration: none;
+}
+.more {
+	padding: 10px 30px;
+	color: #ff7800 !important;
+	border: 1px solid #ff7800;
+	border-radius: 20px;
+	margin-right: 20px;
+}
+.join {
+	padding: 10px 30px;
+	border-color: #000;
+	background-color: #000;
+	color: #fff !important;
+	border: 1px solid #000;
+	border-radius: 20px;
+}

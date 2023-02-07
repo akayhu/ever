@@ -1,0 +1,28 @@
+.wrap {
+	margin-top: 10px;
+}
+.group_main{
+	overflow: hidden;
+	padding: 15px 10px;
+	padding-bottom: 5px;
+}
+
+.tab_container {
+	padding-top: 20px;
+}
+.fakeTab {
+	cursor: pointer;
+	text-align: center;
+	line-height: 35px;
+	background: #fff;
+	border-bottom: 3px solid #FE7E17;
+	font-weight: bold;
+	width: 50%;
+	margin-bottom: 1px;
+}
+.loading,
+.error,
+.end {
+	margin: 50px 0;
+	text-align: center;
+}

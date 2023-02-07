@@ -1,0 +1,20 @@
+.friend_main {
+	border-left: 4px solid #f4f4f4;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 24px;
+}
+.friend_main a img,
+.lightbox_list a img {
+	margin-right: 8px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+.lightbox_list dd{
+	margin: 0;
+    padding: 13px;
+}
+.lightbox_list dd:hover{
+	background-color: #f9f9f9;
+}

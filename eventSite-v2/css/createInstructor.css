@@ -1,0 +1,64 @@
+main {
+  margin: 80px auto 0;
+  width: 600px;
+}
+main .create-instructor-title {
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+main .create-div {
+  border-radius: 6px;
+  border: solid 1px #dcdcdc;
+  background-color: #fff;
+  padding: 15px;
+  font-size: 14px;
+  color: #aaa;
+  font-weight: 300;
+  margin: 10px 0;
+  cursor: pointer;
+}
+main .create-div img {
+  vertical-align: text-top;
+  margin-right: 5px;
+}
+
+.create-instructor-main .create-instructor-input {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.create-instructor-main .form-control {
+  padding: 20px 10px;
+  font-size: 14px;
+  width: 500px;
+  display: inline-block;
+  border-radius: 6px;
+}
+.create-instructor-data {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  margin-right: 75px;
+}
+.create-instructor-user img {
+  margin-right: 10px;
+}
+.create-instructor-user span {
+  font-size: 14px;
+  color: #333;
+  margin-right: 10px;
+  font-weight: 300;
+}
+.create-instructor-user span.name {
+  font-weight: bold;
+}
+.create-instructor-delete {
+  cursor: pointer;
+  padding-top: 10px;
+}
+.create-instructor-submit-div {
+  text-align: center;
+  margin: 20px 0;
+}

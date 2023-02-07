@@ -1,0 +1,41 @@
+.wrap {
+	margin-top: 10px;
+}
+.m_change_profile {
+	padding: 0 10px;
+	padding-bottom: 7px;
+}
+.m_block > div {
+	margin-top: 10px;
+	background-color: #fff;
+	color: #000;
+	border-top: 1px solid #e2e2e2;
+	border-bottom: 1px solid #e2e2e2;	
+}
+.m_block > div:first-child {
+	border-bottom-width: 0;
+	padding-bottom: 0;
+	padding: 10px 10px 0;
+}
+.m_block > div:first-child [class*="container"] {
+	margin-bottom: 0;
+}
+div.tags {
+	border-top-width: 0;
+	border-bottom-width: 0;
+	margin: 0;
+	padding: 0 10px;
+}
+div.buttons {
+	border-top-width: 0;
+	margin: 0;
+	text-align: center;
+	padding: 10px;
+}
+
+.activity_list {
+	margin-top: 10px;
+}
+.tags a {
+	margin-right: 5px;
+}
