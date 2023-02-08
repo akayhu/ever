@@ -1,0 +1,275 @@
+{
+  "PC": {
+    "response": {
+      "content": [
+        {
+          "id": 1,
+          "name": "人力銀行C主網",
+          "url": "https://www.104.com.tw/",
+          "device": "PC",
+          "status": true,
+          "sort": null,
+          "channelCount": 14
+        },
+        {
+          "id": 4,
+          "name": "人力銀行B主網",
+          "url": "",
+          "device": "PC",
+          "status": true,
+          "sort": null,
+          "channelCount": 1
+        },
+        {
+          "id": 5,
+          "name": "工程測試用網站",
+          "url": null,
+          "device": "PC",
+          "status": true,
+          "sort": null,
+          "channelCount": 2
+        },
+        {
+          "id": 135,
+          "name": "e2e測試網站",
+          "url": "https://www.e2etest.com.tw",
+          "device": "PC",
+          "status": true,
+          "sort": null,
+          "channelCount": 1
+        },
+        {
+          "id": 6,
+          "name": "VM測試",
+          "url": "",
+          "device": "PC",
+          "status": true,
+          "sort": null,
+          "channelCount": 1
+        },
+        {
+          "id": 14,
+          "name": "行雲流水",
+          "url": null,
+          "device": "PC",
+          "status": true,
+          "sort": null,
+          "channelCount": 1
+        },
+        {
+          "id": 40,
+          "name": "QA測試",
+          "url": "",
+          "device": "PC",
+          "status": true,
+          "sort": null,
+          "channelCount": 1
+        },
+        {
+          "id": 102,
+          "name": "Victor測試",
+          "url": "",
+          "device": "PC",
+          "status": true,
+          "sort": null,
+          "channelCount": 1
+        },
+        {
+          "id": 134,
+          "name": "max test",
+          "url": null,
+          "device": "PC",
+          "status": true,
+          "sort": null,
+          "channelCount": 1
+        }
+      ],
+      "totalPages": 1,
+      "totalElements": 8,
+      "last": false,
+      "size": 100,
+      "page": 1,
+      "numberOfElements": 8
+    }
+  },
+  "APP": {
+    "response": {
+      "content": [
+        {
+          "id": 3,
+          "name": "工作快找",
+          "url": "",
+          "device": "APP",
+          "status": true,
+          "sort": null,
+          "channelCount": 31
+        },
+        {
+          "id": 10,
+          "name": "給VM測試",
+          "url": "",
+          "device": "APP",
+          "status": true,
+          "sort": null,
+          "channelCount": 1
+        },
+        {
+          "id": 115,
+          "name": "z3",
+          "url": "",
+          "device": "APP",
+          "status": true,
+          "sort": null,
+          "channelCount": 1
+        },
+        {
+          "id": 132,
+          "name": "z123123",
+          "url": "",
+          "device": "APP",
+          "status": true,
+          "sort": null,
+          "channelCount": 1
+        }
+      ],
+      "totalPages": 1,
+      "totalElements": 4,
+      "last": false,
+      "size": 100,
+      "page": 1,
+      "numberOfElements": 4
+    }
+  },
+  "MOBILE": {
+    "response": {
+      "content": [
+        {
+          "id": 2,
+          "name": "人力銀行C主網",
+          "url": "https://m.104.com.tw",
+          "device": "MOBILE",
+          "status": true,
+          "sort": null,
+          "channelCount": 5
+        },
+        {
+          "id": 20,
+          "name": "優質男孩",
+          "url": null,
+          "device": "MOBILE",
+          "status": true,
+          "sort": null,
+          "channelCount": 1
+        },
+        {
+          "id": 21,
+          "name": "test2",
+          "url": null,
+          "device": "MOBILE",
+          "status": true,
+          "sort": null,
+          "channelCount": 1
+        }
+      ],
+      "totalPages": 1,
+      "totalElements": 3,
+      "last": false,
+      "size": 100,
+      "page": 1,
+      "numberOfElements": 3
+    }
+  },
+  "weblistSearchPcAllSite": {
+    "response": {
+      "content": [
+        {
+          "id": 135,
+          "name": "e2e測試網站",
+          "url": "https://www.e2etest.com.tw",
+          "device": "PC",
+          "status": true,
+          "sort": null,
+          "channelCount": 1
+        },
+        {
+          "id": 1,
+          "name": "人力銀行C主網",
+          "url": "https://www.104.com.tw/",
+          "device": "PC",
+          "status": true,
+          "sort": null,
+          "channelCount": 14
+        },
+        {
+          "id": 4,
+          "name": "人力銀行B主網",
+          "url": "",
+          "device": "PC",
+          "status": true,
+          "sort": null,
+          "channelCount": 1
+        },
+        {
+          "id": 5,
+          "name": "工程測試用網站",
+          "url": null,
+          "device": "PC",
+          "status": true,
+          "sort": null,
+          "channelCount": 2
+        },
+        {
+          "id": 6,
+          "name": "VM測試",
+          "url": "",
+          "device": "PC",
+          "status": true,
+          "sort": null,
+          "channelCount": 1
+        },
+        {
+          "id": 14,
+          "name": "行雲流水",
+          "url": null,
+          "device": "PC",
+          "status": true,
+          "sort": null,
+          "channelCount": 1
+        },
+        {
+          "id": 40,
+          "name": "QA測試",
+          "url": "",
+          "device": "PC",
+          "status": true,
+          "sort": null,
+          "channelCount": 1
+        },
+        {
+          "id": 102,
+          "name": "Victor測試",
+          "url": "",
+          "device": "PC",
+          "status": true,
+          "sort": null,
+          "channelCount": 1
+        },
+        {
+          "id": 134,
+          "name": "max test",
+          "url": null,
+          "device": "PC",
+          "status": true,
+          "sort": null,
+          "channelCount": 1
+        }
+      ],
+      "totalPages": 1,
+      "totalElements": 8,
+      "last": false,
+      "size": 100,
+      "page": 1,
+      "numberOfElements": 8
+    }
+  }
+}

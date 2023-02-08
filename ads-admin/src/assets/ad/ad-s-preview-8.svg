@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="240" height="170" viewBox="0 0 240 170">
+    <defs>
+        <path id="kggzoqp7pa" d="M0 0H240V170H0z"/>
+        <mask id="cvuhenmmsb" width="240" height="170" x="0" y="0" fill="#fff" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox">
+            <use xlink:href="#kggzoqp7pa"/>
+        </mask>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <use fill="#FFF" stroke="#E2E1E1" stroke-dasharray="6" stroke-width="2" mask="url(#cvuhenmmsb)" xlink:href="#kggzoqp7pa"/>
+        <g font-family="MicrosoftJhengHeiBold, Microsoft JhengHei" font-size="12" font-weight="bold" letter-spacing="1.5">
+            <text fill="#A9A9A9" transform="translate(20 69)">
+                <tspan x="0" y="13">文字一（範例）文字一（範例）</tspan>
+            </text>
+            <text fill="#2D2D2D" transform="translate(20 69)">
+                <tspan x="0" y="43">小標題</tspan>
+            </text>
+            <text fill="#A9A9A9" transform="translate(20 69)">
+                <tspan x="48" y="43">文字二（範例）文字二</tspan>
+            </text>
+        </g>
+        <text fill="#2D2D2D" font-family="MicrosoftJhengHeiBold, Microsoft JhengHei" font-size="16" font-weight="bold" letter-spacing="1.38">
+            <tspan x="20" y="58">標題</tspan>
+        </text>
+    </g>
+</svg>

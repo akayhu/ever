@@ -1,0 +1,52 @@
+{
+  "productSearchBoard": {
+    "response": [
+      {
+        "id": 376,
+        "channelId": 162,
+        "channelName": "Akay測試頻道22",
+        "siteId": 5,
+        "siteName": "工程測試用網站",
+        "device": "PC",
+        "name": "型態 28 test",
+        "url": null,
+        "conditionId": 15,
+        "snapshot": false,
+        "typeId": 28,
+        "style": "型態 28",
+        "responseTypeTemplateDetail": null,
+        "reserve": 1,
+        "lowerLimit": 1,
+        "upperLimit": 1,
+        "promotion": true,
+        "status": true,
+        "associateWithProduct": null,
+        "canDelete": null,
+        "sort": 90101010
+      },
+      {
+        "id": 413,
+        "channelId": 162,
+        "channelName": "Akay測試頻道22",
+        "siteId": 5,
+        "siteName": "工程測試用網站",
+        "device": "PC",
+        "name": "test",
+        "url": null,
+        "conditionId": 0,
+        "snapshot": true,
+        "typeId": 2,
+        "style": "",
+        "responseTypeTemplateDetail": null,
+        "reserve": 1,
+        "lowerLimit": 1,
+        "upperLimit": 2,
+        "promotion": false,
+        "status": true,
+        "associateWithProduct": null,
+        "canDelete": null,
+        "sort": 1111111
+      }
+    ]
+  }
+}

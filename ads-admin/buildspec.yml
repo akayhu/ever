@@ -1,0 +1,25 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 14.x
+    commands:
+      - apt-get update -y
+      - apt-get install -qqy fonts-arphic-ukai fonts-arphic-uming fonts-ipafont-mincho fonts-ipafont-gothic fonts-unfonts-core fonts-wqy-zenhei
+      - npm install -g yarn
+  pre_build:
+    commands:
+      - yarn install
+  build:
+    commands:
+      - yarn build:${ENV}
+      - if [ ${ENV} = "lab" ]; then
+        yarn test:e2e:ci-run;
+        yarn build-storybook -o ./dist/storybook;
+        fi
+  post_build:
+    commands:
+      - aws s3 rm --recursive s3://${DEPLOY_BUCKET_NAME} --exclude "ads-component/*"
+      - aws s3 sync dist s3://${DEPLOY_BUCKET_NAME} --region=ap-northeast-1
+      - aws cloudfront create-invalidation --distribution-id ${CLOUDFRONT_ADSMART_ADMIN_DISTRIBUTION_ID} --paths '/*'

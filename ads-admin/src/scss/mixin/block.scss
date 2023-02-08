@@ -1,0 +1,42 @@
+@import "~scss/component/variables";
+
+//區塊設定
+@mixin block-template($paddingX:0,$paddingY:0) {
+    border-radius: 8px;
+    border: solid 1px #e2e1e1;
+    background-color: #fff;
+    padding: $paddingX $paddingY;
+}
+
+
+//字體設定
+
+$fontSizeLetterSpacing :(
+    12px:1.5px,
+    14px:1.43px,
+    16px:1.38px,
+    18px:1px,
+    20px:1.4px,
+    22px:0.92px,
+    28px:1.36px
+);
+
+$fontSizeLineHeight:(
+    12px:18px,
+    14px:20px,
+    16px:22px,
+    18px:24px,
+    20px:28px,
+    22px:30px,
+    24px:32px,
+    28px:38px
+);
+
+
+@mixin font-common($fontSize,$fontWeight:$font-weight-normal,$color:#333){
+    font-size: $fontSize;
+    font-weight: $fontWeight;
+    line-height: map-get($fontSizeLineHeight,$fontSize);
+    letter-spacing: map-get($fontSizeLetterSpacing, $fontSize);
+    color:$color;
+}

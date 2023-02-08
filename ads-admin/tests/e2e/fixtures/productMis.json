@@ -1,0 +1,84 @@
+{
+  "response": [
+    {
+      "productCode": "MISC1030000020",
+      "name": "人力銀行主網/首頁/黃金大版位(圖)",
+      "status": true
+    },
+    {
+      "productCode": "MISC1030000021",
+      "name": "人力銀行主網/首頁/黃金大版位(影音)",
+      "status": true
+    },
+    {
+      "productCode": "MISC1030000069",
+      "name": "人力銀行主網/主動應徵頁/黃金大版位",
+      "status": true
+    },
+    {
+      "productCode": "MISC1030000112",
+      "name": "人力銀行主網/新首頁/黃金大版位",
+      "status": true
+    },
+    {
+      "productCode": "MISC1030000135",
+      "name": "人力銀行主網/分眾銀行/左側黃金大版位",
+      "status": true
+    },
+    {
+      "productCode": "MISC1100000016",
+      "name": "人力銀行主網/新首頁/黃金大版位+相似工作頁+相似公司頁/上方橫幅Banner",
+      "status": true
+    },
+    {
+      "productCode": "MISC1100000190",
+      "name": "人力銀行主網/2012C首頁/黃金大版位(天)(15萬)",
+      "status": true
+    },
+    {
+      "productCode": "MISC1100000196",
+      "name": "人力銀行主網/2012C首頁/黃金大版位(15萬)",
+      "status": true
+    },
+    {
+      "productCode": "MISC1100000236",
+      "name": "人力銀行主網/C首頁(2018)/黃金大版位",
+      "status": true
+    },
+    {
+      "productCode": "MISC1100000249",
+      "name": "人力銀行主網/C首頁(2018)/黃金大版位[天]",
+      "status": true
+    },
+    {
+      "productCode": "MISC1100000282",
+      "name": "人力銀行主網/C首頁(2018)/黃金大版位(10萬)",
+      "status": true
+    },
+    {
+      "productCode": "MISC1100000283",
+      "name": "人力銀行主網/C首頁(2018)/黃金大版位[天](10萬)",
+      "status": true
+    },
+    {
+      "productCode": "MISC1100000340",
+      "name": "(0牌價)人力銀行主網/學生專業首頁/黃金大版位[天]",
+      "status": true
+    },
+    {
+      "productCode": "MISC1100000350",
+      "name": "(0牌價)人力銀行主網/學生專業首頁/黃金大版位",
+      "status": true
+    },
+    {
+      "productCode": "MISC2010000023",
+      "name": "首頁-黃金大版位",
+      "status": true
+    },
+    {
+      "productCode": "MISC2020000016",
+      "name": "家教網全站黃金大版位260*210",
+      "status": true
+    }
+  ]
+}

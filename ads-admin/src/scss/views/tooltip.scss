@@ -1,0 +1,279 @@
+@import "~@/scss/component/variables";
+@import "~@/scss/mixin/mixin";
+
+$arrow-right-config: (
+  "right-start": (
+    top: 4px
+  ),
+  "right-end": (
+    top: auto,
+    bottom: 4px
+  ),
+  "right": (
+    top: calc(50% - 6px)
+  ),
+);
+
+$arrow-left-config: (
+  "left-start": (
+    top: 4px
+  ),
+  "left-end": (
+    top: auto,
+    bottom: 4px
+  ),
+  "left": (
+    top: calc(50% - 6px)
+  ),
+);
+
+$arrow-top-config: (
+  "top-start": (
+    left: 4px
+  ),
+  "top-end": (
+    left: auto,
+    right: 4px
+  ),
+  "top": (
+    left: calc(50% - 8px)
+  ),
+);
+
+$arrow-bottom-config: (
+  "bottom-start": (
+    left: 4px
+  ),
+  "bottom-end": (
+    left: auto,
+    right: 4px
+  ),
+  "bottom": (
+    left: calc(50% - 8px)
+  ),
+);
+
+.tooltip {
+  display: block !important;
+  z-index: 2000;
+  font-size: 14px;
+
+  .tooltip-inner {
+    background: $gray-900;
+    color: $white;
+    border-radius: 4px;
+    padding: 6px 12px;
+    text-align: left;
+    line-height: 20px;
+    max-width: 480px;
+
+    a {
+      color: $white;
+      text-decoration: underline;
+    }
+  }
+
+  .tooltip-arrow {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    position: absolute;
+    z-index: 1;
+  }
+
+  @each $key, $val in $arrow-left-config {
+    &[x-placement$="#{$key}"] {
+      padding-right: 8px;
+  
+      .tooltip-arrow {
+        border-width: 6px 0 6px 8px;
+        border-top-color: transparent !important;
+        border-right-color: transparent !important;
+        border-bottom-color: transparent !important;
+        right: 0;
+        @each $nestedKey, $nestedVal in $val {
+          #{$nestedKey} : #{$nestedVal} !important
+        }
+      }
+    }
+  }
+
+  @each $key, $val in $arrow-right-config {
+    &[x-placement$="#{$key}"] {
+      padding-left: 8px;
+  
+      .tooltip-arrow {
+        border-width: 6px 8px 6px 0;
+        border-left-color: transparent !important;
+        border-top-color: transparent !important;
+        border-bottom-color: transparent !important;
+        left: 0 ;
+        @each $nestedKey, $nestedVal in $val {
+           #{$nestedKey} : #{$nestedVal} !important
+        }
+      }
+    }
+  }
+
+  @each $key, $val in $arrow-bottom-config {
+    &[x-placement$="#{$key}"] {
+      padding-top: 8px;
+  
+      .tooltip-arrow {
+        border-width: 0 6px 8px 6px;
+        border-left-color: transparent !important;
+        border-right-color: transparent !important;
+        border-top-color: transparent !important;
+        top: 0;
+        @each $nestedKey, $nestedVal in $val {
+           #{$nestedKey} : #{$nestedVal} !important
+        }
+      }
+    }
+  }
+
+  @each $key, $val in $arrow-top-config {
+    &[x-placement$="#{$key}"] {
+      padding-bottom: 8px;
+  
+      .tooltip-arrow {
+        border-width: 8px 6px 0 6px;
+        border-left-color: transparent !important;
+        border-right-color: transparent !important;
+        border-bottom-color: transparent !important;
+        bottom: 0;
+        @each $nestedKey, $nestedVal in $val {
+           #{$nestedKey} : #{$nestedVal} !important
+        }
+      }
+    }
+  }
+
+  &.popover {
+    border: none;
+  }
+
+  &[aria-hidden='true'] {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .35s, visibility .35s;
+  }
+
+  &[aria-hidden='false'] {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity .35s;
+  }
+
+  &.left {
+    .tooltip-inner {
+      background-color: $white;
+    }
+    .tooltip-arrow {
+      background-color: $white;
+    }
+    &[x-placement*="top"] {
+      .tooltip-inner {
+        box-shadow: 0px 1px 5px 1px $gray-600;
+      }
+      .tooltip-arrow {
+        box-shadow: 3px 3px 3px -1px $gray-600;
+      }
+    }
+    &[x-placement*="bottom"] {
+      .tooltip-inner {
+        box-shadow: 0px 1px 5px 1px $gray-600;
+      }
+      .tooltip-arrow {
+        box-shadow: -2px -2px 3px -1px $gray-600;
+      }
+    }
+    &[x-placement*="left"] {
+      .tooltip-inner {
+        box-shadow: 0px 1px 5px 1px $gray-600;
+      }
+      .tooltip-arrow {
+        box-shadow: 3px -2px 3px -1px $gray-600;
+      }
+    }
+    &[x-placement*="right"] {
+      .tooltip-inner {
+        box-shadow: 0px 1px 5px 1px $gray-600;
+      }
+      .tooltip-arrow {
+        box-shadow: -2px 2px 3px -1px $gray-600;
+      }
+    }
+  }
+
+  &.info {
+    $color: white;
+
+    .tooltip-inner {
+      background: $color;
+      box-shadow: 0px 1px 5px 1px #a9a9a9;
+      color: $color;
+      border-radius: 5px;
+      padding: 24px;
+      max-width: 758px;
+    }
+
+    .tooltip-arrow {
+      border-color: $color;
+      
+    }
+  }
+}
+
+.source_panel {
+  .title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    line-height: 1.4;
+    letter-spacing: 1.4px;
+    margin-bottom: 20px;
+  }
+
+  table {
+    thead {
+      td {
+        color: #000;
+        font-size: 16px;
+        font-weight: bold;
+        padding-bottom: 12px;
+      }
+    }
+
+    tbody {
+      td {
+        color: #333;
+        font-size: 14px;
+      }
+    }
+
+    tr {
+      border-bottom: 1px solid #ddd;
+    }
+
+    td {
+      padding: 12px;
+      line-height: 1.43;
+      letter-spacing: 1.43px;
+
+      &:nth-child(1) {
+        width: 117px;
+      }
+      &:nth-child(2) {
+        width: 255px;
+      }
+      &:nth-child(3) {
+        width: 331px;
+      }
+    }
+  }
+}
+
+.v-popper__inner{
+  font-size: 14px;
+}

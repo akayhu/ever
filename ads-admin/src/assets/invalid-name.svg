@@ -1,0 +1,753 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="830" height="1350" viewBox="0 0 830 1350">
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <path fill="#F0F0F0" d="M0 0H830V78H0z" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53)"/>
+                        <g fill="#F0F0F0">
+                            <path fill-opacity=".3" d="M0 0H830V197H0z" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(0 1152)"/>
+                            <path d="M0 0H48V197H0z" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(0 1152)"/>
+                        </g>
+                        <g>
+                            <path fill="#C4FFE6" fill-opacity=".2" d="M0 0H409V334H0z" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(0 79)"/>
+                            <path fill="#C4FFE6" fill-opacity=".3" d="M0 0H347V334H0z" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(0 79)"/>
+                            <path fill="#C4FFE6" fill-opacity=".7" d="M0 0H167V334H0z" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(0 79)"/>
+                            <path fill="#B2FFDE" d="M0 0H48V334H0z" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(0 79)"/>
+                        </g>
+                        <g>
+                            <path fill="#E0FCFD" fill-opacity=".2" d="M0 0H409V739H0z" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(0 413)"/>
+                            <path fill="#E0FCFD" fill-opacity=".3" d="M0 0H347V739H0z" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(0 413)"/>
+                            <path fill="#E0FCFD" d="M0 0H167V739H0z" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(0 413)"/>
+                            <path fill="#BEF3F6" d="M0 0H48V739H0z" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(0 413)"/>
+                        </g>
+                        <g>
+                            <path fill="#A9A9A9" d="M0 0H1V1074H0z" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(166 78) matrix(-1 0 0 1 1 0)"/>
+                            <path fill="#DDD" d="M301 0H302V1074H301zM361 0H362V1074H361zM481 0H482V1074H481zM543 0H544V1074H543zM603 0H604V1074H603z" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(166 78)"/>
+                        </g>
+                        <g fill="#A9A9A9">
+                            <path d="M829 0H830V1350H829zM48 0H49V1350H48zM0 0H1V1350H0z" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53)"/>
+                        </g>
+                        <g fill="#A9A9A9">
+                            <path d="M0 0H1V1152H0zM241 0H242V1152H241zM63 0H64V1152H63z" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(346)"/>
+                        </g>
+                        <g>
+                            <path fill="#A9A9A9" d="M49 626H830V627H49zM0 334H830V335H0zM0 0H830V1H0zM0 1073H830V1074H0z" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(0 78)"/>
+                            <path fill="#DDD" d="M166 748H830V749H166z" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(0 78)"/>
+                            <path fill="#A9A9A9" d="M49 896H830V897H49z" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(0 78)"/>
+                        </g>
+                        <g fill="#DDD">
+                            <path d="M166 37H830V38H166z" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(0 116)"/>
+                            <path d="M166 466H830V467H166z" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(0 116) matrix(1 0 0 -1 0 933)"/>
+                            <path d="M166 111H830V112H166zM166 185H830V186H166zM166 259H830V260H166zM166 784H830V785H166zM166 960H830V961H166z" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(0 116)"/>
+                            <g>
+                                <path d="M0 625H483V626H0z" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(0 116) translate(347)"/>
+                                <path d="M0 895H483V896H0z" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(0 116) translate(347) matrix(1 0 0 -1 0 1791)"/>
+                                <path d="M0 381H483V382H0z" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(0 116) translate(347) matrix(1 0 0 -1 0 763)"/>
+                                <path d="M0 503H483V504H0z" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(0 116) translate(347) matrix(1 0 0 -1 0 1007)"/>
+                                <path d="M0 0H483V1H0zM0 74H483V75H0z" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(0 116) translate(347)"/>
+                                <path d="M0 148H483V149H0z" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(0 116) translate(347) matrix(1 0 0 -1 0 297)"/>
+                                <path d="M0 821H483V822H0z" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(0 116) translate(347) matrix(1 0 0 -1 0 1643)"/>
+                                <path d="M0 747H483V748H0z" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(0 116) translate(347) matrix(1 0 0 -1 0 1495)"/>
+                            </g>
+                            <path d="M166 997H830V998H166z" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(0 116) matrix(1 0 0 -1 0 1995)"/>
+                        </g>
+                        <path fill="#A9A9A9" d="M0 1349H830V1350H0z" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53)"/>
+                        <path fill="#DDD" d="M347 337H830V338H347z" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) matrix(1 0 0 -1 0 675)"/>
+                        <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53)">
+                            <tspan x="359" y="103">View</tspan>
+                        </text>
+                        <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53)">
+                            <tspan x="359" y="140">Edit</tspan>
+                        </text>
+                        <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53)">
+                            <tspan x="359" y="177">View</tspan>
+                        </text>
+                        <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53)">
+                            <tspan x="359" y="214">Edit</tspan>
+                        </text>
+                        <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53)">
+                            <tspan x="359" y="251">View</tspan>
+                        </text>
+                        <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53)">
+                            <tspan x="359" y="288">Edit</tspan>
+                        </text>
+                        <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53)">
+                            <tspan x="359" y="325">View</tspan>
+                        </text>
+                        <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53)">
+                            <tspan x="359" y="362">Edit</tspan>
+                        </text>
+                        <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53)">
+                            <tspan x="359" y="399">link</tspan>
+                        </text>
+                        <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53)">
+                            <tspan x="359" y="460">View</tspan>
+                        </text>
+                        <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53)">
+                            <tspan x="359" y="606">View</tspan>
+                        </text>
+                        <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53)">
+                            <tspan x="359" y="555">Edit</tspan>
+                        </text>
+                        <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53)">
+                            <tspan x="359" y="728">View</tspan>
+                        </text>
+                        <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53)">
+                            <tspan x="359" y="677">Edit</tspan>
+                        </text>
+                        <g>
+                            <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 421)">
+                                <tspan x="178.882" y="43">*4</tspan> <tspan x="168.224" y="63">*銷售</tspan>
+                            </text>
+                            <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 421)">
+                                <tspan x="118.882" y="43">*4</tspan>
+                            </text>
+                            <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 421)">
+                                <tspan x="59.382" y="43">*4</tspan>
+                            </text>
+                            <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 421)">
+                                <tspan x="1.382" y="43">*4</tspan>
+                            </text>
+                            <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 421)">
+                                <tspan x="240.882" y="43">*4</tspan> <tspan x="230.224" y="63">*銷售</tspan>
+                            </text>
+                            <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 421)">
+                                <tspan x="300.882" y="43">*4</tspan> <tspan x="290.224" y="63">*銷售</tspan>
+                            </text>
+                            <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 421)">
+                                <tspan x="360.882" y="43">*4</tspan> <tspan x="350.224" y="63">*銷售</tspan>
+                            </text>
+                            <g stroke="#00AFB8" stroke-linecap="round" stroke-linejoin="round">
+                                <g>
+                                    <g>
+                                        <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 421) translate(240)"/>
+                                        <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 421) translate(240)"/>
+                                    </g>
+                                    <g>
+                                        <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 421) translate(360)"/>
+                                        <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 421) translate(360)"/>
+                                    </g>
+                                    <g>
+                                        <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 421) translate(178)"/>
+                                        <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 421) translate(178)"/>
+                                    </g>
+                                    <g>
+                                        <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 421) translate(118)"/>
+                                        <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 421) translate(118)"/>
+                                    </g>
+                                    <g>
+                                        <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 421) translate(58)"/>
+                                        <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 421) translate(58)"/>
+                                    </g>
+                                    <g>
+                                        <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 421)"/>
+                                        <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 421)"/>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                        <g stroke="#00AFB8" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(730 421)"/>
+                            <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(730 421)"/>
+                        </g>
+                        <g>
+                            <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(420 506)">
+                                <tspan x="10.882" y="43">*3</tspan> <tspan x=".224" y="63">*行銷</tspan>
+                            </text>
+                            <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(420 506)">
+                                <tspan x="68.882" y="43">*2</tspan> <tspan x="58.224" y="63">*行銷</tspan>
+                            </text>
+                            <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(420 506)">
+                                <tspan x="118.299" y="43">*3 *4</tspan> <tspan x="118.724" y="63">*行銷</tspan>
+                            </text>
+                            <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(420 506)">
+                                <tspan x="188.882" y="43">*2</tspan> <tspan x="178.224" y="63">*銷售</tspan>
+                            </text>
+                            <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(420 506)">
+                                <tspan x="300.299" y="43">*3 *4</tspan> <tspan x="300.724" y="63">*銷售</tspan>
+                            </text>
+                            <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(420 506)">
+                                <tspan x="370.882" y="43">*3</tspan> <tspan x="360.224" y="63">*銷售</tspan>
+                            </text>
+                            <g stroke="#00AFB8" stroke-linecap="round" stroke-linejoin="round">
+                                <g>
+                                    <g>
+                                        <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(420 506) translate(10) translate(360)"/>
+                                        <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(420 506) translate(10) translate(360)"/>
+                                    </g>
+                                    <g>
+                                        <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(420 506) translate(10) translate(300)"/>
+                                        <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(420 506) translate(10) translate(300)"/>
+                                    </g>
+                                    <g>
+                                        <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(420 506) translate(10) translate(178)"/>
+                                        <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(420 506) translate(10) translate(178)"/>
+                                    </g>
+                                    <g>
+                                        <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(420 506) translate(10) translate(118)"/>
+                                        <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(420 506) translate(10) translate(118)"/>
+                                    </g>
+                                    <g>
+                                        <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(420 506) translate(10) translate(58)"/>
+                                        <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(420 506) translate(10) translate(58)"/>
+                                    </g>
+                                    <g>
+                                        <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(420 506) translate(10)"/>
+                                        <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(420 506) translate(10)"/>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                        <g>
+                            <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(420 628)">
+                                <tspan x="10.882" y="43">*3</tspan> <tspan x=".224" y="63">*行銷</tspan>
+                            </text>
+                            <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(420 628)">
+                                <tspan x="68.882" y="43">*2</tspan> <tspan x="58.224" y="63">*行銷</tspan>
+                            </text>
+                            <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(420 628)">
+                                <tspan x="118.299" y="43">*3 *4</tspan> <tspan x="118.724" y="63">*行銷</tspan>
+                            </text>
+                            <g stroke="#00AFB8" stroke-linecap="round" stroke-linejoin="round">
+                                <g>
+                                    <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(420 628) translate(10) translate(178)"/>
+                                    <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(420 628) translate(10) translate(178)"/>
+                                </g>
+                                <g>
+                                    <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(420 628) translate(10) translate(118)"/>
+                                    <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(420 628) translate(10) translate(118)"/>
+                                </g>
+                                <g>
+                                    <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(420 628) translate(10) translate(360)"/>
+                                    <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(420 628) translate(10) translate(360)"/>
+                                </g>
+                                <g>
+                                    <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(420 628) translate(10) translate(300)"/>
+                                    <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(420 628) translate(10) translate(300)"/>
+                                </g>
+                                <g>
+                                    <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(420 628) translate(10) translate(58)"/>
+                                    <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(420 628) translate(10) translate(58)"/>
+                                </g>
+                                <g>
+                                    <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(420 628) translate(10)"/>
+                                    <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(420 628) translate(10)"/>
+                                </g>
+                            </g>
+                            <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(420 628)">
+                                <tspan x="188.882" y="43">*2</tspan> <tspan x="178.224" y="63">*銷售</tspan>
+                            </text>
+                            <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(420 628)">
+                                <tspan x="300.299" y="43">*3 *4</tspan> <tspan x="300.724" y="63">*銷售</tspan>
+                            </text>
+                            <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(420 628)">
+                                <tspan x="370.882" y="43">*3</tspan> <tspan x="360.224" y="63">*銷售</tspan>
+                            </text>
+                        </g>
+                        <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53)">
+                            <tspan x="359" y="789">Edit</tspan>
+                        </text>
+                        <g>
+                            <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 750)">
+                                <tspan x="1" y="43">*3</tspan>
+                            </text>
+                            <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 750)">
+                                <tspan x="58.882" y="43">*3</tspan> <tspan x="48.224" y="63">*行銷</tspan>
+                            </text>
+                            <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 750)">
+                                <tspan x="119" y="43">*3</tspan>
+                            </text>
+                            <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 750)">
+                                <tspan x="178.882" y="43">*2</tspan> <tspan x="168.224" y="63">*銷售</tspan>
+                            </text>
+                            <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 750)">
+                                <tspan x="241" y="43">*3</tspan>
+                            </text>
+                            <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 750)">
+                                <tspan x="301" y="43">*3</tspan>
+                            </text>
+                            <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 750)">
+                                <tspan x="361" y="43">*3</tspan>
+                            </text>
+                            <g stroke="#00AFB8" stroke-linecap="round" stroke-linejoin="round">
+                                <g>
+                                    <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 750) translate(240)"/>
+                                    <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 750) translate(240)"/>
+                                </g>
+                                <g>
+                                    <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 750) translate(178)"/>
+                                    <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 750) translate(178)"/>
+                                </g>
+                                <g>
+                                    <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 750) translate(118)"/>
+                                    <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 750) translate(118)"/>
+                                </g>
+                                <g>
+                                    <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 750) translate(360)"/>
+                                    <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 750) translate(360)"/>
+                                </g>
+                                <g>
+                                    <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 750) translate(300)"/>
+                                    <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 750) translate(300)"/>
+                                </g>
+                                <g>
+                                    <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 750) translate(58)"/>
+                                    <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 750) translate(58)"/>
+                                </g>
+                                <g>
+                                    <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 750)"/>
+                                    <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 750)"/>
+                                </g>
+                            </g>
+                        </g>
+                        <g>
+                            <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(488 1020)">
+                                <tspan x="1" y="43">*2</tspan>
+                            </text>
+                            <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(488 1020)">
+                                <tspan x="61" y="43">*2</tspan>
+                            </text>
+                            <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(488 1020)">
+                                <tspan x="121" y="43">*2</tspan>
+                            </text>
+                            <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(488 1020)">
+                                <tspan x="183" y="43">*3</tspan>
+                            </text>
+                            <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(488 1020)">
+                                <tspan x="243" y="43">*3</tspan>
+                            </text>
+                            <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(488 1020)">
+                                <tspan x="303" y="43">*3</tspan>
+                            </text>
+                            <g stroke="#00AFB8" stroke-linecap="round" stroke-linejoin="round">
+                                <g>
+                                    <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(488 1020) translate(182)"/>
+                                    <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(488 1020) translate(182)"/>
+                                </g>
+                                <g>
+                                    <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(488 1020) translate(120)"/>
+                                    <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(488 1020) translate(120)"/>
+                                </g>
+                                <g>
+                                    <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(488 1020) translate(60)"/>
+                                    <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(488 1020) translate(60)"/>
+                                </g>
+                                <g>
+                                    <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(488 1020) translate(302)"/>
+                                    <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(488 1020) translate(302)"/>
+                                </g>
+                                <g>
+                                    <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(488 1020) translate(242)"/>
+                                    <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(488 1020) translate(242)"/>
+                                </g>
+                                <g>
+                                    <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(488 1020)"/>
+                                    <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(488 1020)"/>
+                                </g>
+                            </g>
+                        </g>
+                        <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53)">
+                            <tspan x="359" y="850">View</tspan>
+                        </text>
+                        <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53)">
+                            <tspan x="359" y="887">Edit</tspan>
+                        </text>
+                        <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53)">
+                            <tspan x="61" y="267">廣告元件管理</tspan>
+                        </text>
+                        <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53)">
+                            <tspan x="61" y="564">檔期預約管理</tspan>
+                        </text>
+                        <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53)">
+                            <tspan x="61" y="845">廣告上刊管理</tspan>
+                        </text>
+                        <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53)">
+                            <tspan x="61" y="1068">報表查詢</tspan>
+                        </text>
+                        <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53)">
+                            <tspan x="57" y="1175">*行銷 : 只能修改、新增、刪除行銷版位</tspan> <tspan x="57" y="1195">*銷售 : 只能修改、新增、刪除銷售版位</tspan> <tspan x="57" y="1215">*2 : 只能編輯自己的</tspan> <tspan x="57" y="1235">*3：可以編輯自己跟其他人的</tspan> <tspan x="57" y="1255">*4：特殊權限，說明如下</tspan> <tspan x="57" y="1275"> 4.1 檔期行事曆 : 可看到「已拉cue」、「已上素材」、「已上線」的狀態</tspan> <tspan x="57" y="1295"> 4.2 可修改專案預約人員</tspan> <tspan x="57" y="1315"> 4.3 可設定專案是否為空版專案</tspan> <tspan x="57" y="1335"> 4.4 可更改專案狀態從「結案-&gt;合約簽回」或「合約簽回-&gt;提案中」</tspan>
+                        </text>
+                        <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53)">
+                            <tspan x="179" y="122">網站管理(含APP)</tspan>
+                        </text>
+                        <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53)">
+                            <tspan x="179" y="196">頻道管理</tspan>
+                        </text>
+                        <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53)">
+                            <tspan x="179" y="270">版位管理</tspan>
+                        </text>
+                        <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53)">
+                            <tspan x="179" y="399">墊檔廣告上傳</tspan>
+                        </text>
+                        <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53)">
+                            <tspan x="179" y="503">檔期行事曆</tspan>
+                        </text>
+                        <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53)">
+                            <tspan x="179" y="649">專案及版位維護</tspan>
+                        </text>
+                        <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53)">
+                            <tspan x="179" y="344">商品與版位關聯管理</tspan>
+                        </text>
+                        <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53)">
+                            <tspan x="179" y="771">上傳素材</tspan>
+                        </text>
+                        <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53)">
+                            <tspan x="179" y="869">緊急上下架</tspan>
+                        </text>
+                        <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53)">
+                            <tspan x="359" y="924">View</tspan>
+                        </text>
+                        <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53)">
+                            <tspan x="359" y="961">Edit</tspan>
+                        </text>
+                        <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53)">
+                            <tspan x="179" y="943">墊檔廣告維護</tspan>
+                        </text>
+                        <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53)">
+                            <tspan x="359" y="1100">View</tspan>
+                        </text>
+                        <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53)">
+                            <tspan x="359" y="1137">View</tspan>
+                        </text>
+                        <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53)">
+                            <tspan x="359" y="998">View</tspan>
+                        </text>
+                        <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53)">
+                            <tspan x="359" y="1049">Edit</tspan>
+                        </text>
+                        <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53)">
+                            <tspan x="179" y="1031">企業資料維護</tspan>
+                        </text>
+                        <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53)">
+                            <tspan x="179" y="1100">企業結案報告</tspan>
+                        </text>
+                        <text fill="#000" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53)">
+                            <tspan x="179" y="1137">成效排行榜</tspan>
+                        </text>
+                        <g stroke="#00AFB8" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(548 88)"/>
+                            <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(548 88)"/>
+                        </g>
+                        <g stroke="#00AFB8" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(488 88)"/>
+                            <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(488 88)"/>
+                        </g>
+                        <g stroke="#00AFB8" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 88)"/>
+                            <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 88)"/>
+                        </g>
+                        <g stroke="#00AFB8" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(548 162)"/>
+                            <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(548 162)"/>
+                        </g>
+                        <g stroke="#00AFB8" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(488 162)"/>
+                            <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(488 162)"/>
+                        </g>
+                        <g stroke="#00AFB8" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 162)"/>
+                            <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 162)"/>
+                        </g>
+                        <g stroke="#00AFB8" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 125)"/>
+                            <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 125)"/>
+                        </g>
+                        <g stroke="#00AFB8" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 199)"/>
+                            <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 199)"/>
+                        </g>
+                        <g stroke="#00AFB8" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(548 236)"/>
+                            <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(548 236)"/>
+                        </g>
+                        <g stroke="#00AFB8" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(488 236)"/>
+                            <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(488 236)"/>
+                        </g>
+                        <g stroke="#00AFB8" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 236)"/>
+                            <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 236)"/>
+                        </g>
+                        <g stroke="#00AFB8" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(548 384)"/>
+                            <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(548 384)"/>
+                        </g>
+                        <g stroke="#00AFB8" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(488 384)"/>
+                            <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(488 384)"/>
+                        </g>
+                        <g stroke="#00AFB8" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 384)"/>
+                            <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 384)"/>
+                        </g>
+                        <g stroke="#00AFB8" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(488 347)"/>
+                            <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(488 347)"/>
+                        </g>
+                        <g stroke="#00AFB8" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(548 310)"/>
+                            <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(548 310)"/>
+                        </g>
+                        <g stroke="#00AFB8" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(488 310)"/>
+                            <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(488 310)"/>
+                        </g>
+                        <g stroke="#00AFB8" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 273)"/>
+                            <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 273)"/>
+                        </g>
+                        <path fill="#A9A9A9" d="M0 0H830V1H0zM588 39H830V40H588z" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53)"/>
+                        <g stroke="#00AFB8" stroke-linecap="round" stroke-linejoin="round">
+                            <g>
+                                <g>
+                                    <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 591) translate(360)"/>
+                                    <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 591) translate(360)"/>
+                                </g>
+                                <g>
+                                    <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 591) translate(300)"/>
+                                    <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 591) translate(300)"/>
+                                </g>
+                                <g>
+                                    <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 591) translate(178)"/>
+                                    <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 591) translate(178)"/>
+                                </g>
+                                <g>
+                                    <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 591) translate(118)"/>
+                                    <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 591) translate(118)"/>
+                                </g>
+                                <g>
+                                    <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 591) translate(58)"/>
+                                    <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 591) translate(58)"/>
+                                </g>
+                                <g>
+                                    <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 591)"/>
+                                    <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 591)"/>
+                                </g>
+                            </g>
+                        </g>
+                        <g stroke="#00AFB8" stroke-linecap="round" stroke-linejoin="round">
+                            <g>
+                                <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 713) translate(240)"/>
+                                <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 713) translate(240)"/>
+                            </g>
+                            <g>
+                                <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 713) translate(178)"/>
+                                <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 713) translate(178)"/>
+                            </g>
+                            <g>
+                                <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 713) translate(118)"/>
+                                <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 713) translate(118)"/>
+                            </g>
+                            <g>
+                                <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 713) translate(360)"/>
+                                <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 713) translate(360)"/>
+                            </g>
+                            <g>
+                                <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 713) translate(300)"/>
+                                <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 713) translate(300)"/>
+                            </g>
+                            <g>
+                                <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 713) translate(58)"/>
+                                <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 713) translate(58)"/>
+                            </g>
+                            <g>
+                                <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 713)"/>
+                                <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 713)"/>
+                            </g>
+                        </g>
+                        <g stroke="#00AFB8" stroke-linecap="round" stroke-linejoin="round">
+                            <g>
+                                <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 983) translate(240)"/>
+                                <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 983) translate(240)"/>
+                            </g>
+                            <g>
+                                <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 983) translate(178)"/>
+                                <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 983) translate(178)"/>
+                            </g>
+                            <g>
+                                <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 983) translate(118)"/>
+                                <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 983) translate(118)"/>
+                            </g>
+                            <g>
+                                <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 983) translate(360)"/>
+                                <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 983) translate(360)"/>
+                            </g>
+                            <g>
+                                <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 983) translate(300)"/>
+                                <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 983) translate(300)"/>
+                            </g>
+                            <g>
+                                <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 983) translate(58)"/>
+                                <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 983) translate(58)"/>
+                            </g>
+                            <g>
+                                <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 983)"/>
+                                <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 983)"/>
+                            </g>
+                        </g>
+                        <g stroke="#00AFB8" stroke-linecap="round" stroke-linejoin="round">
+                            <g>
+                                <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 835) translate(360)"/>
+                                <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 835) translate(360)"/>
+                            </g>
+                            <g>
+                                <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 835) translate(300)"/>
+                                <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 835) translate(300)"/>
+                            </g>
+                            <g>
+                                <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 835) translate(58)"/>
+                                <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 835) translate(58)"/>
+                            </g>
+                            <g>
+                                <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 835)"/>
+                                <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 835)"/>
+                            </g>
+                        </g>
+                        <g stroke="#00AFB8" stroke-linecap="round" stroke-linejoin="round">
+                            <g>
+                                <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 872) translate(360)"/>
+                                <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 872) translate(360)"/>
+                            </g>
+                            <g>
+                                <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 872) translate(300)"/>
+                                <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 872) translate(300)"/>
+                            </g>
+                            <g>
+                                <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 872) translate(58)"/>
+                                <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 872) translate(58)"/>
+                            </g>
+                            <g>
+                                <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 872)"/>
+                                <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 872)"/>
+                            </g>
+                        </g>
+                        <text fill="#000" font-family="MicrosoftJhengHeiBold, Microsoft JhengHei" font-size="14" font-weight="bold" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53)">
+                            <tspan x="9" y="250">後台</tspan>
+                        </text>
+                        <text fill="#000" font-family="MicrosoftJhengHeiBold, Microsoft JhengHei" font-size="14" font-weight="bold" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53)">
+                            <tspan x="9" y="786">前台</tspan>
+                        </text>
+                        <text fill="#000" font-family="MicrosoftJhengHeiBold, Microsoft JhengHei" font-size="14" font-weight="bold" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53)">
+                            <tspan x="8" y="1243">標示</tspan> <tspan x="8" y="1265">說明</tspan>
+                        </text>
+                        <g stroke="#00AFB8" stroke-linecap="round" stroke-linejoin="round">
+                            <g>
+                                <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 909) translate(118)"/>
+                                <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 909) translate(118)"/>
+                            </g>
+                            <g>
+                                <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 909) translate(58)"/>
+                                <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 909) translate(58)"/>
+                            </g>
+                            <g>
+                                <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 909)"/>
+                                <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 909)"/>
+                            </g>
+                        </g>
+                        <g stroke="#00AFB8" stroke-linecap="round" stroke-linejoin="round">
+                            <g>
+                                <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 946) translate(118)"/>
+                                <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 946) translate(118)"/>
+                            </g>
+                            <g>
+                                <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 946) translate(58)"/>
+                                <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 946) translate(58)"/>
+                            </g>
+                            <g>
+                                <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 946)"/>
+                                <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 946)"/>
+                            </g>
+                        </g>
+                        <g stroke="#00AFB8" stroke-linecap="round" stroke-linejoin="round">
+                            <g>
+                                <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(487 1085) translate(182)"/>
+                                <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(487 1085) translate(182)"/>
+                            </g>
+                            <g>
+                                <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(487 1085) translate(120)"/>
+                                <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(487 1085) translate(120)"/>
+                            </g>
+                            <g>
+                                <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(487 1085) translate(60)"/>
+                                <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(487 1085) translate(60)"/>
+                            </g>
+                            <g>
+                                <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(487 1085) translate(303)"/>
+                                <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(487 1085) translate(303)"/>
+                            </g>
+                            <g>
+                                <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(487 1085) translate(242)"/>
+                                <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(487 1085) translate(242)"/>
+                            </g>
+                            <g>
+                                <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(487 1085)"/>
+                                <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(487 1085)"/>
+                            </g>
+                        </g>
+                        <g stroke="#00AFB8" stroke-linecap="round" stroke-linejoin="round">
+                            <g>
+                                <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 1122) translate(239)"/>
+                                <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 1122) translate(239)"/>
+                            </g>
+                            <g>
+                                <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 1122) translate(177)"/>
+                                <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 1122) translate(177)"/>
+                            </g>
+                            <g>
+                                <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 1122) translate(117)"/>
+                                <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 1122) translate(117)"/>
+                            </g>
+                            <g>
+                                <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 1122) translate(360)"/>
+                                <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 1122) translate(360)"/>
+                            </g>
+                            <g>
+                                <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 1122) translate(299)"/>
+                                <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 1122) translate(299)"/>
+                            </g>
+                            <g>
+                                <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 1122) translate(57)"/>
+                                <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 1122) translate(57)"/>
+                            </g>
+                            <g>
+                                <path stroke-width="2.25" d="M18.294 6.695c.407 1.021.631 2.137.631 3.305 0 2.367-.94 4.637-2.614 6.311-1.674 1.674-3.944 2.614-6.311 2.614-4.074 0-7.631-2.76-8.644-6.706C.343 8.272 2.13 4.14 5.702 2.179 9.272.215 13.719.92 16.507 3.89" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 1122)"/>
+                                <path stroke-width="2.5" d="M5.833 10.076L8.69 13.056 14.167 7.5" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53) translate(430 1122)"/>
+                            </g>
+                        </g>
+                        <text fill="#000" font-family="MicrosoftJhengHeiBold, Microsoft JhengHei" font-size="14" font-weight="bold" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53)">
+                            <tspan x="182" y="46">功能</tspan>
+                        </text>
+                        <text fill="#000" font-family="MicrosoftJhengHeiBold, Microsoft JhengHei" font-size="14" font-weight="bold" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53)">
+                            <tspan x="363" y="46">模式</tspan>
+                        </text>
+                        <text fill="#000" font-family="MicrosoftJhengHeiBold, Microsoft JhengHei" font-size="14" font-weight="bold" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53)">
+                            <tspan x="427.246" y="46">PM</tspan>
+                        </text>
+                        <text fill="#000" font-family="MicrosoftJhengHeiBold, Microsoft JhengHei" font-size="14" font-weight="bold" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53)">
+                            <tspan x="484.309" y="46">VM</tspan>
+                        </text>
+                        <text fill="#000" font-family="MicrosoftJhengHeiBold, Microsoft JhengHei" font-size="14" font-weight="bold" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53)">
+                            <tspan x="542.07" y="46">主管</tspan>
+                        </text>
+                        <text fill="#000" font-family="MicrosoftJhengHeiBold, Microsoft JhengHei" font-size="14" font-weight="bold" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53)">
+                            <tspan x="602.07" y="63">業務</tspan>
+                        </text>
+                        <text fill="#000" font-family="MicrosoftJhengHeiBold, Microsoft JhengHei" font-size="14" font-weight="bold" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53)">
+                            <tspan x="664.07" y="63">企劃</tspan>
+                        </text>
+                        <text fill="#000" font-family="MicrosoftJhengHeiBold, Microsoft JhengHei" font-size="14" font-weight="bold" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53)">
+                            <tspan x="724.07" y="63">營運</tspan>
+                        </text>
+                        <text fill="#000" font-family="MicrosoftJhengHeiBold, Microsoft JhengHei" font-size="14" font-weight="bold" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53)">
+                            <tspan x="784.07" y="63">主管</tspan>
+                        </text>
+                        <text fill="#000" font-family="MicrosoftJhengHeiBold, Microsoft JhengHei" font-size="14" font-weight="bold" letter-spacing="1.43" transform="translate(-305 -177) translate(255 100) translate(50 24) translate(0 53)">
+                            <tspan x="693.07" y="24">整招</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

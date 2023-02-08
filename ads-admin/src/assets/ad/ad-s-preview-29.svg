@@ -1,0 +1,19 @@
+<svg width="240" height="170" viewBox="0 0 240 170" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <path id="ouzo617yia" d="M0 0h240v170H0z"/>
+        <mask id="u2xa1fyjib" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="240" height="170" fill="#fff">
+            <use xlink:href="#ouzo617yia"/>
+        </mask>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <use stroke="#E2E1E1" mask="url(#u2xa1fyjib)" stroke-width="2" fill="#FFF" stroke-dasharray="6" xlink:href="#ouzo617yia"/>
+        <g font-family="MicrosoftJhengHeiBold, Microsoft JhengHei" font-weight="bold">
+            <text font-size="12" letter-spacing="1.5" fill="#A9A9A9" transform="translate(20 61)">
+                            <tspan x="0" y="41">文字（範例）文字（範例）</tspan>
+                        </text>
+            <text font-size="16" letter-spacing="1.38" fill="#2D2D2D" transform="translate(20 61)">
+                            <tspan x="0" y="17">標題</tspan>
+                        </text>
+        </g>
+    </g>
+</svg>

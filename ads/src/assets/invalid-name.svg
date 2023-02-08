@@ -1,0 +1,653 @@
+<svg width="830" height="1350" viewBox="0 0 830 1350" xmlns="http://www.w3.org/2000/svg">
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#F0F0F0" d="M0 0h830v78H0z"/>
+        <g fill="#F0F0F0">
+            <path fill-opacity=".3" d="M0 1152h830v197H0z"/>
+            <path d="M0 1152h48v197H0z"/>
+        </g>
+        <path fill-opacity=".2" fill="#C4FFE6" d="M0 79h409v334H0z"/>
+        <path fill-opacity=".3" fill="#C4FFE6" d="M0 79h347v334H0z"/>
+        <path fill-opacity=".7" fill="#C4FFE6" d="M0 79h167v334H0z"/>
+        <path fill="#B2FFDE" d="M0 79h48v334H0z"/>
+        <path fill-opacity=".2" fill="#E0FCFD" d="M0 413h409v739H0z"/>
+        <path fill-opacity=".3" fill="#E0FCFD" d="M0 413h347v739H0z"/>
+        <path fill="#E0FCFD" d="M0 413h167v739H0z"/>
+        <path fill="#BEF3F6" d="M0 413h48v739H0z"/>
+        <path fill="#A9A9A9" d="M167 78h-1v1074h1z"/>
+        <path fill="#DDD" d="M467 78h1v1074h-1zM527 78h1v1074h-1zM647 78h1v1074h-1zM709 78h1v1074h-1zM769 78h1v1074h-1z"/>
+        <g fill="#A9A9A9">
+            <path d="M829 0h1v1350h-1zM48 0h1v1350h-1zM0 0h1v1350H0z"/>
+        </g>
+        <g fill="#A9A9A9">
+            <path d="M346 0h1v1152h-1zM587 0h1v1152h-1zM409 0h1v1152h-1z"/>
+        </g>
+        <path fill="#A9A9A9" d="M49 704h781v1H49zM0 412h830v1H0zM0 78h830v1H0zM0 1151h830v1H0z"/>
+        <path fill="#DDD" d="M166 826h664v1H166z"/>
+        <path fill="#A9A9A9" d="M49 974h781v1H49z"/>
+        <g fill="#DDD">
+            <path d="M166 153h664v1H166zM166 583h664v-1H166zM166 227h664v1H166zM166 301h664v1H166zM166 375h664v1H166zM166 900h664v1H166zM166 1076h664v1H166zM347 741h483v1H347zM347 1012h483v-1H347zM347 498h483v-1H347zM347 620h483v-1H347zM347 116h483v1H347zM347 190h483v1H347zM347 265h483v-1H347zM347 938h483v-1H347zM347 864h483v-1H347zM166 1114h664v-1H166z"/>
+        </g>
+        <path fill="#A9A9A9" d="M0 1349h830v1H0z"/>
+        <path fill="#DDD" d="M347 338h483v-1H347z"/>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000">
+                        <tspan x="359" y="103">View</tspan>
+                    </text>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000">
+                        <tspan x="359" y="140">Edit</tspan>
+                    </text>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000">
+                        <tspan x="359" y="177">View</tspan>
+                    </text>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000">
+                        <tspan x="359" y="214">Edit</tspan>
+                    </text>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000">
+                        <tspan x="359" y="251">View</tspan>
+                    </text>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000">
+                        <tspan x="359" y="288">Edit</tspan>
+                    </text>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000">
+                        <tspan x="359" y="325">View</tspan>
+                    </text>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000">
+                        <tspan x="359" y="362">Edit</tspan>
+                    </text>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000">
+                        <tspan x="359" y="399">link</tspan>
+                    </text>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000">
+                        <tspan x="359" y="460">View</tspan>
+                    </text>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000">
+                        <tspan x="359" y="606">View</tspan>
+                    </text>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000">
+                        <tspan x="359" y="555">Edit</tspan>
+                    </text>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000">
+                        <tspan x="359" y="728">View</tspan>
+                    </text>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000">
+                        <tspan x="359" y="677">Edit</tspan>
+                    </text>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000" transform="translate(430 421)">
+                            <tspan x="178.882" y="43">*4</tspan>
+                            <tspan x="168.224" y="63">*銷售</tspan>
+                        </text>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000" transform="translate(430 421)">
+                            <tspan x="118.882" y="43">*4</tspan>
+                        </text>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000" transform="translate(430 421)">
+                            <tspan x="59.382" y="43">*4</tspan>
+                        </text>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000" transform="translate(430 421)">
+                            <tspan x="1.382" y="43">*4</tspan>
+                        </text>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000" transform="translate(430 421)">
+                            <tspan x="240.882" y="43">*4</tspan>
+                            <tspan x="230.224" y="63">*銷售</tspan>
+                        </text>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000" transform="translate(430 421)">
+                            <tspan x="300.882" y="43">*4</tspan>
+                            <tspan x="290.224" y="63">*銷售</tspan>
+                        </text>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000" transform="translate(430 421)">
+                            <tspan x="360.882" y="43">*4</tspan>
+                            <tspan x="350.224" y="63">*銷售</tspan>
+                        </text>
+        <g stroke="#00AFB8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M688.294 427.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.153-8.328" stroke-width="2.25"/>
+            <path stroke-width="2.5" d="m675.833 431.076 2.857 2.98 5.477-5.556"/>
+            <path d="M808.294 427.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.153-8.328" stroke-width="2.25"/>
+            <path stroke-width="2.5" d="m795.833 431.076 2.857 2.98 5.477-5.556"/>
+            <path d="M626.294 427.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.153-8.328" stroke-width="2.25"/>
+            <path stroke-width="2.5" d="m613.833 431.076 2.857 2.98 5.477-5.556"/>
+            <g>
+                <path d="M566.294 427.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.153-8.328" stroke-width="2.25"/>
+                <path stroke-width="2.5" d="m553.833 431.076 2.857 2.98 5.477-5.556"/>
+            </g>
+            <g>
+                <path d="M506.294 427.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.152-8.328" stroke-width="2.25"/>
+                <path stroke-width="2.5" d="m493.833 431.076 2.857 2.98 5.477-5.556"/>
+            </g>
+            <g>
+                <path d="M448.294 427.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.152-8.328" stroke-width="2.25"/>
+                <path stroke-width="2.5" d="m435.833 431.076 2.857 2.98 5.477-5.556"/>
+            </g>
+        </g>
+        <g stroke="#00AFB8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M748.294 427.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.153-8.328" stroke-width="2.25"/>
+            <path stroke-width="2.5" d="m735.833 431.076 2.857 2.98 5.477-5.556"/>
+        </g>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000" transform="translate(420 506)">
+                            <tspan x="10.882" y="43">*3</tspan>
+                            <tspan x=".224" y="63">*行銷</tspan>
+                        </text>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000" transform="translate(420 506)">
+                            <tspan x="68.882" y="43">*2</tspan>
+                            <tspan x="58.224" y="63">*行銷</tspan>
+                        </text>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000" transform="translate(420 506)">
+                            <tspan x="118.299" y="43">*3 *4</tspan>
+                            <tspan x="118.724" y="63">*行銷</tspan>
+                        </text>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000" transform="translate(420 506)">
+                            <tspan x="188.882" y="43">*2</tspan>
+                            <tspan x="178.224" y="63">*銷售</tspan>
+                        </text>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000" transform="translate(420 506)">
+                            <tspan x="300.299" y="43">*3 *4</tspan>
+                            <tspan x="300.724" y="63">*銷售</tspan>
+                        </text>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000" transform="translate(420 506)">
+                            <tspan x="370.882" y="43">*3</tspan>
+                            <tspan x="360.224" y="63">*銷售</tspan>
+                        </text>
+        <g stroke="#00AFB8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M808.294 512.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.153-8.328" stroke-width="2.25"/>
+            <path stroke-width="2.5" d="m795.833 516.076 2.857 2.98 5.477-5.556"/>
+            <path d="M748.294 512.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.153-8.328" stroke-width="2.25"/>
+            <path stroke-width="2.5" d="m735.833 516.076 2.857 2.98 5.477-5.556"/>
+            <path d="M626.294 512.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.153-8.328" stroke-width="2.25"/>
+            <path stroke-width="2.5" d="m613.833 516.076 2.857 2.98 5.477-5.556"/>
+            <g>
+                <path d="M566.294 512.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.153-8.328" stroke-width="2.25"/>
+                <path stroke-width="2.5" d="m553.833 516.076 2.857 2.98 5.477-5.556"/>
+            </g>
+            <g>
+                <path d="M506.294 512.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.152-8.328" stroke-width="2.25"/>
+                <path stroke-width="2.5" d="m493.833 516.076 2.857 2.98 5.477-5.556"/>
+            </g>
+            <g>
+                <path d="M448.294 512.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.152-8.328" stroke-width="2.25"/>
+                <path stroke-width="2.5" d="m435.833 516.076 2.857 2.98 5.477-5.556"/>
+            </g>
+        </g>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000" transform="translate(420 628)">
+                            <tspan x="10.882" y="43">*3</tspan>
+                            <tspan x=".224" y="63">*行銷</tspan>
+                        </text>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000" transform="translate(420 628)">
+                            <tspan x="68.882" y="43">*2</tspan>
+                            <tspan x="58.224" y="63">*行銷</tspan>
+                        </text>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000" transform="translate(420 628)">
+                            <tspan x="118.299" y="43">*3 *4</tspan>
+                            <tspan x="118.724" y="63">*行銷</tspan>
+                        </text>
+        <g stroke="#00AFB8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M626.294 634.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.153-8.328" stroke-width="2.25"/>
+            <path stroke-width="2.5" d="m613.833 638.076 2.857 2.98 5.477-5.556"/>
+            <path d="M566.294 634.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.153-8.328" stroke-width="2.25"/>
+            <path stroke-width="2.5" d="m553.833 638.076 2.857 2.98 5.477-5.556"/>
+            <path d="M808.294 634.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.153-8.328" stroke-width="2.25"/>
+            <path stroke-width="2.5" d="m795.833 638.076 2.857 2.98 5.477-5.556"/>
+            <g>
+                <path d="M748.294 634.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.153-8.328" stroke-width="2.25"/>
+                <path stroke-width="2.5" d="m735.833 638.076 2.857 2.98 5.477-5.556"/>
+            </g>
+            <g>
+                <path d="M506.294 634.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.152-8.328" stroke-width="2.25"/>
+                <path stroke-width="2.5" d="m493.833 638.076 2.857 2.98 5.477-5.556"/>
+            </g>
+            <g>
+                <path d="M448.294 634.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.152-8.328" stroke-width="2.25"/>
+                <path stroke-width="2.5" d="m435.833 638.076 2.857 2.98 5.477-5.556"/>
+            </g>
+        </g>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000" transform="translate(420 628)">
+                            <tspan x="188.882" y="43">*2</tspan>
+                            <tspan x="178.224" y="63">*銷售</tspan>
+                        </text>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000" transform="translate(420 628)">
+                            <tspan x="300.299" y="43">*3 *4</tspan>
+                            <tspan x="300.724" y="63">*銷售</tspan>
+                        </text>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000" transform="translate(420 628)">
+                            <tspan x="370.882" y="43">*3</tspan>
+                            <tspan x="360.224" y="63">*銷售</tspan>
+                        </text>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000">
+                        <tspan x="359" y="789">Edit</tspan>
+                    </text>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000" transform="translate(430 750)">
+                            <tspan x="1" y="43">*3</tspan>
+                        </text>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000" transform="translate(430 750)">
+                            <tspan x="58.882" y="43">*3</tspan>
+                            <tspan x="48.224" y="63">*行銷</tspan>
+                        </text>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000" transform="translate(430 750)">
+                            <tspan x="119" y="43">*3</tspan>
+                        </text>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000" transform="translate(430 750)">
+                            <tspan x="178.882" y="43">*2</tspan>
+                            <tspan x="168.224" y="63">*銷售</tspan>
+                        </text>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000" transform="translate(430 750)">
+                            <tspan x="241" y="43">*3</tspan>
+                        </text>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000" transform="translate(430 750)">
+                            <tspan x="301" y="43">*3</tspan>
+                        </text>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000" transform="translate(430 750)">
+                            <tspan x="361" y="43">*3</tspan>
+                        </text>
+        <g stroke="#00AFB8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M688.294 756.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.153-8.328" stroke-width="2.25"/>
+            <path stroke-width="2.5" d="m675.833 760.076 2.857 2.98 5.477-5.556"/>
+            <path d="M626.294 756.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.153-8.328" stroke-width="2.25"/>
+            <path stroke-width="2.5" d="m613.833 760.076 2.857 2.98 5.477-5.556"/>
+            <path d="M566.294 756.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.153-8.328" stroke-width="2.25"/>
+            <path stroke-width="2.5" d="m553.833 760.076 2.857 2.98 5.477-5.556"/>
+            <path d="M808.294 756.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.153-8.328" stroke-width="2.25"/>
+            <path stroke-width="2.5" d="m795.833 760.076 2.857 2.98 5.477-5.556"/>
+            <g>
+                <path d="M748.294 756.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.153-8.328" stroke-width="2.25"/>
+                <path stroke-width="2.5" d="m735.833 760.076 2.857 2.98 5.477-5.556"/>
+            </g>
+            <g>
+                <path d="M506.294 756.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.152-8.328" stroke-width="2.25"/>
+                <path stroke-width="2.5" d="m493.833 760.076 2.857 2.98 5.477-5.556"/>
+            </g>
+            <g>
+                <path d="M448.294 756.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.152-8.328" stroke-width="2.25"/>
+                <path stroke-width="2.5" d="m435.833 760.076 2.857 2.98 5.477-5.556"/>
+            </g>
+        </g>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000" transform="translate(488 1020)">
+                            <tspan x="1" y="43">*2</tspan>
+                        </text>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000" transform="translate(488 1020)">
+                            <tspan x="61" y="43">*2</tspan>
+                        </text>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000" transform="translate(488 1020)">
+                            <tspan x="121" y="43">*2</tspan>
+                        </text>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000" transform="translate(488 1020)">
+                            <tspan x="183" y="43">*3</tspan>
+                        </text>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000" transform="translate(488 1020)">
+                            <tspan x="243" y="43">*3</tspan>
+                        </text>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000" transform="translate(488 1020)">
+                            <tspan x="303" y="43">*3</tspan>
+                        </text>
+        <g stroke="#00AFB8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M688.294 1026.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.153-8.328" stroke-width="2.25"/>
+            <path stroke-width="2.5" d="m675.833 1030.076 2.857 2.98 5.477-5.556"/>
+            <path d="M626.294 1026.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.153-8.328" stroke-width="2.25"/>
+            <path stroke-width="2.5" d="m613.833 1030.076 2.857 2.98 5.477-5.556"/>
+            <path d="M566.294 1026.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.153-8.328" stroke-width="2.25"/>
+            <path stroke-width="2.5" d="m553.833 1030.076 2.857 2.98 5.477-5.556"/>
+            <g>
+                <path d="M808.294 1026.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.153-8.328" stroke-width="2.25"/>
+                <path stroke-width="2.5" d="m795.833 1030.076 2.857 2.98 5.477-5.556"/>
+            </g>
+            <g>
+                <path d="M748.294 1026.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.153-8.328" stroke-width="2.25"/>
+                <path stroke-width="2.5" d="m735.833 1030.076 2.857 2.98 5.477-5.556"/>
+            </g>
+            <g>
+                <path d="M506.294 1026.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.152-8.328" stroke-width="2.25"/>
+                <path stroke-width="2.5" d="m493.833 1030.076 2.857 2.98 5.477-5.556"/>
+            </g>
+        </g>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000">
+                        <tspan x="359" y="850">View</tspan>
+                    </text>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000">
+                        <tspan x="359" y="887">Edit</tspan>
+                    </text>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000">
+                        <tspan x="61" y="267">廣告元件管理</tspan>
+                    </text>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000">
+                        <tspan x="61" y="564">檔期預約管理</tspan>
+                    </text>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000">
+                        <tspan x="61" y="845">廣告上刊管理</tspan>
+                    </text>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000">
+                        <tspan x="61" y="1068">報表查詢</tspan>
+                    </text>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000">
+                        <tspan x="57" y="1175">*行銷 : 只能修改、新增、刪除行銷版位</tspan>
+                        <tspan x="57" y="1195">*銷售 : 只能修改、新增、刪除銷售版位</tspan>
+                        <tspan x="57" y="1215">*2 :  只能編輯自己的</tspan>
+                        <tspan x="57" y="1235">*3：可以編輯自己跟其他人的</tspan>
+                        <tspan x="57" y="1255">*4：特殊權限，說明如下</tspan>
+                        <tspan x="57" y="1275">     4.1 檔期行事曆 : 可看到「已拉cue」、「已上素材」、「已上線」的狀態</tspan>
+                        <tspan x="57" y="1295">     4.2 可修改專案預約人員</tspan>
+                        <tspan x="57" y="1315">     4.3 可設定專案是否為空版專案</tspan>
+                        <tspan x="57" y="1335">     4.4 可更改專案狀態從「結案-&gt;合約簽回」或「合約簽回-&gt;提案中」</tspan>
+                    </text>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000">
+                        <tspan x="179" y="122">網站管理(含APP)</tspan>
+                    </text>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000">
+                        <tspan x="179" y="196">頻道管理</tspan>
+                    </text>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000">
+                        <tspan x="179" y="270">版位管理</tspan>
+                    </text>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000">
+                        <tspan x="179" y="399">墊檔廣告上傳</tspan>
+                    </text>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000">
+                        <tspan x="179" y="503">檔期行事曆</tspan>
+                    </text>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000">
+                        <tspan x="179" y="649">專案及版位維護</tspan>
+                    </text>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000">
+                        <tspan x="179" y="344">商品與版位關聯管理</tspan>
+                    </text>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000">
+                        <tspan x="179" y="771">上傳素材</tspan>
+                    </text>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000">
+                        <tspan x="179" y="869">緊急上下架</tspan>
+                    </text>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000">
+                        <tspan x="359" y="924">View</tspan>
+                    </text>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000">
+                        <tspan x="359" y="961">Edit</tspan>
+                    </text>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000">
+                        <tspan x="179" y="943">墊檔廣告維護</tspan>
+                    </text>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000">
+                        <tspan x="359" y="1100">View</tspan>
+                    </text>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000">
+                        <tspan x="359" y="1137">View</tspan>
+                    </text>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000">
+                        <tspan x="359" y="998">View</tspan>
+                    </text>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000">
+                        <tspan x="359" y="1049">Edit</tspan>
+                    </text>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000">
+                        <tspan x="179" y="1031">企業資料維護</tspan>
+                    </text>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000">
+                        <tspan x="179" y="1100">企業結案報告</tspan>
+                    </text>
+        <text font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43" fill="#000">
+                        <tspan x="179" y="1137">成效排行榜</tspan>
+                    </text>
+        <g stroke="#00AFB8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M566.294 94.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.153-8.328" stroke-width="2.25"/>
+            <path stroke-width="2.5" d="m553.833 98.076 2.857 2.98 5.477-5.556"/>
+        </g>
+        <g stroke="#00AFB8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M506.294 94.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.152-8.328" stroke-width="2.25"/>
+            <path stroke-width="2.5" d="m493.833 98.076 2.857 2.98 5.477-5.556"/>
+        </g>
+        <g stroke="#00AFB8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M448.294 94.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.152-8.328" stroke-width="2.25"/>
+            <path stroke-width="2.5" d="m435.833 98.076 2.857 2.98 5.477-5.556"/>
+        </g>
+        <g stroke="#00AFB8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M566.294 168.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.153-8.328" stroke-width="2.25"/>
+            <path stroke-width="2.5" d="m553.833 172.076 2.857 2.98 5.477-5.556"/>
+        </g>
+        <g stroke="#00AFB8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M506.294 168.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.152-8.328" stroke-width="2.25"/>
+            <path stroke-width="2.5" d="m493.833 172.076 2.857 2.98 5.477-5.556"/>
+        </g>
+        <g stroke="#00AFB8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M448.294 168.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.152-8.328" stroke-width="2.25"/>
+            <path stroke-width="2.5" d="m435.833 172.076 2.857 2.98 5.477-5.556"/>
+        </g>
+        <g stroke="#00AFB8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M448.294 131.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.152-8.328" stroke-width="2.25"/>
+            <path stroke-width="2.5" d="m435.833 135.076 2.857 2.98 5.477-5.556"/>
+        </g>
+        <g stroke="#00AFB8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M448.294 205.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.152-8.328" stroke-width="2.25"/>
+            <path stroke-width="2.5" d="m435.833 209.076 2.857 2.98 5.477-5.556"/>
+        </g>
+        <g stroke="#00AFB8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M566.294 242.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.153-8.328" stroke-width="2.25"/>
+            <path stroke-width="2.5" d="m553.833 246.076 2.857 2.98 5.477-5.556"/>
+        </g>
+        <g stroke="#00AFB8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M506.294 242.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.152-8.328" stroke-width="2.25"/>
+            <path stroke-width="2.5" d="m493.833 246.076 2.857 2.98 5.477-5.556"/>
+        </g>
+        <g stroke="#00AFB8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M448.294 242.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.152-8.328" stroke-width="2.25"/>
+            <path stroke-width="2.5" d="m435.833 246.076 2.857 2.98 5.477-5.556"/>
+        </g>
+        <g stroke="#00AFB8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M566.294 390.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.153-8.328" stroke-width="2.25"/>
+            <path stroke-width="2.5" d="m553.833 394.076 2.857 2.98 5.477-5.556"/>
+        </g>
+        <g stroke="#00AFB8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M506.294 390.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.152-8.328" stroke-width="2.25"/>
+            <path stroke-width="2.5" d="m493.833 394.076 2.857 2.98 5.477-5.556"/>
+        </g>
+        <g stroke="#00AFB8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M448.294 390.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.152-8.328" stroke-width="2.25"/>
+            <path stroke-width="2.5" d="m435.833 394.076 2.857 2.98 5.477-5.556"/>
+        </g>
+        <g stroke="#00AFB8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M506.294 353.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.152-8.328" stroke-width="2.25"/>
+            <path stroke-width="2.5" d="m493.833 357.076 2.857 2.98 5.477-5.556"/>
+        </g>
+        <g stroke="#00AFB8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M566.294 316.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.153-8.328" stroke-width="2.25"/>
+            <path stroke-width="2.5" d="m553.833 320.076 2.857 2.98 5.477-5.556"/>
+        </g>
+        <g stroke="#00AFB8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M506.294 316.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.152-8.328" stroke-width="2.25"/>
+            <path stroke-width="2.5" d="m493.833 320.076 2.857 2.98 5.477-5.556"/>
+        </g>
+        <g stroke="#00AFB8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M448.294 279.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.152-8.328" stroke-width="2.25"/>
+            <path stroke-width="2.5" d="m435.833 283.076 2.857 2.98 5.477-5.556"/>
+        </g>
+        <path fill="#A9A9A9" d="M0 0h830v1H0zM588 39h242v1H588z"/>
+        <g stroke="#00AFB8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M808.294 597.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.153-8.328" stroke-width="2.25"/>
+            <path stroke-width="2.5" d="m795.833 601.076 2.857 2.98 5.477-5.556"/>
+            <path d="M748.294 597.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.153-8.328" stroke-width="2.25"/>
+            <path stroke-width="2.5" d="m735.833 601.076 2.857 2.98 5.477-5.556"/>
+            <path d="M626.294 597.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.153-8.328" stroke-width="2.25"/>
+            <path stroke-width="2.5" d="m613.833 601.076 2.857 2.98 5.477-5.556"/>
+            <g>
+                <path d="M566.294 597.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.153-8.328" stroke-width="2.25"/>
+                <path stroke-width="2.5" d="m553.833 601.076 2.857 2.98 5.477-5.556"/>
+            </g>
+            <g>
+                <path d="M506.294 597.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.152-8.328" stroke-width="2.25"/>
+                <path stroke-width="2.5" d="m493.833 601.076 2.857 2.98 5.477-5.556"/>
+            </g>
+            <g>
+                <path d="M448.294 597.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.152-8.328" stroke-width="2.25"/>
+                <path stroke-width="2.5" d="m435.833 601.076 2.857 2.98 5.477-5.556"/>
+            </g>
+        </g>
+        <g stroke="#00AFB8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M688.294 719.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.153-8.328" stroke-width="2.25"/>
+            <path stroke-width="2.5" d="m675.833 723.076 2.857 2.98 5.477-5.556"/>
+            <path d="M626.294 719.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.153-8.328" stroke-width="2.25"/>
+            <path stroke-width="2.5" d="m613.833 723.076 2.857 2.98 5.477-5.556"/>
+            <path d="M566.294 719.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.153-8.328" stroke-width="2.25"/>
+            <path stroke-width="2.5" d="m553.833 723.076 2.857 2.98 5.477-5.556"/>
+            <path d="M808.294 719.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.153-8.328" stroke-width="2.25"/>
+            <path stroke-width="2.5" d="m795.833 723.076 2.857 2.98 5.477-5.556"/>
+            <g>
+                <path d="M748.294 719.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.153-8.328" stroke-width="2.25"/>
+                <path stroke-width="2.5" d="m735.833 723.076 2.857 2.98 5.477-5.556"/>
+            </g>
+            <g>
+                <path d="M506.294 719.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.152-8.328" stroke-width="2.25"/>
+                <path stroke-width="2.5" d="m493.833 723.076 2.857 2.98 5.477-5.556"/>
+            </g>
+            <g>
+                <path d="M448.294 719.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.152-8.328" stroke-width="2.25"/>
+                <path stroke-width="2.5" d="m435.833 723.076 2.857 2.98 5.477-5.556"/>
+            </g>
+        </g>
+        <g stroke="#00AFB8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M688.294 989.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.153-8.328" stroke-width="2.25"/>
+            <path stroke-width="2.5" d="m675.833 993.076 2.857 2.98 5.477-5.556"/>
+            <path d="M626.294 989.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.153-8.328" stroke-width="2.25"/>
+            <path stroke-width="2.5" d="m613.833 993.076 2.857 2.98 5.477-5.556"/>
+            <path d="M566.294 989.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.153-8.328" stroke-width="2.25"/>
+            <path stroke-width="2.5" d="m553.833 993.076 2.857 2.98 5.477-5.556"/>
+            <path d="M808.294 989.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.153-8.328" stroke-width="2.25"/>
+            <path stroke-width="2.5" d="m795.833 993.076 2.857 2.98 5.477-5.556"/>
+            <g>
+                <path d="M748.294 989.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.153-8.328" stroke-width="2.25"/>
+                <path stroke-width="2.5" d="m735.833 993.076 2.857 2.98 5.477-5.556"/>
+            </g>
+            <g>
+                <path d="M506.294 989.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.152-8.328" stroke-width="2.25"/>
+                <path stroke-width="2.5" d="m493.833 993.076 2.857 2.98 5.477-5.556"/>
+            </g>
+            <g>
+                <path d="M448.294 989.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.152-8.328" stroke-width="2.25"/>
+                <path stroke-width="2.5" d="m435.833 993.076 2.857 2.98 5.477-5.556"/>
+            </g>
+        </g>
+        <g stroke="#00AFB8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M808.294 841.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.153-8.328" stroke-width="2.25"/>
+            <path stroke-width="2.5" d="m795.833 845.076 2.857 2.98 5.477-5.556"/>
+            <path d="M748.294 841.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.153-8.328" stroke-width="2.25"/>
+            <path stroke-width="2.5" d="m735.833 845.076 2.857 2.98 5.477-5.556"/>
+            <g>
+                <path d="M506.294 841.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.152-8.328" stroke-width="2.25"/>
+                <path stroke-width="2.5" d="m493.833 845.076 2.857 2.98 5.477-5.556"/>
+            </g>
+            <g>
+                <path d="M448.294 841.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.152-8.328" stroke-width="2.25"/>
+                <path stroke-width="2.5" d="m435.833 845.076 2.857 2.98 5.477-5.556"/>
+            </g>
+        </g>
+        <g stroke="#00AFB8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M808.294 878.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.153-8.328" stroke-width="2.25"/>
+            <path stroke-width="2.5" d="m795.833 882.076 2.857 2.98 5.477-5.556"/>
+            <path d="M748.294 878.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.153-8.328" stroke-width="2.25"/>
+            <path stroke-width="2.5" d="m735.833 882.076 2.857 2.98 5.477-5.556"/>
+            <g>
+                <path d="M506.294 878.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.152-8.328" stroke-width="2.25"/>
+                <path stroke-width="2.5" d="m493.833 882.076 2.857 2.98 5.477-5.556"/>
+            </g>
+            <g>
+                <path d="M448.294 878.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.152-8.328" stroke-width="2.25"/>
+                <path stroke-width="2.5" d="m435.833 882.076 2.857 2.98 5.477-5.556"/>
+            </g>
+        </g>
+        <text font-family="MicrosoftJhengHeiBold, Microsoft JhengHei" font-size="14" font-weight="bold" letter-spacing="1.43" fill="#000">
+                        <tspan x="9" y="250">後台</tspan>
+                    </text>
+        <text font-family="MicrosoftJhengHeiBold, Microsoft JhengHei" font-size="14" font-weight="bold" letter-spacing="1.43" fill="#000">
+                        <tspan x="9" y="786">前台</tspan>
+                    </text>
+        <text font-family="MicrosoftJhengHeiBold, Microsoft JhengHei" font-size="14" font-weight="bold" letter-spacing="1.43" fill="#000">
+                        <tspan x="8" y="1243">標示</tspan>
+                        <tspan x="8" y="1265">說明</tspan>
+                    </text>
+        <g stroke="#00AFB8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M566.294 915.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.153-8.328" stroke-width="2.25"/>
+            <path stroke-width="2.5" d="m553.833 919.076 2.857 2.98 5.477-5.556"/>
+            <path d="M506.294 915.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.152-8.328" stroke-width="2.25"/>
+            <path stroke-width="2.5" d="m493.833 919.076 2.857 2.98 5.477-5.556"/>
+            <g>
+                <path d="M448.294 915.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.152-8.328" stroke-width="2.25"/>
+                <path stroke-width="2.5" d="m435.833 919.076 2.857 2.98 5.477-5.556"/>
+            </g>
+        </g>
+        <g stroke="#00AFB8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M566.294 952.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.153-8.328" stroke-width="2.25"/>
+            <path stroke-width="2.5" d="m553.833 956.076 2.857 2.98 5.477-5.556"/>
+            <path d="M506.294 952.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.152-8.328" stroke-width="2.25"/>
+            <path stroke-width="2.5" d="m493.833 956.076 2.857 2.98 5.477-5.556"/>
+            <g>
+                <path d="M448.294 952.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.152-8.328" stroke-width="2.25"/>
+                <path stroke-width="2.5" d="m435.833 956.076 2.857 2.98 5.477-5.556"/>
+            </g>
+        </g>
+        <g stroke="#00AFB8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M687.294 1091.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.153-8.328" stroke-width="2.25"/>
+            <path stroke-width="2.5" d="m674.833 1095.076 2.857 2.98 5.477-5.556"/>
+            <path d="M625.294 1091.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.153-8.328" stroke-width="2.25"/>
+            <path stroke-width="2.5" d="m612.833 1095.076 2.857 2.98 5.477-5.556"/>
+            <path d="M565.294 1091.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.153-8.328" stroke-width="2.25"/>
+            <path stroke-width="2.5" d="m552.833 1095.076 2.857 2.98 5.477-5.556"/>
+            <path d="M808.294 1091.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.153-8.328" stroke-width="2.25"/>
+            <path stroke-width="2.5" d="m795.833 1095.076 2.857 2.98 5.477-5.556"/>
+            <g>
+                <path d="M747.294 1091.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.153-8.328" stroke-width="2.25"/>
+                <path stroke-width="2.5" d="m734.833 1095.076 2.857 2.98 5.477-5.556"/>
+            </g>
+            <g>
+                <path d="M505.294 1091.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.152-8.328" stroke-width="2.25"/>
+                <path stroke-width="2.5" d="m492.833 1095.076 2.857 2.98 5.477-5.556"/>
+            </g>
+            <g>
+                <path d="M448.294 1091.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.152-8.328" stroke-width="2.25"/>
+                <path stroke-width="2.5" d="m435.833 1095.076 2.857 2.98 5.477-5.556"/>
+            </g>
+        </g>
+        <g stroke="#00AFB8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M687.294 1128.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.153-8.328" stroke-width="2.25"/>
+            <path stroke-width="2.5" d="m674.833 1132.076 2.857 2.98 5.477-5.556"/>
+            <path d="M625.294 1128.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.153-8.328" stroke-width="2.25"/>
+            <path stroke-width="2.5" d="m612.833 1132.076 2.857 2.98 5.477-5.556"/>
+            <path d="M565.294 1128.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.153-8.328" stroke-width="2.25"/>
+            <path stroke-width="2.5" d="m552.833 1132.076 2.857 2.98 5.477-5.556"/>
+            <path d="M808.294 1128.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.153-8.328" stroke-width="2.25"/>
+            <path stroke-width="2.5" d="m795.833 1132.076 2.857 2.98 5.477-5.556"/>
+            <g>
+                <path d="M747.294 1128.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.153-8.328" stroke-width="2.25"/>
+                <path stroke-width="2.5" d="m734.833 1132.076 2.857 2.98 5.477-5.556"/>
+            </g>
+            <g>
+                <path d="M505.294 1128.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.152-8.328" stroke-width="2.25"/>
+                <path stroke-width="2.5" d="m492.833 1132.076 2.857 2.98 5.477-5.556"/>
+            </g>
+            <g>
+                <path d="M448.294 1128.695a8.902 8.902 0 0 1 .631 3.305 8.924 8.924 0 0 1-17.57 2.219 8.925 8.925 0 0 1 15.152-8.328" stroke-width="2.25"/>
+                <path stroke-width="2.5" d="m435.833 1132.076 2.857 2.98 5.477-5.556"/>
+            </g>
+        </g>
+        <text font-family="MicrosoftJhengHeiBold, Microsoft JhengHei" font-size="14" font-weight="bold" letter-spacing="1.43" fill="#000">
+                        <tspan x="182" y="46">功能</tspan>
+                    </text>
+        <text font-family="MicrosoftJhengHeiBold, Microsoft JhengHei" font-size="14" font-weight="bold" letter-spacing="1.43" fill="#000">
+                        <tspan x="363" y="46">模式</tspan>
+                    </text>
+        <text font-family="MicrosoftJhengHeiBold, Microsoft JhengHei" font-size="14" font-weight="bold" letter-spacing="1.43" fill="#000">
+                        <tspan x="427.246" y="46">PM</tspan>
+                    </text>
+        <text font-family="MicrosoftJhengHeiBold, Microsoft JhengHei" font-size="14" font-weight="bold" letter-spacing="1.43" fill="#000">
+                        <tspan x="484.309" y="46">VM</tspan>
+                    </text>
+        <text font-family="MicrosoftJhengHeiBold, Microsoft JhengHei" font-size="14" font-weight="bold" letter-spacing="1.43" fill="#000">
+                        <tspan x="542.07" y="46">主管</tspan>
+                    </text>
+        <text font-family="MicrosoftJhengHeiBold, Microsoft JhengHei" font-size="14" font-weight="bold" letter-spacing="1.43" fill="#000">
+                        <tspan x="602.07" y="63">業務</tspan>
+                    </text>
+        <text font-family="MicrosoftJhengHeiBold, Microsoft JhengHei" font-size="14" font-weight="bold" letter-spacing="1.43" fill="#000">
+                        <tspan x="664.07" y="63">企劃</tspan>
+                    </text>
+        <text font-family="MicrosoftJhengHeiBold, Microsoft JhengHei" font-size="14" font-weight="bold" letter-spacing="1.43" fill="#000">
+                        <tspan x="724.07" y="63">營運</tspan>
+                    </text>
+        <text font-family="MicrosoftJhengHeiBold, Microsoft JhengHei" font-size="14" font-weight="bold" letter-spacing="1.43" fill="#000">
+                        <tspan x="784.07" y="63">主管</tspan>
+                    </text>
+        <text font-family="MicrosoftJhengHeiBold, Microsoft JhengHei" font-size="14" font-weight="bold" letter-spacing="1.43" fill="#000">
+                        <tspan x="693.07" y="24">整招</tspan>
+                    </text>
+    </g>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="240" height="170" viewBox="0 0 240 170">
+    <defs>
+        <path id="s2g9yib5ea" d="M0 0H240V170H0z"/>
+        <mask id="wqmys2h7kb" width="240" height="170" x="0" y="0" fill="#fff" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox">
+            <use xlink:href="#s2g9yib5ea"/>
+        </mask>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <use fill="#FFF" stroke="#E2E1E1" stroke-dasharray="6" stroke-width="2" mask="url(#wqmys2h7kb)" xlink:href="#s2g9yib5ea"/>
+        <path fill="#D8D8D8" d="M85 40h70v52H85V40z"/>
+        <text fill="#2D2D2D" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43">
+            <tspan x="73.71" y="127">文字文字文字</tspan>
+        </text>
+    </g>
+</svg>

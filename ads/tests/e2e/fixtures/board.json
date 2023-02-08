@@ -1,0 +1,137 @@
+{
+  "boardInfo": {
+    "response": [
+      {
+        "associateWithProduct": true,
+        "canDelete": true,
+        "channelId": 0,
+        "channelName": "string",
+        "conditionId": 0,
+        "device": "PC",
+        "id": 0,
+        "lowerLimit": 0,
+        "name": "string",
+        "promotion": true,
+        "reserve": 0,
+        "responseTypeTemplateDetail": {
+          "boardId": 0,
+          "groupList": [
+            {
+              "elementList": [{}],
+              "groupNo": 0,
+              "name": "string"
+            }
+          ],
+          "memo": "string",
+          "typeId": 0
+        },
+        "siteId": 0,
+        "siteName": "string",
+        "snapshot": true,
+        "sort": 0,
+        "status": true,
+        "style": "string",
+        "typeId": 0,
+        "upperLimit": 0,
+        "url": "string"
+      }
+    ]
+  },
+  "boardType": {
+    "response": {
+      "id": 383,
+      "channelId": 173,
+      "channelName": "求職主動線_公司列表頁",
+      "siteId": 1,
+      "siteName": "人力銀行C主網",
+      "device": "PC",
+      "name": "服務業_卡片",
+      "url": "https://www.104-dev.com.tw/company/?indcat=1005001004&page=1&mode=c",
+      "conditionId": 26,
+      "snapshot": true,
+      "typeId": 28,
+      "style": "company-search-freshman",
+      "responseTypeTemplateDetail": {
+        "typeId": 28,
+        "boardId": 383,
+        "memo": "樣式要修改\n3-8月  tag-freshman 新鮮人請進\n9-12月 tag-semi     半導體展 \n\n公司頁Tag\ntag-semi\ntag-freshman\n公司列表頁_列表\n公司列表頁_卡片\ncompany-search-semi\ncompany-search-freshmen",
+        "groupList": [
+          {
+            "groupNo": 1,
+            "name": null,
+            "elementList": [
+              {
+                "elementType": "image",
+                "title": "公司Logo",
+                "width": 80,
+                "height": 80,
+                "fileLimit": 50,
+                "linkable": 1
+              },
+              {
+                "elementType": "text",
+                "title": "公司名稱",
+                "textLimit": 15,
+                "placeholder": null,
+                "linkable": 0
+              },
+              {
+                "elementType": "text",
+                "title": "職缺縣市",
+                "textLimit": 15,
+                "placeholder": null,
+                "linkable": 0
+              },
+              {
+                "elementType": "text",
+                "title": "產業資訊",
+                "textLimit": 19,
+                "placeholder": null,
+                "linkable": 0
+              },
+              {
+                "elementType": "text",
+                "title": "文案",
+                "textLimit": 20,
+                "placeholder": null,
+                "linkable": 0
+              }
+            ]
+          }
+        ]
+      },
+      "reserve": 10,
+      "lowerLimit": 0,
+      "upperLimit": 3,
+      "promotion": false,
+      "status": true,
+      "associateWithProduct": true,
+      "canDelete": false,
+      "sort": 1232345
+    }
+  },
+  "suggest": {
+    "response": [
+      {
+        "boardId": 10,
+        "name": "黃金大版位",
+        "channelId": 4,
+        "channelName": "首頁",
+        "siteId": 1,
+        "siteName": "人力銀行C主網",
+        "device": "PC",
+        "productList": [
+          {
+            "id": 241,
+            "productCode": "MISC1100000283",
+            "name": "人力銀行主網/C首頁(2018)/黃金大版位天(10萬)",
+            "status": true,
+            "boardList": null,
+            "createDate": null,
+            "updateDate": null
+          }
+        ]
+      }
+    ]
+  }
+}

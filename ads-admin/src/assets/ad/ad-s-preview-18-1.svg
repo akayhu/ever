@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="240" height="480" viewBox="0 0 240 480">
+    <defs>
+        <path id="sk4h68deca" d="M0 0H240V480H0z"/>
+        <mask id="dnvunjhnfb" width="240" height="480" x="0" y="0" fill="#fff" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox">
+            <use xlink:href="#sk4h68deca"/>
+        </mask>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <use fill="#FFF" stroke="#E2E1E1" stroke-dasharray="6" stroke-width="2" mask="url(#dnvunjhnfb)" xlink:href="#sk4h68deca"/>
+        <path fill="#D8D8D8" d="M20 20.426h200v61.276H20V20.426zM20 397.277h200v61.276H20v-61.276z"/>
+        <text fill="#A9A9A9" font-family="MicrosoftJhengHeiBold, Microsoft JhengHei" font-size="12" font-weight="bold" letter-spacing="1.5">
+            <tspan x="20" y="136.319">文字一：內文（範例）內文（範</tspan> <tspan x="20" y="154.319">例）內文（範例）內文（範例）</tspan> <tspan x="20" y="172.319">內文（範例）內文（範例）內文</tspan> <tspan x="20" y="190.319">（範例）內文（範例）內文（範</tspan>
+        </text>
+        <text fill="#2D2D2D" font-family="MicrosoftJhengHeiBold, Microsoft JhengHei" font-size="12" font-weight="bold" letter-spacing="1.5">
+            <tspan x="20" y="219.468">文字二：文字文字文字文字文字</tspan>
+        </text>
+        <text fill="#2D2D2D" font-family="MicrosoftJhengHeiBold, Microsoft JhengHei" font-size="12" font-weight="bold" letter-spacing="1.5">
+            <tspan x="20" y="246.021">文字三：文字文字文字文字文字</tspan>
+        </text>
+        <text fill="#2D2D2D" font-family="MicrosoftJhengHeiBold, Microsoft JhengHei" font-size="12" font-weight="bold" letter-spacing="1.5">
+            <tspan x="20" y="272.574">文字四：文字文字文字文字文字</tspan>
+        </text>
+        <text fill="#2D2D2D" font-family="MicrosoftJhengHeiBold, Microsoft JhengHei" font-size="12" font-weight="bold" letter-spacing="1.5">
+            <tspan x="20" y="299.128">文字五：文字文字文字文字文字</tspan>
+        </text>
+        <text fill="#2D2D2D" font-family="MicrosoftJhengHeiBold, Microsoft JhengHei" font-size="10" font-weight="bold" letter-spacing="1.25">
+            <tspan x="20" y="371.681">文字七：文字文字</tspan>
+        </text>
+        <text fill="#2D2D2D" font-family="MicrosoftJhengHeiBold, Microsoft JhengHei" font-size="10" font-weight="bold" letter-spacing="1.25">
+            <tspan x="150" y="334.915">文字六：文字</tspan>
+        </text>
+        <text fill="#2D2D2D" font-family="MicrosoftJhengHeiBold, Microsoft JhengHei" font-size="10" font-weight="bold" letter-spacing="1.25">
+            <tspan x="130" y="371.681">文字八：文字文字</tspan>
+        </text>
+        <text fill="#2D2D2D" font-family="MicrosoftJhengHeiBold, Microsoft JhengHei" font-size="16" font-weight="bold">
+            <tspan x="20" y="109.138">標題</tspan>
+        </text>
+    </g>
+</svg>

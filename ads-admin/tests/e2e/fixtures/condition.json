@@ -1,0 +1,89 @@
+{
+  "response": {
+    "content": [
+      {
+        "id": 49,
+        "name": "條件設定測試",
+        "memo": "條件設定備註",
+        "conditionGroups": null,
+        "responseBoards": null
+      },
+      {
+        "id": 48,
+        "name": "test11",
+        "memo": "ewofjwoeifjweif\nwefkjwefefwlef\nf\nfe\nef\n\neefemfokwmefwmf\n1111111",
+        "conditionGroups": null,
+        "responseBoards": null
+      },
+      {
+        "id": 36,
+        "name": "測試產業動態",
+        "memo": "被動電子元件製造業1001005002",
+        "conditionGroups": null,
+        "responseBoards": null
+      },
+      {
+        "id": 28,
+        "name": "公司搜尋列表_科技研發業(新鮮人)",
+        "memo": "類目搜尋indcat_sub\n關鍵字搜尋結果第一筆企業對應類目indcat_kw",
+        "conditionGroups": null,
+        "responseBoards": null
+      },
+      {
+        "id": 27,
+        "name": "公司搜尋列表_營建製造業(新鮮人)",
+        "memo": null,
+        "conditionGroups": null,
+        "responseBoards": null
+      },
+      {
+        "id": 26,
+        "name": "公司搜尋列表_服務業(新鮮人)",
+        "memo": "類目搜尋indcat_sub\n關鍵字搜尋結果第一筆企業對應類目indcat_kw\n",
+        "conditionGroups": null,
+        "responseBoards": null
+      },
+      {
+        "id": 25,
+        "name": "公司搜尋列表_金融保險業(新鮮人)_1004001001",
+        "memo": "四大產業\n動線有二\n(1)類目搜尋:命中指定產業\n(2)關鍵字搜尋:結果第一家企業的產業有命中指定產業\n金融機構及其相關業(584)+投資理財相關業(548)\n(共1,132家公司)",
+        "conditionGroups": null,
+        "responseBoards": null
+      },
+      {
+        "id": 24,
+        "name": "CP test",
+        "memo": null,
+        "conditionGroups": null,
+        "responseBoards": null
+      },
+      {
+        "id": 20,
+        "name": "公司搜尋列表_半導體產業特輯",
+        "memo": null,
+        "conditionGroups": null,
+        "responseBoards": null
+      },
+      {
+        "id": 15,
+        "name": "公司頁TAG_半導體產業特輯",
+        "memo": "1",
+        "conditionGroups": null,
+        "responseBoards": null
+      },
+      {
+        "id": 12,
+        "name": "公司頁TAG_新鮮人產業特輯",
+        "memo": "有進駐企業館的企業，此處填寫custNo\n資料來源by每周五，檔案連結(待瑞秋提供)\ncustno轉換小工具https://i3wtj9.axshare.com/Cteam.html\n\n興潤房屋仲介有限公司\t12653785000\n加XXXXXXX股份有限公司\t96965564000\n多麗絲股份有限公司\t12246681000\n台新餐飲設備股份有限公司\t96949827000\n阿哈哈有限公司 (廣告平台測試中勿關閉)\t130000000079238\n山山股份有限公司艾波測試勿動\t27347309000\n",
+        "conditionGroups": null,
+        "responseBoards": null
+      }
+    ],
+    "totalPages": 1,
+    "totalElements": 10,
+    "last": false,
+    "size": 100,
+    "page": 1,
+    "numberOfElements": 10
+  }
+}

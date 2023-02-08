@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="240" height="170" viewBox="0 0 240 170">
+    <defs>
+        <path id="yvcf14l3ya" d="M0 0H240V170H0z"/>
+        <mask id="vcoet1l0ib" width="240" height="170" x="0" y="0" fill="#fff" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox">
+            <use xlink:href="#yvcf14l3ya"/>
+        </mask>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <use fill="#FFF" stroke="#E2E1E1" stroke-dasharray="6" stroke-width="2" mask="url(#vcoet1l0ib)" xlink:href="#yvcf14l3ya"/>
+        <path fill="#D8D8D8" d="M160 55h60v60h-60V55z"/>
+        <g font-family="MicrosoftJhengHeiBold, Microsoft JhengHei" font-weight="bold">
+            <text fill="#A9A9A9" font-size="12" letter-spacing="1.5" transform="translate(20 51)">
+                <tspan x="0" y="41">文字一（範例）內文</tspan>
+            </text>
+            <text fill="#A9A9A9" font-size="12" letter-spacing="1.5" transform="translate(20 51)">
+                <tspan x="0" y="61">文字二（範例）內文</tspan>
+            </text>
+            <text fill="#2D2D2D" font-size="16" letter-spacing="1.38" transform="translate(20 51)">
+                <tspan x="0" y="17">標題</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

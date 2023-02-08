@@ -1,0 +1,315 @@
+.calendar_edit_main {
+  position: absolute;
+  border-radius: 8px;
+  box-shadow: 0 2px 20px 0 rgba(169, 169, 169, 0.5);
+  border: solid 1px #e2e1e1;
+  background-color: #eee;
+  z-index: 10;
+  color: #333;
+  top: -364px;
+  left: 35px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+  line-height: 1.2;
+  letter-spacing: 1.13px;
+  min-width: 450px;
+  cursor: initial;
+
+  &::after {
+    display: inline-block;
+    content: " ";
+    height: 18px;
+    width: 18px;
+    border-width: 0 0 1px 1px;
+    border-color: #e5e5e5;
+    border-style: solid;
+    box-shadow: 1px 1px #e5e5e5, -1px 2px 3px rgba(169, 169, 169, 0.5);
+    background-color: #e5e5e5;
+    transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+    position: absolute;
+    top: 363px;
+    left: -10px;
+  }
+
+  &[calendar_edit_main_left="true"] {
+    left: initial;
+    right: 35px;
+
+    &::after {
+      box-shadow: 1px 1px #e5e5e5, 3px -1px 3px rgba(169, 169, 169, 0.5);
+      right: -10px;
+      left: initial;
+    }
+  }
+
+  .calendar_edit_top_title {
+    padding: 20px 24px 0;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+
+    .id {
+      font-size: 12px;
+      color: #8f8f8f;
+      border-radius: 11px;
+      background-color: #fff;
+      padding: 6px 12px;
+      margin-right: 10px;
+      line-height: 22px;
+      letter-spacing: 1.38px;
+      font-weight: initial;
+    }
+
+    .close {
+      font-size: 15px;
+      border: solid 1px #c2c2c2;
+      background-color: #fff;
+      cursor: pointer;
+      display: inline-block;
+      text-align: center;
+      img {
+        width: 22px;
+        height: 22px;
+      }
+    }
+  }
+
+  .title_block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+
+  .title {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.2;
+    letter-spacing: 1.13px;
+    color: #292929;
+    padding: 0 0 20px 24px;
+  }
+
+  .createDate {
+    margin-right: 24px;
+    font-size: 14px;
+    padding-top: 4px;
+    color: #ea475b;
+    font-weight: normal;
+  }
+
+  .project_title {
+    padding: 0 24px 20px;
+
+    .layout {
+      line-height: 22px;
+    }
+
+    span {
+      font-size: 16px;
+      margin-left: 16px;
+    }
+
+    .order-id {
+      margin-top: 4px;
+      color: #8f8f8f;
+      font-size: 12px;
+      font-weight: normal;
+      margin-left: 50px;
+    }
+  }
+
+  .calendar_edit_middle {
+    border-top: 1px solid #d7d7d7;
+
+    .layout_block {
+      border-top: 1px solid #eee;
+      border-bottom: 1px solid #eee;
+      padding: 12px 24px;
+      background-color: #e5e5e5;
+
+      div {
+        &.layout {
+          margin-bottom: 20px;
+          line-height: 22px;
+        }
+
+        img {
+          vertical-align: sub;
+          margin-right: 4px;
+        }
+
+        &.upload-material {
+          line-height: 1.43;
+          letter-spacing: 1.43px;
+          margin-bottom: 5px;
+          text-align: right;
+
+          a {
+            cursor: pointer;
+            color: #00afb8;
+            display: inline-flex;
+            align-items: flex-end;
+            justify-content: flex-end;
+            margin-left: 0;
+            font-size: 14px;
+            text-decoration: none;
+          }
+        }
+      }
+
+      span {
+        margin-left: 20px;
+        font-size: 16px;
+        letter-spacing: 1.38px;
+        line-height: 22px;
+      }
+
+      .commodityAC {
+        input {
+          width: 244px;
+          margin-left: 20px;
+        }
+      }
+    }
+
+    .for_sale {
+      border-top: 1px solid #d7d7d7;
+
+      .for_sale_block {
+        border-top: 1px solid #eee;
+        border-bottom: 1px solid #eee;
+        padding: 13px 24px 15px;
+        background-color: #e5e5e5;
+
+        table {
+          tr {
+            &:nth-child(2),
+            &:nth-child(3),
+            &:nth-child(4) {
+              td {
+                padding-top: 16px;
+              }
+            }
+
+            td {
+              &:nth-child(1) {
+                width: 86px;
+              }
+
+              &:nth-child(2) {
+                font-size: 16px;
+                vertical-align: middle;
+              }
+
+              input {
+                width: 124px;
+              }
+
+              &.calendar_layout_input {
+                input {
+                  background-color: #fff;
+                }
+              }
+
+              label {
+                font-weight: normal;
+                margin-right: 7px;
+              }
+
+              sup {
+                top: -4px;
+              }
+
+              .ad-radio-label {
+                width: 98px;
+                margin-right: 4px;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .date {
+      border-top: 1px solid #d7d7d7;
+
+      .date_block {
+        padding: 10px 24px 15px;
+        border-top: 1px solid #eee;
+        border-bottom: 1px solid #eee;
+        background-color: #e5e5e5;
+
+        .date_content {
+          margin-bottom: 12px;
+
+          span {
+            margin-left: 9px;
+            font-size: 16px;
+            font-weight: normal;
+
+            input {
+              width: 76px;
+              background-color: #fff;
+            }
+          }
+
+          sup {
+            top: -4px;
+          }
+        }
+
+        .date_display {
+          margin-left: 50px;
+        }
+
+        .el-input__inner {
+          background-color: #fff;
+        }
+      }
+    }
+
+    .note_block {
+      border-top: 1px solid #d7d7d7;
+
+      .note {
+        border-top: 1px solid #eee;
+        background-color: #e5e5e5;
+        color: #292929;
+        padding: 12px 24px;
+
+        .el-textarea {
+          margin-top: 11px;
+          width: 400px;
+        }
+      }
+    }
+  }
+
+  .button_content {
+    border-top: 1px solid #d7d7d7;
+    padding: 20px 0;
+    text-align: center;
+
+    button {
+      &:nth-child(2) {
+        margin-left: 20px;
+      }
+    }
+  }
+}
+
+.date_block ::v-deep .el-date-editor--daterange.el-input__inner {
+  width: 400px;
+}
+.commodityAC ::v-deep .el-input__inner {
+  background-color: #fff;
+  width: 244px;
+  margin-left: 10px;
+}
+.date_block ::v-deep .el-input__inner .el-range-input {
+  background-color: #fff;
+}
+.note ::v-deep .el-textarea textarea {
+  height: 76px;
+}

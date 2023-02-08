@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <path stroke="#00AFB8" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M20.757 13.263l.209.942c.123.38-.102.795-.432.795H.466c-.33 0-.555-.415-.432-.795L3.344 0H18.5M6 4L10 4M5 7L9 7" transform="translate(-677.000000, -162.000000) translate(220.000000, 80.000000) translate(50.000000, 82.000000) translate(407.000000, 0.000000) translate(4.000000, 7.000000)"/>
+                            <g fill="#00AFB8" fill-rule="nonzero">
+                                <path d="M4.5 7.727L1.536 4.764c-.351-.352-.92-.352-1.272 0-.352.351-.352.92 0 1.272l3.6 3.6c.351.352.92.352 1.272 0l3.6-3.6c.352-.351.352-.92 0-1.272-.351-.352-.92-.352-1.272 0L4.5 7.727z" transform="translate(-677.000000, -162.000000) translate(220.000000, 80.000000) translate(50.000000, 82.000000) translate(407.000000, 0.000000) translate(4.000000, 7.000000) translate(16.753880, 7.705147) scale(1, -1) translate(-16.753880, -7.705147) translate(12.253880, 2.755147)"/>
+                                <path d="M3.6.9V9c0 .497.403.9.9.9s.9-.403.9-.9V.9c0-.497-.403-.9-.9-.9s-.9.403-.9.9z" transform="translate(-677.000000, -162.000000) translate(220.000000, 80.000000) translate(50.000000, 82.000000) translate(407.000000, 0.000000) translate(4.000000, 7.000000) translate(16.753880, 7.705147) scale(1, -1) translate(-16.753880, -7.705147) translate(12.253880, 2.755147)"/>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

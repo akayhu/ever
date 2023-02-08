@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="240" height="170" viewBox="0 0 240 170">
+    <defs>
+        <path id="iwkcmmxkba" d="M0 0H240V170H0z"/>
+        <mask id="gkbqqlz50b" width="240" height="170" x="0" y="0" fill="#fff" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox">
+            <use xlink:href="#iwkcmmxkba"/>
+        </mask>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <g transform="translate(-1294 -4410) translate(608 4266) translate(666 82) translate(20 62)">
+                        <use fill="#FFF" stroke="#E2E1E1" stroke-dasharray="6" stroke-width="2" mask="url(#gkbqqlz50b)" xlink:href="#iwkcmmxkba"/>
+                        <g font-family="MicrosoftJhengHeiBold, Microsoft JhengHei" font-weight="bold">
+                            <text fill="#A9A9A9" font-size="12" letter-spacing="1.5" transform="translate(20 60)">
+                                <tspan x="0" y="45">文字（範例）文字（範例）文字</tspan>
+                            </text>
+                            <text fill="#2D2D2D" font-size="16" letter-spacing="1.38" transform="translate(20 60)">
+                                <tspan x="0" y="17">關鍵字</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

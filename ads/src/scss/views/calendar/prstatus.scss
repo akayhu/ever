@@ -1,0 +1,37 @@
+$proposal: #e9cccb;
+$sign_back: #cfddf2;
+$closed: #b2b8c0;
+$effect: #e0eeb7;
+$empty: #fbdb82;
+$prepare: #d8d8d8;
+
+$calendar-prstatus-colors: ();
+// @debug($calendar-prstatus-colors);
+// stylelint-disable-next-line scss/dollar-variable-default
+$calendar-prstatus-colors: map-merge(
+  (
+    "proposal": $proposal, // 提案中
+    "sign_back": $sign_back, // 合約簽回
+    "closed": $closed, // 結案
+    "effect": $effect, // 成效 PR
+    "empty": $empty, // 空版PR
+    "prepare": $prepare // 預備中
+  ),
+  $calendar-prstatus-colors
+);
+
+
+$calendar-prbadge-status-colors: ();
+// @debug($calendar-prstatus-colors);
+// stylelint-disable-next-line scss/dollar-variable-default
+$calendar-prbadge-status-colors: map-merge(
+  (
+    "empty": $empty,
+    "closed": $closed,
+    "sign_back": $sign_back,
+    "effect": $effect,
+    "proposal": $proposal,
+    "prepare": $prepare
+  ),
+  $calendar-prstatus-colors
+);

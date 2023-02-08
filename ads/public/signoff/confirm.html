@@ -1,0 +1,84 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      body {
+        background-color: #f4f4f4;
+      }
+
+      section {
+        width: 640px;
+        margin: auto;
+        background-color: #fff;
+        border: 1px solid #ccc;
+      }
+
+      .header {
+        border-bottom: 1px solid #cccccc;
+        padding: 24px 16px;
+      }
+
+      .content {
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 1.38;
+        letter-spacing: 1.38px;
+        color: #292929;
+        margin-bottom: 40px;
+        text-align: center;
+        padding: 90px 0;
+      }
+
+      button {
+        border-radius: 4px;
+        border: solid 1px #00afb8;
+        font-size: 14px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.43;
+        letter-spacing: 1.43px;
+        padding: 6px 30px;
+        margin-top: 40px;
+        cursor: pointer;
+      }
+
+      .button_bg_white_cancel {
+        background-color: #fff;
+        color: #00afb8;
+      }
+
+      .button_bg_blue_submit {
+        background-color: #00afb8;
+        color: #fff;
+        margin-left: 24px;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <div class="header">
+        <a href="https://adsmart.104.com.tw/" rel="noopener noreferrer">
+          <img
+            src="https://static.104.com.tw/logo/104logo_ad_platform_180x26.svg"
+          />
+        </a>
+      </div>
+      <div class="content">
+        您確定要核准表單？
+        <div>
+          <button type="button" class="button_bg_white_cancel" @click="cancel">
+            取消
+          </button>
+          <button type="button" class="button_bg_blue_submit" @click="submit">
+            確定
+          </button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="360px" height="160px" viewBox="0 0 360 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>擬真畫面</title>
+    <defs>
+        <path d="M180.004579,18.394317 L0.00457910138,18.394317 L1.31450406e-13,-7.72715225e-14 C50.1404163,11.5501155 112.466168,18.394317 180.004579,18.394317 Z M360.008398,0.000175206151 L360.004579,18.394317 L180.004579,18.394317 L180.004579,18.394317 C247.542649,18.394317 309.868112,11.5501848 360.008398,0.000175206151 Z" id="path-1"></path>
+        <filter x="-0.6%" y="-10.9%" width="101.1%" height="121.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="1" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="2" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.662745098   0 0 0 0 0.662745098   0 0 0 0 0.662745098  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <polygon id="path-3" points="1.70530257e-13 0 8 12 16 0"></polygon>
+        <polygon id="path-5" points="12 12 12 0 -1.13686838e-13 12"></polygon>
+    </defs>
+    <g id="擬真畫面" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Bars/Top/Search/Banner" transform="translate(0.000000, 142.000000)">
+            <g id="Group">
+                <rect id="Rectangle" x="0" y="0" width="360" height="18"></rect>
+                <g transform="translate(155.000000, 8.000000)" fill-rule="nonzero">
+                    <path d="M25,0 C25.5522847,0 26,0.44771525 26,1 C26,1.51283584 25.6139598,1.93550716 25.1166211,1.99327227 L25,2 L19,2 C18.4477153,2 18,1.55228475 18,1 C18,0.487164161 18.3860402,0.0644928393 18.8833789,0.00672773133 L19,0 L25,0 Z" id="Rectangle" fill="#B5B5B5"></path>
+                    <path d="M37,0 C37.5522847,0 38,0.44771525 38,1 C38,1.51283584 37.6139598,1.93550716 37.1166211,1.99327227 L37,2 L31,2 C30.4477153,2 30,1.55228475 30,1 C30,0.487164161 30.3860402,0.0644928393 30.8833789,0.00672773133 L31,0 L37,0 Z" id="Rectangle" fill="#B5B5B5"></path>
+                    <path d="M49,0 C49.5522847,0 50,0.44771525 50,1 C50,1.51283584 49.6139598,1.93550716 49.1166211,1.99327227 L49,2 L43,2 C42.4477153,2 42,1.55228475 42,1 C42,0.487164161 42.3860402,0.0644928393 42.8833789,0.00672773133 L43,0 L49,0 Z" id="Rectangle" fill="#B5B5B5"></path>
+                    <path d="M13,0 C13.5522847,0 14,0.44771525 14,1 C14,1.51283584 13.6139598,1.93550716 13.1166211,1.99327227 L13,2 L1,2 C0.44771525,2 0,1.55228475 0,1 C0,0.487164161 0.38604019,0.0644928393 0.883378875,0.00672773133 L1,0 L13,0 Z" id="Focused" fill="#FF9500"></path>
+                </g>
+            </g>
+            <g id="Combined-Shape">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+            </g>
+        </g>
+        <g id="Search-Bar" transform="translate(8.000000, 32.000000)">
+            <rect id="Rectangle" stroke="#EEEEEE" fill="#FFFFFF" x="0" y="0" width="344" height="40" rx="8"></rect>
+            <text id="年後轉職尋找夢幻工作" font-family="NotoSansCJKtc-Regular, Noto Sans CJK TC" font-size="16" font-weight="normal" fill="#FF7800">
+                <tspan x="40" y="27">年後轉職尋找夢幻工作</tspan>
+            </text>
+            <g id="Group" transform="translate(16.000000, 12.000000)">
+                <rect id="Rectangle" x="0" y="0" width="16" height="16"></rect>
+                <path d="M7.0665,12.908 C3.9585,12.908 1.4295,10.379 1.4295,7.271 C1.4295,4.163 3.9585,1.635 7.0665,1.635 C10.1745,1.635 12.7035,4.163 12.7035,7.271 C12.7035,10.379 10.1745,12.908 7.0665,12.908 M15.4895,14.106 L12.2435,11.414 C13.1545,10.277 13.7035,8.838 13.7035,7.271 C13.7035,3.612 10.7265,0.635 7.0665,0.635 C3.4065,0.635 0.4295,3.612 0.4295,7.271 C0.4295,10.931 3.4065,13.908 7.0665,13.908 C8.7995,13.908 10.3745,13.235 11.5575,12.144 L14.8515,14.876 C14.9445,14.953 15.0575,14.991 15.1705,14.991 C15.3145,14.991 15.4565,14.929 15.5555,14.81 C15.7315,14.597 15.7025,14.283 15.4895,14.106" id="↱Color" fill="#7E7E7E"></path>
+            </g>
+        </g>
+        <g id="status-bar-contents" transform="translate(258.000000, 5.000000)">
+            <g id="wifi" transform="translate(0.000000, 1.000000)">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <g id="wifi-mask"></g>
+                <path d="M8,0 C1.4,0 -4,5.4 -4,12 C-4,18.6 1.4,24 8,24 C14.6,24 20,18.6 20,12 C20,5.4 14.6,0 8,0 L8,0 Z M8,21 C3,21 -1,17 -1,12 C-1,7 3,3 8,3 C13,3 17,7 17,12 C17,17 13,21 8,21 L8,21 Z" id="Shape" fill-opacity="0.3" fill="#FFFFFF" mask="url(#mask-4)"></path>
+                <path d="M8,3 C3,3 -1,7 -1,12 C-1,17 3,21 8,21 C13,21 17,17 17,12 C17,7 13,3 8,3 L8,3 Z M8,18 C4.7,18 2,15.3 2,12 C2,8.7 4.7,6 8,6 C11.3,6 14,8.7 14,12 C14,15.3 11.3,18 8,18 L8,18 Z" id="Shape" fill-opacity="0.9" fill="#FFFFFF" mask="url(#mask-4)"></path>
+                <path d="M8,6 C4.7,6 2,8.7 2,12 C2,15.3 4.7,18 8,18 C11.3,18 14,15.3 14,12 C14,8.7 11.3,6 8,6 L8,6 Z M8,15 C6.3,15 5,13.7 5,12 C5,10.3 6.3,9 8,9 C9.7,9 11,10.3 11,12 C11,13.7 9.7,15 8,15 L8,15 Z" id="Shape" fill-opacity="0.9" fill="#FFFFFF" mask="url(#mask-4)"></path>
+                <circle id="Oval" fill-opacity="0.9" fill="#FFFFFF" mask="url(#mask-4)" cx="8" cy="12" r="3"></circle>
+            </g>
+            <g id="reception" transform="translate(22.000000, 1.000000)">
+                <mask id="mask-6" fill="white">
+                    <use xlink:href="#path-5"></use>
+                </mask>
+                <g id="reception-mask"></g>
+                <rect id="Rectangle-path" fill-opacity="0.3" fill="#FFFFFF" mask="url(#mask-6)" x="9" y="0" width="3" height="12"></rect>
+                <rect id="Rectangle-path" fill-opacity="0.3" fill="#FFFFFF" mask="url(#mask-6)" x="6" y="0" width="3" height="12"></rect>
+                <rect id="Rectangle-path" fill-opacity="0.9" fill="#FFFFFF" mask="url(#mask-6)" x="3" y="0" width="3" height="12"></rect>
+                <rect id="Rectangle-path" fill-opacity="0.9" fill="#FFFFFF" mask="url(#mask-6)" x="0" y="0" width="3" height="12"></rect>
+            </g>
+            <g id="battery" transform="translate(44.000000, 0.000000)">
+                <path d="M7,1 L6,1 L6,0 L2,0 L2,1 L1,1 C0.4,1 -1.13686838e-13,1.4 -1.13686838e-13,2 L-1.13686838e-13,12 C-1.13686838e-13,12.6 0.4,13 1,13 L7,13 C7.6,13 8,12.6 8,12 L8,2 C8,1.4 7.6,1 7,1 L7,1 Z" id="battery-mask"></path>
+                <rect id="Rectangle-path" fill-opacity="0.9" fill="#FFFFFF" x="0" y="10" width="8" height="3"></rect>
+                <rect id="Rectangle-path" fill-opacity="0.9" fill="#FFFFFF" x="0" y="7" width="8" height="3"></rect>
+                <rect id="Rectangle-path" fill-opacity="0.3" fill="#FFFFFF" x="0" y="4" width="8" height="3"></rect>
+                <rect id="Rectangle-path" fill-opacity="0.3" fill="#FFFFFF" x="0" y="1" width="8" height="3"></rect>
+                <rect id="Rectangle-path" fill-opacity="0.3" fill="#FFFFFF" x="2" y="0" width="4" height="1"></rect>
+            </g>
+            <g id="time" opacity="0.9" transform="translate(61.000000, 0.000000)" fill="#FFFFFF" font-family="Roboto-Medium, Roboto" font-size="13" font-weight="400">
+                <text id="12:30">
+                    <tspan x="2.27373675e-13" y="12">12:30</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,401 @@
+/* input 共用 style */
+/* 
+  input radio 共用 style，需要配合 label.ad-radio-label 與 .ad-radio 元素
+  這樣就不用依賴 id 
+  用法：
+    <label class="ad-radio-label">
+      <input type="radio" v-model="text" name="text" value="1" />
+      <span class="ad-radio"></span>範例
+    </label>
+*/
+/* 
+  input checkbox 共用 style，需要配合 label 與 span 元素
+  用法:
+    <input type="checkbox" v-model="text" value="測試" id="text" />
+    <label for="text"><span></span>測試</label>
+*/
+input {
+  border-radius: 4px;
+  border: solid 1px #eee;
+  background-color: #f3f3f3;
+  font-family: "微軟正黑體", "Microsoft JhengHei", Arial;
+  font-size: 16px;
+  line-height: 1.38;
+  color: #292929;
+  padding: 7px 12px;
+  outline: none;
+
+  &::placeholder,
+  &::-webkit-input-placeholder,
+  &::-moz-placeholder,
+  &:-moz-placeholder,
+  &:-ms-input-placeholder,
+  &::-ms-input-placeholder {
+    color: #a9a9a9 !important;
+    letter-spacing: 1.38px;
+    font-weight: bold;
+  }
+  &:focus {
+    border: solid 1px #00afb8;
+
+    &.error_message_border {
+      border: 1px solid #ea475b;
+    }
+  }
+  &[disabled] {
+    border: solid 1px #eee !important;
+    color: #a9a9a9 !important;
+    background-color: rgba(243, 243, 243, 0.5) !important;
+  }
+  &[widthType="680"] {
+    width: 654px;
+  }
+  &[widthType="480"] {
+    width: 480px;
+  }
+  &[widthType="380"] {
+    width: 354px;
+  }
+  &[widthType="260"] {
+    width: 234px;
+  }
+  &[widthType="122"] {
+    width: 96px;
+  }
+  &[widthType="78"] {
+    width: 52px;
+  }
+  &[widthType="40"] {
+    width: 40px;
+  }
+  &[heightType="32"] {
+    height: 32px;
+  }
+  &[type="radio"] {
+    display: none;
+
+    + .ad-radio {
+      background: url(../assets/icon/btn-radio-enabled-unselected.svg) left top
+        no-repeat;
+      display: inline-block;
+      width: 24px;
+      height: 24px;
+      margin-right: 4px;
+      vertical-align: bottom;
+    }
+
+    &:checked {
+      + .ad-radio {
+        background: url(../assets/icon/btn-radio-enabled-selected.svg) left top
+          no-repeat;
+      }
+    }
+
+    &[disabled] {
+      + .ad-radio {
+        background: url(../assets/icon/btn-radio-disabled-unselected.svg) left
+          top no-repeat;
+        background-size: 22px;
+        cursor: not-allowed;
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        margin-right: 4px;
+        vertical-align: bottom;
+      }
+
+      &:checked {
+        + .ad-radio {
+          background: url(../assets/icon/btn-radio-disabled-selected.svg) left
+            top no-repeat;
+        }
+      }
+    }
+  }
+  &[type="checkbox"] {
+    display: none;
+
+    + label {
+      cursor: pointer;
+
+      span {
+        background: url(../assets/icon/btn-checkbox-enabled-unselected.svg) left
+          top no-repeat;
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        margin-right: 4px;
+        vertical-align: bottom;
+      }
+    }
+
+    &[disabled] {
+      + label {
+        cursor: not-allowed;
+
+        span {
+          background: url(../assets/icon/btn-checkbox-disabled-unselected.svg)
+            left top no-repeat;
+          display: inline-block;
+          width: 24px;
+          height: 24px;
+          margin-right: 4px;
+          vertical-align: bottom;
+        }
+      }
+      &:checked {
+        + label {
+          span {
+            background: url(../assets/icon/btn-checkbox-disabled-selected.svg)
+              left top no-repeat;
+          }
+        }
+      }
+    }
+
+    &:checked {
+      + label {
+        span {
+          background: url(../assets/icon/btn-checkbox-enabled-selected.svg) left
+            top no-repeat;
+        }
+      }
+    }
+  }
+}
+
+/* button 共用 style */
+button {
+  font-family: "微軟正黑體", "Microsoft JhengHei", Arial !important;
+}
+
+label {
+  .ad-radio-label {
+    cursor: pointer;
+    margin-right: 15px;
+  }
+}
+
+/* textarea */
+textarea {
+  border-radius: 4px;
+  border: solid 1px #ddd;
+  background-color: #f3f3f3;
+  resize: none;
+  padding: 12px;
+  color: #292929;
+  line-height: 1.38;
+  letter-spacing: 1.58px;
+  font-size: 16px;
+
+  &::placeholder,
+  &::-webkit-input-placeholder,
+  &::-moz-placeholder,
+  &:-moz-placeholder,
+  &:-ms-input-placeholder,
+  &::-ms-input-placeholder {
+    color: #a9a9a9 !important;
+    letter-spacing: 1.38px;
+    font-weight: bold;
+  }
+}
+
+/* a 共用 style */
+a {
+  font-size: 16px;
+  line-height: 1.38;
+  letter-spacing: 1.38px;
+  color: #1654b9;
+  text-decoration: none;
+}
+
+/* 區塊共用 */
+section {
+  padding: 24px 50px;
+  background-color: #fff;
+  border-radius: 8px;
+  border: solid 1px #e2e1e1;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+  color: #333;
+}
+
+.button_bg_blue {
+  &_large,
+  &_medium,
+  &_small,
+  &_smaller {
+    border-radius: 4px;
+    border: solid 1px #00afb8;
+    background-color: #00afb8;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+
+    &:hover {
+      border: solid 1px #39c8d0;
+      background-color: #39c8d0;
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+  &_large,
+  &_large_disable {
+    font-size: 18px;
+    line-height: 1.27;
+    width: 154px;
+    padding: 7px 0;
+  }
+  &_medium,
+  &_medium_disable {
+    font-size: 14px;
+    line-height: 1.45;
+    width: 120px;
+    height: 32px;
+  }
+  &_small {
+    font-size: 18px;
+    width: 110px;
+    line-height: 1.7;
+    padding: 3px 0;
+  }
+  &_smaller {
+    font-size: 18px;
+    line-height: 1.27;
+    width: 70px;
+    padding: 7px 0;
+  }
+  &_small_disable,
+  &_smaller_disable,
+  &_large_disable,
+  &_medium_disable {
+    border-radius: 4px;
+    border: solid 1px #a9a9a9;
+    background-color: #a9a9a9;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+  }
+}
+
+.button_bg_blue_large,
+.button_bg_blue_medium,
+.button_bg_blue_small,
+.button_bg_blue_smaller {
+  &[disabled] {
+    border-radius: 4px;
+    border: solid 1px #a9a9a9;
+    background-color: #a9a9a9;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+  }
+}
+
+.button_bg_white {
+  &_large,
+  &_large_disable {
+    font-size: 18px;
+    line-height: 1.27;
+    width: 154px;
+    padding: 7px 0;
+  }
+  &_medium,
+  &_medium_disable {
+    font-size: 14px;
+    line-height: 1.43;
+    letter-spacing: 1.43px;
+    width: 132px;
+    height: 32px;
+  }
+  &_large,
+  &_medium,
+  &_small,
+  &_error {
+    border-radius: 4px;
+    border: solid 1px #00afb8;
+    background-color: #fff;
+    font-weight: bold;
+    text-align: center;
+    color: #00afb8;
+
+    &:hover {
+      box-shadow: 0 0 4px 0 #39c8d0;
+      border: solid 1px #39c8d0;
+      color: #39c8d0;
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+  &_small {
+    font-size: 18px;
+    line-height: 1.27;
+    width: 70px;
+    padding: 7px 0;
+    font-weight: normal;
+  }
+  &_error {
+    font-size: 14px;
+    letter-spacing: 1.43px;
+    line-height: 1.17;
+    padding: 7px 0;
+    width: 154px;
+  }
+  &_large_disable,
+  &_medium_disable {
+    border-radius: 4px;
+    border: solid 1px #a9a9a9;
+    background-color: #fff;
+    font-weight: bold;
+    text-align: center;
+    color: #a9a9a9;
+  }
+}
+
+.necessary {
+  color: red !important;
+}
+
+/* error message */
+.error_message_border,
+.error_message_border:hover {
+  border-radius: 4px;
+  border: 1px solid #ea475b !important;
+}
+
+.error_message {
+  color: #ea475b;
+  margin-top: 6px;
+  padding-left: 12px;
+  font-size: 16px;
+  font-weight: initial;
+}
+
+// element ui
+:root {
+  --el-color-primary: #00afb8;
+}
+
+.el-date-table__row {
+  --el-datepicker-active-color: #409eff;
+  --el-color-primary: #409eff;
+}
+
+.el-input__inner {
+  height: 40px;
+}
+
+.el-popper.el-select__popper {
+  transform: translateY(-13px);
+
+  .el-popper__arrow {
+    display: none;
+  }
+}

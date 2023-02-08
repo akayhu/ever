@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="240" height="280" viewBox="0 0 240 280">
+    <defs>
+        <path id="29foug4u0a" d="M0 0H240V280H0z"/>
+        <mask id="ss7wtpbvkb" width="240" height="280" x="0" y="0" fill="#fff" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox">
+            <use xlink:href="#29foug4u0a"/>
+        </mask>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <use fill="#FFF" stroke="#E2E1E1" stroke-dasharray="6" stroke-width="2" mask="url(#ss7wtpbvkb)" xlink:href="#29foug4u0a"/>
+        <path fill="#D8D8D8" d="M20 181h200v70H20v-70z"/>
+        <text fill="#2D2D2D" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43">
+            <tspan x="20" y="32">文字一：內文（範例）內文</tspan>
+        </text>
+        <text fill="#2D2D2D" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43">
+            <tspan x="20" y="56">文字二：內文（範例）內文</tspan>
+        </text>
+        <text fill="#2D2D2D" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43">
+            <tspan x="20" y="80">文字三：內文（範例）內文</tspan>
+        </text>
+        <text fill="#2D2D2D" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43">
+            <tspan x="20" y="104">文字四：內文（範例）內文</tspan>
+        </text>
+        <text fill="#2D2D2D" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" font-size="14" letter-spacing="1.43">
+            <tspan x="20" y="128">文字五：內文（範例）內文</tspan>
+        </text>
+        <g fill="#DDD" transform="translate(117 145)">
+            <circle cx="3" cy="3" r="3"/>
+            <circle cx="3" cy="13" r="3"/>
+            <circle cx="3" cy="23" r="3"/>
+        </g>
+    </g>
+</svg>

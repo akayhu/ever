@@ -1,0 +1,55 @@
+.controller {
+  &_grid {
+    display: grid;
+    grid-template-columns: 96px auto;
+    grid-template-rows: 58px 58px;
+
+    > div {
+      &:nth-child(odd) {
+        padding-top: 8px;
+      }
+    }
+  }
+
+  // 公司名稱 AC
+  .el-autocomplete {
+    width: 480px;
+  }
+
+  .select_project {
+    margin-top: 10px;
+
+    .title {
+      font-size: 16px;
+      line-height: 1.38;
+      letter-spacing: 1.38px;
+      color: #333;
+
+      span {
+        font-size: 14px;
+        line-height: 1.43;
+        letter-spacing: 1.43px;
+        color: #7e7e7e;
+      }
+    }
+
+    .project_block {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 21px;
+
+      .project_item {
+        width: 299px;
+
+        label {
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          word-break: break-all;
+          width: 280px;
+          display: inline-block;
+        }
+      }
+    }
+  }
+}

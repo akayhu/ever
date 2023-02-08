@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="240" height="170" viewBox="0 0 240 170">
+    <defs>
+        <path id="a4l2hn2c1a" d="M0 0H240V170H0z"/>
+        <mask id="vlzvbsoapb" width="240" height="170" x="0" y="0" fill="#fff" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox">
+            <use xlink:href="#a4l2hn2c1a"/>
+        </mask>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <g transform="translate(-4444 -1279) translate(3758 1135) translate(666 82) translate(20 62)">
+                        <use fill="#FFF" stroke="#E2E1E1" stroke-dasharray="6" stroke-width="2" mask="url(#vlzvbsoapb)" xlink:href="#a4l2hn2c1a"/>
+                        <g>
+                            <text fill="#A9A9A9" font-family="MicrosoftJhengHeiBold, Microsoft JhengHei" font-size="12" font-weight="bold" letter-spacing="1.5" transform="translate(20 60)">
+                                <tspan x="0" y="45">文字（範例）文字（範</tspan>
+                            </text>
+                            <g>
+                                <text fill="#A9A9A9" font-family="MicrosoftJhengHeiBold, Microsoft JhengHei" font-size="12" font-weight="bold" letter-spacing="1.5" transform="translate(20 60) translate(164)">
+                                    <tspan x="4" y="15">文字</tspan>
+                                </text>
+                                <path stroke="#7E7E7E" d="M0 0H36V22H0z" transform="translate(20 60) translate(164)"/>
+                            </g>
+                            <text fill="#2D2D2D" font-family="MicrosoftJhengHeiBold, Microsoft JhengHei" font-size="16" font-weight="bold" letter-spacing="1.38" transform="translate(20 60)">
+                                <tspan x="0" y="17">標題</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

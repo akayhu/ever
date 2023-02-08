@@ -1,0 +1,16 @@
+<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <g fill="none" fill-rule="evenodd" opacity=".8">
+        <circle fill="#CECECE" transform="rotate(90 22 12)" cx="22" cy="12" r="2"/>
+        <circle fill="#6E6E6E" transform="rotate(90 2 12)" cx="2" cy="12" r="2"/>
+        <circle fill="#7A7A7A" transform="rotate(-120 3.092 17.143)" cx="3.092" cy="17.143" r="1.714"/>
+        <circle fill="#DADADA" transform="rotate(-120 20.908 6.857)" cx="20.908" cy="6.857" r="1.714"/>
+        <circle fill="#000" cx="12" cy="2" r="2"/>
+        <circle fill="#929292" cx="12" cy="22" r="2"/>
+        <circle fill="#F3F3F3" transform="rotate(30 17.143 3.092)" cx="17.143" cy="3.092" r="1.714"/>
+        <circle fill="#868686" transform="rotate(30 6.857 20.908)" cx="6.857" cy="20.908" r="1.714"/>
+        <circle fill="#B4B4B4" transform="rotate(120 20.908 17.143)" cx="20.908" cy="17.143" r="1.714"/>
+        <circle fill="#575757" transform="rotate(120 3.092 6.857)" cx="3.092" cy="6.857" r="1.714"/>
+        <circle fill="#A0A0A0" transform="rotate(150 17.25 20.964)" cx="17.249" cy="20.964" r="1.714"/>
+        <circle fill="#3E3E3E" transform="rotate(150 6.964 3.148)" cx="6.964" cy="3.148" r="1.714"/>
+    </g>
+</svg>

@@ -1,0 +1,152 @@
+@import "~scss/component/variables";
+@import "~scss/mixin/mixin";
+
+@mixin table_width($table_config) {
+  @each $name, $width in $table_config {
+    div[class*="_#{$name}"] {
+      width: $width;
+    }
+  }
+}
+
+div[class$="_table_header_row"] {
+  @include font-common(16px, $font-weight-bold, $black);
+  border: solid 1px $gray-400;
+  display: flex;
+  align-items: center;
+  border-left: none;
+  border-right: none;
+
+  > div {
+    display: flex;
+    padding-left: 12px;
+    align-items: center;
+    height: 48px;
+  }
+
+  .sort_button {
+    cursor: pointer;
+  }
+}
+
+div[class$="_table_body_row"] {
+  @include font-common(16px, $font-weight-normal, $gray-900);
+  display: flex;
+  align-items: center;
+  border-bottom: solid 1px $gray-400;
+
+  &:hover {
+    background: #e6f9fa;
+  }
+
+  .check_box {
+    height: 24px;
+  }
+
+  > div {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 13px 0px 13px 12px;
+    max-height: fit-content;
+  }
+}
+
+// div[class$="_table_body_wrapper"] {
+//   max-height: 480px;
+//   overflow-y: scroll;
+// }
+
+div[class$="_table_body_no_result"] {
+  @include font-common(16px, $font-weight-normal, $red);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 0;
+  position: relative;
+
+  &::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 1px;
+    background-color: $gray-400;
+  }
+}
+
+.project_date_interval_selector {
+  margin: 24px 0;
+  display: flex;
+
+  span {
+    border: solid 1px #ddd;
+    padding: 0 20px;
+    font-size: 18px;
+    position: relative;
+    cursor: pointer;
+    line-height: 1.6;
+
+    &:nth-child(1) {
+      padding: 0 11px;
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+    }
+
+    &:nth-child(2) {
+      left: -1px;
+    }
+
+    &:nth-child(3) {
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+      left: -2px;
+    }
+
+    &.focus {
+      color: #00afb8;
+      font-weight: bold;
+      border: solid 1px #00afb8;
+      background-color: #e6f9fa;
+      z-index: 1;
+    }
+  }
+}
+
+.project_date_interval {
+  > div > span {
+    @include font-common(16px, $font-weight-normal, $blue-text);
+  }
+
+  .duration {
+    @include font-common(16px, $font-weight-normal, $blue-lake);
+    margin-top: 16px;
+    margin-left: 88px;
+    display: flex;
+
+    &.days {
+      .focus {
+        font-weight: bold;
+        background-color: #e1fafa;
+        padding: 4px;
+        line-height: 1;
+      }
+
+      span {
+        cursor: pointer;
+        display: inline-block;
+      }
+    }
+  }
+
+  ::v-deep .el-select {
+    width: 300px;
+    margin-right: 12px;
+
+    input {
+      @include font-common(16px, $font-weight-normal);
+    }
+  }
+}

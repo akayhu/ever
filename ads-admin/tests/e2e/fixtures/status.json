@@ -1,0 +1,37 @@
+{
+  "response": {
+    "type": 2,
+    "accountId": "9999",
+    "logonId": "e2e.text",
+    "name": "Cypress",
+    "role": 1,
+    "allowedSite": [1, 2, 3, 4, 5, 6, 10, 14, 20, 21, 40, 102, 115, 132, 134],
+    "specialPermission": ["emergency"],
+    "dataPermission": [
+      "CALENDAR_VIEW_SALE_LV1",
+      "CALENDAR_VIEW_SALE_LV2",
+      "CALENDAR_VIEW_MARKET_LV1",
+      "CALENDAR_VIEW_MARKET_LV2",
+      "CALENDAR_EDIT_SALE_LV1",
+      "CALENDAR_EDIT_SALE_LV2",
+      "CALENDAR_EDIT_SALE_LV3",
+      "CALENDAR_EDIT_MARKET_LV1",
+      "CALENDAR_EDIT_MARKET_LV2",
+      "CALENDAR_EDIT_MARKET_LV3",
+      "PROJECT_EDIT_LV1",
+      "PROJECT_EDIT_LV2",
+      "PROJECT_EDIT_LV3",
+      "RESERVE_EDIT_SALE_LV1",
+      "RESERVE_EDIT_SALE_LV2",
+      "RESERVE_EDIT_MARKET_LV1",
+      "RESERVE_EDIT_MARKET_LV2",
+      "MATERIAL_EDIT_SALE_LV1",
+      "MATERIAL_EDIT_SALE_LV2",
+      "MATERIAL_EDIT_MARKET_LV1",
+      "MATERIAL_EDIT_MARKET_LV2",
+      "REPORT_EDIT_LV1",
+      "REPORT_EDIT_LV2"
+    ],
+    "accessible": true
+  }
+}

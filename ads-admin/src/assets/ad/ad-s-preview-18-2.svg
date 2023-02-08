@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="240" height="240" viewBox="0 0 240 240">
+    <defs>
+        <path id="f02qmr8ula" d="M0 0H240V240H0z"/>
+        <mask id="4k66ikijrb" width="240" height="240" x="0" y="0" fill="#fff" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox">
+            <use xlink:href="#f02qmr8ula"/>
+        </mask>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <use fill="#FFF" stroke="#E2E1E1" stroke-dasharray="6" stroke-width="2" mask="url(#4k66ikijrb)" xlink:href="#f02qmr8ula"/>
+        <path fill="#D8D8D8" d="M20 20h200v60H20V20z"/>
+        <text fill="#A9A9A9" font-family="MicrosoftJhengHeiBold, Microsoft JhengHei" font-size="12" font-weight="bold" letter-spacing="1.5">
+            <tspan x="20" y="133">文字一：內文（範例）內文（範</tspan> <tspan x="20" y="151">例）內文（範例）內文（範例）</tspan> <tspan x="20" y="169">內文（範例）內文（範例）內文</tspan> <tspan x="20" y="187">（範例）內文（範例）內文（範</tspan>
+        </text>
+        <text fill="#2D2D2D" font-family="MicrosoftJhengHeiBold, Microsoft JhengHei" font-size="10" font-weight="bold" letter-spacing="1.25">
+            <tspan x="20" y="213">文字七：文字文字</tspan>
+        </text>
+        <text fill="#2D2D2D" font-family="MicrosoftJhengHeiBold, Microsoft JhengHei" font-size="10" font-weight="bold" letter-spacing="1.25">
+            <tspan x="130" y="213">文字八：文字文字</tspan>
+        </text>
+        <text fill="#2D2D2D" font-family="MicrosoftJhengHeiBold, Microsoft JhengHei" font-size="16" font-weight="bold">
+            <tspan x="20" y="107">標題</tspan>
+        </text>
+    </g>
+</svg>

@@ -1,0 +1,28 @@
+
+$blue: #609af3;
+$green: #a7d32a;
+$gray: #798596;
+$light-gray: #b8b8b8;
+$yellow: #fbdb82;
+$red: #f29a97;
+$pink: #e04f98;
+$lavender: #d681db;
+$purple: #a17ad8;
+
+$calendar-status-colors: ();
+// @debug($calendar-status-colors);
+// stylelint-disable-next-line scss/dollar-variable-default
+$calendar-status-colors: map-merge(
+  (
+    "blue": $blue,
+    "green": $green,
+    "gray": $gray,
+    "light-gray": $light-gray,
+    "yellow": $yellow,
+    "red": $red,
+    "pink": $pink,
+    "lavender": $lavender,
+    "purple": $purple
+  ),
+  $calendar-status-colors
+);

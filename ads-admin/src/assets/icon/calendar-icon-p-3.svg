@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <filter id="im7lqqjd9a" width="101.7%" height="134.3%" x="-.8%" y="-17.1%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0.662745098 0 0 0 0 0.662745098 0 0 0 0 0.662745098 0 0 0 1 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g>
+            <g filter="url(#im7lqqjd9a)" transform="translate(-1030.000000, -110.000000) translate(60.000000, 87.000000)">
+                <g>
+                    <g stroke-width="2">
+                        <g stroke="#6D6E71">
+                            <path d="M4.445 4.148c1.144 0 2.074-.929 2.074-2.074C6.519.93 5.589 0 4.445 0 3.298 0 2.37.93 2.37 2.074c0 1.145.928 2.074 2.075 2.074zM9.481 8.684c-.436-1.005-1.25-1.674-2.707-1.758-.569.378-1.267.609-2.029.609-.763 0-1.46-.23-2.031-.61C1.248 7.012.434 7.689 0 8.705" transform="translate(970.000000, 23.000000) translate(4.000000, 5.000000) translate(0.000000, 2.000000)"/>
+                        </g>
+                        <g stroke="#50C0C5">
+                            <path d="M7.111 8.704C6.675 7.687 5.86 7.01 4.401 6.926c-.57.382-1.268.616-2.03.616M2.074 4.148c1.145 0 2.074-.929 2.074-2.074C4.148.93 3.218 0 2.074 0 1.882 0 1.237.119.83.468.294.924 0 1.676 0 2.074 0 3.22.928 4.148 2.074 4.148z" transform="translate(970.000000, 23.000000) translate(4.000000, 5.000000) translate(9.000000, 0.000000)"/>
+                        </g>
+                    </g>
+                    <g stroke="#6D6E71" stroke-width="1.5">
+                        <path d="M1.121 0.121L3.121 2.035 1.121 4.121" transform="translate(970.000000, 23.000000) translate(14.122163, 18.121320) rotate(180.000000) translate(-14.122163, -18.121320) translate(9.001686, 16.000000) translate(2.121320, 2.121320) scale(-1, 1) rotate(45.000000) translate(-2.121320, -2.121320)"/>
+                        <path d="M10.241 1.664c-1.09-.913-2.424-1.37-4-1.37s-2.91.457-4 1.37" transform="translate(970.000000, 23.000000) translate(14.122163, 18.121320) rotate(180.000000) translate(-14.122163, -18.121320) translate(9.001686, 16.000000)"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

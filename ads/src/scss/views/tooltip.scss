@@ -1,0 +1,274 @@
+@import "~@/scss/component/variables";
+@import "~@/scss/mixin/mixin";
+
+$arrow-right-config: (
+  "right-start": (
+    top: 4px
+  ),
+  "right-end": (
+    top: auto,
+    bottom: 4px
+  ),
+  "right": (
+    top: calc(50% - 6px)
+  )
+);
+
+$arrow-left-config: (
+  "left-start": (
+    top: 4px
+  ),
+  "left-end": (
+    top: auto,
+    bottom: 4px
+  ),
+  "left": (
+    top: calc(50% - 6px)
+  )
+);
+
+$arrow-top-config: (
+  "top-start": (
+    left: 4px
+  ),
+  "top-end": (
+    left: auto,
+    right: 4px
+  ),
+  "top": (
+    left: calc(50% - 8px)
+  )
+);
+
+$arrow-bottom-config: (
+  "bottom-start": (
+    left: 8px
+  ),
+  "bottom-end": (
+    left: auto,
+    right: 4px
+  ),
+  "bottom": (
+    left: calc(50% - 8px)
+  )
+);
+
+.tooltip {
+  display: block !important;
+  z-index: 2000;
+  @include font-common(14px, $font-weight-normal);
+
+  .tooltip-inner {
+    background: $gray-900;
+    color: $white;
+    border-radius: 4px;
+    padding: 6px 12px;
+    text-align: left;
+    line-height: 20px;
+    max-width: 480px;
+  }
+
+  .tooltip-arrow {
+    width: 12px;
+    height: 12px;
+    transform: rotate(45deg);
+    position: absolute;
+    z-index: 1;
+    background-color: $gray-900;
+  }
+
+  @each $key, $val in $arrow-left-config {
+    &[x-placement$="#{$key}"] {
+      padding-right: 8px;
+      .tooltip-arrow {
+        right: 2px;
+        @each $nestedKey, $nestedVal in $val {
+          #{$nestedKey}: #{$nestedVal} !important;
+        }
+      }
+    }
+  }
+
+  @each $key, $val in $arrow-right-config {
+    &[x-placement$="#{$key}"] {
+      padding-left: 8px;
+      .tooltip-arrow {
+        left: 2px;
+        @each $nestedKey, $nestedVal in $val {
+          #{$nestedKey}: #{$nestedVal} !important;
+        }
+      }
+    }
+  }
+
+  @each $key, $val in $arrow-bottom-config {
+    &[x-placement$="#{$key}"] {
+      padding-top: 8px;
+      .tooltip-arrow {
+        top: 2px;
+        @each $nestedKey, $nestedVal in $val {
+          #{$nestedKey}: #{$nestedVal} !important;
+        }
+      }
+    }
+  }
+
+  @each $key, $val in $arrow-top-config {
+    &[x-placement$="#{$key}"] {
+      padding-bottom: 8px;
+      .tooltip-arrow {
+        bottom: 2px;
+        @each $nestedKey, $nestedVal in $val {
+          #{$nestedKey}: #{$nestedVal} !important;
+        }
+      }
+    }
+  }
+
+  &.popover {
+    border: none;
+  }
+
+  &[aria-hidden="true"] {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.35s, visibility 0.35s;
+  }
+
+  &[aria-hidden="false"] {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.35s;
+  }
+
+  &.light {
+    .tooltip-inner {
+      background-color: $white;
+    }
+    .tooltip-arrow {
+      background-color: $white;
+    }
+    &[x-placement*="top"] {
+      .tooltip-inner {
+        box-shadow: 0px 1px 5px 1px $gray-600;
+      }
+      .tooltip-arrow {
+        box-shadow: 3px 3px 3px -1px $gray-600;
+      }
+    }
+    &[x-placement*="bottom"] {
+      .tooltip-inner {
+        box-shadow: 0px 1px 5px 1px $gray-600;
+      }
+      .tooltip-arrow {
+        box-shadow: -2px -2px 3px -1px $gray-600;
+      }
+    }
+    &[x-placement*="left"] {
+      .tooltip-inner {
+        box-shadow: 0px 1px 5px 1px $gray-600;
+      }
+      .tooltip-arrow {
+        box-shadow: 3px -2px 3px -1px $gray-600;
+      }
+    }
+    &[x-placement*="right"] {
+      .tooltip-inner {
+        box-shadow: 0px 1px 5px 1px $gray-600;
+      }
+      .tooltip-arrow {
+        box-shadow: -2px 2px 3px -1px $gray-600;
+      }
+    }
+  }
+}
+
+//css for v-popover
+.popover_link {
+  max-width: 369px;
+
+  .popover_link_anchor {
+    flex: 0 0 auto;
+    max-width: 333px;
+
+    > a {
+      @include font-common(12px, $font-weight-normal, $link-color);
+      line-height: 20px;
+      word-break: break-all;
+      text-decoration: none !important;
+      white-space: normal;
+    }
+  }
+  .popover_link_icon {
+    flex: 0 0 36px;
+    padding-left: 12px;
+
+    > img {
+      cursor: pointer;
+    }
+  }
+}
+
+.source_panel {
+  padding: 6px 0;
+  @include font-common(16px, $font-weight-normal);
+  > p {
+    > span {
+      color: $blue-lake;
+      &::before {
+        content: ":";
+        @include font-common(12px, $font-weight-normal);
+        display: inline-block;
+        transform: translateY(-1.5px);
+        margin-right: 4px;
+      }
+      &::after {
+        content: "";
+        @include font-common(12px, $font-weight-normal);
+        display: inline;
+        margin-left: 4px;
+      }
+      &.no_value {
+        &::after {
+          display: none;
+        }
+        > span {
+          display: inline-block;
+          height: 1px;
+          width: 10px;
+          transform: translate(-5px, -4px);
+          background-color: $gray-600;
+        }
+      }
+    }
+  }
+  > ul {
+    margin-top: 9px;
+    margin-bottom: 0;
+    > li {
+      display: flex;
+      align-items: center;
+      > span {
+        color: $blue-lake;
+        &::after {
+          content: "";
+          @include font-common(12px, $font-weight-normal);
+          display: inline;
+          margin-left: 4px;
+        }
+        &.no_value {
+          &::after {
+            display: none;
+          }
+          > span {
+            display: inline-block;
+            height: 1px;
+            width: 10px;
+            transform: translate(2px, -4px);
+            background-color: $gray-600;
+          }
+        }
+      }
+    }
+  }
+}

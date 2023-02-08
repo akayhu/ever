@@ -1,0 +1,220 @@
+{
+  "admin": {
+    "response": {
+      "type": 2,
+      "accountId": "1",
+      "logonId": "admin",
+      "name": "系統管理者",
+      "role": 1,
+      "allowedSite": [1, 2, 3, 4, 5, 6, 10, 14, 20, 21, 40, 102, 115, 132, 134],
+      "specialPermission": ["emergency"],
+      "dataPermission": [
+        "CALENDAR_VIEW_SALE_LV1",
+        "CALENDAR_VIEW_SALE_LV2",
+        "CALENDAR_VIEW_MARKET_LV1",
+        "CALENDAR_VIEW_MARKET_LV2",
+        "CALENDAR_EDIT_SALE_LV1",
+        "CALENDAR_EDIT_SALE_LV2",
+        "CALENDAR_EDIT_SALE_LV3",
+        "CALENDAR_EDIT_MARKET_LV1",
+        "CALENDAR_EDIT_MARKET_LV2",
+        "CALENDAR_EDIT_MARKET_LV3",
+        "PROJECT_EDIT_LV1",
+        "PROJECT_EDIT_LV2",
+        "PROJECT_EDIT_LV3",
+        "RESERVE_EDIT_SALE_LV1",
+        "RESERVE_EDIT_SALE_LV2",
+        "RESERVE_EDIT_MARKET_LV1",
+        "RESERVE_EDIT_MARKET_LV2",
+        "MATERIAL_EDIT_SALE_LV1",
+        "MATERIAL_EDIT_SALE_LV2",
+        "MATERIAL_EDIT_MARKET_LV1",
+        "MATERIAL_EDIT_MARKET_LV2",
+        "REPORT_EDIT_LV1",
+        "REPORT_EDIT_LV2"
+      ],
+      "accessible": true
+    }
+  },
+  "productPlanner": {
+    "response": {
+      "type": 2,
+      "accountId": "23",
+      "logonId": "product.planner",
+      "name": "產品企劃",
+      "role": 23,
+      "allowedSite": [1, 2, 3, 4, 5, 6, 10, 14, 20, 21, 40, 102, 115, 132, 134],
+      "specialPermission": ["emergency"],
+      "dataPermission": [
+        "CALENDAR_VIEW_SALE_LV1",
+        "CALENDAR_VIEW_MARKET_LV1",
+        "CALENDAR_VIEW_MARKET_LV2",
+        "CALENDAR_EDIT_MARKET_LV1",
+        "CALENDAR_EDIT_MARKET_LV2",
+        "RESERVE_EDIT_MARKET_LV1",
+        "RESERVE_EDIT_MARKET_LV2",
+        "MATERIAL_EDIT_SALE_LV1",
+        "MATERIAL_EDIT_SALE_LV2",
+        "MATERIAL_EDIT_MARKET_LV1",
+        "MATERIAL_EDIT_MARKET_LV2",
+        "PROJECT_EDIT_LV1",
+        "PROJECT_EDIT_LV2"
+      ],
+      "accessible": true
+    }
+  },
+  "productvm": {
+    "response": {
+      "type": 2,
+      "accountId": "21",
+      "logonId": "product.vm",
+      "name": "產品VM",
+      "role": 21,
+      "allowedSite": [1, 2, 3, 4, 5, 6, 10, 14, 20, 21, 40, 102, 115, 132, 134],
+      "specialPermission": ["emergency"],
+      "dataPermission": [
+        "CALENDAR_VIEW_SALE_LV1",
+        "CALENDAR_VIEW_MARKET_LV1",
+        "CALENDAR_VIEW_MARKET_LV2",
+        "CALENDAR_EDIT_MARKET_LV1",
+        "PROJECT_EDIT_LV1",
+        "RESERVE_EDIT_MARKET_LV1",
+        "MATERIAL_EDIT_MARKET_LV1",
+        "MATERIAL_EDIT_MARKET_LV2",
+        "REPORT_EDIT_LV1"
+      ],
+      "accessible": true
+    }
+  },
+  "productManager": {
+    "response": {
+      "type": 2,
+      "accountId": "22",
+      "logonId": "product.manager",
+      "name": "產品主管",
+      "role": 22,
+      "allowedSite": [1, 2, 3, 4, 5, 6, 10, 14, 20, 21, 40, 102, 115, 132, 134],
+      "specialPermission": ["emergency"],
+      "dataPermission": [
+        "CALENDAR_VIEW_SALE_LV1",
+        "CALENDAR_VIEW_MARKET_LV1",
+        "CALENDAR_VIEW_MARKET_LV2",
+        "CALENDAR_EDIT_MARKET_LV1",
+        "CALENDAR_EDIT_MARKET_LV2",
+        "CALENDAR_EDIT_MARKET_LV3",
+        "PROJECT_EDIT_LV1",
+        "PROJECT_EDIT_LV2",
+        "PROJECT_EDIT_LV3",
+        "RESERVE_EDIT_MARKET_LV1",
+        "RESERVE_EDIT_MARKET_LV2",
+        "MATERIAL_EDIT_SALE_LV1",
+        "MATERIAL_EDIT_SALE_LV2",
+        "MATERIAL_EDIT_MARKET_LV1",
+        "MATERIAL_EDIT_MARKET_LV2",
+        "REPORT_EDIT_LV1"
+      ],
+      "accessible": true
+    }
+  },
+  "recruitPlanner": {
+    "response": {
+      "type": 2,
+      "accountId": "12",
+      "logonId": "recruit.planner",
+      "name": "整招企劃",
+      "role": 12,
+      "allowedSite": [1, 2, 3, 4, 5, 6, 10, 14, 20, 21, 40, 102, 115, 132, 134],
+      "specialPermission": ["emergency"],
+      "dataPermission": [
+        "CALENDAR_VIEW_SALE_LV1",
+        "CALENDAR_VIEW_SALE_LV2",
+        "MATERIAL_EDIT_SALE_LV1",
+        "MATERIAL_EDIT_SALE_LV2",
+        "MATERIAL_EDIT_MARKET_LV1",
+        "MATERIAL_EDIT_MARKET_LV2",
+        "REPORT_EDIT_LV1",
+        "REPORT_EDIT_LV2"
+      ],
+      "accessible": true
+    }
+  },
+  "recruitSales": {
+    "response": {
+      "type": 2,
+      "accountId": "11",
+      "logonId": "recruit.sales",
+      "name": "整招業務",
+      "role": 11,
+      "allowedSite": [1, 2, 3, 4, 5, 6, 10, 14, 20, 21, 40, 102, 115, 132, 134],
+      "specialPermission": ["emergency"],
+      "dataPermission": [
+        "CALENDAR_VIEW_SALE_LV1",
+        "CALENDAR_VIEW_SALE_LV2",
+        "CALENDAR_EDIT_SALE_LV1",
+        "PROJECT_EDIT_LV1",
+        "RESERVE_EDIT_SALE_LV1",
+        "MATERIAL_EDIT_SALE_LV1",
+        "REPORT_EDIT_LV1"
+      ],
+      "accessible": true
+    }
+  },
+  "recruitMaintainer": {
+    "response": {
+      "type": 2,
+      "accountId": "13",
+      "logonId": "recruit.maintainer",
+      "name": "整招營運",
+      "role": 13,
+      "allowedSite": [1, 2, 3, 4, 5, 6, 10, 14, 20, 21, 40, 102, 115, 132, 134],
+      "specialPermission": ["emergency"],
+      "dataPermission": [
+        "CALENDAR_VIEW_SALE_LV1",
+        "CALENDAR_VIEW_SALE_LV2",
+        "CALENDAR_EDIT_SALE_LV1",
+        "CALENDAR_EDIT_SALE_LV2",
+        "CALENDAR_EDIT_SALE_LV3",
+        "PROJECT_EDIT_LV1",
+        "PROJECT_EDIT_LV2",
+        "PROJECT_EDIT_LV3",
+        "RESERVE_EDIT_SALE_LV1",
+        "RESERVE_EDIT_SALE_LV2",
+        "MATERIAL_EDIT_SALE_LV1",
+        "MATERIAL_EDIT_SALE_LV2",
+        "MATERIAL_EDIT_MARKET_LV1",
+        "MATERIAL_EDIT_MARKET_LV2",
+        "REPORT_EDIT_LV1",
+        "REPORT_EDIT_LV2"
+      ],
+      "accessible": true
+    }
+  },
+  "recruitManager": {
+    "response": {
+      "type": 2,
+      "accountId": "14",
+      "logonId": "recruit.manager",
+      "name": "整招主管",
+      "role": 14,
+      "allowedSite": [1, 2, 3, 4, 5, 6, 10, 14, 20, 21, 40, 102, 115, 132, 134],
+      "specialPermission": ["emergency"],
+      "dataPermission": [
+        "CALENDAR_VIEW_SALE_LV1",
+        "CALENDAR_VIEW_SALE_LV2",
+        "CALENDAR_EDIT_SALE_LV1",
+        "CALENDAR_EDIT_SALE_LV2",
+        "PROJECT_EDIT_LV1",
+        "PROJECT_EDIT_LV2",
+        "RESERVE_EDIT_SALE_LV1",
+        "RESERVE_EDIT_SALE_LV2",
+        "MATERIAL_EDIT_SALE_LV1",
+        "MATERIAL_EDIT_SALE_LV2",
+        "MATERIAL_EDIT_MARKET_LV1",
+        "MATERIAL_EDIT_MARKET_LV2",
+        "REPORT_EDIT_LV1",
+        "REPORT_EDIT_LV2"
+      ],
+      "accessible": true
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.copy_link_message_box {
+  background-color: #000 !important;
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: 1.43px;
+  min-width: 100px !important;
+  border-radius: 4px !important;
+  padding: 6px 11px !important;
+
+  a {
+    color: #a8caff;
+    font-size: 14px;
+    line-height: 1.43;
+    letter-spacing: 1.43px;
+  }
+}
+
+.copy_link_message_box.el-message {
+  border: none !important;
+}
+
+.copy_link_message_box .el-message__icon {
+  display: none;
+}
+
+.copy_link_message_box .el-message__content {
+  color: #fff !important;
+}
+
+.copy_link_message_box .el-message__closeBtn {
+  right: 8px;
+}

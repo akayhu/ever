@@ -1,0 +1,11 @@
+@mixin drop-down-animate {
+  .drop-down {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    &-active {
+      transform: rotate(180deg);
+    }
+  }
+}
+
+
