@@ -11,15 +11,12 @@ const authorityInventoryMiddleware = ({ next, done }) => {
   const userRole = userData.role;
   const conscriptArr = [11, 13, 14];
   const authorityInventoryStore = useAuthorityInventoryStore();
-  const {
-    getInventoryLatestInventoryDate,
-    getInventoryId
-  } = authorityInventoryStore;
+  const { getInventoryLatestDate, getInventoryId } = authorityInventoryStore;
   const today = getToday("/");
 
   Promise.all([
     getInventoryId({ id: userData.accountId }),
-    getInventoryLatestInventoryDate()
+    getInventoryLatestDate()
   ]).then(res => {
     const requirementLogDate = res[0].requirementLogDate;
     const beforeIntervalDay = moment(res[1].startDate, "YYYY/MM/DD")

@@ -15,14 +15,14 @@ export const apiPostInventoryActivate = params => {
   return req("post", `/inventory/activate`, params, "postInventoryActivate");
 };
 
+// 取得所有盤點區間
+export const apiGetInventoryDates = () => {
+  return req("get", `/inventory/dates`, null, "getInventoryDates");
+};
+
 // 取得最新盤點日期區間
-export const apiGetInventoryLatestInventoryDate = () => {
-  return req(
-    "get",
-    `/inventory/latestInventoryDate`,
-    null,
-    "getInventoryLatestInventoryDate"
-  );
+export const apiGetInventoryLatestDate = () => {
+  return req("get", `/inventory/latestDate`, null, "getInventoryLatestDate");
 };
 
 // 取得區間時間內尚登入的使用者
@@ -36,6 +36,6 @@ export const apiGetInventoryLoginHistory = params => {
 };
 
 // 將盤點使用需求欄位還原預設
-export const apiPatchInventoryRestore = () => {
-  return req("patch", `/inventory/restore`, null, "patchInventoryRestore");
+export const apiPatchInventoryRestore = params => {
+  return req("patch", `/inventory/restore`, params, "patchInventoryRestore");
 };

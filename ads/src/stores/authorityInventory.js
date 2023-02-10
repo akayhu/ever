@@ -2,7 +2,7 @@ import { defineStore } from "pinia";
 import {
   apiPatchInventory,
   apiGetInventoryId,
-  apiGetInventoryLatestInventoryDate
+  apiGetInventoryLatestDate
 } from "@/apis/inventory.js";
 
 const state = () => ({
@@ -57,16 +57,16 @@ const actions = {
     });
   },
   // 取得最新盤點日期區間
-  getInventoryLatestInventoryDate() {
+  getInventoryLatestDate() {
     return new Promise((resolve, reject) => {
-      apiGetInventoryLatestInventoryDate()
+      apiGetInventoryLatestDate()
         .then(response => {
           let apiResponse = response.data.response;
           this.inventoryDate = apiResponse;
           resolve(apiResponse);
         })
         .catch(error => {
-          console.log("getInventoryLatestInventoryDate", error);
+          console.log("getInventoryLatestDate", error);
           reject(error);
         });
     });

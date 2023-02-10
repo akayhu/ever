@@ -11,11 +11,6 @@ export const apiGetInventoryId = params => {
 };
 
 // 取得最新盤點日期區間
-export const apiGetInventoryLatestInventoryDate = () => {
-  return req(
-    "get",
-    `/inventory/latestInventoryDate`,
-    null,
-    "getInventoryLatestInventoryDate"
-  );
+export const apiGetInventoryLatestDate = () => {
+  return req("get", `/inventory/latestDate`, null, "getInventoryLatestDate");
 };
